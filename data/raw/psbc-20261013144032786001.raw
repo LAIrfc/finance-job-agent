@@ -1,0 +1,2385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<title>校园招聘_中国邮政储蓄银行</title>
+<meta http-equiv="X-UA-Compatible" content="IE=11" /> 
+<meta name="SiteName" content="中国邮政储蓄银行" />
+<meta name="SiteDomain" content="www.psbc.com" />
+<meta name="ColumnName" content="校园招聘" />
+<meta name="ColumnType" content="校园招聘" />
+<meta name="description" content="中国邮政储蓄银行" />
+<script type="text/javascript" src="../../../images/jquery.min.js"></script>
+<script type="text/javascript" src="../../../images/mobile_v2020.js"></script>
+
+<link class="stylefile" rel="stylesheet" type="text/css" href="../../../images/psbc_base_pc.css" />
+<link class="stylefile" rel="stylesheet" type="text/css" href="../../../images/psbc04_pc_v2020.css">
+
+<link class="mobileStyle" rel="stylesheet" type="text/css" href="../../../images/psbc_base_mobile.css" />
+<link class="mobileStyle" rel="stylesheet" type="text/css" href="../../../images/psbc04_mobile_v2020.css">
+<link class="mobileStyle" rel="stylesheet" type="text/css" href="../../../images/swiper.min_v2020.css">
+
+<script type="text/javascript" src="../../../images/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="../../../images/swiper.min_v2020.js"></script>
+<script type="text/javascript" src="../../../images/respond.src.js"></script>
+
+<script type="text/javascript">
+    var isPC = IsPC(); //获取是否为PC端
+    if (isPC) {
+        //如果是PC端加载PC的js和css
+        $(".mobileStyle").remove();
+        dynamicLoadJs("../../../images/psbc_base_pc.js")
+        dynamicLoadJs("../../../images/psbc04_pc_v2020.js");
+    } else {
+        //如果是移动端加载移动端的js和css
+        $(".stylefile").remove();
+        dynamicLoadJs("../../../images/psbc_base_mobile.js")
+        dynamicLoadJs("../../../images/psbc04_mobile_v2020.js");
+    }
+</script>
+</head>
+
+<body>
+<!-- header start -->
+<style>
+.navDownGsfwList .gs_dzyh dl p {
+    line-height: 25px;
+}
+
+.navDownGsfwList .cpfw dl p {
+    line-height: 25px;
+}
+
+.navDownGsfwList li.cpfw div{
+	/*margin-right: 25px;*/
+	margin-right: 10px;
+}
+
+
+.navDownGrfw {
+    /*width: 857px;*/
+	
+	width: 982px;
+    height: auto;
+    /* left: -233px; */
+    right: 0px;
+    padding: 15px 15px;
+}
+
+.navDownGrfw_l ul.navDown_grfwList {
+  /*width: 715px;*/
+    width: 840px;
+    height: 174px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.navDown_grfwList li.gbfw {
+    width: 117px;
+    margin-right: 0;
+}
+
+.navDown_grfwList li.gbfw h3.kfyh {
+    /*margin-top: 10px;
+    padding-top: 4px;*/
+     background-position:right 1px;
+	margin-top: 0px;
+    padding-top: 0px;
+}
+
+.kfyh2 {
+	width: 112px!important;
+}
+.navDown_grfwList li.gbfw h3 {
+    /*background: url(psbc_base_gbfw-.png) right 4px no-repeat;*/
+}
+
+
+.psbc_contentbox table tr td {
+  padding:5px;
+  text-align: center;
+}
+
+.psbc_contentbox table tr td span{
+ text-align: center;
+}
+
+</style>
+<!-- <script type="text/javascript" src="../../images/sensorsdata.js"></script> -->
+<script charset='UTF-8' src="/cn/images/sensorsdata.js"></script>
+<script>
+	var sensors = window['sensorsDataAnalytic201505'];
+  	sensors.use('PageLoad') // 页面加载时长
+  	sensors.use('PageLeave') // 页面浏览时长
+	sensors.init({
+  		server_url: 'https://ibfp.psbc.com/sa?project=portal',
+		is_track_single_page:true, // 单页面配置，默认关闭。开启后自动监听 URL 有变化就会触发 $pageview 事件
+		use_client_time:true, 
+  		send_type:'beacon',
+ 		show_log:false,
+		heatmap: {
+			//是否开启点击图，default 表示开启，自动采集 $WebClick 事件，可以设置 'not_collect' 表示关闭。
+			clickmap:'default',
+			//是否开启触达图，not_collect 表示关闭，不会自动采集 $WebStay 事件，可以设置 'default' 表示开启。
+			scroll_notice_map:'not_collect'
+		}   
+	});
+	sensors.quick('autoTrack');
+</script>
+<script>
+    var settings={"serviceurl":"https://s.psbc.com","wxcontent":"","wxcom":"中国邮政储蓄可追溯至1919 年开办的邮政储金业务.."};
+    var ServiceUrl = "https://s.psbc.com";
+  </script>
+  <script src="/cn/images/trans_shift.js"></script> 
+  <div class="psbc_header" style="position: relative;z-index: 999;">
+<div style="display: none;"><img src="/cn/images/psbc_hLogoMin_v2020.png" /></div>
+    <div class="psbc_headerCont clear mobileNone">
+        <div class="psbc_headerTop rl clear">
+            <div class="fl">
+                <a href="javascript:;" id="wza_id">无障碍浏览</a>
+                 <!--<a href="javascript:;" id="ghb">关怀版</a>-->
+                <a href="https://www.psbc.com/cn/fhpd/" target="_blank">分行频道</a>
+                <a href="https://www.psbc.com/cn/common/fwwd/" target="_blank">服务网点</a>
+                <a href="https://95580.psbc.com:9098/psbc_webchat/main" target="_blank" class="zxkfl">在线客服</a>
+                <a href="https://www.psbc.com/cn/gyyc/rczp/" target="_blank">人才招聘</a>
+                <a href="javascript:zh_tran('t');" id="fanti">繁體</a>
+                <a href="javascript:zh_tran('s');" id="jianti" style="display: none;">简体</a>
+                <a class="english" href="/en/" target="_blank">English</a>
+                <div class="psbc_header_searchBox rl">
+                    <label>
+                       <input class="sr_text" type="text" id="sr_text" />
+                        <input class="sr_btn" type="submit" value="" />
+                    </label>
+                 </div>
+            </div>
+        </div>
+        <div class="psbc_HeaderNav clear">
+            <div class="psbc_headerL_logo fl">
+               <a href="/cn/">
+                    <img class="hlogo" src="/cn/images/psbc_hLogo_v2020.PNG" onerror="this.parentElement.parentElement.style.display='none';" />
+                </a>
+            </div>
+            <ul class="psbc_headerR_list rl">
+                <li class="navItem">
+                    <a class="navTitle" href="https://www.psbc.com/cn/grfw/">个人服务</a>
+                    <div class="header_navDown navDownGrfw clear">
+                        <div class="navDownGrfw_l fl">
+                            <ul class="navDown_grfwList clear">
+                                <li class="tzlc">
+                                    <dl>
+                                        <!--<a href="https://www.psbc.com/cn/grfw/tzlc/">-->
+                                            <h3>投资理财</h3>
+                                        <!--</a>-->
+                                        <!-- <p><a href="https://www.psbc.com/cn/grfw/tzlc/lc/">理财</a>|<a
+                                                href="https://www.psbc.com/cn/grfw/tzlc/jj/">基金</a></p> -->
+                                        <div class="clear hllzy">
+                                            <p class="fl"><a href="https://www.psbc.com/cn/grfw/tzlc/lc/">理财</a></p>
+                                            <p class="rl"><a href="https://www.psbc.com/cn/grfw/tzlc/bx/">保险</a></p>
+                                            <p class="fl"><a href="https://www.psbc.com/cn/grfw/tzlc/jj/">基金</a></p>
+                                            <p class="rl"><a href="https://www.psbc.com/cn/grfw/tzlc/gjs/">贵金属</a></p>
+                                            <p class="fl"><a href="https://www.psbc.com/cn/grfw/tzlc/gz/">国债</a></p>
+                                            <p class="rl"><a href="https://www.psbc.com/cn/grfw/tzlc/gtz/">柜台债</a></p>
+                                        </div>
+                                        <!--<p><a href="https://www.psbc.com/cn/grfw/tzlc/gz/">国债</a></p>-->
+                                        <p><a href="https://www.psbc.com/cn/grfw/tzlc/zjcg/">资金存管</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/tzlc/zcgljh/">资产管理计划</a></p>
+                                        <p><a href="https://pbank.psbc.com/perbank/portalPersonProductManageQuery.gate">个人产品信息查询平台</a></p>
+                                    </dl>
+                                </li>
+                                <li class="xyk">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/grfw/xyk/">
+                                            <h3>信用卡</h3>
+                                        </a>
+                                        <p><a href="https://www.psbc.com/cn/grfw/xyk/xykqjf/">信用卡全家福</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/xyk/xxplzq/xykfq/">信用卡分期</a></p>
+                                        <!--<p><a href="">信用卡服务</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/xyk/kjgn/">快捷功能</a></p>-->
+                                        <!--<p><a href="https://shop.psbc.com/index.html">积分专区</a></p>-->
+                                        <p><a href="https://www.psbc.com/cn/grfw/xyk/tyhd/">特惠活动</a><p>
+                                        <p><a href="https://ccwc.psbc.com/creditcard/smwarp/index.html#/pages/officialSite/index">积分专区</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/xyk/xxplzq/">信息披露专区</a><p>
+                                    </dl>
+                                </li>
+                                <li class="yhk">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/grfw/cdh/">
+                                            <h3>借记卡及存贷汇</h3>
+                                        </a>
+                                        <p><a href="https://www.psbc.com/cn/grfw/yxk/">借记卡</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/cdh/cxck/">个人存款</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/cdh/xdfw/">信贷服务</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/cdh/wh/">外汇</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/cdh/zfjs/">支付结算</a></p> 
+                                    </dl>
+                                </li>
+                                <li class="dzyh">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/grfw/grdzyh/">
+                                            <h3>个人电子银行</h3>
+                                        </a>
+                                        <p><a href="https://www.psbc.com/cn/grfw/grdzyh/sjyh/">个人手机银行</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/grdzyh/grwy/">个人网银</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/grdzyh/dhyh/">电话银行</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/grdzyh/zzyh/">自助银行</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/grdzyh/wxyh/">微信银行</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/grdzyh/cxdxfw/">储蓄短信服务</a></p>
+                                    </dl>
+                                </li>
+
+
+                                <!--<li class="gbfw">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/grfw/gbfw/">
+                                            <h3>贵宾服务</h3>
+                                        </a>
+                                        <p><a href="https://www.psbc.com/cn/grfw/gbfw/vipk_305/">VIP卡</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/gbfw/zxfw/">专项服务</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/gbfw/cfzx/">财富中心</a></p>
+                                    </dl>
+
+                                    <dl>
+                                       <a href="https://www.psbc.com/cn/grfw/kfyh/">
+                                            <h3 class="kfyh">开放银行</h3>
+                                        </a>
+                                        <p class="p1"><a href="https://www.psbc.com/cn/grfw/kfyh/fwkfpt/" target="_self">服务开放平台</a></p>
+                                        
+                                    </dl>
+                                </li>-->
+
+
+                               <li class="gbfw">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/grfw/gbfw/">
+                                            <h3>VIP客户服务</h3>
+                                        </a>
+                                        <p><a href="https://www.psbc.com/cn/grfw/gbfw/pjbz/">评级标准</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/gbfw/lktj/">领卡条件</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/gbfw/zfyh/">资费优惠</a></p>
+										
+										<p><a href="https://www.psbc.com/cn/grfw/gbfw/zzfw/">增值服务</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/gbfw/khsc/">客户手册</a></p>
+                                        <p><a href="https://www.psbc.com/cn/grfw/gbfw/cfzx/">财富中心</a></p>
+                                    </dl>
+
+                                    
+                                </li>
+								
+								
+								
+				<li class="gbfw kfyh2">
+
+				   <dl  style="margin-left: 20px;">
+                                       <a href="https://www.psbc.com/cn/grfw/kfyh/">
+                                            <h3 class="kfyh">开放银行</h3>
+                                        </a>
+                                        <p class="p1"><a href="https://www.psbc.com/cn/grfw/kfyh/fwkfpt/" target="_self">服务开放平台</a></p>
+                                        
+                                    </dl>
+
+                                </li>
+
+
+                            </ul>
+                            <div class="navDown_grfwBot">
+                                <!--<a href="https://www.psbc.com/cn/grfw/jrzx/">金融资讯</a>-->
+                                <a href="https://www.psbc.com/cn/grfw/fwgg/">服务公告</a>
+                                <a href="https://www.psbc.com/cn/grfw/yhhd/">优惠活动</a>
+                                <a href="https://www.psbc.com/cn/grfw/ycdjt/">邮储大讲堂</a>
+                                <a href="https://www.psbc.com/cn/grfw/cjwt/">常见问题</a>
+                            </div>
+                        </div>
+                        <div class="navDownGrfw_R rl">
+                            <a href="">
+                                <img src="/cn/images/psbc_base_grfw.jpg" />
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navItem">
+                    <a class="navTitle" href="https://www.psbc.com/cn/gsfw/">公司服务</a>
+                    <div class="header_navDown navDownGsfw">
+                        <div class="navDownGsfw_l fl">
+                            <ul class="navDownGsfwList clear">
+                                <li class="gs_zhfw">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/gsfw/zhfw/">
+                                            <h3>账户服务</h3>
+                                        </a>
+                                        <p><a href="https://www.psbc.com/cn/gsfw/zhfw/dwjszhkl/">服务标准及流程</a></p>
+                                        <p><a href="https://www.psbc.com/cn/gsfw/zhfw/bjkh/">便捷开户</a></p>
+                                        <p><a href="https://corpebankq.psbc.com/#/BankpreAcc">预约办理</a></p>
+                                        <p><a href="https://www.psbc.com/cn/gsfw/zhfw/yhxzh/">银行询证函</a></p>
+                                    </dl>
+                                </li>
+                                <li class="cpfw">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/gsfw/cpfw/">
+                                            <h3>产品服务</h3>
+                                        </a>
+                                        <div class="fl">
+                                            <p><a href="https://www.psbc.com/cn/gsfw/cpfw/gsck/">公司存款</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gsfw/cpfw/gsxd/">公司信贷</a></p>
+                                            <!-- <p><a href="https://www.psbc.com/cn/gsfw/tyjr/">同业金融</a></p> -->
+                                            <p><a href="https://www.psbc.com/cn/gsfw/cpfw/kjjr/">跨境金融</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gsfw/cpfw/gnmyrz/">国内贸易融资</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gsfw/cpfw/gs_zcgljh/">对公资产管理计划</a></p>
+                                        </div>
+                                        <div class="fl">
+                                            <p><a href="https://www.psbc.com/cn/gsfw/cpfw/pjyw/">票据业务</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gsfw/cpfw/xjgl/">现金管理</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gsfw/cpfw/gslc/">公司理财</a></p>
+                                        </div>
+                                        <div class="fl">
+                                            <p><a href="https://www.psbc.com/cn/gsfw/cpfw/tzyx/">投资银行</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gsfw/cpfw/gsjs/">公司结算</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gsfw/cpfw/zjcg_388/">资金存管</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gsfw/cpfw/gsbx/">公司保险</a></p>
+                                        </div>
+                                    </dl>
+                                </li>
+                                <li class="gs_dzyh">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/gsfw/qydzyh/">
+                                            <h3>企业电子银行</h3>
+                                        </a>
+                                        <p><a href="https://www.psbc.com/cn/gsfw/qydzyh/qywy/">企业网银</a></p>
+                                        <p><a href="https://www.psbc.com/cn/gsfw/qydzyh/ycqyyh/">邮储企业银行</a></p>
+                                        <p><a href="https://www.psbc.com/cn/gsfw/qydzyh/dhyh/">电话银行</a></p>
+                                        <p><a href="https://www.psbc.com/cn/gsfw/qydzyh/zzyh/">自助银行</a></p>
+                                        <p><a href="https://www.psbc.com/cn/gsfw/qydzyh/yqzl/">银企直联</a></p>
+                                    </dl>
+                                </li>
+								<li class="gsfyzctg">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/gsfw/gsfyzctg/">
+                                            <h3>资产托管</h3>
+                                        </a>
+                                            <p><a href="https://www.psbc.com/cn/gsfw/gsfyzctg/tghjs/">托管行介绍</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gsfw/gsfyzctg/tgwy/">托管网银</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gsfw/gsfyzctg/xxpl/">信息披露</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gsfw/gsfyzctg/ywlx/">业务联系</a></p>
+                                    </dl>
+                                </li>
+                                <li class="zzfw">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/gsfw/zzfw/">
+                                            <h3>增值服务</h3>
+                                        </a>
+                                        <p><a href="https://www.psbc.com/cn/gsfw/zzfw/jrfa/">金融方案</a></p>
+                                        <!-- <p><a href="">金融工具</a></p> -->
+                                        <p><a href="https://www.psbc.com/cn/gsfw/zzfw/ywzn/">业务指南</a></p>
+                                    </dl>
+                                    <dl style="margin-top: 5px;">
+                                        <a href="https://www.psbc.com/cn/gsfw/tyjr/">
+                                            <h3>同业金融</h3>
+                                        </a>
+                                    </dl>
+
+                                  <dl style="margin-top: 5px;">
+                                        <a href="https://www.psbc.com/cn/gsfw/jgjr/">
+                                            <h3>机构金融</h3>
+                                        </a>
+                                    </dl>
+                                </li>
+                           
+                              
+                            </ul>
+                            <div class="navDownGsfwBot">
+                                <a href="https://www.psbc.com/cn/gsfw/ppfw/">品牌服务</a>
+                                <!-- <a href="">金融资讯</a> -->
+                                <!-- <a href="">服务公告</a> -->
+                                <!-- <a href="">优惠活动</a> -->
+                                <a href="https://www.psbc.com/cn/gsfw/cjwt_413/">常见问题</a>
+                                <!--<a href="https://www.psbc.com/cn/gsfw/cpfw/gslc/gslccs/">公司理财</a>-->
+                            </div>
+                        </div>
+                        <div class="navDownGsfw_R rl">
+                            <a href="https://www.psbc.com/cn/gsfw/tyjr/">
+                                <img src="/cn/images/psbc_base_gsfw03.jpg" />
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navItem">
+                    <a class="navTitle" href="https://www.psbc.com/cn/snfw/">三农服务</a>
+                    <div class="header_navDown navDownSnfw">
+                        <div class="navDownSnfw_l fl">
+                            <ul class="navDownSnfwList clear">
+                                <li class="snfw">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/snfw/">
+                                            <h3>三农服务</h3>
+                                        </a>
+                                        <div class="snfwghgs">
+
+                                            <p class="wsthpe"><a href="https://www.psbc.com/cn/snfw/sngrfw/wdt/">极速贷（信用和抵押）</a></p>
+                                            <!--<p ><a href="https://www.psbc.com/cn/snfw/sngrfw/ndt/">邮惠付</a></p>-->
+                                            <p class="wsthpe"><a href="https://www.psbc.com/cn/snfw/sngrfw/zdt/">农牧贷</a></p>
+                                            <!--<p><a href="https://www.psbc.com/cn/snfw/sndgfw/nycyldk/">产业链经营贷款</a></p>-->
+                                            <p class="wsthpe"><a href="https://www.psbc.com/cn/snfw/sngrfw/sdt/">产业贷</a></p>
+                                           <!-- <p><a href="https://www.psbc.com/cn/snfw/sndgfw/nyzyhzsdk/">农业专业合作社贷款</a></p>-->
+                                        </div>
+                                    </dl>
+                                  <!--  <dl class="snzx qutecp" style="margin-top: 10px;">
+                                        <a href="https://www.psbc.com/cn/snfw/sngrfw/dqtscp/">
+                                            <h3>地区特色产品</h3>
+                                        </a>
+                                    </dl>-->
+                                    <dl class="snzx ywjlp" style="margin-top: 10px;">
+                                        <a href="https://www.psbc.com/cn/snfw/snywjlxcp/">
+                                            <h3>三农金融宣传片</h3>
+                                        </a>
+                                    </dl>
+                                </li>
+                                <li class="snfw_sj">
+                                    <dl class="snzx">
+                                        <a href="https://www.psbc.com/cn/snfw/snzx/">
+                                            <h3>三农资讯</h3>
+                                        </a>
+                                        <p>聚焦邮储三农最新动态，发布最新农业资讯，全方位解读热点农业政策。</p>
+                                    </dl>
+                                    <dl class="fpgs">
+                                        <a href="https://www.psbc.com/cn/snfw/fpgs/">
+                                            <h3>乡村振兴故事</h3>
+                                        </a>
+                                        <p>镜头视角全景再现邮储扶贫事业点点滴滴，以影像记录邮储扶贫中的每一个坚实脚步。</p>
+                                    </dl>
+                                </li>
+                                <!--<li class="dkbl">
+                                    <p>我要贷款快捷办理</p>
+                                    <a href="https://www.psbc.com/cn/snfw/wydk/"><img src="/cn/images/psbc_base_navEWM.png" /></a>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <div class="navDownSnfw_R rl">
+                            <a href="">
+                                <!-- <img src="/cn/images/psbc_snRimg_v2020.jpg" /> -->
+                                 <img src="/cn/images/psbc_snRimg2_v2020.jpg" />
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navItem">
+                    <a class="navTitle" href="https://www.psbc.com/cn/xqyfw/">小企业服务</a>
+                    <div class="header_navDown navDownXwfw">
+                        <div class="navDownXwfw_l fl">
+                            <ul class="navDownXwfwList clear">
+                                <li class="xwfw">
+                                    <!--<dl class="xwqyzs">
+                                        <a href="">
+                                            <h3>小微企业运行指数</h3>
+                                        </a>
+                                    </dl>-->
+                                    <!-- <dl class="xwzx">
+                                        <a href="">
+                                            <h3>小微资讯</h3>
+                                        </a>
+                                    </dl> -->
+                                    <dl class="xwczgs" style="margin-top:0px;">
+                                        <a href="https://www.psbc.com/cn/xqyfw/xwqyczgs/">
+                                            <h3>小微金融成长故事</h3>
+                                        </a>
+                                    </dl>
+                                    <dl class="xwczgs xqyjlp">
+                                        <a href="https://www.psbc.com/cn/xqyfw/xqyjrywjlxcp/">
+                                            <h3>小微金融宣传片</h3>
+                                        </a>
+                                    </dl>
+                                </li>
+                                <li class="xw_xdcp">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/xqyfw/xqyxdcp/">
+                                            <h3>小企业信贷产品</h3>
+                                        </a>
+                                        <p><a href="https://www.psbc.com/cn/xqyfw/xqyxdcp/xwyd/">邮易贷-小微易贷</a></p>
+                                        <p><a href="https://www.psbc.com/cn/xqyfw/xqyxdcp/kcxqydk/">科创小企业贷款</a></p>
+                                        <p><a href="https://www.psbc.com/cn/xqyfw/xqyxdcp/ybxqydk/">一般小企业贷款</a></p>
+                                        <p><a href="https://www.psbc.com/cn/xqyfw/xqyxdcp/tsxqydk/">特色小企业贷款</a></p>
+                                    </dl>
+                                </li>
+                                <li class="dkbl">
+                                    <p>小微贷款快捷办理</p>
+                                    <a href="javascript:;"><img src="/cn/images/psbc_base_navEWM_xqy.png" /></a>
+                                </li>
+
+
+<style>
+								
+.navDownXwfw {
+    width: 658px;
+    height: 194px;
+    /* left: 72px; */
+    right: 0px;
+    padding: 15px 15px;
+	
+	border:0px solid #333;
+}
+
+.navDownXwfw_l ul.navDownXwfwList {
+    width: 500px;
+    height: 165px;
+    border-bottom: 1px solid #e7e7e7;
+    margin-left: 10px;
+	border:0px solid #333;
+}
+								
+.navDownXwfwList li.dkbl {
+    width: 141px;
+    font-size: 0;
+	margin-left: 20px;
+}
+
+.navDownXwfwList li.dkbl img {
+    width: 141px;
+    height: 143px;
+    margin-top: 10px;
+}
+
+.navDownXwfwList li.dkbl p {
+    font-size: 16px;
+    color: #18ae66;
+    line-height: 21px;
+    background: none;
+    padding-left: 0;
+}
+						
+</style>
+                            </ul>
+                            <div class="navDownXwfwBot">
+                                <!-- <a href="https://www.psbc.com/cn/xqyfw/xqyjrywjlxcp/">小企业金融业务宣传片</a> -->
+                            </div>
+                        </div>
+                        <div class="navDownXwfw_R rl">
+                            <a href="">
+                                <img src="/cn/images/psbc_base_xwfw_03.png" />
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navItem">
+                    <a class="navTitle" href="https://www.psbc.com/cn/gyyc/">关于邮储</a>
+                    <div class="header_navDown navDownGyyc">
+                        <div class="navDownGyyc_l fl">
+                            <ul class="navDownGyycList clear">
+                                <li class="ycfm">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/gyyc/ycfm/">
+                                            <h3>邮储风貌</h3>
+                                        </a>
+                                        <div class="fl">
+                                            <p><a href="https://www.psbc.com/cn/gyyc/ycfm/gyyc/">邮储简介</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gyyc/ycfm/ycdt/">邮储新闻</a></p>
+                                            <p><a href="https://www.psbc.com/cn/grfw/tzlc/lc/cslc/djgz/">党建工作</a></p>
+					    <p><a href="https://www.psbc.com/cn/gyyc/ycfm/ppzc/yagy/"  class="zxkfl">邮爱公益</a></p> 
+                                            <!-- <p><a href="https://www.psbc.com/cn/gyyc/ycfm/zgwh/">职工文化</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gyyc/ycfm/spzq/">视频专区</a></p> -->
+                                            <!-- <p><a href="https://www.psbc.com/cn/gyyc/ycfm/zgwh/ycyx/">邮储影像</a></p> -->
+                                            <!-- <p><a href="https://www.psbc.com/cn/gyyc/ycfm/ppzc/yagy/"  class="zxkfl">邮爱公益</a></p> -->
+                                        </div>
+                                        <div class="fl">
+                                            <p><a href="https://www.psbc.com/cn/gyyc/ycfm/zgwh/">职工文化</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gyyc/ycfm/spzq/">视频专区</a></p>
+                                            <!--<p><a href="https://www.psbc.com/cn/gyyc/ycfm/ppzc/">品牌之窗</a></p>-->
+                                            <p><a href="https://www.psbc.com/cn/gyyc/ycfm/qywh/">企业文化</a></p>
+                                            <!-- <p><a href="https://www.psbc.com/cn/gyyc/ckbx/">存款保险</a></p> -->
+                                            <!-- <p><a href="https://www.psbc.com/cn/gyyc/cgxx/">采购信息</a></p> -->
+                                            <!-- <p><a href="https://www.psbc.com/cn/gyyc/rczp/">人才招聘</a></p> -->
+                                        </div>
+                                    </dl>
+                                </li>
+                                <li class="tzgx">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/gyyc/tzzgx/">
+                                            <h3>投资者关系</h3>
+                                        </a>
+                                        <div class="fl">
+                                            <p><a href="https://www.psbc.com/cn/gyyc/tzzgx/tzjz/">投资价值</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gyyc/tzzgx/gsgg/">公司公告</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gyyc/tzzgx/gszl/">公司治理</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gyyc/tzzgx/cwxx/">财务信息</a></p>
+                                            <!--<p><a href="">投资者约见</a></p>-->
+                                        </div>
+                                        <div class="fl">
+                                            <p><a href="https://www.psbc.com/cn/gyyc/tzzgx/jgzb/">监管资本</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gyyc/tzzgx/qyshzr/">企业社会责任</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gyyc/tzzgx/yjtj/">业绩推介</a></p>
+                                            <p><a href="https://www.psbc.com/cn/gyyc/tzzgx/tzzfw/">投资者服务</a></p>
+                                        </div>
+                                    </dl>
+                                </li>
+                            
+                                <li class="fzjg">
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/gyyc/esg/">
+                                            <h3 style="background: url(https://www.psbc.com/cn/images/esg.png) right 1px bottom 3px  no-repeat;background-size: 24px;">ESG</h3>
+                                        </a>
+                                      
+                                    </dl>
+                                    <dl>
+                                        <a href="https://www.psbc.com/cn/fhpd/">
+                                            <h3>分行频道</h3>
+                                        </a>
+                                        <!-- <p><a href="">VIP卡</a></p> -->
+                                        <!-- <p><a href="https://www.psbc.com/cn/grfw/gbfw/zxfw/">专项服务</a></p> -->
+                                    </dl>
+                                    <dl class="rczpdl rczp" style="margin-top:10px">
+                                        <a href="https://www.psbc.com/cn/gyyc/rczp/">
+                                            <h3>人才招聘</h3>
+                                        </a>
+                                    </dl>
+                                    <dl class="rczpdl ckbx" style="margin-top:10px">
+                                        <a href="https://www.psbc.com/cn/gyyc/ckbx/">
+                                            <h3>存款保险</h3>
+                                        </a>
+                                    </dl>
+
+                                   <dl class="rczpdl zwsm" style="margin-top:10px">
+                                        <a href="https://www.psbc.com/cn/gyyc/qybzzwsm/">
+                                            <h3>企业标准自我声明</h3>
+                                        </a>
+                                    </dl>
+
+
+                                  <!--  <dl class="rczpdl cgxx" style="margin-top:10px">
+                                        <a href="https://www.psbc.com/cn/gyyc/cgxx/">
+                                            <h3>采购信息</h3>
+                                        </a>
+                                    </dl> -->
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navDownGyyc_R rl">
+                            <a href="https://www.psbc.com/cn/gyyc/ycfm/gyyc/">
+                                <img src="/cn/images/psbc_base_gyyc.jpg" />
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="psbc_headerCont pcNone clear">
+        <a class="headerLogo fl" href="/cn/">
+            <img src="/cn/images/psbc_mobile_base_logo.png" onerror="this.parentElement.parentElement.style.display='none';" />
+        </a>
+      
+        <a class="navMore rl" href="javascript:void (0)">
+            <img src="/cn/images/psbc_base_more_mobilev2020.png" />
+        </a>
+<!--<a id="bzb_btn" style="float:right;font-size: 0.3rem;margin-right: 0.2rem;line-height: 0.6rem;">标准版</a >-->
+        <a class="navClose rl" href="javascript:void (0)">
+            <img src="/cn/images/psbc_base_navClose_mobileV2020.png" />
+        </a>
+        <div class="navListCont">
+            <div class="navListTop">
+                <div class="psbc_header_searchBox">
+                    <label>
+                        <input class="sr_text" type="text" id="sr_text2" />
+                        <input class="sr_btn" type="submit" value="" />
+                    </label>
+                </div>
+            </div>
+            <ul class="navList">
+                <li>
+                    <a href="https://www.psbc.com/cn/grfw/" class="itemLink">个人服务</a>
+                    <a href="javascript:void(0)" class="itemTitle" ></a>
+                    <div>
+                        <dl>
+                            <dd><a href="https://www.psbc.com/cn/grfw/tzlc/">投资理财</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/grfw/xyk/">信用卡</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/grfw/yxk/">借记卡</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/grfw/cdh/">存贷汇</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/grfw/grdzyh/">个人电子银行</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/grfw/gbfw/">贵宾服务</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/grfw/kfyh/">开放银行</a></dd>
+                            <!--<dd><a href="https://www.psbc.com/cn/grfw/jrzx/">金融资讯</a></dd>-->
+                            <dd><a href="https://www.psbc.com/cn/grfw/fwgg/">服务公告</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/grfw/yhhd/">优惠活动</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/grfw/ycdjt/">邮储大讲堂</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/grfw/cjwt/">常见问题</a></dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <a href="https://www.psbc.com/cn/gsfw/" class="itemLink">公司服务</a>
+                    <a href="javascript:void(0)" class="itemTitle" ></a>
+                    <div>
+                        <dl>
+                            <!-- <dd><a href="https://www.psbc.com/cn/gsfw/zhfw/">账户服务</a></dd> -->
+                            <dd><a href="https://www.psbc.com/cn/gsfw/cpfw/">产品服务</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/gsfw/qydzyh/">企业电子银行</a></dd>
+							<dd><a href="https://www.psbc.com/cn/gsfw/gsfyzctg/">资产托管</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/gsfw/zzfw/">增值服务</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/gsfw/tyjr/">同业金融</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/gsfw/jgjr/">机构金融</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/gsfw/ppfw/">品牌服务</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/gsfw/cjwt_413/">常见问题</a></dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <a href="https://www.psbc.com/cn/snfw/" class="itemLink">三农服务</a>
+                    <a href="javascript:void(0)" class="itemTitle" ></a>
+                    <div>
+                        <dl>
+                            <!-- <dd><a href="https://www.psbc.com/cn/snfw/">三农服务</a></dd> -->
+                            <dd><a href="https://www.psbc.com/cn/snfw/sngrfw/">三农个人业务</a></dd>
+                            <!--<dd><a href="https://www.psbc.com/cn/snfw/sndgfw/">三农特色业务</a></dd>-->
+                            <dd><a href="https://www.psbc.com/cn/snfw/snzx/">三农资讯</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/snfw/fpgs/">乡村振兴故事</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/snfw/sngrfw/dqtscp/">地区特色产品</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/snfw/snywjlxcp/">三农金融宣传片</a></dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <a href="https://www.psbc.com/cn/xqyfw/" class="itemLink">小企业服务</a>
+                    <a href="javascript:void(0)" class="itemTitle" ></a>
+                    <div>
+                        <dl>
+                            <!--<dd><a href="">小微企业运行指数</a></dd>-->
+                            <dd><a href="https://www.psbc.com/cn/xqyfw/xwqyczgs/">小微金融成长故事</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/xqyfw/xqyjrywjlxcp/">小企业金融业务宣传片</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/xqyfw/xqyxdcp/">小企业信贷产品</a></dd>
+                        </dl>
+                    </div>
+                </li>
+                <li>
+                    <a href="https://www.psbc.com/cn/gyyc/" class="itemLink">关于邮储</a>
+                    <a href="javascript:void(0)" class="itemTitle" ></a>
+                    <div>
+                        <dl>
+                            <dd><a href="https://www.psbc.com/cn/gyyc/ycfm/">邮储风貌</a></dd>
+                
+                            <dd><a href="https://www.psbc.com/cn/gyyc/tzzgx/">投资者关系</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/gyyc/esg/">ESG</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/fhpd/">分行频道</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/gyyc/rczp/">人才招聘</a></dd>
+                            <dd><a href="https://www.psbc.com/cn/gyyc/ckbx/">存款保险</a></dd>
+                           <!-- <dd><a href="https://www.psbc.com/cn/gyyc/cgxx/">采购信息</a></dd>  -->
+                        </dl>
+                    </div>
+                </li>
+                <li><a href="https://www.psbc.com/cn/fhpd/" class="itemLink">分行频道</a></li>
+                <li><a href="/en/" class="itemLink">英文版</a></li>
+                <!-- <li><a href="" class="itemLink">英文版</a></li> -->
+            </ul>
+            <a class="navDownApp" href="http://phone.psbc.com">手机银行下载<i></i></a>
+        </div>
+    </div>
+  </div>
+  
+  
+  <script>
+    $(function(){
+        
+        //搜索
+        $(".sr_btn").click(function(){
+        if($("#sr_text").val() != ''){
+            localStorage.searchVal = $(".sr_text").val();
+        }else{
+            localStorage.searchVal = $("#sr_text2").val();
+        }
+            window.location.href = "/cn/common/search/";
+        })
+  
+    })
+  </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // 判断URL是否包含uesweb
+    var hasUesweb = window.location.href.indexOf("uepsXYDMHWZXTweb") !== -1;
+
+    // 判断是否是iOS端
+    var ua = navigator.userAgent || navigator.vendor || window.opera;
+    var isIOS = /iPhone|iPad|iPod/i.test(ua);
+
+    if (hasUesweb && isIOS) {
+      var logoDiv = document.querySelector(".headerLogo.fl");
+      if (logoDiv) {
+        logoDiv.style.display = "none";
+      }
+    }
+  });
+</script>
+<script id="toolbar.js" src="https://www.psbc.com/toolbar/js/toolbar_init.js"></script>
+<!-- header end -->
+<!-- content start -->
+<!--
+<div class="psbc_colbanner mobileNone"><img src="" alt="" /></div>
+<div class="psbc_colbanner pcNone"><img src="" alt="" /></div>
+-->
+<div class="psbc_layout psbc_location">您所在的位置：<a href="../../../" target="_self" title="首页" class="CurrChnlCls">首页</a>&nbsp;>&nbsp;<a href="../../" target="_self" title="关于邮储" class="CurrChnlCls">关于邮储</a>&nbsp;>&nbsp;<a href="../" target="_self" title="人才招聘" class="CurrChnlCls">人才招聘</a>&nbsp;>&nbsp;<a href="./" target="_self" title="校园招聘" class="CurrChnlCls">校园招聘</a></div>
+<div class="psbc_layout">
+    <div class="psbc_main_left mobileNone">
+        <div class="nav_title">关于邮储</div>
+        <div class="nav_list">
+            <ul>
+                
+                <li class="parentLi ">
+                  <!--../../ycfm/-->
+                    <a href="../../ycfm/" class="parentLiA">邮储风貌</a>
+                    <ul class="parentFirstUl">
+                      
+                      <li class="">
+                        <a href='../../ycfm/gyyc/' class="">邮储简介</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../ycfm/ycdt/' class="">邮储新闻</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../ycfm/djgz/' class="">党建工作</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../ycfm/qywh/' class="">企业文化</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../ycfm/qywh/qywhrl/' class="">企业文化日历</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../ycfm/zgwh/' class="">职工文化</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../ycfm/zgwh/whhdgg/' class="">文化活动公告</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../ycfm/spzq/' class="">视频专区</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../ycfm/spzq/zxsp/' class="">最新视频</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../ycfm/spzq/xgtj/' class="">相关推荐</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../ycfm/spzq/zdcp/' class="">产品推荐</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../ycfm/spzq/spzq_qywh/' class="">企业文化</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../ycfm/spzq/spzq_yagy/' class="">邮爱公益</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../ycfm/spzq/fhfc/' class="">分行风采</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='/cn/gyyc/ycfm/ppzc/yagy/' class="">邮爱公益</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                    </ul>
+                </li>
+                
+                <li class="parentLi ">
+                  <!--../../tzzgx/-->
+                    <a href="../../tzzgx/" class="parentLiA">投资者关系</a>
+                    <ul class="parentFirstUl">
+                      
+                      <li class="">
+                        <a href='../../tzzgx/tzjz/' class="">投资价值</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/gsgg/' class="">公司公告</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../tzzgx/gsgg/aggg/' class="">A股公告</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/gsgg/hggg/' class="">H股公告</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/gszl/' class="">公司治理</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../tzzgx/gszl/gszlgk/' class="">公司治理概况</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/gszl/gddh/' class="">股东会</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/gszl/dsh/' class="">董事会</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/gszl/gjglc/' class="">高级管理层</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/gszl/gfxwj/' class="">规范性文件</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/cwxx/' class="">财务信息</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../tzzgx/cwxx/cwgy/' class="">财务概要</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/cwxx/xypj/' class="">信用评级</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/cwxx/cwbg/' class="">财务报告</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/jgzb/' class="">监管资本</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/qyshzr/' class="">企业社会责任</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../tzzgx/qyshzr/gzzd/' class="">规章制度</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/yjtj/' class="">业绩推介</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/tzzfw/' class="">投资者服务</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../tzzgx/tzzfw/tzzrz/' class="">投资者日志</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/tzzfw/cjwt_497/' class="">常见问题</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/tzzfw/Hggdgstx/' class="">H股股东公司通讯收取方式变更</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/tzzfw/tzzgxlxfs/' class="">投资者关系联系方式</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                    </ul>
+                </li>
+                
+                <li class="parentLi ">
+                  <!--../../esg/-->
+                    <a href="../../esg/" class="parentLiA">ESG</a>
+                    <ul class="parentFirstUl">
+                      
+                      <li class="">
+                        <a href='../../esg/esgxgbg/' class="">ESG相关报告</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../esg/esgxgbg/2025nbndkcxjrbg/' class="">可持续发展报告</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../esg/esgxgbg/hjxxplbg/' class="">环境信息披露报告</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../esg/esgxgbg/kcxfzllszqbg/' class="">可持续发展类(绿色)债券报告</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../esg/esgxgbg/dtzxxxplbg/' class="">碳减排贷款信息披露报告</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../esg/esgdt/' class="">ESG动态</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../esg/esggzzd/' class="">ESG规章制度</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../esg/esgxgyt/' class="">ESG相关议题</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../esg/esgxgyt/hj/' class="">环境</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../esg/esgxgyt/sh/' class="">社会</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../esg/esgxgyt/zl/' class="">治理</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                    </ul>
+                </li>
+                
+                <li class="parentLi parentOn">
+                  <!--../-->
+                    <a href="../" class="parentLiA">人才招聘</a>
+                    <ul class="parentFirstUl">
+                      
+                      <li class="parentchildON">
+                        <a href='./' class="cur">校园招聘</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../shzp/' class="">社会招聘</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../qtzp/' class="">其他招聘</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                    </ul>
+                </li>
+                
+                <li class="parentLi ">
+                  <!--../../ckbx/-->
+                    <a href="../../ckbx/" class="parentLiA">存款保险</a>
+                    <ul class="parentFirstUl">
+                      
+                    </ul>
+                </li>
+                
+                <li class="parentLi ">
+                  <!--../../qybzzwsm/-->
+                    <a href="../../qybzzwsm/" class="parentLiA">企业标准自我声明</a>
+                    <ul class="parentFirstUl">
+                      
+                      <li class="">
+                        <a href='../../qybzzwsm/lpzhd/' class="">企业标准"领跑者"活动</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../qybzzwsm/jrcphfwbzzwsm/' class="">金融产品和服务标准自我声明</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                    </ul>
+                </li>
+                
+                <li class="parentLi ">
+                  <!--../../zygg/-->
+                    <a href="../../zygg/" class="parentLiA">公   告</a>
+                    <ul class="parentFirstUl">
+                      
+                    </ul>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="psbc_main_left pcNone">
+        <div class="nav_title active">关于邮储<i></i></div>
+        <div class="nav_list">
+            <ul>
+                
+                <li class="parentLi ">
+                  <!--../../ycfm/-->
+                    <a href="../../ycfm/" class="parentLiA">邮储风貌</a>
+                    <ul class="parentFirstUl">
+                      
+                      <li class="">
+                        <a href='../../ycfm/gyyc/' class="">邮储简介</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../ycfm/ycdt/' class="">邮储新闻</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../ycfm/djgz/' class="">党建工作</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../ycfm/qywh/' class="">企业文化</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../ycfm/qywh/qywhrl/' class="">企业文化日历</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../ycfm/zgwh/' class="">职工文化</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../ycfm/zgwh/whhdgg/' class="">文化活动公告</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../ycfm/spzq/' class="">视频专区</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../ycfm/spzq/zxsp/' class="">最新视频</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../ycfm/spzq/xgtj/' class="">相关推荐</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../ycfm/spzq/zdcp/' class="">产品推荐</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../ycfm/spzq/spzq_qywh/' class="">企业文化</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../ycfm/spzq/spzq_yagy/' class="">邮爱公益</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../ycfm/spzq/fhfc/' class="">分行风采</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='/cn/gyyc/ycfm/ppzc/yagy/' class="">邮爱公益</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                    </ul>
+                </li>
+                
+                <li class="parentLi ">
+                  <!--../../tzzgx/-->
+                    <a href="../../tzzgx/" class="parentLiA">投资者关系</a>
+                    <ul class="parentFirstUl">
+                      
+                      <li class="">
+                        <a href='../../tzzgx/tzjz/' class="">投资价值</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/gsgg/' class="">公司公告</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../tzzgx/gsgg/aggg/' class="">A股公告</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/gsgg/hggg/' class="">H股公告</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/gszl/' class="">公司治理</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../tzzgx/gszl/gszlgk/' class="">公司治理概况</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/gszl/gddh/' class="">股东会</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/gszl/dsh/' class="">董事会</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/gszl/gjglc/' class="">高级管理层</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/gszl/gfxwj/' class="">规范性文件</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/cwxx/' class="">财务信息</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../tzzgx/cwxx/cwgy/' class="">财务概要</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/cwxx/xypj/' class="">信用评级</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/cwxx/cwbg/' class="">财务报告</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/jgzb/' class="">监管资本</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/qyshzr/' class="">企业社会责任</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../tzzgx/qyshzr/gzzd/' class="">规章制度</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/yjtj/' class="">业绩推介</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../tzzgx/tzzfw/' class="">投资者服务</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../tzzgx/tzzfw/tzzrz/' class="">投资者日志</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/tzzfw/cjwt_497/' class="">常见问题</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/tzzfw/Hggdgstx/' class="">H股股东公司通讯收取方式变更</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../tzzgx/tzzfw/tzzgxlxfs/' class="">投资者关系联系方式</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                    </ul>
+                </li>
+                
+                <li class="parentLi ">
+                  <!--../../esg/-->
+                    <a href="../../esg/" class="parentLiA">ESG</a>
+                    <ul class="parentFirstUl">
+                      
+                      <li class="">
+                        <a href='../../esg/esgxgbg/' class="">ESG相关报告</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../esg/esgxgbg/2025nbndkcxjrbg/' class="">可持续发展报告</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../esg/esgxgbg/hjxxplbg/' class="">环境信息披露报告</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../esg/esgxgbg/kcxfzllszqbg/' class="">可持续发展类(绿色)债券报告</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../esg/esgxgbg/dtzxxxplbg/' class="">碳减排贷款信息披露报告</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../esg/esgdt/' class="">ESG动态</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../esg/esggzzd/' class="">ESG规章制度</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../esg/esgxgyt/' class="">ESG相关议题</a>
+                        <ul class="parentSecUl">
+                            
+                            <li>
+                              <a href='../../esg/esgxgyt/hj/' class="">环境</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../esg/esgxgyt/sh/' class="">社会</a>
+                            </li>
+                          
+                            <li>
+                              <a href='../../esg/esgxgyt/zl/' class="">治理</a>
+                            </li>
+                          
+                        </ul>
+                      </li>
+                    
+                    </ul>
+                </li>
+                
+                <li class="parentLi parentOn">
+                  <!--../-->
+                    <a href="../" class="parentLiA">人才招聘</a>
+                    <ul class="parentFirstUl">
+                      
+                      <li class="parentchildON">
+                        <a href='./' class="cur">校园招聘</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../shzp/' class="">社会招聘</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../qtzp/' class="">其他招聘</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                    </ul>
+                </li>
+                
+                <li class="parentLi ">
+                  <!--../../ckbx/-->
+                    <a href="../../ckbx/" class="parentLiA">存款保险</a>
+                    <ul class="parentFirstUl">
+                      
+                    </ul>
+                </li>
+                
+                <li class="parentLi ">
+                  <!--../../qybzzwsm/-->
+                    <a href="../../qybzzwsm/" class="parentLiA">企业标准自我声明</a>
+                    <ul class="parentFirstUl">
+                      
+                      <li class="">
+                        <a href='../../qybzzwsm/lpzhd/' class="">企业标准"领跑者"活动</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                      <li class="">
+                        <a href='../../qybzzwsm/jrcphfwbzzwsm/' class="">金融产品和服务标准自我声明</a>
+                        <ul class="parentSecUl">
+                            
+                        </ul>
+                      </li>
+                    
+                    </ul>
+                </li>
+                
+                <li class="parentLi ">
+                  <!--../../zygg/-->
+                    <a href="../../zygg/" class="parentLiA">公   告</a>
+                    <ul class="parentFirstUl">
+                      
+                    </ul>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+
+<script type="text/javascript">
+         $(document).ready(function(){
+		     $('.parentSecUl li a').each(function(){
+			    if($(this).text()=='手语支行专题'){
+				  $(this).parent().parent().css({"display":"block"});
+				};
+                            if($(this).text()=='绿色金融专题'){
+				  $(this).parent().parent().css({"display":"block"});
+				};
+			 });
+		  });
+</script>
+
+<script type="text/javascript">
+         $(document).ready(function(){
+		     $('.parentFirstUl li a').each(function(){
+			    if($(this).text()=='小企业产品及服务'){
+				  $(this).parent().parent().css({"display":"block"});
+				};
+                            if($(this).text()=='乡村振兴产品及服务'){
+				  $(this).parent().parent().css({"display":"block"});
+				};
+			 });
+		  });
+</script>
+
+    <div class="psbc_main_right">
+        <div class="col_title">校园招聘</div>
+        <div class="col_list">
+            <ul>
+                
+            </ul>
+        </div>
+        <div class="page">
+    <div class="page_nr1">
+         <div class="page_nr2">
+    <script language="javascript">
+        //createPageHTML(1, 0, "index", "html");
+        var countPage = 1//共多少页
+        var currentPage =  0;//所在页从0开始
+        if(currentPage > 0){
+            currentPage = countPage - 0 ;
+        }
+        //var headPage = "index"+"."+"html";//首页
+        //var tailPage = "index_" + (countPage-1) + ".html"//尾页
+        
+        var prevPage = countPage - (currentPage-1)//上一页
+        var nextPage = countPage - (currentPage+1)//下一页
+        
+        //console.log(currentPage)
+
+        //document.write("共"+countPage+"页&nbsp;&nbsp;");
+        //设置上一页代码
+        if(countPage>1&&currentPage!=0&&currentPage!=1)
+            document.write("<a class='next' href=\"index"+"_" + prevPage + "."+"html\" target=\"_self\">上一页</a>");
+        else if(countPage>1&&currentPage!=0&&currentPage==1)
+            document.write("<a class='next' href=\"index.html\" target=\"_self\">上一页</a>");
+        else
+            document.write("");
+
+        //循环
+        //var num = 5;
+        //for(var i=0+(currentPage-1-(currentPage-1)%num) ; i<=(num+(currentPage-1-(currentPage-1)%num))&&(i<countPage) ; i++){
+
+        var num = 5;
+        var startPage=currentPage-2;
+        if(startPage<0) startPage=0;
+        var endpage=startPage+num;
+        if(endpage>countPage)endpage=countPage;
+
+        startPage=endpage-5;
+        if(startPage<0) startPage=0;
+
+        for(var i=startPage; i<endpage ; i++){
+
+            if(currentPage==i)
+                document.write("<a class='current'>"+(i+1)+"</a>");
+            else if(i==0){
+                document.write("<a class='' href=\"index.html\" target=\"_self\">"+1+"</a>");
+            }else
+                document.write("<a class='' href=\"index"+"_" + (countPage-i) + "."+"html\" target=\"_self\">"+(i+1)+"</a>");
+        }
+
+        //设置下一页代码
+        if(countPage>1&&currentPage!=(countPage-1))
+            document.write("<a class='next' href=\"index"+"_" + nextPage + "."+"html\" target=\"_self\">下一页</a>");
+        else
+            document.write("");
+
+        //跳转页面
+        document.write("<div class='clearMobile pcNone'></div><div class='page_txt'>共 <span>" + countPage + "</span> 页</div><div class='page_txt'>到第</div><input type='text' id='num' value="+(currentPage+1)+" /><div class='page_txt'>页</div>"+"<button onClick=javascript:toPage() id='go'>确定</button>");
+
+        function toPage(){
+            var _num = document.getElementById("num").value;
+            if(_num > 1){
+                _num = countPage - _num + 2;
+            }
+            var str = "index"+"_"+(_num-1)+"."+"html";
+            var url = location.href.substring(0,location.href.lastIndexOf("/")+1);
+            if(_num<=1||_num==null)
+                location.href = url+"index"+"."+"html";
+            else if(_num>countPage)
+                alert("本频道最多"+countPage+"页");
+            else
+                location.href = url+str;
+        }
+    </script>
+            <div style="clear:both;"></div>
+          </div>
+     </div>
+</div>
+    </div>
+</div>
+<!-- content end -->
+<!-- page start -->
+<style>
+.footer_Mes2 {
+    /*width: 750px;*/
+    width: 804px;
+    margin: 0 auto;
+    text-align: center;
+}
+.gaba_box{width:240px;float:left;/*margin:0 auto; padding:20px 0;*/padding-left:5px; padding-top:3px;display:inline-block;}
+.gaba_a{display:inline-block;text-decoration:none;height:29px;line-height:29px; border:0px solid #ccc;}
+.gaba_a img{ padding-top:4px;}
+.gaba_p{float:left;height:29px;line-height:29px;margin: 0px 0px 0px 5px; color:#ffffff;font-size:14px;border:0px solid #ccc;}
+.mar_t94{
+   /*margin-top: 94px;*/
+   margin-top:25px;
+}
+.kexin_box{width: 100px;padding-left: 8px; /*width:108px; padding-left:114px;  margin:0 auto; padding:20px 0; */ display:inline-block;}
+.kexin_box img{width: 104px;height:37px;float: left;/*padding-right: 56px;*/}
+@media screen and (max-width:750px){
+
+.psbc_footer {
+    /* height: 7.18rem; */
+    /*height: 15.78rem;*/
+	height: 18.2rem; 
+    /*height: 15.18rem;*/
+	/*height: 16.06rem;*/
+
+    background: #5DA875;
+    /* padding: 0.8rem 0.6rem 0.6rem; */
+    position: relative;
+}
+
+
+
+.gaba_box{width: 4.60rem;border: 0px solid #333;/*margin:0 auto; padding:20px 0;*/padding-left:5px; /*float:left;*/float:none;display:block; clear:both; margin-left:auto;margin-right:auto;}
+.gaba_a{display:block;text-decoration:none;height:.4rem;line-height:.44rem; overflow:inherit;}
+.gaba_a img{width:.4rem;padding-top:0rem;}
+.gaba_p{float:left;height:.4rem;line-height:0.4rem!important;margin: 0px 0px 0px 5px; color:#ffffff;font-size:0.28rem!important;}
+.mar_t94{
+   /*margin-top: 0px;*/
+   margin-top: 25px;
+}
+
+.kexin_box {text-align:center; width: 1.6rem;padding-left:0px; border: 0px solid #333;display:block; margin-left:auto;margin-right:auto;}
+.kexin_box div { font-size:medium!important;}
+.kexin_box a { overflow:inherit;}
+.kexin_box span { font-size:medium!important;}
+.kexin_box img{display:block!important;width: 1.6rem;max-width: 1.6rem;height:0.60rem;border: 0px solid #333;  margin-left:auto;margin-right:auto;}
+
+    .footer_Mes2 {
+        position: absolute;
+        width: 6.9rem;
+        top: 0.1rem;
+        left: 0.32rem;
+     }
+	 
+	 .footer_Mes {
+		margin-top: 0.1rem;
+		position: absolute;
+		width: 6.4rem;
+		top: 14rem;
+		left: 0.6rem;
+
+
+    
+	}
+
+
+	.foot_r {
+		margin-top: 0.1rem;
+		position: absolute;
+		width: 6.4rem;
+		top: 5.7rem;
+		left: 0.72rem;
+	}
+}
+
+
+
+.footer_Mes2.add_mobile{left: 0;
+    right: 0;
+    width: 7.2rem;}	
+.psbc_footer.add_mobile{
+	height:17.98rem
+}
+    .footer_Mes.add_mobile {
+        margin-top: 0.1rem;
+        position: absolute;
+        width: 6.4rem;
+        top: 14.6rem;
+        left: 0.6rem;
+    }
+
+    .footer_Mes.add_mobile .gaba_box {
+        width: 4.60rem;
+    border: 0px solid #333;
+    padding-left: 5px;
+    /* float: left; */
+    float: none;
+    display: block;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0.4rem;
+    }
+    .footer_Mes.add_mobile .gaba_a{
+    	display: block;
+    text-decoration: none;
+    height: auto;
+    line-height: 29px;
+    border: 0px solid #ccc;
+    }
+    .footer_Mes.add_mobile .footer_Mes p{
+    height:auto
+    }
+
+    .footer_Mes.add_mobile .gaba_box img{
+    width:0.34rem
+    }
+    .footer_Mes.add_mobile .kexin_box {
+        text-align: center;
+        width: 1.6rem;
+        padding-left: 0px;
+        border: 0px solid #333;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.footer_Mes.add_mobile .kexin_box img{
+    height:0.6rem;
+    width:auto
+   margin-top:0.4rem
+    }
+.gyycLBox.add_mobile .inner_title2 span{
+	margin: 0 18px;
+    font-size: .52rem;
+}
+.gyycLBox.add_mobile .inner_title2{
+	text-align:center
+}
+.gyycLBox.add_mobile .szywListUl li a{
+	width: 80%;
+    display: inline-block;
+    height:auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.gyycLBox.add_mobile .szywListUl li span{
+	float: right;
+    color: #a6a6a6;
+    display: block;
+    font-size: .20rem;
+    line-height: 0.6rem;
+}
+</style>
+
+
+
+<!--script type="text/javascript">
+        var isPC = IsPC(); //获取是否为PC端
+        if (isPC) {
+                    
+          
+			//调整pc右侧弹窗距离
+            $(function () {
+			   
+				$('.foot_r').css('width', '643px');
+				
+		    })
+        }
+
+</script-->
+<script type="text/javascript">
+        var isPC = IsPC(); //获取是否为PC端
+        if (isOld&&isPC){
+        $(function(){
+        $(".yhkTabCenter.xykCon").addClass("add_mobile");
+  
+			$(".yhkTabCenter.yhkCon").addClass("add_mobile");
+			$(".footer_Mes2").addClass("add_mobile")
+			$(".footer_Mes").addClass("add_mobile")
+			$(".psbc_footer").addClass("add_mobile")
+			$(".gyycLBox").addClass("add_mobile")
+        })
+        
+        }
+        else if (!isOld&&isPC) {
+                      
+          
+			//调整pc右侧弹窗距离
+            $(function () {
+			   
+				$('.foot_r').css('width', '643px');
+				
+		    })
+        }
+
+</script>
+<div class="psbc_footer">
+
+  <div class="psbc_footerCon_shang">
+      <div class="footer_Mes2">
+         <p>
+			  <a href="https://www.psbc.com/cn/common/sitemap/" target="_blank">网站地图</a>|  
+               <a href="https://www.psbc.com/cn/common/ysbmsm/" target="_blank">隐私保密声明</a>| 
+              <a href="https://www.psbc.com/cn/common/fwwd/" target="_blank">服务网点</a>|			  
+              <a href="https://www.psbc.com/cn/common/links/" target="_blank">友情链接</a>|
+              <a href="https://www.psbc.com/cn/common/lxwm/" target="_blank">联系我们</a>|
+              <a href="https://www.psbc.com/cn/common/xfzqybhzl/" target="_blank">消费者权益保护专栏</a>|
+			  <a href="https://www.psbc.com/cn/common/jrxkzxx/" target="_blank">金融许可证信息</a>
+          </p>
+  
+       </div>
+  </div>
+
+  <div class="psbc_footerCont clear">
+  
+      <div class="foot_l">
+	  
+	     <div class="footer_tel  mobileNone ">
+           <img style="width:350px" src="/cn/images/psbc_footLdkffM_v2020.png" />
+         </div>
+         <div class="footer_tel  pcNone">
+          <img src="/cn/images/psbc_footLdkffM_v2020.png" />
+         </div>
+	  
+	  <div class="footer_ewm  clear">	  
+	     <span class="fl sjyh">
+              <img src="/cn/images/psbc_base_ewmApp_07_db.png" />
+              手机银行
+          </span>
+
+          <span class="fl">
+              <img src="/cn/images/psbc_base_ewmWx_09.png" />
+              微信公众号
+          </span>
+		  
+		  <span class="fl qyyh" style="display:block;">
+	     <img src="/cn/images/psbc_base_ewmApp_ycqyyh.jpg" />
+             邮储企业银行app
+          </span>
+
+      </div>
+	  
+	   <div class="footer_Mes ">
+          
+          <p>
+              <span>
+                  <i>Copyright(C)2024 psbc.com</i>
+                  <i>All Rights Reserved</i>
+                  <i>本网站支持IPv6</i>
+              </span> 
+              <span>中国邮政储蓄银行 版权所有 <a target="_blank" href="https://beian.miit.gov.cn">京ICP备07021605号</a></span>
+          </p>
+		  
+		  <div class="gaba_box">
+		 		   <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700173" class="gaba_a" style=""><img src="/cn/images/psbc_guohui.png" style="float:left;" /><p class="gaba_p" style="">京公网安备 11040102700173号</p></a>
+		  </div>
+
+                <div class="kexin_box">
+
+                        <div>
+                              <!--可信网站LOGO安装开始-->
+                              <script id="kXScript" type="text/javascript" src="https://kxlogo.knet.cn/seallogo.dll?sn=e13030611010039406xj0y000000&h=37"></script>
+                             <!--可信网站LOGO安装结束-->
+                          </div>
+		  </div>
+                  <div class="kexin_box">
+
+                        <div>
+                              <!--部署CFCA 站点认证开始-->
+                               <a target="_blank" href="https://evwebverify.cfca.com.cn/WebVerify/webVerifyServlet?domain=www.psbc.com" ><img src="https://www.psbc.com/cn/images/zdrz.png" style="float:left;" upload="true" /></a>
+                             <!--部署CFCA 站点认证结束-->
+                          </div>
+		  </div>
+      </div>
+	  
+	  
+	</div> 
+
+    <div class="foot_r rl mar_t94"> 
+		<p><strong>客户投诉渠道</strong></p>
+		<p>营业网点：联系我行营业网点工作人员。</p>
+		<p>客服与投诉热线：致电客服与投诉热线95580或40088-95580。</p>
+		<p>官方网站：访问官方网站（https://www.psbc.com）点击右上角“在线客服”。</p>
+		<p>网上银行：访问官方网站（https://www.psbc.com）登录个人网上银行，点击右上角“在线客服”。</p>
+		<p>手机银行：打开手机银行APP（邮储银行），点击右上角小机器人，联系在线客服。</p>
+		<p>微信银行：关注“中国邮政储蓄银行”微信公众号，对话框输入“投诉”，根据提示联系在线客服。</p>
+                <p>总行通讯地址: 北京市西城区金融大街3号（邮编:100808）。</p>
+                  <p>电子邮箱：发送邮件至95580@psbc.com，邮件内容需包括联系电话、投诉事项、被投诉机构的名称。</p>
+		<p><a href="https://www.psbc.com/cn/common/xfzqybhzl/khtszn/" target="_self">点击查看投诉处理流程</a></p>
+
+	</div>
+
+  </div>
+</div>
+
+<div id="mask" class="pcNone"></div>
+
+<!-- 右侧固定导航 开始 -->
+<div class="rpfx">
+  <ul>
+    <li class="kf">
+      <a href="https://95580.psbc.com:9098/psbc_webchat/main" target="_blank" ignoreapd="true"  class="zxkfl">在线客服</a>
+    </li>
+     <!-- <li class="ltk">
+      <a href="">用户反馈</a>
+    </li>-->
+    <li class="dt">
+      <a href="https://www.psbc.com/cn/common/fwwd/" target="_blank">服务网点</a>
+    </li>
+     <!--<li class="ds">
+      <a href="">折线</a>
+    </li>-->
+  </ul>
+</div>
+<!-- 右侧固定导航 结束 -->
+
+<!-- 右侧固定二维码 开始 -->
+  <style>
+      .rverc .wxvCode .title ,
+      .rverc .wxvCode img {
+          display: none;
+      }
+      .lword {
+          width: 30px;
+          text-align: center;
+          padding-top: 17px;
+      }
+      .lword.wxgghf {
+          padding-top: 32px;
+      }
+      .rvercxyk  .lword.wxgghf{
+        padding-top: 17px;
+      }
+  </style>
+<div class="rverc mobile_none ">
+    <div class="wxvCode yc_sjyh">
+      <div class="lword">
+          手机银行下载
+      </div>
+    <div class="title">
+      <p style="margin: 0px 8px 3px;">手机银行APP下载</p>
+    </div>
+    <img src="/cn/images/psbc_base_ewmApp_07_fc.png" />
+  </div>
+
+  
+  <div class="wxvCode yc_qyyh" style="display:none">
+      <div class="lword">
+          企业银行下载
+      </div>
+    <div class="title">
+      <p style="margin: 0px 8px 3px;">企业银行APP下载</p>
+    </div>
+	<img src="/cn/images/psbc_base_ewmApp_ycqyyh.jpg" />
+  </div>
+
+  <div class="wxvCode apxz">
+      <div class="lword wxgghf">
+          微信公众号
+      </div>
+    <div class="title">
+      <p>邮储银行微信公众号</p>
+    </div>
+    <img src="/cn/images/psbc_base_ewmWx_09.png" />
+
+  </div>
+  <script>
+     // 右侧固定导航
+     $('.rverc').mouseenter(function () {
+      $(this).find('.wxvCode .lword').hide()
+       $(this).find('.wxvCode .title').show()
+       $(this).find('.wxvCode img').css({'display':'block'})
+      $(this).stop().animate({
+        'right': '0'
+      })
+    })
+  
+    $('.rverc').mouseleave(function () {
+      $(this).stop().animate({
+        'right': '-66px'
+      })
+      $(this).find('.wxvCode .lword').show()
+      $(this).find('.wxvCode .title').hide()
+       $(this).find('.wxvCode img').hide()
+    })
+
+$(function(){
+        $("#ghb").click(function(){
+            setCookie("old",1,1);
+            setCookie("WzaToolCookie",true,1)
+            //console.log(getCookie("old"));
+            location.reload()
+        })
+        $("#bzb_btn").click(function(){
+            setCookie("old",0,1);
+            setCookie("WzaToolCookie",false,1)
+            //console.log(getCookie("old"));
+            location.reload();
+
+        })
+    })
+  </script>
+<script id="_trs_ta_js" src="https://s.psbc.com/c/js/ta.js?mpid=2" async="async" defer="defer"></script>
+</div>
+<div class="rverc mobile_none rvercxyk " style="display: none;">
+
+  <div class="wxvCode">
+      <div class="lword">
+          信用卡小程序
+
+      </div>
+    <div class="title">
+      <p style="margin: 0px 8px 3px;">信用卡微信小程序</p>
+    </div>
+    <img src="/cn/include/include_footer/material/psbc_base_xykxcx20261008.jpg" />
+  </div>
+  <div class="wxvCode apxz">
+      <div class="lword wxgghf">
+          信用卡公众号
+      </div>
+    <div class="title">
+      <p>信用卡微信公众号</p>
+    </div>
+    <img src="/cn/images/psbc_base_wechat2021.png" />
+  </div>
+  <script>
+     // 右侧固定导航
+     $('.rverc').mouseenter(function () {
+      $(this).find('.wxvCode .lword').hide()
+       $(this).find('.wxvCode .title').show()
+       $(this).find('.wxvCode img').css({'display':'block'})
+      $(this).stop().animate({
+        'right': '0'
+      })
+    })
+  
+    $('.rverc').mouseleave(function () {
+      $(this).stop().animate({
+        'right': '-66px'
+      })
+      $(this).find('.wxvCode .lword').show()
+      $(this).find('.wxvCode .title').hide()
+       $(this).find('.wxvCode img').hide()
+    })
+	
+	//去掉理财公告可编辑属性
+	$('[align]').each(function(){
+		$(this).removeAttr('contenteditable');
+    });
+
+//公司服务栏目显示公司服务的二维码  其余栏目还是显示原来的
+//window.onload=function(){
+  
+$(function () {
+  function nav_nav(){
+    var src=window.location.pathname;
+    if(src.indexOf("gsfw")!==-1){
+
+      //$('.footer_ewm .qyyh').css({'display':'block'});
+      //$('.footer_ewm .sjyh').css({'display':'none'});
+
+     $('.yc_qyyh').css({'display':'block'});
+     $('.yc_sjyh').css({'display':'none'});
+
+      }else{
+
+
+      //$('.footer_ewm .qyyh').css({'display':'none'});
+      //$('.footer_ewm .sjyh').css({'display':'block'});
+
+      $('.yc_qyyh').css({'display':'none'});
+      $('.yc_sjyh').css({'display':'block'});
+    }
+  };
+  nav_nav();
+});
+//}
+
+
+
+  </script>
+</div>
+<div style="display: none;"><img src="/cn/images/psbc_hLogoMin_v2020.png" /></div>
+<!-- 右侧固定二维码 结束 -->
+
+
+<!-- 资管业务公告 如果是 外链和搜索过来的则弹窗  内部本网链接过来则不弹窗  开始-->
+<!-- 免责声明弹出框 开始 -->
+<style>
+.mzsmPopup2{
+  display:none;
+}
+</style>
+
+    <div class="mzsmPopup mzsmPopup2">
+        <div class="mzsmtck">
+            <div class="tckT clear">
+                <h3 class="fl">免责声明</h3>
+                <div class="closeBtn rl" ></div>
+            </div>
+            <div class="tckMain">
+                <img src="/cn/images/psbc_zgTmImg_v2020.png" />
+                <!--<img src="../../images/psbc_zgTmImg_v2020.png" alt="" />-->
+                <p>根据证监会《证券期货经营机构私募资产管理业务管理办法》规定，证券期货经营机构资产管理计划的合格投资者应为具备相应风险识别能力和承担能力，且符合家庭金融资产不低于500万元、金融净资产不低于300万元或最近三年本人年均收入不低于40万元的个人。您是否确认本人符合合格投资者的认定？</p>
+                <div class="btns clear">
+                    <div class="sure">确认</div>
+                    <div class="cancel">取消</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 免责声明弹出框 结束 -->
+ <script type="text/javascript">
+  $(function(){
+ //js判断来源的url是否是本站点过来的url
+
+              //跳转过来的地址
+               var referrerUrl=document.referrer;
+		//目前页面的地址
+		var localUrl = window.location.href.toString();
+		//localHostname 是网址名
+		var localHostname=window.location.hostname;
+		//这是 端口
+		var localPort = window.location.port;
+		//是http
+		var localProtocol=window.location.protocol;
+        //域名不带冒号
+		var domain= localProtocol+"//"+localHostname+""+localPort;
+		
+		//域名带冒号和端口
+		var domain2= localProtocol+"//"+localHostname+":"+localPort;
+		
+
+		 if(localUrl.indexOf(domain2)!==-1){
+			   //console.log('带冒号'+localUrl)
+			 
+				   //判断 跳转来的网址带冒号和端口与现在的网址比较 相等的话==0 不弹窗
+					if(referrerUrl !='' && referrerUrl.indexOf(domain2)==0 ){
+						//来自于本网站url
+						 $('.mzsmPopup2').hide()
+						 if(referrerUrl.indexOf("/common/search/")!==-1 && localUrl.indexOf("/zcgljh/zgywgg/")!==-1){
+							  //alert('如果是来自于本网站搜索页 则弹窗')
+							  $('.mzsmPopup2').show();
+							  // $('.mzsmPopup2').hide()
+							  
+							  
+							  $('.mzsmPopup2 .closeBtn').click(function(){
+									 window.close();
+								 })
+								 $('.mzsmPopup2 .cancel').click(function(){
+								   window.close();
+								 })
+								 $('.mzsmPopup .closeBtn').click(function(){
+									 window.close();
+								 })
+								 $('.mzsmPopup .cancel').click(function(){
+								   window.close();
+								 })
+							  
+							  
+							  }else{
+							   //alert('不是来自于本网站搜索页不弹窗')
+							   $('.mzsmPopup2').hide()
+							}
+							//如果跳转页是资管公告的栏目文章，则资管公告首页不弹窗
+							if(referrerUrl.indexOf("/zgywgg/")!==-1 && localUrl==domain2+'/cn/grfw/tzlc/zcgljh/zgywgg/'){
+								$('.mzsmPopup').hide()
+								$('.mzsmPopup2').hide()
+							}
+					}else{
+						//来自其他网站url  是资产管理计划栏目下的则弹窗
+						 if(localUrl.indexOf("/zcgljh/")!==-1){
+							$('.mzsmPopup2').show();
+						 }
+					}
+			 
+		 }else{
+			 //console.log('不带冒号'+localUrl)
+			   //判断 跳转来的网址不带冒号和端口与现在的网址比较 相等的话==0 不弹窗
+				if(referrerUrl !='' && referrerUrl.indexOf(domain)==0 ){
+					//来自于本网站url
+					 $('.mzsmPopup2').hide()
+					 if(referrerUrl.indexOf("/common/search/")!==-1 && localUrl.indexOf("/zcgljh/zgywgg/")!==-1){
+						  //alert('如果是来自于本网站搜索页 则弹窗')
+						  $('.mzsmPopup2').show();
+						  // $('.mzsmPopup2').hide()
+						  
+						      $('.mzsmPopup2 .closeBtn').click(function(){
+									 window.close();
+								 })
+								 $('.mzsmPopup2 .cancel').click(function(){
+								   window.close();
+								 })
+								 $('.mzsmPopup .closeBtn').click(function(){
+									 window.close();
+								 })
+								 $('.mzsmPopup .cancel').click(function(){
+								   window.close();
+								 })
+								 
+						  }else{
+						   //alert('不是来自于本网站搜索页不弹窗')
+						   $('.mzsmPopup2').hide()
+						}
+						//如果跳转页是资管公告的栏目文章，则资管公告首页不弹窗
+						if(referrerUrl.indexOf("/zgywgg/")!==-1 && localUrl==domain+'/cn/grfw/tzlc/zcgljh/zgywgg/'){
+							$('.mzsmPopup').hide()
+							$('.mzsmPopup2').hide()
+						}
+				}else{
+					//来自其他网站url  是资产管理计划栏目下的则弹窗
+					 if(localUrl.indexOf("/zcgljh/")!==-1){
+						$('.mzsmPopup2').show();
+					 }
+				}
+			 
+			 
+		 }
+		
+		
+               //弹窗按钮处理
+
+              if(referrerUrl =='' ){
+                    //alert('跳转地址为空时')
+                    $('.mzsmPopup2 .closeBtn').click(function(){
+                         window.close();
+                     })
+                     $('.mzsmPopup2 .cancel').click(function(){
+                       window.close();
+                     })
+                     $('.mzsmPopup .closeBtn').click(function(){
+                         window.close();
+                     })
+                     $('.mzsmPopup .cancel').click(function(){
+                       window.close();
+                     })
+               }
+
+               $('.mzsmPopup2 .closeBtn').click(function(){
+                window.history.go(-1)
+               })
+              $('.mzsmPopup2 .cancel').click(function(){
+                window.history.go(-1)
+              })
+              $('.mzsmPopup2 .sure').click(function(){
+                $('.mzsmPopup2').hide()
+              })
+			  
+			 //判断如果弹窗了
+			  if($('.mzsmPopup2').is(':visible')){
+				   var isPC = IsPC(); //获取是否为PC端
+					if (isPC) {
+						//如果是PC端加载PC的弹窗样式
+						$(".mobileStyle").remove();
+						//dynamicLoadCss("../../images/psbc03_pc_v2020.css")
+						dynamicLoadCss("https://www.psbc.com/cn/images/psbc03_pc_v2020.css")
+					} else {
+						//如果是移动端加载移动端的的弹窗样式
+						$(".stylefile").remove();
+						//dynamicLoadCss("../../images/psbc03_mobile_v2020.css")
+						dynamicLoadCss("https://www.psbc.com/cn/images/psbc03_mobile_v2020.css")
+					}
+					
+			  }
+			  
+
+
+})
+    </script>
+<!-- 资管业务公告 如果是 外链和搜索过来的则弹窗  内部本网链接过来则不弹窗  结束-->
+
+<!--微信分享图功能 写在公共底部 开始-->
+<script src="/cn/images/yc-wxshare-v8.js"></script>
+<script src="/cn/images/yc-jweixin-1.6.0.js"></script>
+
+<div class="share-title" style="display:none">
+邮储银行
+</div>
+<div class="share-substr" style="display:none">
+邮储银行概述。
+</div>
+<img class="share-img" style="display:none" src="" width="300" height="300" />
+<!-- 这个图片地址必须为空-->
+
+<script>
+$(function () {
+
+
+//获取 title 并赋值
+  var bt=$('title').text();
+  //alert(bt)
+  $('.share-title').text(bt);
+  var bt2=$('.share-title').text();
+  //alert(bt2)
+  //获取 description 并赋值
+  var  description_nr = $("*[name='description']").attr("content");
+  //alert(description_nr)
+  //如果 自定义的.share-substr2 有值显示自定义 否则 显示默认描述description_nr的内容
+  if($(".share-substr2").text()!=""){
+       $('.share-substr').text($(".share-substr2").text());
+  }else{
+     $('.share-substr').text(description_nr);
+  }
+  
+  var description_nr2=$('.share-substr').text();
+  
+  //alert(description_nr2)
+
+  //如需修改统一的图片功能  在要替换分享的图标页面增加 <img class="share-img2" style="display:none" src="https://www.psbc.com/cn/images/logo4share33333.jpg" width="300" height="300" />
+  //如需替换公共的图片 可在单个专题页面添加这个图片会替换公共的图片  无需替换图片需要src=""为空,如需替换图片可在src=" "写图片的地址，就会替换了默认的图标了
+  var  fx_img_url = $(".share-img").attr("src");
+  var  fxty_img_url = $(".share-img2").attr("src");
+  //alert($(".share-img").attr("src"));
+  
+  if($(".share-img2").attr("src")!=""){
+      $(".share-img").attr("src",fxty_img_url);
+	  //alert($(".share-img").attr("src"));
+  }else{
+     $(".share-img").attr("src",fx_img_url);
+  }
+  
+  var img_url=$(".share-img").attr("src");;
+  
+  //alert(img_url)
+
+	if (wxShareInit) {
+          return true;
+		wxShareInit({
+		title: bt2,
+        desc: description_nr2,
+        link: window.location.href,
+	       // imgUrl: ''   //如果图片链接为空则显示默认邮储标
+           //imgUrl: 'https://www.psbc.com/cn/common/xfzqybhzl/jrzsxc/material/wxfx_jrzsxc.jpg' 
+			 imgUrl: img_url  
+			   
+			})
+			}
+			
+			
+        })
+
+
+</script>
+<!--微信分享图功能 写在公共底部 结束-->
+<!-- page end -->
+</body>
+</html>

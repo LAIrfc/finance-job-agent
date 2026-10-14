@@ -1,0 +1,75 @@
+{
+  "total": 376,
+  "collected": 376,
+  "returned_rows": 376,
+  "complete": true,
+  "error": null,
+  "pages": [
+    {
+      "rows": 10,
+      "unique": 10,
+      "total": 376,
+      "request": "{\"recruitType\":\"CR\",\"visibilityFlag\":\"Y\",\"positionStatus\":\"P\",\"pagination\":{\"pageIndex\":1,\"pageSize\":10}}"
+    },
+    {
+      "rows": 40,
+      "unique": 336,
+      "total": 376,
+      "request": "{\"recruitType\":\"CR\",\"visibilityFlag\":\"Y\",\"positionStatus\":\"P\",\"pagination\":{\"pageIndex\":1,\"pageSize\":40}}"
+    },
+    {
+      "rows": 40,
+      "unique": 336,
+      "total": 376,
+      "request": "{\"recruitType\":\"CR\",\"visibilityFlag\":\"Y\",\"positionStatus\":\"P\",\"pagination\":{\"pageIndex\":2,\"pageSize\":40}}"
+    },
+    {
+      "rows": 40,
+      "unique": 352,
+      "total": 376,
+      "request": "{\"recruitType\":\"CR\",\"visibilityFlag\":\"Y\",\"positionStatus\":\"P\",\"pagination\":{\"pageIndex\":3,\"pageSize\":40}}"
+    },
+    {
+      "rows": 40,
+      "unique": 352,
+      "total": 376,
+      "request": "{\"recruitType\":\"CR\",\"visibilityFlag\":\"Y\",\"positionStatus\":\"P\",\"pagination\":{\"pageIndex\":4,\"pageSize\":40}}"
+    },
+    {
+      "rows": 40,
+      "unique": 352,
+      "total": 376,
+      "request": "{\"recruitType\":\"CR\",\"visibilityFlag\":\"Y\",\"positionStatus\":\"P\",\"pagination\":{\"pageIndex\":5,\"pageSize\":40}}"
+    },
+    {
+      "rows": 40,
+      "unique": 365,
+      "total": 376,
+      "request": "{\"recruitType\":\"CR\",\"visibilityFlag\":\"Y\",\"positionStatus\":\"P\",\"pagination\":{\"pageIndex\":6,\"pageSize\":40}}"
+    },
+    {
+      "rows": 40,
+      "unique": 376,
+      "total": 376,
+      "request": "{\"recruitType\":\"CR\",\"visibilityFlag\":\"Y\",\"positionStatus\":\"P\",\"pagination\":{\"pageIndex\":7,\"pageSize\":40}}"
+    },
+    {
+      "rows": 40,
+      "unique": 376,
+      "total": 376,
+      "request": "{\"recruitType\":\"CR\",\"visibilityFlag\":\"Y\",\"positionStatus\":\"P\",\"pagination\":{\"pageIndex\":8,\"pageSize\":40}}"
+    },
+    {
+      "rows": 40,
+      "unique": 376,
+      "total": 376,
+      "request": "{\"recruitType\":\"CR\",\"visibilityFlag\":\"Y\",\"positionStatus\":\"P\",\"pagination\":{\"pageIndex\":9,\"pageSize\":40}}"
+    },
+    {
+      "rows": 16,
+      "unique": 376,
+      "total": 376,
+      "request": "{\"recruitType\":\"CR\",\"visibilityFlag\":\"Y\",\"positionStatus\":\"P\",\"pagination\":{\"pageIndex\":10,\"pageSize\":40}}"
+    }
+  ]
+}

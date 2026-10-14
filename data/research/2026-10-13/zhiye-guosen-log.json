@@ -1,0 +1,19 @@
+{
+  "source_id": "guosen",
+  "url": "https://guosen.zhiye.com/campus/jobs",
+  "fetched_at": "2026-10-13T14:59:03.803456+08:00",
+  "status": "collected",
+  "advertised_count": 62,
+  "collected_count": 62,
+  "pages": [
+    {
+      "page_index": 0,
+      "total": 62,
+      "returned": 62
+    }
+  ],
+  "campus_filter": [
+    "2"
+  ],
+  "observed_request_file": "browser-guosen-request.json"
+}

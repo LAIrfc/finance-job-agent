@@ -1,0 +1,218 @@
+[
+  {
+    "url": "https://job.bankcomm.com/api/GTMS.GTMS-PORTAL.V-1.0/selectHotPositions.do",
+    "method": "POST",
+    "post_data": "REQ_MESSAGE=%7B%22REQ_HEAD%22%3A%7B%22TRAN_PROCESS%22%3A%22%22%2C%22TRAN_ID%22%3A%22%22%2C%22ACCESS_TOKEN%22%3A%22%22%2C%22REFRESH_TOKEN%22%3A%22%22%7D%2C%22REQ_BODY%22%3A%7B%22params%22%3A%7B%22flag%22%3A3%2C%22subFlag%22%3Anull%7D%2C%22unnessaryLogin%22%3Afalse%7D%7D",
+    "data": {
+      "RSP_BODY": {
+        "ACCESS_TOKEN": "",
+        "TRAN_PROCESS": "",
+        "unnessaryLogin": false,
+        "REFRESH_TOKEN": "",
+        "params": {
+          "flag": 3,
+          "subFlag": null
+        },
+        "results": [],
+        "TRAN_ID": ""
+      },
+      "RSP_HEAD": {
+        "TRAN_SUCCESS": "1",
+        "TRACE_NO": "gtms-portal-prd-gtms-prd-856b6f58c-748bc-5206076323",
+        "TRACE_ID": "0c4420eb.1.6599.4wfnzqxno0p",
+        "PROCESS_STATUS_CODE": "N",
+        "BIZ_TRACE_NO": null
+      }
+    }
+  },
+  {
+    "url": "https://job.bankcomm.com/api/GTMS.GTMS-PORTAL.V-1.0/queryPublicizeForHomepage.do",
+    "method": "POST",
+    "post_data": "REQ_MESSAGE=%7B%22REQ_HEAD%22%3A%7B%22TRAN_PROCESS%22%3A%22%22%2C%22TRAN_ID%22%3A%22%22%2C%22ACCESS_TOKEN%22%3A%22%22%2C%22REFRESH_TOKEN%22%3A%22%22%7D%2C%22REQ_BODY%22%3Anull%7D",
+    "data": {
+      "RSP_BODY": {
+        "callBoardList": [
+          {
+            "showFirstNum": null,
+            "publicizeId": 106791,
+            "publicizeTitle": "交通银行2027年度博士后研究人员招聘简章",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2026-09-15",
+            "createUser": "9856125",
+            "lastUpdateUser": "9856125",
+            "latsUpdateTime": "2026-09-23 10:54:02",
+            "noticeType": "0",
+            "isTop": "1",
+            "isMark": "1",
+            "addOnes": "",
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 104707,
+            "publicizeTitle": "《应聘登记表》模版（面向2026年上海市转业军官安置人员）",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2026-08-14",
+            "createUser": "9856125",
+            "lastUpdateUser": "9856125",
+            "latsUpdateTime": "2026-08-14 14:06:29",
+            "noticeType": "0",
+            "isTop": "1",
+            "isMark": "1",
+            "addOnes": "",
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 8525,
+            "publicizeTitle": "关于新用户注册问题的说明",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2014-09-26",
+            "createUser": "9709371",
+            "lastUpdateUser": "9709371",
+            "latsUpdateTime": "2014-09-26 09:14:04",
+            "noticeType": "0",
+            "isTop": "1",
+            "isMark": "1",
+            "addOnes": null,
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 8505,
+            "publicizeTitle": "关于教育信息填写方法的说明",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2014-09-25",
+            "createUser": "9709371",
+            "lastUpdateUser": "9709371",
+            "latsUpdateTime": "2014-09-25 19:15:55",
+            "noticeType": "0",
+            "isTop": "1",
+            "isMark": "1",
+            "addOnes": "",
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 70308,
+            "publicizeTitle": "交通银行高层次人才2024年招聘公告 （总行部门专场）",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2024-03-20",
+            "createUser": "9709371",
+            "lastUpdateUser": "9709371",
+            "latsUpdateTime": "2024-03-25 09:42:24",
+            "noticeType": "0",
+            "isTop": "0",
+            "isMark": "0",
+            "addOnes": "高层次引才职位需求（总行部门）.pdf",
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 70309,
+            "publicizeTitle": "交通银行高层次人才2024年招聘公告 （分行专场）",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2024-03-20",
+            "createUser": "9709371",
+            "lastUpdateUser": "9709371",
+            "latsUpdateTime": "2024-03-25 09:39:40",
+            "noticeType": "0",
+            "isTop": "0",
+            "isMark": "0",
+            "addOnes": "高层次引才职位需求（分行）.pdf",
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 70310,
+            "publicizeTitle": "交通银行高层次人才2024年招聘公告 （子公司专场）",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2024-03-20",
+            "createUser": "9709371",
+            "lastUpdateUser": "9709371",
+            "latsUpdateTime": "2024-03-25 09:39:40",
+            "noticeType": "0",
+            "isTop": "0",
+            "isMark": "0",
+            "addOnes": "高层次引才职位需求（子公司）.pdf",
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 53,
+            "publicizeTitle": "开放性问题填写注意事项",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2013-10-09",
+            "createUser": "9502572",
+            "lastUpdateUser": "9709371",
+            "latsUpdateTime": "2014-09-28 14:24:37",
+            "noticeType": "0",
+            "isTop": "0",
+            "isMark": "0",
+            "addOnes": null,
+            "attachmentList": null
+          }
+        ]
+      },
+      "RSP_HEAD": {
+        "TRAN_SUCCESS": "1",
+        "TRACE_NO": "gtms-portal-prd-gtms-prd-856b6f58c-7bqxf-5515001168",
+        "TRACE_ID": "0c446257.1.7139.4wfnzqxnvgt",
+        "PROCESS_STATUS_CODE": "N",
+        "BIZ_TRACE_NO": null
+      }
+    }
+  },
+  {
+    "url": "https://job.bankcomm.com/api/GTMS.GTMS-USER.V-1.0/getSmKey.do",
+    "method": "POST",
+    "post_data": "REQ_MESSAGE=%7B%22REQ_HEAD%22%3A%7B%22TRAN_PROCESS%22%3A%22%22%2C%22TRAN_ID%22%3A%22%22%2C%22ACCESS_TOKEN%22%3A%22%22%2C%22REFRESH_TOKEN%22%3A%22%22%7D%2C%22REQ_BODY%22%3A%7B%22unnessaryLogin%22%3Afalse%7D%7D",
+    "data": {
+      "RSP_BODY": {
+        "ACCESS_TOKEN": "",
+        "TRAN_PROCESS": "",
+        "unnessaryLogin": false,
+        "REFRESH_TOKEN": "",
+        "TRAN_ID": "",
+        "pubKey": "042eb7efd9918131ec087871ad0efa3049b577d5b5c8ff9bb45eeafaeb7617a70ca43d9672776f1e3879efe38b82c5a992173c3d510cc2bc26cf0867025d70b1ca"
+      },
+      "RSP_HEAD": {
+        "TRAN_SUCCESS": "1",
+        "TRACE_NO": "gtms-user-prd-gtms-prd-6655696-gm2w8-4411521401",
+        "TRACE_ID": "0c44084b.1.47006.4wfnzqxyqa9",
+        "PROCESS_STATUS_CODE": "N",
+        "BIZ_TRACE_NO": null
+      }
+    }
+  },
+  {
+    "url": "https://job.bankcomm.com/api/GTMS.GTMS-PORTAL.V-1.0/getHomepageVideoUrl.do",
+    "method": "POST",
+    "post_data": "REQ_MESSAGE=%7B%22REQ_HEAD%22%3A%7B%22TRAN_PROCESS%22%3A%22%22%2C%22TRAN_ID%22%3A%22%22%2C%22ACCESS_TOKEN%22%3A%22%22%2C%22REFRESH_TOKEN%22%3A%22%22%7D%2C%22REQ_BODY%22%3A%7B%22unnessaryLogin%22%3Afalse%7D%7D",
+    "data": {
+      "RSP_BODY": {
+        "ACCESS_TOKEN": "",
+        "TRAN_PROCESS": "",
+        "unnessaryLogin": false,
+        "REFRESH_TOKEN": "",
+        "TRAN_ID": "",
+        "url": "/video/"
+      },
+      "RSP_HEAD": {
+        "TRAN_SUCCESS": "1",
+        "TRACE_NO": "gtms-portal-prd-gtms-prd-856b6f58c-8gbsc-5711519747",
+        "TRACE_ID": "0c4419f3.1.7149.4wfnzqxylt9",
+        "PROCESS_STATUS_CODE": "N",
+        "BIZ_TRACE_NO": null
+      }
+    }
+  }
+]

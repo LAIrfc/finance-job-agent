@@ -1,0 +1,16 @@
+[
+  {
+    "job_key": "82e7b1dcab706ce707d5657f",
+    "state": "prepared",
+    "evidence": "",
+    "next_action": "仅测试状态记录，不实际申请",
+    "at": "2026-10-13T14:42:36.073476+08:00"
+  },
+  {
+    "job_key": "82e7b1dcab706ce707d5657f",
+    "state": "submitted",
+    "evidence": "模拟回执，仅限隔离测试数据库；未进行真实投递",
+    "next_action": "",
+    "at": "2026-10-13T14:42:36.212141+08:00"
+  }
+]

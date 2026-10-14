@@ -1,0 +1,114 @@
+{
+  "source_id": "picc-general",
+  "url": "https://picc.zhiye.com/custom/campus?c1=8&hideAll=true",
+  "fetched_at": "2026-10-13T15:00:26.912496+08:00",
+  "status": "collected",
+  "advertised_count": 1953,
+  "collected_count": 1953,
+  "pages": [
+    {
+      "page_index": 0,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 1,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 2,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 3,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 4,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 5,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 6,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 7,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 8,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 9,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 10,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 11,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 12,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 13,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 14,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 15,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 16,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 17,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 18,
+      "total": 1953,
+      "returned": 100
+    },
+    {
+      "page_index": 19,
+      "total": 1953,
+      "returned": 53
+    }
+  ],
+  "campus_filter": [
+    "2"
+  ],
+  "observed_request_file": "browser-picc-general-request.json"
+}

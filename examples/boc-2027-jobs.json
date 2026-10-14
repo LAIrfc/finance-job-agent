@@ -1,0 +1,113 @@
+[
+  {
+    "source_id": "boc",
+    "org": "中国银行",
+    "org_unit": "软件中心",
+    "org_level": "unknown",
+    "title": "信息科技岗位",
+    "track": "bank",
+    "recruitment_cycle": "2027秋招",
+    "apply_url": "https://campus.chinahr.com/pages/2027-boc",
+    "degree": null,
+    "graduation_years": [],
+    "locations": [
+      "北京",
+      "深圳",
+      "西安",
+      "合肥",
+      "上海",
+      "武汉",
+      "成都"
+    ],
+    "skills": [],
+    "deadline": "2026-10-09",
+    "deadline_time": "北京时间2026年10月9日24点",
+    "application_route": "commercial",
+    "hard_requirements": [
+      "公告列明具体应聘条件需到校园招聘网站查询，尚未解析附件与岗位详情"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html",
+        "quote": "软件中心信息科技岗位",
+        "raw_file": "data/raw/boc-20261013144137237941.raw"
+      },
+      {
+        "url": "https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html",
+        "quote": "报名截止时间为北京时间2026年10月9日24点。"
+      }
+    ],
+    "extraction_note": "Codex 依据官方公告整理；为岗位摘要，缺失资格要求；总行直属机构暂用 unknown，不误标总行或子公司"
+  },
+  {
+    "source_id": "boc",
+    "org": "中国银行",
+    "org_unit": "数字资产运营中心",
+    "org_level": "unknown",
+    "title": "数据分析岗位",
+    "track": "bank",
+    "recruitment_cycle": "2027秋招",
+    "apply_url": "https://campus.chinahr.com/pages/2027-boc",
+    "degree": null,
+    "graduation_years": [],
+    "locations": [
+      "北京"
+    ],
+    "skills": [],
+    "deadline": "2026-10-09",
+    "deadline_time": "北京时间2026年10月9日24点",
+    "application_route": "commercial",
+    "hard_requirements": [
+      "公告列明具体应聘条件需到校园招聘网站查询，尚未解析附件与岗位详情"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html",
+        "quote": "数字资产运营中心数据分析岗位",
+        "raw_file": "data/raw/boc-20261013144137237941.raw"
+      },
+      {
+        "url": "https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html",
+        "quote": "报名截止时间为北京时间2026年10月9日24点。"
+      }
+    ],
+    "extraction_note": "Codex 依据官方公告整理；为岗位摘要，缺失资格要求；总行直属机构暂用 unknown，不误标总行或子公司"
+  },
+  {
+    "source_id": "boc",
+    "org": "中国银行",
+    "org_unit": "信息科技运营中心",
+    "org_level": "unknown",
+    "title": "信息科技岗位",
+    "track": "bank",
+    "recruitment_cycle": "2027秋招",
+    "apply_url": "https://campus.chinahr.com/pages/2027-boc",
+    "degree": null,
+    "graduation_years": [],
+    "locations": [
+      "北京",
+      "上海",
+      "合肥",
+      "呼和浩特"
+    ],
+    "skills": [],
+    "deadline": "2026-10-09",
+    "deadline_time": "北京时间2026年10月9日24点",
+    "application_route": "commercial",
+    "hard_requirements": [
+      "公告列明具体应聘条件需到校园招聘网站查询，尚未解析附件与岗位详情"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html",
+        "quote": "信息科技运营中心信息科技岗位",
+        "raw_file": "data/raw/boc-20261013144137237941.raw"
+      },
+      {
+        "url": "https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html",
+        "quote": "报名截止时间为北京时间2026年10月9日24点。"
+      }
+    ],
+    "extraction_note": "Codex 依据官方公告整理；为岗位摘要，缺失资格要求；总行直属机构暂用 unknown，不误标总行或子公司"
+  }
+]

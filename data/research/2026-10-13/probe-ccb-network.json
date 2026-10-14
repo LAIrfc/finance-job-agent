@@ -1,0 +1,318 @@
+[
+  {
+    "url": "https://job2.ccb.com/cn/v3/js/city_url_data.js",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "cityList": [
+        {
+          "place": "安徽省分行",
+          "placeNum": "340000000",
+          "place_url": "http://www.ccb.com/ah/index.html",
+          "more_url": "http://www.ccb.com/ah/index.html"
+        },
+        {
+          "place": "北京市分行",
+          "placeNum": "110000000",
+          "place_url": "http://www.ccb.com/bj/index.html",
+          "more_url": "http://www.ccb.com/bj/index.html"
+        },
+        {
+          "place": "重庆市分行",
+          "placeNum": "500000000",
+          "place_url": "http://www.ccb.com/cq/index.html",
+          "more_url": "http://www.ccb.com/cq/index.html"
+        },
+        {
+          "place": "大连市分行",
+          "placeNum": "212007000",
+          "place_url": "http://www.ccb.com/dl/index.html",
+          "more_url": "http://www.ccb.com/dl/index.html"
+        },
+        {
+          "place": "福建省分行",
+          "placeNum": "350000000",
+          "place_url": "http://www.ccb.com/fj/index.html",
+          "more_url": "http://www.ccb.com/fj/index.html"
+        },
+        {
+          "place": "广东省分行",
+          "placeNum": "440000000",
+          "place_url": "http://www.ccb.com/gd/index.html",
+          "more_url": "http://www.ccb.com/gd/index.html"
+        },
+        {
+          "place": "广西区分行",
+          "placeNum": "450000000",
+          "place_url": "http://www.ccb.com/gx/index.html",
+          "more_url": "http://www.ccb.com/gx/index.html"
+        },
+        {
+          "place": "贵州省分行",
+          "placeNum": "520000000",
+          "place_url": "http://www.ccb.com/gz/index.html",
+          "more_url": "http://www.ccb.com/gz/index.html"
+        },
+        {
+          "place": "甘肃省分行",
+          "placeNum": "620000000",
+          "place_url": "http://www.ccb.com/gs/index.html",
+          "more_url": "http://www.ccb.com/gs/index.html"
+        },
+        {
+          "place": "河南省分行",
+          "placeNum": "410000000",
+          "place_url": "http://www.ccb.com/ha/index.html",
+          "more_url": "http://www.ccb.com/ha/index.html"
+        },
+        {
+          "place": "河北省分行",
+          "placeNum": "130000000",
+          "place_url": "http://www.ccb.com/he/index.html",
+          "more_url": "http://www.ccb.com/he/index.html"
+        },
+        {
+          "place": "黑龙江省分行",
+          "placeNum": "230000000",
+          "place_url": "http://www.ccb.com/hl/index.html",
+          "more_url": "http://www.ccb.com/hl/index.html"
+        },
+        {
+          "place": "湖北省分行",
+          "placeNum": "420000000",
+          "place_url": "http://www.ccb.com/hb/index.html",
+          "more_url": "http://www.ccb.com/hb/index.html"
+        },
+        {
+          "place": "湖南省分行",
+          "placeNum": "430000000",
+          "place_url": "http://www.ccb.com/hn/index.html",
+          "more_url": "http://www.ccb.com/hn/index.html"
+        },
+        {
+          "place": "海南省分行",
+          "placeNum": "460000000",
+          "place_url": "http://www.ccb.com/hi/index.html",
+          "more_url": "http://www.ccb.com/hi/index.html"
+        },
+        {
+          "place": "辽宁省分行",
+          "placeNum": "210000000",
+          "place_url": "http://www.ccb.com/ln/index.html",
+          "more_url": "http://www.ccb.com/ln/index.html"
+        },
+        {
+          "place": "吉林省分行",
+          "placeNum": "220000000",
+          "place_url": "http://www.ccb.com/jl/index.html",
+          "more_url": "http://www.ccb.com/jl/index.html"
+        },
+        {
+          "place": "江苏省分行",
+          "placeNum": "320000000",
+          "place_url": "http://www.ccb.com/js/index.html",
+          "more_url": "http://www.ccb.com/js/index.html"
+        },
+        {
+          "place": "江西省分行",
+          "placeNum": "360000000",
+          "place_url": "http://www.ccb.com/jx/index.html",
+          "more_url": "http://www.ccb.com/jx/index.html"
+        },
+        {
+          "place": "内蒙古分行",
+          "placeNum": "150000000",
+          "place_url": "http://www.ccb.com/nm/index.html",
+          "more_url": "http://www.ccb.com/nm/index.html"
+        },
+        {
+          "place": "宁波市分行",
+          "placeNum": "331002800",
+          "place_url": "http://www.ccb.com/nb/index.html",
+          "more_url": "http://www.ccb.com/nb/index.html"
+        },
+        {
+          "place": "宁夏区分行",
+          "placeNum": "640000000",
+          "place_url": "http://www.ccb.com/nx/index.html",
+          "more_url": "http://www.ccb.com/nx/index.html"
+        },
+        {
+          "place": "青岛市分行",
+          "placeNum": "371000000",
+          "place_url": "http://www.ccb.com/qd/index.html",
+          "more_url": "http://www.ccb.com/qd/index.html"
+        },
+        {
+          "place": "青海省分行",
+          "placeNum": "630000000",
+          "place_url": "http://www.ccb.com/qh/index.html",
+          "more_url": "http://www.ccb.com/qh/index.html"
+        },
+        {
+          "place": "山东省分行",
+          "placeNum": "370000000",
+          "place_url": "http://www.ccb.com/sd/index.html",
+          "more_url": "http://www.ccb.com/sd/index.html"
+        },
+        {
+          "place": "陕西省分行",
+          "placeNum": "610000000",
+          "place_url": "http://www.ccb.com/sn/index.html",
+          "more_url": "http://www.ccb.com/sn/index.html"
+        },
+        {
+          "place": "山西省分行",
+          "placeNum": "140000000",
+          "place_url": "http://www.ccb.com/sx/index.html",
+          "more_url": "http://www.ccb.com/sx/index.html"
+        },
+        {
+          "place": "上海市分行",
+          "placeNum": "310000000",
+          "place_url": "http://www.ccb.com/sh/index.html",
+          "more_url": "http://www.ccb.com/sh/index.html"
+        },
+        {
+          "place": "深圳市分行",
+          "placeNum": "442000000",
+          "place_url": "http://www.ccb.com/sz/index.html",
+          "more_url": "http://www.ccb.com/sz/index.html"
+        },
+        {
+          "place": "四川省分行",
+          "placeNum": "510000000",
+          "place_url": "http://www.ccb.com/sc/index.html",
+          "more_url": "http://www.ccb.com/sc/index.html"
+        },
+        {
+          "place": "苏州分行",
+          "placeNum": "322000000",
+          "place_url": "http://www.ccb.com/su/index.html",
+          "more_url": "http://www.ccb.com/su/index.html"
+        },
+        {
+          "place": "天津市分行",
+          "placeNum": "120000000",
+          "place_url": "http://www.ccb.com/tj/index.html",
+          "more_url": "http://www.ccb.com/tj/index.html"
+        },
+        {
+          "place": "厦门市分行",
+          "placeNum": "351000000",
+          "place_url": "http://www.ccb.com/xm/index.html",
+          "more_url": "http://www.ccb.com/xm/index.html"
+        },
+        {
+          "place": "新疆区分行",
+          "placeNum": "650000000",
+          "place_url": "http://www.ccb.com/xj/index.html",
+          "more_url": "http://www.ccb.com/xj/index.html"
+        },
+        {
+          "place": "西藏区分行",
+          "placeNum": "540000000",
+          "place_url": "http://www.ccb.com/xz/index.html",
+          "more_url": "http://www.ccb.com/xz/index.html"
+        },
+        {
+          "place": "云南省分行",
+          "placeNum": "530000000",
+          "place_url": "http://www.ccb.com/yn/index.html",
+          "more_url": "http://www.ccb.com/yn/index.html"
+        },
+        {
+          "place": "浙江省分行",
+          "placeNum": "330000000",
+          "place_url": "http://www.ccb.com/zj/index.html",
+          "more_url": "http://www.ccb.com/zj/index.html"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://job2.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&isAjaxRequest=true&SERVLET_NAME=WCCMainPlatV5&TXCODE=NHR117&codeItemId=3137",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "SUCCESS": "false",
+      "TXCODE": "NHR117",
+      "SYS_EVT_TRACE_ID": "1010167691791874920037082",
+      "ERRORCODE": "0060Z1108006",
+      "ERRORMSG": "暂时未能处理您的请求，请重新登录。"
+    }
+  },
+  {
+    "url": "https://job2.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&SERVLET_NAME=WCCMainPlatV5&TXCODE=NDPD03&Cst_ID=LjmSsj6PPAUes%2Bb5BKsRVXi43b2kVGpq&Chnl_ID=0009&Clmn_ID=15000&Tsk_Ind=Y&SYS_CODE=1000&MP_CODE=00&APP_NAME=COM.NETBANK&SEC_VERSION=1.0.0",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "Column_Group": [
+        {
+          "Clmn_ID": "15000",
+          "Atch_Pgs": 1,
+          "Ad_Ovd_Tm": "20261013160000",
+          "Pic_Group": [
+            {
+              "Ad_Src_Dsc": "http://imageadv.ccb.com/adpic/nctm/ad/20260904/102016Y121788498541956098.jpg",
+              "Intfc_Skp_Tp": "2",
+              "bsnParamInd": "1",
+              "Ad_Cnt": "",
+              "Ad_Trgt_URL_Adr": "http://job.ccb.com/cn/job/plan_index.html?planType=XY",
+              "Pic_Links_Adr": "http://imageadv.ccb.com/adpic/nctm/ad/20260904/102016Y121788498531955963.jpg",
+              "Ad_Ttl": "",
+              "Ad_Rls_Nm": "0_576149",
+              "Skp_Ttl_ID": "00000000",
+              "ParVal": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://job2.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&isAjaxRequest=true&SERVLET_NAME=WCCMainPlatV5&TXCODE=NHR105&isImpAnno=1&isHomePageDisplay=1",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "SUCCESS": "true",
+      "MTTC": "",
+      "TXCODE": "NHR105",
+      "SYS_EVT_TRACE_ID": "1010167691791874920037096",
+      "TOTAL_PAGE": "1",
+      "TOTAL_REC": "5",
+      "CURR_TOTAL_PAGE": "1",
+      "CURR_TOTAL_REC": "5",
+      "STS_TRACE_ID": "",
+      "busCode": "000000000000",
+      "busMsg": "OK",
+      "annoList": [
+        {
+          "annoId": "20260903163254718082",
+          "annoTitle": "中国建设银行总部2027年度校园招聘公告",
+          "annoDate": "2026-09-04"
+        },
+        {
+          "annoId": "20260904110808720852",
+          "annoTitle": "中国建设银行总行直属机构2027年度校园招聘公告",
+          "annoDate": "2026-09-04"
+        },
+        {
+          "annoId": "20260901194840667699",
+          "annoTitle": "中国建设银行境内分支机构2027年度校园招聘公告",
+          "annoDate": "2026-09-04"
+        },
+        {
+          "annoId": "20260904115022720661",
+          "annoTitle": "中国建设银行综合化经营子公司2027年度校园招聘公告",
+          "annoDate": "2026-09-04"
+        },
+        {
+          "annoId": "20260903151536717854",
+          "annoTitle": "中国建设银行博士后科研工作站2027年度博士后研究人员招聘公告",
+          "annoDate": "2026-09-04"
+        }
+      ]
+    }
+  }
+]

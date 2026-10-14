@@ -1,0 +1,24 @@
+{
+  "source_id": "cicc",
+  "url": "https://cicc.zhiye.com",
+  "fetched_at": "2026-10-13T14:59:03.801869+08:00",
+  "status": "collected",
+  "advertised_count": 104,
+  "collected_count": 104,
+  "pages": [
+    {
+      "page_index": 0,
+      "total": 104,
+      "returned": 100
+    },
+    {
+      "page_index": 1,
+      "total": 104,
+      "returned": 4
+    }
+  ],
+  "campus_filter": [
+    2
+  ],
+  "observed_request_file": "browser-cicc-request.json"
+}

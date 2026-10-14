@@ -1,0 +1,6 @@
+{
+  "source_id": "boc",
+  "outcome": "page_fetched",
+  "detail": "/home/wangxinghan/人生规划/项目/金融秋招Agent/data/raw/boc-20261013144235764730.raw",
+  "warning": "页面抓取不等于岗位解析；无新岗位不等于源故障"
+}

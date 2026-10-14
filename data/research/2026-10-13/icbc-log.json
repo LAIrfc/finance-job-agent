@@ -1,0 +1,139 @@
+{
+  "total": 2572,
+  "collected": 2572,
+  "complete": true,
+  "error": null,
+  "pages": [
+    {
+      "page": 1,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 2,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 3,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 4,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 5,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 6,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 7,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 8,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 9,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 10,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 11,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 12,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 13,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 14,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 15,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 16,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 17,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 18,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 19,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 20,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 21,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 22,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 23,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 24,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 25,
+      "rows": 100,
+      "total": 2572
+    },
+    {
+      "page": 26,
+      "rows": 72,
+      "total": 2572
+    }
+  ],
+  "observed_url": "https://job.icbc.com.cn/icbc/trmo/post/qryPostList"
+}

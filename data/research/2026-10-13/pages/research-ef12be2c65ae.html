@@ -1,0 +1,1706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--start component HTML组件(自适应设置)-->
+   <script>
+        var html = document.querySelector('html');
+        changeRem();
+        //添加resize事件
+        window.addEventListener('resize',changeRem);
+        function changeRem() {
+            //获取设备宽度
+            var width = html.getBoundingClientRect().width;
+            //console.log( width );
+            html.style.fontSize = width/10+ 'px';
+        }
+    </script>
+<!--end component HTML组件(自适应设置)-->
+
+<!--start component HTML组件(meta+css+js+移动样式)-->
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="SiteName" content="中国农业发展银行">
+    <meta name="SiteDomain" content="www.adbc.com.cn">
+    <meta name="keywords" content="中国农业发展银行，农发行，adbc">
+    <meta name="description" content="中国农业发展银行成立于1994年，是国家出资设立、直属国务院领导、支持农业农村持续健康发展、具有独立法人地位的国有政策性银行。其主要任务是以国家信用为基础，以市场为依托，筹集支农资金，支持“三农”事业发展，发挥国家战略支撑作用。经营宗旨是紧紧围绕服务国家战略，建设定位明确、功能突出、业务清晰、资本充足、治理规范、内控严密、运营安全、服务良好、具备可持续发展能力的农业政策性银行。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国农业发展银行</title>
+    <link rel="icon" href="template/350312/350328.png" type="image/png">
+<link rel="stylesheet" href="template/350312/350320.css">
+    <link rel="stylesheet" href="template/350312/350318.css">
+    <link rel="stylesheet" href="template/350312/350319.css">
+    
+<link rel="stylesheet" href="template/350312/398532.css">
+
+<!--<link rel="stylesheet" type="text/css" href="dbsource/493401/493402.css">-->
+
+
+    <script src="template/350312/350329.js"></script>
+    <script src="template/350312/350332.js"></script>
+    <script src="template/350312/350330.js"></script>
+<script type='text/javascript'>
+  
+//设为浏览器主页
+function setHome(obj,vrl){
+    try{
+        obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl);
+    }
+    catch(e){
+        if(window.netscape) {
+            try {
+                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+            }
+            catch (e) {
+                alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+            }
+            var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+            prefs.setCharPref('browser.startup.homepage',vrl);
+        }else{
+            alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。");
+        }
+    }
+};
+
+
+        $(function(){
+            $('.elevator').hide();
+            $(window).scroll(function(){
+                if($(window).scrollTop()>0){
+                    $('.elevator').fadeIn(400);
+                } else {
+                    $('.elevator').fadeOut(400);
+                }
+            });
+            $('.backTop').click(function(){
+                $('html,body').animate({scrollTop: '0px'}, 800);
+            });
+        })
+</script>
+
+
+
+
+
+
+
+
+<style>
+  
+.FooterBottomydb{
+display:none;
+}
+  .MessageBox{
+  width:970px;
+   margin:0 auto;
+  }
+  
+@charset 'utf-8';
+@media (max-width: 1024px) {
+  
+  .SubjectBox{
+    width: 100%;
+    top: -16px;
+    left: 0;
+    transition: 0.3s;
+    height: 0.5rem;
+}
+  
+  
+  
+  
+  .TopInfoR{
+  display:none !important;
+  }
+  
+  .logo, .logo img{
+  width:auto !important;
+   margin-left:8px;
+  
+  }
+  
+  
+
+  .w1380{
+    width: 100% !important;margin: 0 auto;
+}
+ .RouteInfor{ width:93%;padding-top: 10px;padding-left: 10px;padding-bottom:0;}
+  
+  .ContentBanner{width:100%;}
+  
+  .padding-top{padding-top:25px;padding-left:20px;}
+  
+.ContentLists{padding-top:0px;}
+  
+.ContentBanner{display:none;}
+
+.phone_nav{
+  padding-bottom:14px;
+  border-top:1px solid #c5a86f;
+  border-bottom:1px solid #c5a86f;
+  box-shadow: 5px 0 7px -1px #c5a86f;
+  }
+  
+  
+   .phone_nav ul li {
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+ 
+  
+  .ContentLists ul li{
+    width: 95%;
+   padding:0.5rem 0 0.5rem 0rem;
+    height:auto !important;
+    line-height: 1.8rem;
+    background: url(dbsource/405778/405779.png)no-repeat 1px 17px;
+    border-bottom: 1px #ad8b4e dotted;
+    margin:0 auto;
+    overflow: hidden;
+}
+    
+  
+  
+.ContentLists ul li a{
+    padding-left: 20px;
+  font-size:0.25rem;
+}
+.ContentLists ul li span{
+    display:none;
+}
+.ContentLists ul li:hover{
+    border-bottom: 4px #ad8b4e solid;
+}
+.ContentLists ul li:hover a{
+    font-weight: 900;color: #ad8b4e;
+}
+  .ContentBanner{background-size:7.9rem ;}
+
+
+  .backTop{
+right:35px;
+    bottom:55px;
+    z-index:9999;
+}
+  #ContentWarpbg{
+padding-bottom:20px;
+}
+  #Content{
+padding-bottom:0.9rem !important;
+}
+
+.pageBtn{
+margin-top:30px;
+}
+
+  .phone_none{display:none;}
+ 
+  .FooterBottomydb{
+display:block;
+     width: 100%;text-align: center;line-height: 30px;background: #283033;color: #fff;
+    padding-top: 10px;padding-bottom: 10px
+}
+  
+  .FooterBottomydb a{
+color:#fff;
+}
+  
+  .FooterBottomydb p{
+font-size:0.8rem;
+}
+  
+  .pageBtn font, .pageBtn a{
+  
+  padding: 4px 5px;
+  }
+  
+
+  .MessageBox{
+  width:100%;
+  }
+  
+  
+  
+}
+  
+</style>
+
+<!--end component HTML组件(meta+css+js+移动样式)-->
+
+<!--start component HTML组件(visit)-->
+<script type='text/javascript'>
+window.onload = function(){
+     visitAdd();
+}
+
+//添加缓存接口调用
+function visitAdd(){
+    let param={};
+    let visitInfo={};
+    var urls = window.location.href;
+    visitInfo.visitUrl=urls;
+    visitInfo.ctitle="";
+    visitInfo.subjectDn="/1/3";
+    visitInfo.contentId="";
+    visitInfo.visitType="1";
+    visitInfo.referrer="0";
+    visitInfo.platform=navigator.platform;
+    visitInfo.equipment=getEquipment();
+    visitInfo.webReferrer=getReferrer();
+    visitInfo.browser=getBrowser();
+    param.visitInfo=JSON.stringify(visitInfo);
+
+//url需补充visit系统域名
+    var url="https://www.adbc.com.cn/visit/visitExtend/visitAdd.do";    
+    ajaxPost(url,param,function(msg){
+        if(msg){
+            let results=msg.contents;
+        }
+    })
+}
+
+//公共通用方法：
+function ajaxPost(url,data,callBack){
+    data.ajax=1;
+    jQuery.ajax({
+        type: 'POST',
+        url: url,
+        async:false,
+        data: data,
+        success: callBack,
+        dataType: "json"
+    });
+}
+function  getEquipment(){
+    let platform=navigator.platform;
+    let result="";
+    if(platform.indexOf('google.')>-1){
+        result="移动端";
+    }else {
+        result="计算机端";
+    }
+    return   result;
+}
+ function  getReferrer(){
+    let referrer=document.referrer;
+    let result="";
+    if(""==referrer){
+        result="直接访问";
+    }
+    else if(referrer.indexOf('google.')>-1||referrer.indexOf('baidu.')>-1||referrer.indexOf('soso.')>-1||referrer.indexOf('so.')>-1||referrer.indexOf('360.')>-1||referrer.indexOf('yahoo.')>-1||referrer.indexOf('youdao.')>-1||referrer.indexOf('sogou.')>-1||referrer.indexOf('gougou.')>-1){
+        result="搜索引擎";
+    }else {
+        result="外部链接";
+    }
+    return   result;
+}
+function systemType() {
+    var result=navigator.platform;
+    alert(result);
+    return result;
+}
+//遨游浏览器
+function checkMaxthon() {
+    var result = false;
+    var list = [];
+    for (var key in navigator.plugins) {
+        // 遨游浏览器只有五个一致的plugins
+        if (!!navigator.plugins[key].filename) {
+            list.push(navigator.plugins[key].filename);
+        }
+    }
+    if(list.length == 5){
+        result = true;
+    }else {
+        result = false;
+    }
+    return result;
+}
+//360浏览器（极速内核）
+ function check360() {
+    // var result = false;
+    // for (var key in navigator.plugins) {
+    //     // np-mswmp.dll只在360浏览器下存在
+    //     if (navigator.plugins[key].filename == 'internal-nacl-plugin') {
+    //         return !result;
+    //     }
+    // }
+    // return result;
+     var mime_types = navigator.mimeTypes;
+     for (var i = 0; i < mime_types.length; i++) {
+         console.log(mime_types[i].type);
+         if (mime_types[i].type.indexOf('360')>0)      return true;
+     }
+     return false;
+}
+//遨游浏览器
+ function checkMaxthon() {
+    var result = false;
+    var list = [];
+    for (var key in navigator.plugins) {
+        // 遨游浏览器只有五个一致的plugins
+        if (!!navigator.plugins[key].filename) {
+            list.push(navigator.plugins[key].filename);
+        }
+    }
+    if(list.length == 5){
+        result = true;
+    }else {
+        result = false;
+    }
+    return result;
+}
+//获取当前的浏览器
+ function getBrowser() {
+    // 获取浏览器 userAgent
+    var ua = navigator.userAgent;
+    // 是否为 Opera
+    var isOpera = ua.indexOf('opr') > -1
+    // 返回结果
+    if (isOpera) { return 'Opera' }
+    // 是否为 IE
+    var isIE = (ua.indexOf('compatible') > -1) && (ua.indexOf('MSIE') > -1) && !isOpera
+    var isIE11 = (ua.indexOf('Trident') > -1) && (ua.indexOf("rv:11.0") > -1)
+    // 返回结果
+    if (isIE11) { return 'IE11'
+    } else if (isIE) {
+        // 检测是否匹配
+        var re = new RegExp('MSIE (\\d+\\.\\d+);')
+        re.test(ua)
+        // 获取版本
+        var ver = parseFloat(RegExp["$1"])
+        // 返回结果
+        if (ver == 7) { return 'IE7'
+        } else if (ver == 8) { return 'IE8'
+        } else if (ver == 9) { return 'IE9'
+            } else if (ver == 10) { return 'IE10'
+        } else { return "IE" }
+}
+// 是否为 Edge
+    var isEdge = ua.indexOf("Edg") > -1
+    // 返回结果
+    if (isEdge) { return 'Edge' }
+    // 是否为 Firefox
+    var isFirefox = ua.indexOf("Firefox") > -1
+    // 返回结果
+    if (isFirefox) { return 'Firefox' }
+    // 是否为 Safari
+    var isSafari = (ua.indexOf("Safari") > -1) && (ua.indexOf("Chrome") == -1)
+    // 返回结果
+    if (isSafari) { return "Safari" }
+    // 是否为 Chrome
+    var isChrome = (ua.indexOf("Chrome") > -1) && (ua.indexOf("Safari") > -1) && (ua.indexOf("Edge") == -1) && (ua.indexOf("QQBrowser") == -1) && (ua.indexOf("2345Explorer") == -1) && (check360() == false) && (checkMaxthon() == false)
+    // 返回结果
+    if (isChrome) { return '谷歌浏览器' }
+    // 是否为 QQ
+    var isQQ = ua.indexOf("QQBrowser") > -1
+    // 返回结果
+    if (isQQ) { return 'QQ浏览器' }
+    // 是否为傲游浏览器
+    var isMaxthon = checkMaxthon()
+    // 返回结果
+    if (isMaxthon) { return '傲游浏览器' }
+    // 是否为搜狗浏览器
+    var isMaxthon = ua.indexOf("se 2.x") > -1
+    // 返回结果
+    if (isMaxthon) { return '搜狗浏览器' }
+    // 是否为2345浏览器
+    var is2345Explorer = ua.indexOf("2345Explorer") > -1;
+    // 返回结果
+    if(is2345Explorer){
+        return '2345浏览器';
+    }
+    var is360 = check360() && (ua.indexOf("Safari") > -1)
+    if(is360){return '360浏览器'}
+    // 都不是
+    return '其他'
+}
+</script>
+<!--end component HTML组件(visit)-->
+
+</head>
+<body>
+
+<!--start component HTML组件(Top+Search)-->
+
+    <div class="CatchTop">
+        <div class="TopInfo clearfix">
+            <div class="w1300">
+                <div class="TopInfoL fl">
+                    <ul>
+                       <li><a onclick="setHome(this,window.location);" style="cursor:pointer;">设为首页</a></li>
+                        <li>|</li>
+                        
+                        <li><a href=https://www.adbc.com.cn target="_blank">中文版</a></li>
+                        <li>|</li>
+                        <li><a href="https://www.adbc.com.cn/en/">English</a></li>
+                    </ul>
+                </div>
+                <div class="TopInfoR fr">
+                    <form action="https://www.adbc.com.cn/searchweb/search.jsp">
+                        <input type="text" name="fullText" placeholder="请输入您搜索的内容">
+                        <button type="submit"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+<!--end component HTML组件(Top+Search)-->
+
+<!--start component HTML组件(Nav)-->
+        <div class="LogoNav clearfix">
+            <div class="w1300">
+                <div class="logo fl">
+                    <a href="https://www.adbc.com.cn/">
+                        <img src="template/350312/350327.png" alt="">
+                      
+                      
+                      
+                    </a>
+                </div>
+                <div class="nav fr">
+                    <ul>
+                        <li class="bg_1"><a href="index.html">首页</a></li>                  
+                                                          
+                        <li class="bg_2">
+                            <a href="n4/n11/index.html" >机构概况</a>
+                          
+                            <div class="secondMenu">
+                                <a href="n4/n10/index.html" >领导团队</a>
+                                <a href="n4/n11/index.html" >组织架构</a>
+                                <a href="n4/n1017/index.html" >发展战略</a>
+                                <a href="n4/n388346/index.html" >荣誉奖项</a>
+                                <a href="n4/n542940/index.html" >年度报告</a>
+                            </div>
+                        </li>
+                        <li class="bg_3">
+                            <a href="n1296/index.html" >公司治理</a>
+                            <div class="secondMenu">
+                                <a href="n1296/n1297/index.html" >治理架构</a>
+                                <a href="n1296/n1298/index.html" >董事会职责</a>
+                                <a href="n1296/n1299/index.html" >治理公告</a>
+                            </div>
+                        </li>
+                        <li class="bg_4">
+                            <a href="n354793/index.html" >政策发布</a>
+                            <div class="secondMenu">
+                                <a href="n354793/n354820/index.html" >领导文章</a>
+                                <a href="n354793/n399554/index.html" >战略合作</a>
+                                <!-- <a href="n354793/n354830/index.html" >政策分析</a> -->
+								<a href="n354793/n354835/index.html" >信贷政策</a>
+                            </div>
+                        </li>
+                                            
+                        <li class="bg_5">
+                            <a href="n5/index.html" >新闻资讯</a>
+                            <div class="secondMenu">
+                                <a href="n5/n1006/index.html" >时政要闻</a>
+                               <a href="n5/n16/index.html" >图片新闻</a>
+                                <a href="n5/n15/index.html" >总行动态</a>
+                                <a href="n5/n1021/index.html" >基层信息</a>
+                                <a href="n5/n17/index.html" >媒体反映</a>
+                               
+                            </div>
+                        </li>
+                        <li class="bg_6">
+                            <a href="n997/n1023/index.html">党建工作</a>
+                            <div class="secondMenu">
+                                <a href="n997/n1023/index.html" >党建动态</a> 
+                                <a href="n997/n1148/index.html">廉政建设</a>
+                            </div>
+                        </li>
+                        <li class="bg_7">
+                            <a href="n7/index.html">支农品牌</a>
+                            <div class="secondMenu">
+                                <a href="n7/n353796/index.html" >粮食银行</a>
+                                <a href="n7/n353803/index.html" >农地银行</a>
+                                <a href="n7/n353895/index.html" >水利银行</a>
+                                <a href="n7/n353910/index.html">绿色银行</a>
+                         <!--            <a href="n7/n353915/index.html" >巩固衔接</a>   -->
+                           <!--          <a href="n7/n353920/index.html" >乡村建设</a>   -->
+                            <!--         <a href="n7/n353960/index.html" >国际业务</a>   -->
+                            <!--         <a href="n7/n353965/index.html" >资金筹集</a>   -->
+                            </div>
+                        </li>
+                        <li class="bg_8">
+                            <a href="n8/index.html" >企业文化</a>
+                            <div class="secondMenu">
+                                <a href="n8/n1149/index.html" >形象理念</a>
+                     <!--                    <a href="n8/n631161/index.html" >金融文化</a>    -->
+                                <a href="n8/n700505/index.html" >廉洁文化</a>
+                     <!--            <a href="n8/n28/index.html" >员工风采</a>	 -->
+                     <!--            <a href="n8/n355089/index.html" >文体活动</a>	 -->
+                                <a href="n8/n355107/index.html" >社会公益</a>
+                            </div>
+                        </li>
+                        <li class="bg_9">
+                            <a href="n6/index.html" >客户服务</a>
+                            <div class="secondMenu">
+                                <a href="https://95356.adbc.com.cn/" >统一服务门户</a>
+                                <a href="n6/n23/index.html" >营业网点</a>
+                                <a href="n6/n21/index.html" >收费标准</a>
+                                <a href="n6/n648131/index.html" >存款利率</a>
+                      <!--            <a href="n6/n19/index.html" >业务介绍</a>	-->
+                          
+                               <a href="n6/n1310/index.html" >电子银行</a>
+                     <!--                <a href="n6/n355067/index.html">权益保护</a>	-->
+                               <a href="https://www.adbc.com.cn/n6/n604902/c604905/content.html">福农卡</a>
+    
+                            </div>
+                        </li>
+<!--                        <li class="bg_10">
+                            <a href="n354767/index.html" >专题活动</a>
+                           <!-- <div class="secondMenu">
+                                <a href="#" >党建方面</a>
+                                <a href="#" >业务方面</a>
+                                <a href="#" >八项改革</a>
+                                <a href="n354767/n395358/index.html" >八大工程</a>
+                                <a href="#" >数字科技</a>
+                            </div>
+                        </li>
+-->
+                        <li class="bg_11">
+                            <a href="n354735/index.html" >通知公告</a>
+                            <div class="secondMenu">
+                                <a href="n354735/n355038/index.html" >公告公示</a>
+                                <a href="n354735/n355043/index.html">招聘公告</a>
+                                <a href="n354735/n355053/index.html" >宣传活动</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+<div class="phone_nav">
+                    <ul>
+                        <li><a href="n4/index.html">机构概况</a></li>
+                        <li><a href="n1296/index.html" >公司治理</a></li>
+                        <li><a href="n354793/index.html">政策发布</a></li>
+                        <li><a href="n5/index.html" >新闻资讯</a></li>
+                        <li><a href="n997/index.html" >党建工作</a></li>
+                        <li><a href="n7/index.html" >支农品牌</a></li>
+                        <li><a href="n8/index.html" >企业文化</a></li>
+                        <li><a href="n6/index.html" >客户服务</a></li>
+<!--  
+						<li><a href="n354767/index.html" >专题活动</a></li>
+-->
+                        <li><a href="n354735/index.html" >通知公告</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>   
+        </div>   
+
+  <style>
+        .nav ul li{
+            position: relative;
+        }
+        .secondMenu{
+            position: absolute;left: -20px;z-index: 999;display: none;padding: 10px 0;top: 54px;
+            animation: menu1 0.8s forwards;-webkit-animation: menu1 0.8s forwards;
+            -moz-animation: menu1 0.8s forwards;-o-animation: menu1 0.8s forwards;
+        }
+        @keyframes menu1 {
+            from{top: 70px;opacity: 0;}to{top: 54px;opacity: 1;}
+        }
+        @-webkit-keyframes menu1 {
+            from{top: 70px;opacity: 0;}to{top: 54px;opacity: 1;}
+        }
+        @-moz-keyframes menu1 {
+            from{top: 70px;opacity: 0;}to{top: 54px;opacity: 1;}
+        }
+        @-o-keyframes menu1 {
+            from{top: 70px;opacity: 0;}to{top: 54px;opacity: 1;}
+        }
+        .secondMenu a{
+            display: block;width: 120px!important;height: 35px;line-height: 35px;text-align: center;font-size: 18px;color: #fff!important;
+            animation: am 0.5s forwards!important;background: #c5a86f;margin-top: 0;
+            -webkit-animation: am 0.5s forwards!important;-moz-animation: am 0.5s forwards!important;-o-animation: am 0.5s forwards!important;
+        }
+        .secondMenu a:hover{
+            background: rgba(197,168,111,0.8);
+        }
+        @keyframes am {
+            from{margin-top: 8px;}to{margin-top: 0;}
+        }
+        @-webkit-keyframes am {
+            from{margin-top: 8px;}to{margin-top: 0;}
+        }
+        @-moz-keyframes am {
+            from{margin-top: 8px;}to{margin-top: 0;}
+        }
+        @-o-keyframes am {
+            from{margin-top: 8px;}to{margin-top: 0;}
+        }
+    </style>
+    <script>
+        $(function(){
+            $('.nav ul li').hover(function(){
+                $(this).find('div.secondMenu').show();
+            },function(){
+                $(this).find('div.secondMenu').hide();
+            })
+        })
+    </script>
+
+
+    <div class="Warp" >
+<!--end component HTML组件(Nav)-->
+
+<!--start component 文档组件(BigBanner)-->
+        <style>
+
+
+
+
+
+
+.fog__container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+top:0;
+left:0;
+  overflow: hidden;
+}
+.fog__img {
+  position: absolute;
+  height: 100%;
+  width: 300vw;
+}
+.fog__img--first {
+  background: url("dbsource/472296/497495.png") repeat-x;
+  background-size: contain;
+  background-position: center;
+  -webkit-animation: marquee 200s linear infinite;
+          animation: marquee 200s linear infinite;
+  opacity: 0.6;
+}
+.fog__img--second {
+   background: url("dbsource/472296/497498.png") repeat-x;
+  background-size: contain;
+  background-position: center;
+  -webkit-animation: marquee 150s linear infinite;
+          animation: marquee 150s linear infinite;
+  opacity: 0.6;
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-200vw, 0, 0);
+            transform: translate3d(-200vw, 0, 0);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-200vw, 0, 0);
+            transform: translate3d(-200vw, 0, 0);
+  }
+}
+
+</style>
+
+
+
+
+
+
+<div class="BigBanner">
+            <div class="BannerText">
+
+            </div>
+            <img src="template/350312/350321.jpg" alt="">
+          
+          
+          <div class="fog__container">
+       <div class="fog__img fog__img--first"></div>
+       <div class="fog__img fog__img--second"></div>
+    </div>
+          
+          
+          
+        </div>
+<!--end component 文档组件(BigBanner)-->
+
+<!--start component 图片列表(轮播-images)-->
+<style>
+
+
+@charset 'utf-8';
+@media (max-width: 992px) {
+ #swiper-container1{height:6.4rem !important;}
+ #swiper-container1 .swiper-slide img{height:6.4rem !important;}
+}      
+
+
+
+
+
+
+
+</style>
+
+
+<div class="News">
+            <div class="NewsBox">
+                <div class="NewsCon" >
+                    <div class="NewsShow">
+                        <div class="NewSwiper fl">
+                            <div class="swiper-container" id="swiper-container1">
+                                <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                        <a href="n5/n16/c703290/content.html" target="_blank"><img src="n5/n16/c703290/pic_703290.png" alt=""></a>
+                                        <div class="swiper-text">
+                                            <a href="" target="_blank">湛东升赴山东分行调研</a>
+                                        </div>
+                                    </div>
+                                        <div class="swiper-slide">
+                                        <a href="n5/n16/c661516/content.html" target="_blank"><img src="n5/n16/c661516/pic_661516.png" alt=""></a>
+                                        <div class="swiper-text">
+                                            <a href="" target="_blank">农发行与泰农行举行会谈推动备忘录项下多领域合作</a>
+                                        </div>
+                                    </div>
+                                        <div class="swiper-slide">
+                                        <a href="n5/n16/c652864/content.html" target="_blank"><img src="n5/n16/c652864/pic_652864.jpg" alt=""></a>
+                                        <div class="swiper-text">
+                                            <a href="" target="_blank">湛东升会见江西省委常委、常务副省长、省委金融办主...</a>
+                                        </div>
+                                    </div>
+                                        <div class="swiper-slide">
+                                        <a href="n5/n16/c650827/content.html" target="_blank"><img src="n5/n16/c650827/pic_650827.jpg" alt=""></a>
+                                        <div class="swiper-text">
+                                            <a href="" target="_blank">张小东赴上海出席2025陆家嘴论坛并调研</a>
+                                        </div>
+                                    </div>
+                                        <div class="swiper-slide">
+                                        <a href="n5/n16/c650842/content.html" target="_blank"><img src="n5/n16/c650842/pic_650842.jpg" alt=""></a>
+                                        <div class="swiper-text">
+                                            <a href="" target="_blank">湛东升赴云南分行调研</a>
+                                        </div>
+                                    </div>
+                                     </div>
+                                <div class="swiper-pagination" id="swiper-pagination1">
+                                </div>
+                            </div>
+<!--end component 图片列表(轮播-images)-->
+
+<!--start component 新闻列表(轮播-list)-->
+                            <div class="swiperLists">
+                                <ul>
+                                        <li><a href="n5/n16/c703290/content.html" target="_blank"><b>湛东升赴山东分行调研</b></a></li>
+                                        <li><a href="n5/n16/c661516/content.html" target="_blank"><b>农发行与泰农行举行会谈推动备忘录项下多领域合作</b></a></li>
+                                        <li><a href="n5/n16/c652864/content.html" target="_blank"><b>湛东升会见江西省委常委、常务副省长、省委金融办主任任珠峰一行</b></a></li>
+                                        <li><a href="n5/n16/c650827/content.html" target="_blank"><b>张小东赴上海出席2025陆家嘴论坛并调研</b></a></li>
+                                        <li><a href="n5/n16/c650842/content.html" target="_blank"><b>湛东升赴云南分行调研</b></a></li>
+                                     </ul>
+                            </div>
+                        </div>
+<!--end component 新闻列表(轮播-list)-->
+
+<!--start component 导航条(页签-tabs)-->
+                        <div class="NewsList fr">
+                            <div class="NewsTab clearfix">
+                                <ul>
+                                    <li><a href="n5/n1006/index.html" ><b>时政要闻</b></a></li>
+                                    <li class="borderLR"><a href="n5/n15/index.html"  class="active"><b>总行动态</b></a></li>
+                                    <li><a href="n5/n1021/index.html" ><b>基层信息</b></a></li>
+                                    <li class="borderLR"><a href="n997/n1023/index.html" ><b>党建工作</b></a></li>
+                                    <li><a href="n5/n17/index.html" ><b>媒体报道</b></a></li>
+                                </ul>
+                            </div>
+<!--end component 导航条(页签-tabs)-->
+
+<!--start component 新闻列表(时政要闻)-->
+
+                            <div class="NewsContent"  style="display:none;">
+                                    <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n1006/c723218/content.html" target="_blank">习近平向全国广大农民和工作在“三农”战线上的同志们致以节日...</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n1006/c723218/content.html" target="_blank"> 原标题：在第九个“中国农民丰收节”到来之际习近平向全国广大农民和工作在“三农”战线上的同志们致以节日祝贺和诚挚问候强调扎实推进乡村全面振兴努...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n1006/c723153/content.html" target="_blank">中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件...</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n1006/c723153/content.html" target="_blank"> 新华社北京9月21日电 中共中央政治局9月21日召开会议，研究持之以恒推进全面从严治党重大问题。中共中央总书记习近平主持会议。会议决定，中国...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n1006/c722429/content.html" target="_blank">第18期《求是》杂志发表习近平总书记重要文章</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n1006/c722429/content.html" target="_blank"> 原标题：《求是》杂志发表习近平总书记重要文章《在加强基础研究座谈会上的讲话》新华社北京9月15日电 9月16日出版的第18期《求是》杂志将发...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n1006/c720745/content.html" target="_blank">第17期《求是》杂志发表习近平总书记重要文章</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n1006/c720745/content.html" target="_blank"> 原标题：《求是》杂志发表习近平总书记重要文章《坚持落实管党治党政治责任》新华社北京8月31日电 9月1日出版的第17期《求是》杂志将发表中...</a>
+                                    </div>
+                                </div>
+                                <div class="MoreBtn">
+                                    <div class="MoreBg">
+                                        <a href="n5/n1006/index.html" >查看更多</a>
+                                    </div>
+                                </div>
+                            </div>
+
+<!--end component 新闻列表(时政要闻)-->
+
+<!--start component 新闻列表(总行动态)-->
+
+                            <div class="NewsContent">
+                                    <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n15/c723434/content.html" target="_blank">农发行召开2026年度棉花信贷工作座谈会</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n15/c723434/content.html" target="_blank"> 9月24日，农发行在新疆召开2026年度棉花信贷工作座谈会，回顾2025年度棉花信贷工作，研判棉花产业发展形势，研究部署2026年度棉花信贷...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n15/c723347/content.html" target="_blank">农发行成功发行2026年首单面向零售客户柜台债</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n15/c723347/content.html" target="_blank"> 9月21日，中国农业发展银行在中央结算公司成功发行2026年首单面向零售客户的贴现式柜台债，发行规模10亿元，期限182天，参考收益率1.3...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n15/c723206/content.html" target="_blank">中国农业发展银行成功发行支持东北地区秋粮收购主题债券</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n15/c723206/content.html" target="_blank"> 9月22日，中国农业发展银行通过全国银行间同业拆借中心，以直投招标方式成功发行支持东北地区秋粮收购主题债券80亿元，发行期限1年期，发行利率...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n15/c723096/content.html" target="_blank">农发行开展第二期共青团干部培训暨“青马工程”培训</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n15/c723096/content.html" target="_blank"> 9月14日至18日，农发行第二期共青团干部培训班暨“青马工程”培训班在中央团校成功举办。农发行总行行领导及中央团校校领导出席开班式并讲话。各...</a>
+                                    </div>
+                                </div>
+                                <div class="MoreBtn">
+                                    <div class="MoreBg">
+                                        <a href="n5/n15/index.html" >查看更多</a>
+                                    </div>
+                                </div>
+                            </div>
+
+<!--end component 新闻列表(总行动态)-->
+
+<!--start component 新闻列表(基层信息)-->
+
+                            <div class="NewsContent" style="display:none;">
+                                    <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n1021/c724259/content.html" target="_blank">金秋好丰景 | 贵州分行：金风沃野迎丰景 粮安仓满富黔农</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n1021/c724259/content.html" target="_blank"> 金秋九月，黔贵大地稻浪翻金、红粱垂穗、果蔬飘香，处处洋溢着丰收的喜悦。这一派岁物丰成的图景背后，始终有政策性金融的坚实托举。作为守护粮食安全...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n1021/c724188/content.html" target="_blank">金秋好丰景 | 重庆分行：巴渝沃野 岁稔年丰</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n1021/c724188/content.html" target="_blank"> 金秋时节，渝西平原的连片稻田穗沉粒满，渝东丘陵的梯田上稻浪翻金，联合收割机在田间往来穿梭，将饱满的稻谷收纳入仓，一幅粮丰仓满的山城画卷正徐徐...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n1021/c724148/content.html" target="_blank">金秋好丰景 | 陕西分行：谁在给智慧农业园浇水？</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n1021/c724148/content.html" target="_blank"> 走进铜川市耀州区小丘镇数智设施农业示范园，连片高标准智慧大棚错落排布。大棚内部，物联网传感器实时采集温湿度、土壤墒情数据，智能水肥一体化系统...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n1021/c723742/content.html" target="_blank">金秋好丰景 | 江苏分行：“蟹”逅丰收年 “贷”动产业兴</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n1021/c723742/content.html" target="_blank"> 一蟹出水，满塘生鲜。在江苏泰州，这抹鲜香不仅是舌尖上的至味，更是一条富民产业链的起点。农发行江苏省分行充分发挥农业政策性银行职能作用，从塘口...</a>
+                                    </div>
+                                </div>
+                                <div class="MoreBtn">
+                                    <div class="MoreBg">
+                                        <a href="n5/n1021/index.html" >查看更多</a>
+                                    </div>
+                                </div>
+                            </div>
+
+<!--end component 新闻列表(基层信息)-->
+
+<!--start component 新闻列表(党建工作)-->
+
+                            <div class="NewsContent" style="display:none;">
+                                    <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n997/n1023/c717669/content.html" target="_blank">湛东升为全行干部员工讲授树立和践行正确政绩观学习教育专题党...</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n997/n1023/c717669/content.html" target="_blank"> 在中国共产党成立105周年之际，根据农发行党委树立和践行正确政绩观学习教育安排，6月30日上午，党委书记、董事长湛东升围绕“深入学习贯彻习近...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n997/n1023/c716533/content.html" target="_blank">农发行召开树立和践行正确政绩观学习教育专题警示教育会</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n997/n1023/c716533/content.html" target="_blank"> 6月3日，中国农业发展银行召开树立和践行正确政绩观学习教育专题警示教育会。党委书记、董事长湛东升主持会议，就强化以案为鉴、深化以案促改，持续...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n997/n1023/c712620/content.html" target="_blank">树立和践行正确政绩观学习教育总行党委督导工作培训会议召开</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n997/n1023/c712620/content.html" target="_blank"> 4月10日，树立和践行正确政绩观学习教育总行党委督导工作培训会议在京召开。会议深入学习贯彻习近平总书记关于学习教育的重要讲话和重要指示批示精...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n997/n1023/c712517/content.html" target="_blank">农发行召开2026年第一轮常规巡视动员部署会议</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n997/n1023/c712517/content.html" target="_blank"> 4月9日，农发行召开2026年第一轮常规巡视动员部署会议，深入学习贯彻习近平总书记关于党的自我革命的重要思想、关于巡视工作的重要论述，全面落...</a>
+                                    </div>
+                                </div>
+                                <div class="MoreBtn">
+                                    <div class="MoreBg">
+                                        <a href="n997/n1023/index.html" >查看更多</a>
+                                    </div>
+                                </div>
+                            </div>
+
+<!--end component 新闻列表(党建工作)-->
+
+<!--start component 新闻列表(媒体报道)-->
+
+                            <div class="NewsContent" style="display:none;">
+                                    <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n17/c724393/content.html" target="_blank">【中国银行保险报】农发行先期安排500亿元保障棉花收购</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n17/c724393/content.html" target="_blank"> 【记者冯娜娜】近日，农业发展银行在新疆召开2026年度棉花信贷工作座谈会，回顾2025年度棉花信贷工作，研判棉花产业发展形势，研究部署202...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n17/c724324/content.html" target="_blank">【金融时报】农发行召开2026年度棉花信贷工作座谈会</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n17/c724324/content.html" target="_blank"> 本报讯记者张宏斌报道近日，中国农业发展银行在新疆召开2026年度棉花信贷工作座谈会，回顾2025年度棉花信贷工作，研判棉花产业发展形势，研究...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n17/c723372/content.html" target="_blank">【金融时报】农发行成功发行2026年首单面向零售客户柜台债</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n17/c723372/content.html" target="_blank"> 9月21日，中国农业发展银行在中央结算公司成功发行2026年首单面向零售客户的贴现式柜台债，发行规模10亿元，期限182天，参考收益率1.3...</a>
+                                    </div>
+                                </div>
+                                <div class="NewsLists">
+                                    <div class="NewsListsTitle">
+                                        <a href="n5/n17/c723421/content.html" target="_blank">【金融时报】政策性银行加快投放新型政策性金融工具 超千亿元...</a>
+                                    </div>
+                                    <div class="NewsListsInfo">
+                                        <a href="n5/n17/c723421/content.html" target="_blank"> 今年的《政府工作报告》提出“发行新型政策性金融工具8000亿元，带动更多社会资本参与投资”的目标任务。8月28日，国家发展改革委联合有关部门...</a>
+                                    </div>
+                                </div>
+                                <div class="MoreBtn">
+                                    <div class="MoreBg">
+                                        <a href="n5/n17/index.html" >查看更多</a>
+                                    </div>
+                                </div>
+                            </div>
+
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--end component 新闻列表(媒体报道)-->
+
+<!--start component HTML组件(专题大图2)-->
+        <div class="Subject" >
+            <div class="w1300" style="position: relative;">
+                <div class="SubjectBox">
+
+                        <a href="n354767/n692257/index.html" target=_blank><img src="dbsource/646340/692421.jpg"></a>
+
+                </div>
+            </div>
+        </div>
+
+<!--end component HTML组件(专题大图2)-->
+
+<!--start component 新闻列表(政策发布)-->
+        <div class="Notice clearfix">
+            <div class="w1300">
+                <div class="NoticeL" style="
+    float: left;
+">
+                    <div class="CommonTitle">
+                        <a href="n354793/index.html"  class="Ltitle">
+                            <b>政策发布</b>
+                        </a>
+                        <a href="n354793/index.html"  class="Nmore"></a>
+                    </div>
+                    <div class="CommonLists">
+                        <ul>
+                                <li><a href="n354793/n354835/c719287/content.html" target="_blank">农发行重庆市分行投放1500万元专项贷款助力彭水山体崩塌...</a><span>2026-07-21</span></li>
+                             <li><a href="n354793/n399554/c719302/content.html" target="_blank">农发行与华润集团签订战略合作协议</a><span>2026-06-16</span></li>
+                             <li><a href="n354793/n354835/c719317/content.html" target="_blank">农发行召开2026年夏粮收购信贷工作座谈会</a><span>2026-06-04</span></li>
+                             <li><a href="n354793/n399554/c711687/content.html" target="_blank">农发行与中粮集团续签战略合作协议</a><span>2026-03-20</span></li>
+                             <li><a href="n354793/n354835/c719332/content.html" target="_blank">农发行召开海洋经济信贷业务推进会</a><span>2026-03-19</span></li>
+                             <li><a href="n354793/n399554/c711568/content.html" target="_blank">中国农业发展银行与西安交通大学签订战略合作协议</a><span>2026-03-18</span></li>
+                         </ul>
+                    </div>
+                </div>
+               
+              
+              
+<style>
+  .NoticeL, .NoticeM {
+    width: 600px;
+}
+</style>
+<!--end component 新闻列表(政策发布)-->
+
+<!--start component 新闻列表(通知公告)-->
+                <div class="NoticeM" style="
+    float: right; margin-right:0
+">
+                    <div class="CommonTitle">
+                        <a href="n354735/index.html" class="Ltitle">
+                            <b>通知公告</b>
+                        </a>
+                        <a href="n354735/index.html"  class="Nmore"></a>
+                    </div>
+                    <div class="CommonLists">
+                        <ul>
+                                                           <li><a href="n354735/n355038/c724274/content.html" target="_blank">中国农业发展银行关联交易信息披露（2026年第三季度）</a><span>2026-10-12</span></li>
+                                                        <li><a href="n354735/n355043/c722284/content.html" target="_blank">中国农业发展银行2027年度校园招聘公告</a><span>2026-09-15</span></li>
+                                                        <li><a href="n354735/n355038/c718984/content.html" target="_blank">关于不法分子和机构冒用中国农业产业发展基金有限公司名义登...</a><span>2026-07-24</span></li>
+                                                        <li><a href="n354735/n355038/c718522/content.html" target="_blank">中国农业发展银行关联交易信息披露（2026年第二季度）</a><span>2026-07-20</span></li>
+                                                        <li><a href="n354735/n355038/c713486/content.html" target="_blank">中国农业发展银行关联交易信息披露（2026年第一季度）</a><span>2026-04-30</span></li>
+                                                        <li><a href="n354735/n355038/c705727/content.html" target="_blank">中国农业发展银行关于银行函证业务集中处理的公告 </a><span>2026-01-28</span></li>
+                         </ul>
+                    </div>
+                </div>
+ 
+<!--end component 新闻列表(通知公告)-->
+
+<!--start component 图片列表(专题专栏)-->
+<!--              
+<div class="NoticeR">
+                    <ul>
+                            <li><a href="https://www.adbc.com.cn/n354767/n395348/index.html" target="_blank"><img src="n354767/c401385/pic_401385.jpg" alt=""></a></li>
+                            <li><a href="https://www.adbc.com.cn/n354767/n395343/index.html" target="_blank"><img src="n354767/c401351/pic_401351.jpg" alt=""></a></li>
+                            <li><a href="https://www.adbc.com.cn/n354767/n559977/index.html" target="_blank"><img src="n354767/c560447/pic_560447.jpg" alt=""></a></li>
+                            <li><a href="https://www.adbc.com.cn/n354767/n395353/index.html" target="_blank"><img src="n354767/c401317/pic_" alt=""></a></li>
+                            <li><a href="https://www.adbc.com.cn/n354767/n395358/index.html" target="_blank"><img src="n354767/c401300/pic_" alt=""></a></li>
+                            <li><a href="https://www.adbc.com.cn/n354767/n657561/index.html" target="_blank"><img src="n354767/c658157/pic_658157.jpg" alt=""></a></li>
+                         </ul>
+                </div>
+-->
+            </div>
+        </div>
+
+
+
+<style>
+.NoticeR ul li a{transition:0.2s;}
+.NoticeR ul li a:hover{margin-left:9px;}
+</style>
+<!--end component 图片列表(专题专栏)-->
+
+<!--start component HTML组件(企业信息+宣传)-->
+        <div class="Ins clearfix">
+            <div class="w1300" style="
+    display: flex;
+    justify-content: center;
+    align-items: center;
+">
+                <div class="InsL">
+                    <div class="InsItem Item1">
+                        <div class="ItemsWord">
+                            <a href="n4/n10/n1280/index.html" >
+                                机构概况
+                           
+                            <span>Institutional overview</span>
+                               </a>
+                        </div>
+                    </div>
+                    <div class="InsItem Item2">
+                        <div class="ItemsWord AlignRight">
+                            <a href="n1296/n1297/index.html" >
+                                公司治理
+                            
+                            <span>corporate governance</span>
+                              </a>
+                        </div>
+                    </div>
+                    <div class="InsItem Item3">
+                        <div class="ItemsWord">
+                            <a href="n7/n353796/index.html" >
+                                支农品牌
+                            
+                            <span>Agricultural support</span>
+                              </a>
+                        </div>
+                    </div>
+                    <div class="InsItem Item4">
+                        <div class="ItemsWord AlignRight">
+                            <a href="n8/n1149/index.html" >
+                                企业文化
+                            
+                            <span>corporate culture</span>
+                              </a>
+                        </div>
+                    </div>
+                </div>
+  <!--              <div class="InsR fr">
+                    <div class="InsImg">
+                        <a href="n8/n1149/n1152/index.html" target="_blank">
+                            <img src="template/350312/350379.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="InsImgInfo">
+                        <a href="n8/n1149/n1152/index.html" target="_blank">
+                            企业形象宣传片
+                        </a>
+                    </div>
+                </div> 
+-->
+            </div>
+        </div>
+
+<style>
+  .InsL{
+  width:850px;
+   margin:
+  }
+  
+</style>
+
+<!--end component HTML组件(企业信息+宣传)-->
+
+<!--start component HTML组件(客户服务)-->
+<style>
+ .ServiceCon .rx{ margin-top:105px; }
+ .ServiceCon .mx{ margin-top: 0 }
+</style>
+
+
+<div class="ditubg" style="background:url(dbsource/375931/375935.jpg);width:100%;height: 961px;z-index: -999;position: fixed;top: 0;left: 0;"></div>
+        <div class="Service clearfix">
+            <div class="w1300">
+                <div class="ServiceTitle fl" style="width:210px;">
+                    <div class="ServiceWord" style="padding: 50px 10px;">
+                        <span>
+                            <b style="letter-spacing:6px;">客户服务</b>
+                        </span>
+                       <div class="sevbg" style="width:182px;">
+                            <div class="sericebg">
+                                <a href="https://95356.adbc.com.cn/" style="width:182px;">查看更多&nbsp;&nbsp;&nbsp;&rarr;</a>
+                            </div>
+                        </div>
+                     <div class="el-bank" style="margin:50px 0 0 0;width:182px;">
+                       <a href="https://qebank.adbc.com.cn/eweb/" style="width:182px;height:50px;margin:0;padding-top: 20px;background:none;border-top: 1px solid rgba(255,255,255,0.5);"><img style="width:50px" src="dbsource/395304/395305.png"></a>
+                      <h1 style="text-align: center;color: #fff;font-size: 18px;margin: 15px 0;font-weight: bold;">企业网银</h1>
+                       <p style="padding-bottom: 20px;color: rgba(255,255,255,0.7);text-align: justify;border-bottom: 1px solid rgba(255,255,255,0.5);">网上银行业务是中国农业发展银行通过互联网等媒介，为企业客户提供的账户管理、转账汇款、信息查询、资金管理等在线服务</p>
+                      </div>
+                      
+              
+                    </div>
+                </div>
+                <div class="ServiceCon fr" style="width:750px;">
+                    <ul>
+                            <li class="bgc1 Act">
+                            <div class="woll" style="display:none;">
+                                <span class="tx" style="margin-top: 60px;">统</span>
+                                <span class="tx">一</span>
+                                <span class="tx">服</span>
+                                <span class="tx">务</span>
+                                <span class="tx">门</span>
+                                <span class="tx">户</span>
+                                <span class="rx" style="margin-top:0px;">——</span>
+                                <span class="ex">01</span>
+                            </div>
+                            <div class="coll">
+                                <a href="https://95356.adbc.com.cn/">
+                                    <span class="tx" style="margin-top: 60px; white-space:nowrap">统一服务门户</span>
+                                    <span class="tx" style="margin-top: 20px;">——</span>
+                                    <span class="pg" style="background:url(dbsource/466655/710111.png)no-repeat center;"></span>
+                                    <span class="mx">01</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="bgc2">
+                            <div class="woll">
+                                <span class="tx" style="margin-top: 60px;">营</span>
+                                <span class="tx">业</span>
+                                <span class="tx">网</span>
+                                <span class="tx">点</span>
+                                <span class="rx">——</span>
+                                <span class="ex">02</span>
+                            </div>
+                            <div class="coll" style="display:none;">
+                                <a href="n6/n23/index.html" >
+                                    <span class="tx" style="margin-top: 60px;">营业网点</span>
+                                    <span class="tx" style="margin-top: 20px;">——</span>
+                                    <span class="pg" style="background:url(dbsource/466655/503570.png)no-repeat center;"></span>
+                                    <span class="mx">02</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="bgc3">
+                            <div class="woll">
+                                <span class="tx" style="margin-top: 60px;">收</span>
+                                <span class="tx">费</span>
+                                <span class="tx">标</span>
+                                <span class="tx">准</span>
+                                <span class="rx">——</span>
+                                <span class="ex">03</span>
+                            </div>
+                            <div class="coll" style="display:none;">
+                                <a href="n6/n21/index.html" >
+                                    <span class="tx" style="margin-top: 60px;">收费标准</span>
+                                    <span class="tx" style="margin-top: 20px;">——</span>
+                                    <span class="pg" style="background:url(dbsource/466655/503564.png)no-repeat center;"></span>
+                                    <span class="mx">03</span>
+                                </a></div>
+                        </li>
+                
+            <!--          
+                        <li class="bgc4">
+                            <div class="woll">
+                                <span class="tx" style="margin-top: 60px;">业</span>
+                                <span class="tx">务</span>
+                                <span class="tx">介</span>
+                                <span class="tx">绍</span>
+                                <span class="rx">——</span>
+                                <span class="ex">04</span>
+                            </div>
+                          
+                          
+                            <div class="coll" style="display:none;">
+                                <a href="n6/n19/index.html">
+                                    <span class="tx" style="margin-top: 60px;">业务介绍</span>
+                                    <span class="tx" style="margin-top: 20px;">——</span>
+                                    <span class="pg" style="background:url(dbsource/466655/503567.png)no-repeat center;"></span>
+                                    <span class="mx">04</span>
+                                </a></div>
+                        </li>
+                        <li class="bgc5">
+                            <div class="woll">
+                                <span class="tx" style="margin-top: 60px;">权</span>
+                                <span class="tx">益</span>
+                                <span class="tx">保</span>
+                                <span class="tx">护</span>
+                                <span class="rx">——</span>
+                                <span class="ex">05</span>
+                            </div>
+                            <div class="coll" style="display:none;">
+                                <a href="n6/n355067/index.html" >
+                                    <span class="tx" style="margin-top: 60px;">权益保护</span>
+                                    <span class="tx" style="margin-top: 20px;">——</span>
+                                    <span class="pg" style="background:url(dbsource/466655/503561.png)no-repeat center;"></span>
+                                    <span class="mx">05</span>
+                                </a></div>
+                        </li>
+            -->
+                        <li class="bgc4">
+                            <div class="woll">
+                                <span class="tx" style="margin-top: 60px;">福</span>
+                                <span class="tx">农</span>
+                                <span class="tx">卡</span>
+                                <span class="tx">&nbsp;</span>
+                                <span class="rx">——</span>
+                                <span class="ex">04</span>
+                            </div>
+                            <div class="coll" style="display:none;">
+                                <a href="https://www.adbc.com.cn/n6/n604902/c604905/content.html" >
+                                    <span class="tx" style="margin-top: 60px;">福农卡</span>
+                                    <span class="tx" style="margin-top: 20px;">——</span>
+                                    <span class="pg" style="background:url(dbsource/466655/605234.png)no-repeat center;"></span>
+                                    <span class="mx">04</span>
+                                </a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+ <div class="phone_Service clearfix">
+            <div class="w1300">
+                <div class="swiper-container" id="swiper-container2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="phone_ServiceTitle fl">
+                                <div class="phone_ServiceWord">
+                                    <span>
+                                        <b>客户服务</b>
+                                    </span>
+                                    <a href="https://95356.adbc.com.cn/" target="_blank">查看更多&nbsp;&nbsp;&nbsp;&rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bgc1">
+                                <div class="coll">
+                                    <a href="https://95356.adbc.com.cn/" target="_blank">
+                                        <span class="tx" style="margin-top: 60px;">统一服务门户</span>
+                                        <span class="tx" style="margin-top: 20px;">——</span>
+                                        <span class="pg"></span>
+                                        <span class="mx">01</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bgc2">
+                                <div class="coll">
+                                    <a href="n6/n23/index.html" target="_blank">
+                                        <span class="tx" style="margin-top: 60px;">营业网点</span>
+                                        <span class="tx" style="margin-top: 20px;">——</span>
+                                        <span class="pg"></span>
+                                        <span class="mx">01</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bgc3">
+                                <div class="coll" >
+                                    <a href="n6/n21/index.html" target="_blank">
+                                        <span class="tx" style="margin-top: 60px;">收费标准</span>
+                                        <span class="tx" style="margin-top: 20px;">——</span>
+                                        <span class="pg"></span>
+                                        <span class="mx">02</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bgc4">
+                                <div class="coll">
+                                    <a href="n6/n19/index.html" target="_blank">
+                                        <span class="tx" style="margin-top: 60px;">业务介绍</span>
+                                        <span class="tx" style="margin-top: 20px;">——</span>
+                                        <span class="pg"></span>
+                                        <span class="mx">03</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bgc5">
+                                <div class="coll">
+                                    <a href="n6/n355067/index.html" target="_blank">
+                                        <span class="tx" style="margin-top: 60px;">权益保护</span>
+                                        <span class="tx" style="margin-top: 20px;">——</span>
+                                        <span class="pg"></span>
+                                        <span class="mx">04</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      
+                      
+                    </div>
+                </div> 
+                
+            </div>
+        </div>
+
+<!--end component HTML组件(客户服务)-->
+
+<!--start component 图片列表(年报)-->
+
+        <div class="Message">
+            <div class="w1300">
+                <div class="MessageBox">
+                    <ul>
+
+                        <li><a href="n4/n13/index.html" target="_blank"><img src="dbsource/646340/719521.png" alt=""></a></li>
+                 
+
+<!--end component 图片列表(年报)-->
+
+<!--start component 图片列表(可持续发展报告)-->
+                   
+    <li><a href="n4/n69/index.html" target="_blank"><img src="dbsource/646340/715016.png" alt=""></a></li>
+
+<!--end component 图片列表(可持续发展报告)-->
+
+<!--start component 图片列表(绿色金融报告)-->
+                  
+    <li><a href="n4/n355126/index.html" target="_blank"><img src="dbsource/395173/591953.jpg" alt=""></a></li>
+
+
+<!--end component 图片列表(绿色金融报告)-->
+
+<!--start component 图片列表(债券社会责任报告)-->
+
+              </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--end component 图片列表(债券社会责任报告)-->
+
+ 
+<!--start component HTML组件(Footer)-->
+       <div class="Footer">
+                <div class="FooterTop clearfix">
+                    <div class="w1300">
+                        <div class="Column">
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="n4/index.html" >机构概况</a></li>
+                                    <li><a href="n4/n10/index.html" >领导团队</a></li>
+                                    <li><a href="n4/n11/index.html" >组织架构</a></li>
+                                    <li><a href="n4/n1017/index.html">发展战略</a></li>
+                                    <li><a href="n4/n388346/index.html" >荣誉奖项</a></li>
+                                    <li><a href="n4/n13/index.html" >年度报告</a></li>
+                                 
+                                </ul>
+                            </div>
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="n1296/index.html" >公司治理</a></li>
+                                    <li><a href="n1296/n1297/index.html" >治理架构</a></li>
+                                    <li><a href="n1296/n1298/index.html" >董事会职责</a></li>
+                                    <li><a href="n1296/n1299/index.html" >治理公告</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="n354793/index.html">政策发布</a></li>
+                                    <li><a href="n354793/n354820/index.html" >领导文章</a></li>
+                                    <li><a href="n354793/n399554/index.html">战略合作</a></li>                            
+                                    <!-- <li><a href="n354793/n354830/index.html" >政策分析</a></li> -->
+									<li><a href="n354793/n354835/index.html" >信贷政策</a></li>
+                                </ul>
+                            </div>
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="n5/index.html">新闻资讯</a></li>         
+                                                        <li><a href="n5/n1006/index.html" >时政要闻</a></li>
+                                  <li><a href="n5/n16/index.html">图片新闻</a></li>
+                                <li><a href="n5/n15/index.html" >总行动态</a></li>
+                                <li><a href="n5/n1021/index.html" >基层信息</a></li>
+                                <li><a href="n5/n17/index.html" >媒体反映</a></li>
+                                
+                                </ul>
+                            </div> 
+                            <div class="ColumnTree">
+                                <ul>
+                                  
+                                    <li class="Treef"><a href="n997/n1023/index.html" >党建工作</a></li>
+                                <li><a href="n997/n1023/index.html" >党建动态</a></li>
+                                <li><a href="n997/n1148/index.html" >廉政建设</a></li>
+                                </ul>
+                            </div>
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="n7/index.html" >支农品牌</a></li>
+                                    <li><a href="n7/n353796/index.html" >粮食银行</a></li>
+                                <li><a href="n7/n353803/index.html" >农地银行</a></li>
+                                <li><a href="n7/n353895/index.html" >水利银行</a></li>
+                                <li><a href="n7/n353910/index.html" >绿色银行</a></li>
+                          <!--              <li><a href="n7/n353915/index.html">巩固衔接</a></li>   -->
+                          <!--            <li><a href="n7/n353920/index.html">乡村建设</a></li>   -->
+                          <!--              <li><a href="n7/n353960/index.html">国际业务</a></li>   -->
+                          <!--              <li><a href="n7/n353965/index.html" >资金筹集</a></li>   -->
+                                </ul>
+                            </div> 
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="n8/index.html" >企业文化</a></li>
+                                  <li> <a href="n8/n1149/index.html" >形象理念</a></li>
+                           <!--       <li><a href="n8/n631161/index.html" >金融文化</a></li>    -->
+                                 <li> <a href="n8/n700505/index.html" >廉洁文化</a></li>
+                            <!--     <li><a href="n8/n28/index.html" >员工风采</a></li>    -->
+                             <!--    <li><a href="n8/n355089/index.html" >文体活动</a></li>    -->
+                                <li><a href="n8/n355107/index.html" >社会公益</a></li>
+                                </ul>
+                            </div>
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="n6/index.html" >客户服务</a></li>
+                                    <li><a href="https://95356.adbc.com.cn/" >统一服务门户</a></li>
+                                    <li><a href="n6/n23/index.html" >营业网点</a></li>
+                                    <li><a href="n6/n21/index.html" >收费标准</a></li>
+                                    <li><a href="n6/n648131/index.html" >存款利率</a></li>
+                    <!--          <li><a href="n6/n19/index.html" >业务介绍</a></li>	                       -->
+                                    <li><a href="n6/n1310/index.html" >电子银行</a></li>
+                    <!--          <li><a href="n6/n355067/index.html" >权益保护</a></li>                -->
+                                  
+                               <li><a href="https://www.adbc.com.cn/n6/n604902/c604905/content.html" >福农卡</a></li>
+                                  
+                                    
+                                  
+                                </ul>
+                            </div>
+               <!--                   <div class="ColumnTree">
+                                <ul>
+                               <li class="Treef"><a href="n354767/index.html" >专题活动</a></li>  
+            
+
+                                </ul>
+                            </div>
+               -->
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="n354735/index.html">通知公告</a></li>
+                                    <li><a href="n354735/n355038/index.html">公告公示</a></li>
+                                <li><a href="n354735/n355043/index.html">招聘公告</a></li>
+                                <li><a href="n354735/n355053/index.html" >宣传活动</a></li>
+                                </ul>
+                            </div>
+                        </div>
+<!--end component HTML组件(Footer)-->
+
+<!--start component 图片列表(Footer电子期刊)-->
+                        <div class="ElMess">
+
+                            <div class="els">
+ <p>联系我们</p>
+                            </div>
+                            <div class="el_more">
+                                <p>中国农业发展银行（总行）</p>
+								<p>地址：北京市西城区月坛北街甲2号</p>
+								<p>邮编：100045</p>
+                                <p>客服热线：95356</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="FooterBottom">
+                    <div class="w1300">
+                        <p>
+                               <a href="n60/n475735/c475738/content.html" target="_blank">客户投诉</a><span>|</span>
+                               <a href="n60/n467106/c467125/content.html" target="_blank">行长信箱</a><span>|</span>
+                               <a href="n60/n503090/c503093/content.html" target="_blank">友情链接</a><span>|</span>
+                               <a href="n60/n559260/c559049/content.html" target="_blank">相关企业</a>
+                          </p>
+                        <p>Copyright  ©2003-2023  All rights reserved.  中国农业发展银行&nbsp;&nbsp;&nbsp;&nbsp;版权所有</p>
+                        <p><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700013" target="_blank" class="footicon">京公网安备 11040102700013号</a> &nbsp;&nbsp;本网站支持IPv6访问&nbsp;&nbsp; <a href="https://www.beian.gov.cn" target="_blank">京ICP备14012827号-1</a></p>
+<!--                        
+						<p class="phone_none">Copyright  ©2003-2023  All rights reserved.  中国农业发展银行&nbsp;&nbsp;&nbsp;&nbsp;版权所有</p>   
+						<p class="phone_none"><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700013" target="_blank" class="footicon">京公网安备 11040102700013号</a> &nbsp;&nbsp;本网站支持IPv6访问&nbsp;&nbsp;
+							<a href="https://www.beian.gov.cn" target="_blank">京ICP备14012827号-1</a></p>
+  -->
+                    </div>
+                </div>
+
+
+                <div class="FooterBottomydb">
+                    <div class="w1300">
+
+                        <p>中国农业发展银行&nbsp;&nbsp;&nbsp;&nbsp;版权所有</p>
+                        <p> <a href="https://www.beian.gov.cn" target="_blank">京ICP备14012827号-1</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+<style>
+.FooterBottom p span{padding:0 5px;}
+  @media (max-width: 1024px)
+  {
+    .FooterBottom{ display:block;}
+    .FooterBottomydb{ display:none; }  
+  .FooterBottomydb p {
+    font-size: 0.2rem;
+}
+  }
+</style>
+
+
+
+<!--end component 图片列表(Footer电子期刊)-->
+
+<!--start component HTML组件(返回顶部)-->
+<div class="elevator">
+	<div class="backTop" title="返回顶部" style="">返回<br>顶部</div>
+	<div class="elevator_list">
+		<ul>
+          <li class="elevation_item">
+				<img src="dbsource/466655/503971.jpg" >
+				<p>农发行微信公众号</p>
+				<div class="elevator_ewm" ><img src="dbsource/466655/503971.jpg" ></div>
+			</li>
+			<li class="elevation_item">
+				<img src="dbsource/466655/503977.png" >
+				<p>微银行</p>
+				<div class="elevator_ewm" ><img src="dbsource/466655/503977.png" ></div>
+			</li>
+			<li class="elevation_item">
+				<img src="dbsource/466655/503982.jpg" >
+				<p>农发e家</p>
+				<div class="elevator_ewm" ><img src="dbsource/466655/503982.jpg" ></div>
+			</li>
+			<li class="elevation_item">
+				<img src="dbsource/466655/503974.jpg" >
+				<p>农业发展与金融</p>
+				<div class="elevator_ewm" ><img src="dbsource/466655/503974.jpg" ></div>
+			</li>
+			<li class="elevation_item">
+				<img src="dbsource/466655/655052.png" >
+				<p>客服热线</br>95356</p>
+				
+			</li>
+			<li class="elevation_item">
+				<a href="https://edu.adbc.com.cn:9999/adbcedu" target="_blank"><img src="dbsource/466655/503929.png" ></a>
+				<p>农发行e学院</p>
+			</li>
+		</ul>
+	</div>
+</div>
+<script>
+$(".elevation_item").hover(function(){
+	$(this).find(".elevator_ewm").show();
+},function(){
+	$(this).find(".elevator_ewm").hide();
+})
+</script>
+<!--end component HTML组件(返回顶部)-->
+
+
+</body>
+</html>

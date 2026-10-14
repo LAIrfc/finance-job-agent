@@ -1,0 +1,16 @@
+{
+  "is_demo": true,
+  "name": "虚构测试用户",
+  "degree": "硕士",
+  "graduation_year": 2027,
+  "major": "计算机科学与技术",
+  "skills": [
+    "Python",
+    "SQL"
+  ],
+  "certificates": [],
+  "locations": [
+    "深圳",
+    "上海"
+  ]
+}

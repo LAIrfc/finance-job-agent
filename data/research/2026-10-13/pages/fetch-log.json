@@ -1,0 +1,86 @@
+[
+  {
+    "id": "cicc-list",
+    "url": "https://ciccwm.zhiye.com/campus/jobs",
+    "final_url": "https://ciccwm.zhiye.com/campus/jobs",
+    "bytes": 61393,
+    "status": "fetched"
+  },
+  {
+    "id": "sczq",
+    "url": "https://sczq.zhiye.com/campus/",
+    "final_url": "https://sczq.zhiye.com/campus/",
+    "bytes": 38905,
+    "status": "fetched"
+  },
+  {
+    "id": "guosen",
+    "url": "https://guosen.zhiye.com/campus/jobs",
+    "final_url": "https://guosen.zhiye.com/campus/jobs",
+    "bytes": 36357,
+    "status": "fetched"
+  },
+  {
+    "id": "cicc",
+    "url": "https://cicc.zhiye.com",
+    "final_url": "https://cicc.zhiye.com",
+    "bytes": 61393,
+    "status": "fetched"
+  },
+  {
+    "id": "picc",
+    "url": "https://picc.zhiye.com",
+    "final_url": "https://picc.zhiye.com",
+    "bytes": 238472,
+    "status": "fetched"
+  },
+  {
+    "id": "cntp",
+    "url": "https://cntp.zhiye.com/campus",
+    "final_url": "https://cntp.zhiye.com/campus",
+    "bytes": 20019,
+    "status": "fetched"
+  },
+  {
+    "id": "rui",
+    "url": "https://ruiinsurance.zhiye.com/",
+    "final_url": "https://ruiinsurance.zhiye.com/",
+    "bytes": 17490,
+    "status": "fetched"
+  },
+  {
+    "id": "ncbank",
+    "url": "https://www.ncbank.cn/ncbank/jrts/rczp/xyzp/index.shtml",
+    "final_url": "https://www.ncbank.cn/ncbank/jrts/rczp/xyzp/index.shtml",
+    "bytes": 86129,
+    "status": "fetched"
+  },
+  {
+    "id": "cbiti-2027",
+    "url": "https://campus.51job.com/cbit2027/job.html",
+    "final_url": "https://campus.51job.com/cbit2027/job.html",
+    "bytes": 7733,
+    "status": "fetched"
+  },
+  {
+    "id": "hsbc-2027",
+    "url": "https://campus.51job.com/hsbc/about1.html",
+    "final_url": "https://campus.51job.com/hsbc/about1.html",
+    "bytes": 18996,
+    "status": "fetched"
+  },
+  {
+    "id": "jsfund",
+    "url": "https://www.jsfund.cn/main/AboutHarvest/JoinUs/index.shtml",
+    "final_url": "https://www.jsfund.cn/main/AboutHarvest/JoinUs/index.shtml",
+    "bytes": 61571,
+    "status": "fetched"
+  },
+  {
+    "id": "boc",
+    "url": "https://www.boc.cn/aboutboc/bi4/",
+    "final_url": "https://www.boc.cn/aboutboc/bi4/",
+    "bytes": 31788,
+    "status": "fetched"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://wealth.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&isAjaxRequest=true&SERVLET_NAME=WCCMainPlatV5&TXCODE=NHR117&codeItemId=3137",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "SUCCESS": "false",
+      "TXCODE": "NHR117",
+      "SYS_EVT_TRACE_ID": "1010165411791875183371389",
+      "ERRORCODE": "0060Z1108006",
+      "ERRORMSG": "暂时未能处理您的请求，请重新登录。"
+    }
+  },
+  {
+    "url": "https://wealth.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&isAjaxRequest=true&SERVLET_NAME=WCCMainPlatV5&TXCODE=NHR105&isImpAnno=1&isHomePageDisplay=1",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "SUCCESS": "true",
+      "MTTC": "",
+      "TXCODE": "NHR105",
+      "SYS_EVT_TRACE_ID": "1010165411791875183371394",
+      "TOTAL_PAGE": "1",
+      "TOTAL_REC": "5",
+      "CURR_TOTAL_PAGE": "1",
+      "CURR_TOTAL_REC": "5",
+      "STS_TRACE_ID": "",
+      "busCode": "000000000000",
+      "busMsg": "OK",
+      "annoList": [
+        {
+          "annoId": "20260903163254718082",
+          "annoTitle": "中国建设银行总部2027年度校园招聘公告",
+          "annoDate": "2026-09-04"
+        },
+        {
+          "annoId": "20260904110808720852",
+          "annoTitle": "中国建设银行总行直属机构2027年度校园招聘公告",
+          "annoDate": "2026-09-04"
+        },
+        {
+          "annoId": "20260901194840667699",
+          "annoTitle": "中国建设银行境内分支机构2027年度校园招聘公告",
+          "annoDate": "2026-09-04"
+        },
+        {
+          "annoId": "20260904115022720661",
+          "annoTitle": "中国建设银行综合化经营子公司2027年度校园招聘公告",
+          "annoDate": "2026-09-04"
+        },
+        {
+          "annoId": "20260903151536717854",
+          "annoTitle": "中国建设银行博士后科研工作站2027年度博士后研究人员招聘公告",
+          "annoDate": "2026-09-04"
+        }
+      ]
+    }
+  }
+]

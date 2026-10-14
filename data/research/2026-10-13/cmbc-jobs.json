@@ -1,0 +1,906 @@
+[
+  {
+    "careerRecruitment_regions_name": "成都,德阳,宜宾,巴中,泸州,资阳",
+    "careerRecruitment_career_enterprise_name": "成都分行",
+    "careerRecruitment_career_publishDate": "2026-09-28 10:49:28",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "bbe15c35-d4db-4d9a-b355-8ac76199f84f"
+  },
+  {
+    "careerRecruitment_regions_name": "揭阳,汕头",
+    "careerRecruitment_career_enterprise_name": "汕头分行",
+    "careerRecruitment_career_publishDate": "2026-09-28 10:26:44",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "a27871af-024b-49c9-88b2-d3f5be7a671c"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生银行总行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+    "careerRecruitment_career_name": "扬帆（数据+）-智能算法方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "e021463b-9d8e-4462-ae32-e468c8349001"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生银行总行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+    "careerRecruitment_career_name": "扬帆（数据+）-技术研发方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "825d7670-c7ef-447e-8e93-14e271d24fc9"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生银行总行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+    "careerRecruitment_career_name": "扬帆（金融+）-科创金融方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "f04a0eaa-429b-47c5-aa51-678d507bb545"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "北京分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "8171eb41-f8ce-4ce0-8b92-1a9653c109fb"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生银行总行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+    "careerRecruitment_career_name": "扬帆（科技+）-信息安全方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "2aafcfbf-01d3-4627-a368-b6a1f31c4f50"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生银行总行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+    "careerRecruitment_career_name": "扬帆（科技+）-开发方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "6051a174-786e-4488-bc06-fca77d5206cd"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生银行总行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+    "careerRecruitment_career_name": "扬帆（金融+）-跨境金融方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "518b404a-3e32-47b1-bd9d-6399564134f1"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生银行总行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+    "careerRecruitment_career_name": "扬帆（数据+）-数据分析方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "10e62586-59e6-4e49-be77-e533465d02c7"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生银行总行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+    "careerRecruitment_career_name": "扬帆（金融+）-金融市场方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "42908328-434a-41f8-b99e-fff1b67bdca9"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生银行总行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+    "careerRecruitment_career_name": "扬帆（金融+）-通用金融方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "cfb0956f-5da3-4985-8575-1a6cf755e9b4"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生银行总行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+    "careerRecruitment_career_name": "扬帆（科技+）-网络管理方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "b03268ba-7a98-4181-9fc0-b16c2e658283"
+  },
+  {
+    "careerRecruitment_regions_name": "长春",
+    "careerRecruitment_career_enterprise_name": "长春分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "d97ff48b-3088-4054-b6ce-f35079acb8f8"
+  },
+  {
+    "careerRecruitment_regions_name": "石家庄,邯郸,沧州,衡水,秦皇岛,唐山,张家口,保定,邢台",
+    "careerRecruitment_career_enterprise_name": "石家庄分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "433f3d53-76af-46cb-8ef0-b57a428839a3"
+  },
+  {
+    "careerRecruitment_regions_name": "乌鲁木齐",
+    "careerRecruitment_career_enterprise_name": "乌鲁木齐分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "bf18c4b7-c162-4069-95a6-1e530d44d937"
+  },
+  {
+    "careerRecruitment_regions_name": "青岛,烟台,威海",
+    "careerRecruitment_career_enterprise_name": "青岛分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "6c101585-b3b5-4097-a973-d4d8aa8546f8"
+  },
+  {
+    "careerRecruitment_regions_name": "兰州",
+    "careerRecruitment_career_enterprise_name": "兰州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "f9662026-9b0d-4a43-9ab6-9e1699194352"
+  },
+  {
+    "careerRecruitment_regions_name": "银川",
+    "careerRecruitment_career_enterprise_name": "银川分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "258c089c-4631-441b-8783-fae6ab60d592"
+  },
+  {
+    "careerRecruitment_regions_name": "长沙",
+    "careerRecruitment_career_enterprise_name": "长沙分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "d9437909-34e8-4102-ad89-5d02628fc121"
+  },
+  {
+    "careerRecruitment_regions_name": "苏州",
+    "careerRecruitment_career_enterprise_name": "苏州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "633b7895-3d39-4b85-ac4f-ff0202b02796"
+  },
+  {
+    "careerRecruitment_regions_name": "深圳",
+    "careerRecruitment_career_enterprise_name": "深圳分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "5a8c36a3-f1e4-49c7-967c-38a7a1f16bb7"
+  },
+  {
+    "careerRecruitment_regions_name": "深圳",
+    "careerRecruitment_career_enterprise_name": "深圳分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "67948bed-42e3-487e-be85-aa8c1f0d54f3"
+  },
+  {
+    "careerRecruitment_regions_name": "杭州,嘉兴",
+    "careerRecruitment_career_enterprise_name": "杭州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "1df54001-a69e-4a9b-af73-128d487d8f30"
+  },
+  {
+    "careerRecruitment_regions_name": "南宁",
+    "careerRecruitment_career_enterprise_name": "南宁分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "d5aff93d-7838-4555-b89d-8b7a8fc0d521"
+  },
+  {
+    "careerRecruitment_regions_name": "宁波",
+    "careerRecruitment_career_enterprise_name": "宁波分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "65d18774-55f1-4556-9a73-a5ea2d74c06d"
+  },
+  {
+    "careerRecruitment_regions_name": "南京",
+    "careerRecruitment_career_enterprise_name": "南京分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "56f3495e-01d5-4712-9380-d0d7dab7d9cb"
+  },
+  {
+    "careerRecruitment_regions_name": "上海",
+    "careerRecruitment_career_enterprise_name": "上海分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "b0bd046a-a6bf-435c-97ea-af800f559367"
+  },
+  {
+    "careerRecruitment_regions_name": "厦门",
+    "careerRecruitment_career_enterprise_name": "厦门分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "9e052de8-27f5-4ace-9223-a61a2953665d"
+  },
+  {
+    "careerRecruitment_regions_name": "泉州",
+    "careerRecruitment_career_enterprise_name": "泉州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "f7bb5662-5f12-4d83-b205-b4f2034b95cf"
+  },
+  {
+    "careerRecruitment_regions_name": "上海",
+    "careerRecruitment_career_enterprise_name": "上海分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "656a20fd-7526-4506-aea6-52196e688b99"
+  },
+  {
+    "careerRecruitment_regions_name": "宁波",
+    "careerRecruitment_career_enterprise_name": "宁波分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "7bb3ffad-58cf-48f8-af15-acc90cb85f0f"
+  },
+  {
+    "careerRecruitment_regions_name": "济南,临沂,潍坊,东营,济宁,泰安,淄博,聊城,菏泽",
+    "careerRecruitment_career_enterprise_name": "济南分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "d564a2a6-f6f4-46a2-a96a-05eeca565afb"
+  },
+  {
+    "careerRecruitment_regions_name": "杭州,绍兴,嘉兴,台州,金华,舟山,湖州",
+    "careerRecruitment_career_enterprise_name": "杭州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "65d7c324-d19b-4e48-b018-5330b674cdae"
+  },
+  {
+    "careerRecruitment_regions_name": "海口,三亚",
+    "careerRecruitment_career_enterprise_name": "海口分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "40b0adcc-c014-49ec-b6eb-f5cf78bc02e5"
+  },
+  {
+    "careerRecruitment_regions_name": "哈尔滨,大庆",
+    "careerRecruitment_career_enterprise_name": "哈尔滨分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "034795de-9a05-4755-ab80-6b84aebf26d2"
+  },
+  {
+    "careerRecruitment_regions_name": "海口,三亚",
+    "careerRecruitment_career_enterprise_name": "海口分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "792b9479-8b8d-4fc8-8584-6dc3eaac7f54"
+  },
+  {
+    "careerRecruitment_regions_name": "呼和浩特",
+    "careerRecruitment_career_enterprise_name": "呼和浩特分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "aa297022-cf9a-4d9c-9eda-ea3926ded764"
+  },
+  {
+    "careerRecruitment_regions_name": "昆明",
+    "careerRecruitment_career_enterprise_name": "昆明分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "c8500161-1cd7-4e33-b966-a373bc7aa5dd"
+  },
+  {
+    "careerRecruitment_regions_name": "温州",
+    "careerRecruitment_career_enterprise_name": "温州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "71408943-0799-4f61-82c4-a6586aa29360"
+  },
+  {
+    "careerRecruitment_regions_name": "天津",
+    "careerRecruitment_career_enterprise_name": "天津分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "15531cdd-af9c-4b5e-af8b-19d26c8e538b"
+  },
+  {
+    "careerRecruitment_regions_name": "武汉",
+    "careerRecruitment_career_enterprise_name": "民生科技",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗-数据技术研发方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "39d6860c-cd86-42fa-a93f-0eb33579c6e1"
+  },
+  {
+    "careerRecruitment_regions_name": "南京,无锡,常州,镇江,南通,盐城,徐州,泰州,淮安,宿迁,扬州,连云港",
+    "careerRecruitment_career_enterprise_name": "南京分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "720ff620-288f-4cb9-9ee7-b6ab8ac9efd6"
+  },
+  {
+    "careerRecruitment_regions_name": "南沙,广州,东莞,佛山,中山,惠州,珠海,江门,肇庆",
+    "careerRecruitment_career_enterprise_name": "广州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "55a2c17b-9826-44b6-adfe-364c21e3d097"
+  },
+  {
+    "careerRecruitment_regions_name": "郑州,洛阳,许昌,南阳,信阳,新乡,漯河",
+    "careerRecruitment_career_enterprise_name": "郑州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "87b45c48-0c77-4505-b249-6a621812ede1"
+  },
+  {
+    "careerRecruitment_regions_name": "南昌,上饶,赣州,九江,宜春",
+    "careerRecruitment_career_enterprise_name": "南昌分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "eb41c226-dfcf-4186-97f1-d12e141f6def"
+  },
+  {
+    "careerRecruitment_regions_name": "福州",
+    "careerRecruitment_career_enterprise_name": "福州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "fb348daa-b460-45b9-95aa-79274685f585"
+  },
+  {
+    "careerRecruitment_regions_name": "大连",
+    "careerRecruitment_career_enterprise_name": "大连分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "f21ceeb1-8cec-4192-b8dd-db4a2b6d3ceb"
+  },
+  {
+    "careerRecruitment_regions_name": "温州",
+    "careerRecruitment_career_enterprise_name": "温州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "8293b28c-b7e9-4891-a12d-1ac714d118a5"
+  },
+  {
+    "careerRecruitment_regions_name": "武汉",
+    "careerRecruitment_career_enterprise_name": "民生科技",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗-数据智能算法方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "c4281db0-a35f-47a1-964e-25642f20403a"
+  },
+  {
+    "careerRecruitment_regions_name": "武汉",
+    "careerRecruitment_career_enterprise_name": "民生科技",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗-数据分析方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "9fc06fb1-46f0-4ea8-a395-046cee57501f"
+  },
+  {
+    "careerRecruitment_regions_name": "石家庄,邯郸,沧州,衡水,秦皇岛,唐山,张家口,保定,邢台",
+    "careerRecruitment_career_enterprise_name": "石家庄分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "73a3e4c9-9391-4e1d-8afb-de6c5d4cbd62"
+  },
+  {
+    "careerRecruitment_regions_name": "昆明,玉溪,曲靖,红河,普洱,腾冲,西双版纳",
+    "careerRecruitment_career_enterprise_name": "昆明分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "9cfb3e25-b3cf-4cf3-8ccd-b62a2f915a96"
+  },
+  {
+    "careerRecruitment_regions_name": "呼和浩特,鄂尔多斯,包头",
+    "careerRecruitment_career_enterprise_name": "呼和浩特分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "56193c33-c00e-4928-844c-e889c4714ef2"
+  },
+  {
+    "careerRecruitment_regions_name": "南昌",
+    "careerRecruitment_career_enterprise_name": "南昌分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "9fc6f3df-f677-4721-80c4-8fe066feced4"
+  },
+  {
+    "careerRecruitment_regions_name": "济南,临沂,潍坊,东营,济宁,泰安,淄博,聊城,菏泽",
+    "careerRecruitment_career_enterprise_name": "济南分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "0ab04d0c-47d1-4e18-967e-e02e728e3c1a"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生理财",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗-投资研究交易方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "2c3333cc-8c25-4467-8352-0be8532b9013"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生理财",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗-风险管理方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "16f207d2-8fbb-4d90-8942-671ee74c9d65"
+  },
+  {
+    "careerRecruitment_regions_name": "长春,吉林,延边,敦化,榆树",
+    "careerRecruitment_career_enterprise_name": "长春分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "18866cb9-a2f5-4196-8ccd-d15ad25784bb"
+  },
+  {
+    "careerRecruitment_regions_name": "青岛",
+    "careerRecruitment_career_enterprise_name": "青岛分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "1bdddb14-f1e5-45fb-8686-939f4956fbcf"
+  },
+  {
+    "careerRecruitment_regions_name": "重庆",
+    "careerRecruitment_career_enterprise_name": "重庆分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "1a3cb2f5-5501-4b4d-9d32-4d1eca94740d"
+  },
+  {
+    "careerRecruitment_regions_name": "合肥",
+    "careerRecruitment_career_enterprise_name": "合肥分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "da4100f5-b1e6-4af2-9b44-9fb5d8be7c28"
+  },
+  {
+    "careerRecruitment_regions_name": "苏州",
+    "careerRecruitment_career_enterprise_name": "苏州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "fca7504f-aaf0-4981-aa57-23b4ce092221"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "北京分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "eaf90a00-8271-407c-aea4-5d145baf8794"
+  },
+  {
+    "careerRecruitment_regions_name": "郑州,洛阳,许昌,南阳,信阳,新乡,漯河",
+    "careerRecruitment_career_enterprise_name": "郑州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "95331d71-5222-4381-a56b-286bfa7c23c6"
+  },
+  {
+    "careerRecruitment_regions_name": "西安,宝鸡,咸阳,榆林",
+    "careerRecruitment_career_enterprise_name": "西安分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "5981bbaa-c550-4e08-9eab-a5995dc83fd5"
+  },
+  {
+    "careerRecruitment_regions_name": "哈尔滨",
+    "careerRecruitment_career_enterprise_name": "哈尔滨分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "5fc39870-40d7-4424-a1b9-9e2b8e74e6bd"
+  },
+  {
+    "careerRecruitment_regions_name": "沈阳",
+    "careerRecruitment_career_enterprise_name": "沈阳分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "7d7f257f-b59b-4a5c-991e-0805ff0461dc"
+  },
+  {
+    "careerRecruitment_regions_name": "长沙,衡阳,常德,岳阳,湘潭,株洲",
+    "careerRecruitment_career_enterprise_name": "长沙分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "7f03341e-b550-478a-8060-6eec5536ab04"
+  },
+  {
+    "careerRecruitment_regions_name": "武汉",
+    "careerRecruitment_career_enterprise_name": "武汉分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "d0431646-651f-4ba8-994d-5f3db472f2b6"
+  },
+  {
+    "careerRecruitment_regions_name": "太原",
+    "careerRecruitment_career_enterprise_name": "太原分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "9e9c7712-3914-41c3-a2d0-69fcaf173192"
+  },
+  {
+    "careerRecruitment_regions_name": "泉州",
+    "careerRecruitment_career_enterprise_name": "泉州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "03988033-7801-464b-8b52-8a6ca939179e"
+  },
+  {
+    "careerRecruitment_regions_name": "南沙,广州,东莞,佛山,中山,惠州,珠海,江门,肇庆",
+    "careerRecruitment_career_enterprise_name": "广州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "6f185e90-6645-429b-8d00-a6f56a213690"
+  },
+  {
+    "careerRecruitment_regions_name": "武汉,襄阳,咸宁,黄石,孝感,宜昌",
+    "careerRecruitment_career_enterprise_name": "武汉分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "d20fa249-a8f6-4a14-ab02-1a07a680dd0a"
+  },
+  {
+    "careerRecruitment_regions_name": "合肥,马鞍山,芜湖,宣城,蚌埠",
+    "careerRecruitment_career_enterprise_name": "合肥分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "c8c66a5d-58cc-42df-91d1-61472d98074e"
+  },
+  {
+    "careerRecruitment_regions_name": "福州,莆田,宁德,龙岩,漳州",
+    "careerRecruitment_career_enterprise_name": "福州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "ef49b72f-abc6-46cc-aedd-4c96cd679dbd"
+  },
+  {
+    "careerRecruitment_regions_name": "沈阳,葫芦岛,鞍山",
+    "careerRecruitment_career_enterprise_name": "沈阳分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "09f9c8d5-3741-44a9-8f4d-5d06089e3623"
+  },
+  {
+    "careerRecruitment_regions_name": "贵阳,毕节",
+    "careerRecruitment_career_enterprise_name": "贵阳分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "0100555e-e2e5-4b40-95b6-70ff8921eb08"
+  },
+  {
+    "careerRecruitment_regions_name": "贵阳",
+    "careerRecruitment_career_enterprise_name": "贵阳分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "38401cc6-5d33-4494-9a63-2ac114145a11"
+  },
+  {
+    "careerRecruitment_regions_name": "乌鲁木齐",
+    "careerRecruitment_career_enterprise_name": "乌鲁木齐分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "dcbb185f-1d0b-40a4-98fc-472f79204329"
+  },
+  {
+    "careerRecruitment_regions_name": "厦门",
+    "careerRecruitment_career_enterprise_name": "厦门分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "fc4180a5-6731-45ba-96a9-39b4edaea93e"
+  },
+  {
+    "careerRecruitment_regions_name": "南宁,桂林,柳州,北海",
+    "careerRecruitment_career_enterprise_name": "南宁分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "a78bd0dd-dd2e-48ac-888b-1bd54f477f64"
+  },
+  {
+    "careerRecruitment_regions_name": "西安,宝鸡,咸阳,榆林",
+    "careerRecruitment_career_enterprise_name": "西安分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "ad7a06df-a72e-4830-97db-d56f7ed2bf74"
+  },
+  {
+    "careerRecruitment_regions_name": "太原,吕梁,大同,运城",
+    "careerRecruitment_career_enterprise_name": "太原分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "5676edfc-c629-4704-96ad-401e61bcbb67"
+  },
+  {
+    "careerRecruitment_regions_name": "大连,庄河",
+    "careerRecruitment_career_enterprise_name": "大连分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "168b4a02-1375-438a-a83c-471a650636ae"
+  },
+  {
+    "careerRecruitment_regions_name": "成都",
+    "careerRecruitment_career_enterprise_name": "成都分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "96440810-bdfc-4e74-a014-26e213480510"
+  },
+  {
+    "careerRecruitment_regions_name": "拉萨",
+    "careerRecruitment_career_enterprise_name": "拉萨分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "04408783-bd95-4895-a38c-18698dd3d795"
+  },
+  {
+    "careerRecruitment_regions_name": "兰州",
+    "careerRecruitment_career_enterprise_name": "兰州分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "8afae3e5-6d44-4971-8eb8-240e5f74db0b"
+  },
+  {
+    "careerRecruitment_regions_name": "天津",
+    "careerRecruitment_career_enterprise_name": "天津分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "ef6e11a9-5179-4dc5-9bde-8ff3ca40204c"
+  },
+  {
+    "careerRecruitment_regions_name": "西宁",
+    "careerRecruitment_career_enterprise_name": "西宁分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "69767e4f-65b4-4ad5-9d38-f5d39b46f951"
+  },
+  {
+    "careerRecruitment_regions_name": "银川",
+    "careerRecruitment_career_enterprise_name": "银川分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "ac4b3e36-32c9-40b8-ae47-9fffe6c98820"
+  },
+  {
+    "careerRecruitment_regions_name": "北京,广州,深圳,上海,杭州,南京,郑州",
+    "careerRecruitment_career_enterprise_name": "民生加银基金",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“扬帆”校招岗-渠道销售方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "60bb93ee-a912-46b3-bf08-4afc53bfd227"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生理财",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“启航”校招岗-职能方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "6a585b9f-25db-4ea6-9222-8117cb763d42"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生加银基金",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“扬帆”校招岗-量化投资研究方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "6983dbc2-4fba-408b-afc8-864dff3ea66a"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生金融租赁",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“启航”校招岗-财税方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "c2805aa3-05f5-4a1a-9262-d98c93096f09"
+  },
+  {
+    "careerRecruitment_regions_name": "深圳,武汉,西安,成都",
+    "careerRecruitment_career_enterprise_name": "民生科技",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“扬帆”校招岗-软件开发方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "e9fd1f8c-4b2f-4e76-a36e-b8dcbe47be88"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生加银基金",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“扬帆”校招岗-固收量化研究方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "2bb6b6c3-497b-4c29-86be-1bcadcdfe200"
+  },
+  {
+    "careerRecruitment_regions_name": "北京,深圳,上海",
+    "careerRecruitment_career_enterprise_name": "民生理财",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“启航”校招岗-市场方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "8a11bd3a-19bf-4b34-b27a-f5cded14f85f"
+  },
+  {
+    "careerRecruitment_regions_name": "成都",
+    "careerRecruitment_career_enterprise_name": "民生科技",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“启航”校招岗-软件开发方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "bdd5a056-5d27-4fa8-9a1e-d08078f5afcb"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生理财",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“启航”校招岗-金融科技方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "25f5ce7e-7ce5-4203-8f66-0c53c37de6db"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生加银基金",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“扬帆”校招岗-行业研究方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "e6e13c2a-c877-4c36-8f2c-13ecd79de07d"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生加银基金",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“扬帆”校招岗-转债研究方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "a0389a08-92f0-480a-a086-33c4fab5e730"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生加银基金",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“扬帆”校招岗-FOF研究方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "ce6e9923-2062-4e3c-a3c3-392c1f330e80"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生置业",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“启航”校招岗-信息科技方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "d419bfe1-69dc-4a28-b942-af9926332897"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生置业",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“启航”校招岗-法务方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "2408b8d1-0521-4135-a393-e6438dc2271e"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生金融租赁",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“启航”校招岗-科技方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "e366526d-dd93-4245-8eee-9b18877ecd9e"
+  },
+  {
+    "careerRecruitment_regions_name": "全国多地",
+    "careerRecruitment_career_enterprise_name": "民生金融租赁",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“启航”校招岗-市场方向（航空/航运/设备租赁等方向）",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "ba65f998-0239-4d97-8d4f-2a2d7cbb39bb"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生金融租赁",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“启航”校招岗-法务方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "90df9caa-ae08-41a7-a0dd-7e14556f24a5"
+  },
+  {
+    "careerRecruitment_regions_name": "北京",
+    "careerRecruitment_career_enterprise_name": "民生置业",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“启航”校招岗-财务方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "1878bce3-c8e9-409a-93b1-fb49b9857148"
+  },
+  {
+    "careerRecruitment_regions_name": "香港",
+    "careerRecruitment_career_enterprise_name": "香港分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“扬帆”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "3aedef9d-60cc-4bb3-b68a-ca866ecc735f"
+  },
+  {
+    "careerRecruitment_regions_name": "重庆,万州,大渡口,北碚,巴南,江津,涪陵,璧山,永川,长寿,合川",
+    "careerRecruitment_career_enterprise_name": "重庆分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "18ab8047-2a72-472c-955e-aaea0baa240b"
+  },
+  {
+    "careerRecruitment_regions_name": "香港",
+    "careerRecruitment_career_enterprise_name": "香港分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“启航”校招岗",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "55e0988f-dc73-43ad-827a-b661b87dabdc"
+  },
+  {
+    "careerRecruitment_regions_name": "上海",
+    "careerRecruitment_career_enterprise_name": "上海自贸区分行",
+    "careerRecruitment_career_publishDate": "2026-09-16 18:31:43",
+    "careerRecruitment_career_name": "“扬帆”校招岗-跨境金融方向",
+    "careerRecruitment_career_expirationDate": "2026-10-25",
+    "id": "ae5f897b-5fd1-4cb7-8cbd-39c341f4148c"
+  }
+]

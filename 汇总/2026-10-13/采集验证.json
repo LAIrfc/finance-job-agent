@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-10-13",
+  "records": 7017,
+  "unique_ids": 7017,
+  "official_paginated_sources": {
+    "bocom": 536,
+    "cib": 376,
+    "cicc": 104,
+    "cmbc": 113,
+    "cms": 27,
+    "cntp": 194,
+    "guosen": 62,
+    "icbc": 2572,
+    "pab": 201,
+    "picc-general": 1953,
+    "picc-tech": 77,
+    "rui": 203,
+    "sczq": 68
+  },
+  "unit_tests": "9 passed",
+  "browser_checks": [
+    "offline load",
+    "keyword search",
+    "pagination",
+    "no pageerror"
+  ]
+}

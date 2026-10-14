@@ -1,0 +1,151 @@
+、产品定位与核心闭环
+一句话定位：面向金融行业校招的精准投递副驾驶——帮用户找到匹配的金融岗位，生成定制材料，追踪投递进度，反哺匹配模型。
+
+核心闭环：
+
+text
+简历画像 → 金融岗位汇总 → 匹配排序 → 冲稳保分档 → 材料定制 → 用户确认投递 → 状态追踪 → 面试反馈 → 优化推荐
+设计原则：
+
+半自动优先：投递动作由用户确认后执行，不做全自动海投
+
+白名单数据源：只从注册过的金融数据源抓取，不让 Agent 自由漫游
+
+可解释匹配：每个推荐岗位都要说明「为什么推荐」和「缺什么」
+
+幂等增量：同一岗位重复抓取不重复入库，只处理新增和变更
+
+二、系统架构
+text
+┌─────────────────────────────────────────────────────────────┐
+│                        前端层                                │
+│  Web Dashboard (投递看板 / 岗位清单 / 简历管理)               │
+│  Chrome Extension (BOSS/猎聘 JD 一键提取)                    │
+└──────────────────────────┬──────────────────────────────────┘
+                           │
+┌──────────────────────────▼──────────────────────────────────┐
+│                      Agent 编排层                            │
+│  调度 Skill 执行顺序 / 异常重试 / 用户偏好澄清 / 结果汇总      │
+│  基于 LangGraph 状态机                                       │
+└──────────────────────────┬──────────────────────────────────┘
+                           │
+┌──────────────────────────▼──────────────────────────────────┐
+│                      Skill 执行层                            │
+│  source_registry → fetch_job → parse_job → normalize_dedupe │
+│  → job_store → source_health → digest_builder               │
+│  → matcher → resume_tailor (后续扩展)                        │
+└──────────────────────────┬──────────────────────────────────┘
+                           │
+┌──────────────────────────▼──────────────────────────────────┐
+│                      数据层                                  │
+│  PostgreSQL + pgvector (岗位库 / 简历库 / 匹配记录)           │
+│  Redis (任务队列 / 缓存)                                     │
+└─────────────────────────────────────────────────────────────┘
+Agent 的职责边界：Agent 只负责调度、重试和决策，不直接解析页面或操作数据库。每个 Skill 是确定性的能力单元，可以独立测试和替换。
+
+三、核心 Skill 定义
+Skill	职责	关键输入	关键输出
+source_registry	管理金融数据源白名单、适配器类型、优先级	行业、届别、赛道	源列表 + 适配器配置
+fetch_job	抓取原始页面/接口，不解析	源配置	原始 HTML/JSON + 元数据
+parse_job	把原始内容解析成结构化 JD	原始内容	结构化 JD 对象
+normalize_dedupe	统一字段、枚举、去重	结构化 JD 列表	标准岗位对象 + job_key
+job_store	入库、更新、记录状态	标准岗位对象	写入结果 + 变更记录
+source_health	监控源成功率、失败次数	抓取结果	健康度报告
+digest_builder	生成可投递清单	岗位库 + 用户偏好	今日/本周可投清单
+matcher	简历与 JD 匹配打分	简历画像 + 标准岗位	匹配分 + 冲稳保 + 解释
+browser_capture_job	用户主动触发，提取 BOSS/猎聘 JD	当前页面	结构化 JD
+结构化 JD 字段定义（金融行业专用）：
+
+yaml
+org: str                  # 机构名称
+title: str                # 岗位名称
+track: enum               # 赛道: bank/securities/fund/insurance/regulatory
+sub_track: str            # 子赛道: 投行/行研/量化/风控/科技岗等
+location: list[str]       # 工作地点
+graduation_year: str      # 届别要求
+degree: enum              # 学历要求
+major_preference: list    # 专业偏好
+hard_requirements: list   # 硬性要求(2027届/硕士/CPA等)
+skills: list[str]         # 技能要求
+deadline: date            # 截止日期
+apply_url: str            # 投递链接
+source_trust: enum        # 来源可信级别 A/B/C
+system_type: str          # 招聘系统类型: zhiye/hotjob/moka/custom
+recruit_type: enum        # campus/social
+四、数据源策略
+4.1 数据源分层
+层级	数据源	获取方式	优先级
+聚合层	校招雷达 (Xiaozhao Radar)	GitHub 开源，每周自动同步	最高
+聚合层	国家大学生就业服务平台金融专场	官方 API	高
+官方层	四大行 + 头部券商 + 头部基金官网	按系统类型写适配器	高
+官方层	央行/监管机构 (国考通道)	单独标注赛道类型	中
+插件层	BOSS直聘 / 猎聘	浏览器插件，用户主动触发	补充
+校招雷达（Xiaozhao Radar） 是当前最完整的开源方案：抓取了 126 家企业官网和 16 个官方公众号，856 家校招节点，1598 条有效招聘信息，其中银行金融类 126 条。它采用四层爬虫工具策略——Firecrawl 主选、AnySearch 备用、BrowserAct 破解反爬、OpenCLI 覆盖 51job 全量。MVP 阶段直接使用其开源数据，不自己写爬虫。
+
+4.2 招聘系统适配器策略
+金融行业的核心效率杠杆在于：大量机构使用同一套招聘 SaaS 系统。识别系统类型后，一个适配器可以覆盖多家机构。
+
+zhiye.com（北森 iTalent）：接口统一为 POST /api/Jobad/GetJobAdPageList，请求体 {"pageIndex": N, "pageSize": M, "keyWord": "", "category": 2, "langType": "zh_CN"}，所有用北森的公司共享同一接口，只差一个子域名 slug。金证科技等金融机构的校招官网都使用 szkingdom.zhiye.com/campus 形式。
+
+hotjob.cn（北森 Wecruit）：多租户托管在 wecruit.hotjob.cn 和客户自有域名上。实际 XHR 请求为 POST /wecruit/positionInfo/listPosition/{SU…}，Content-Type 为 application/x-www-form-urlencoded，recruitType=1 表示校招，2 表示社招。国寿安保、中国太平、中华财险等金融机构都使用这套系统。
+
+适配器开发原则：先识别目标机构使用的招聘系统类型，再针对每种系统写一个适配器，而不是逐机构定制。这是金融行业数据获取的最大效率杠杆。
+
+4.3 BOSS直聘与猎聘的合规处理
+BOSS和猎聘的数据通过内部的 /wapi/ 接口加载，需要浏览器会话 Cookie 才能访问，且平台对自动化工具风控严格，直接抓取极易导致账号封禁。推荐方案是浏览器插件形式的“用户主动触发提取” ：当用户主动浏览 BOSS 或猎聘的金融岗位页面时，插件一键提取当前 JD 的结构化信息，送入匹配引擎进行分析。数据获取行为由用户主动触发，不涉及后台大规模爬取，合规风险大幅降低。已有类似工具可参考，如「鼠鼠求职-自动投递插件」和「Chat4Data」都支持从招聘平台批量采集职位信息。
+
+五、匹配算法设计
+5.1 三层匹配流程
+text
+第一层：硬性过滤
+  ├── 毕业年份不符 → 过滤
+  ├── 学历不符 → 过滤
+  ├── 地点不接受 → 降权
+  └── 已截止 → 过滤
+
+第二层：语义召回
+  ├── BM25 关键词匹配
+  ├── Embedding 语义相似度 (all-MiniLM-L6-v2)
+  └── 技能图谱同义词扩展
+
+第三层：精排打分
+  Score = 0.25 * 硬性条件满足度
+        + 0.25 * 技能语义匹配
+        + 0.20 * 经历相关度
+        + 0.15 * 用户偏好
+        + 0.15 * 机会窗口/竞争难度
+金融行业特殊加分项：理工科背景在券商投行和研究部门的复合背景人才优先（招商证券 2027 校招明确表示）。银行科技岗强调“能把科技转化为业务价值”的复合型人才，这在匹配算法中应作为加分项而非硬性门槛。
+
+5.2 输出格式
+json
+{
+  "job_id": "zs-2027-ib-001",
+  "match_score": 82,
+  "tier": "稳",
+  "reasons": [
+    "硕士学历符合要求",
+    "财务分析技能匹配度高",
+    "深圳工作地点符合偏好"
+  ],
+  "gaps": [
+    "缺少投行实习经历",
+    "CPA 未通过"
+  ],
+  "suggestions": [
+    "在项目经历中突出估值建模经验",
+    "补充财务建模相关证书"
+  ]
+}
+六、技术栈选型
+层级	技术选型	理由
+Agent 编排	LangGraph	状态机驱动，支持 plan-execute-replan 循环
+LLM 调用	LangChain + 多模型可配置	支持 OpenAI/Anthropic/通义千问
+后端框架	FastAPI	异步支持好，适合 Agent 编排
+浏览器自动化	Playwright	支持反检测 + 多上下文
+HTML 解析	BeautifulSoup4 / lxml	稳定可靠
+文档解析	pdfplumber + python-docx	简历解析
+数据库	SQLite (MVP) → PostgreSQL (生产)	渐进式升级
+向量库	pgvector	与 PostgreSQL 一体化
+前端	Next.js + Chrome Extension	Web 看板 + 插件双端
+任务队列	Redis + Celery / asyncio	并发抓取调度
+参考实现：Automated-resume-submission-Agent 项目提供了完整的技术栈参考，后端 Python 3.11+ + LangGraph + Playwright，前端 Vue 3 + Element Plus，数据库 SQLite → PostgreSQL。jobhunter-ai 则展示了 LangGraph 状态机驱动的评估→改写→审批→投递流水线，支持 A/B 级深度改写与 C-F 级海投话术。

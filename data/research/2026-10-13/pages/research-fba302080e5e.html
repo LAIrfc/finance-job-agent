@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>浙江工商大学-智慧就业服务平台</title>
+
+</head>
+<link rel="stylesheet" href="/career/static/index/css/theme.css" media="all">
+<link rel="stylesheet" href="/career/static/index/css/threeLevel.css" media="all">
+<link rel="stylesheet" href="/career/static/index/css/blue/theme.css" media="all">
+<link rel="stylesheet" href="/career/static/ckeditor5/ckeditor5.css" media="all">
+<link rel="stylesheet" href="/career/static/index/css/kzzph/kzzphDwzwxx.css" media="all">
+<style>
+	#companyDetail .container .position-info .table-container .table-body .body .info .infoText .item {
+		display: inline-block;
+	}
+	#companyDetail {
+		padding-bottom: 0!important;
+	}
+</style>
+<body>
+<div><style>
+	html {
+		background-image:url('/career//static/index/img/bgThreeIndex.png') !important;
+	}
+</style></div>
+<div><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>浙江工商大学-智慧就业服务平台</title>
+	<link rel="stylesheet" href="/career/static/layuiadmin/layui/css/layui.css" media="all">
+	<link rel="stylesheet" href="/career/static/index/css/swiper-bundle.min.css" media="all">
+	<link rel="stylesheet" href="/career/static/index/tradition/css/theme.css" media="all">
+	<link rel="stylesheet" href="/career/static/index/tradition/blue/theme.css" media="all">
+	<script>
+		var contextPath = '/career/';
+	</script>
+</head>
+<style>
+	.headerSearch {
+		margin-left: 20px;
+		width: 167px;
+		height: 24px;
+		display: inline-flex;
+		position: relative;
+	}
+	
+	.headerSearch input {
+		outline: 0;
+		width: 167px;
+		height: 24px;
+		background: #FFFFFF;
+		border-radius: 12px;
+		float: left;
+		border: none;
+		padding: 0 5px;
+	}
+	
+	.headerSearchIcon {
+		position: absolute;
+		right: 0;
+		width: 42px;
+		height: 22px;
+		background: linear-gradient(90deg, #0966A9 0%, #3089C1 100%);
+		border-radius: 12px;
+		margin: 1px 2px 1px 0;
+		text-align: center;
+		line-height: 22px;
+		padding-left: 2px;
+		box-sizing: border-box;
+		cursor: pointer;
+	}
+	
+	.headerSearchIcon img {
+		width: 14px;
+		height: 14px;
+	}
+	
+	.headerSearch > label {
+		position: absolute;
+		right: 8px;
+		top: 0;
+		cursor: pointer;
+		width: 42px;
+		height: 22px;
+		background: linear-gradient(143deg, #AB0011 0%, #730007 100%);
+		border-radius: 12px;
+	}
+	
+	.SecondaryNav {
+		background: url('/career//static/images/user//10353/20221025/6976335513699483654.png');
+		background-size: 100% 100%;
+		/*background-size: contain;*/
+	}
+	
+	.indexFootCon {
+		background-image: url('/career//static/index/img/foot-bg.png') !important;
+	}
+</style>
+<div class="indexNavBox" id="navigation">
+	<div id="head">
+		<div class="headBox">
+			<div>
+				<div class="headLeft"><span>欢迎您访问浙江工商大学-智慧就业服务平台</span>
+				</div>
+				<div class="headerSearch">
+					<input type="text" id="searchInput">
+					<span class="headerSearchIcon"><img src="/career/static/index/tradition/img/searchIcon.png" alt=""></span>
+				</div>
+			</div>
+			<div class="headRight">
+				<div onclick="tysfrz()">
+					<span>学校统一身份登录</span>
+				</div>
+				<div></div>
+				<!-- 
+				<div>
+					<a th:href="@{/login?loginType=xsjs}">
+						<span>学生/教师登录</span> 
+					</a>
+				</div>
+				<div></div>
+				-->
+				<div>
+					<a href="/career/login?loginType=dw">
+						<span>单位登录</span>
+					</a>
+				</div>
+				<div></div>
+				<div>
+					<a href="/career/dwxx/zc">
+						<span>单位注册</span>
+					</a>
+				</div>
+				<div></div>
+				<div>
+					<a href="/career/index/bzwd">
+						<span>使用帮助</span>
+					</a>
+				</div>
+				<div></div>
+				<div>
+					<a href="javascript:;" onclick="windowOpen(&quot;http:\/\/www.hzic.edu.cn\/&quot;)">
+						<span>学校官网</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="SecondaryNav">
+		<div class="indexLogoBox">
+			<div class="indexLogo">
+				<a href="/career/index">
+					<img src="/career//static/images/user//10353/20221026/6978916101849612472.png" alt="浙江工商大学">
+				</a>
+			</div>
+			<ul id="nav" class="nav indexNav">
+				<a href="/career/index">
+					<li class="nLi on">
+						<div class="firstNav">首页</div>
+						<div class="secondNav">Home</div>
+					</li>
+				</a>
+				<li class="nLi">
+					<div class="firstNav">学生<img src="/career/static/index/img/buttomFFF.png"></div>
+					<div class="secondNav">Student</div>
+					<ul class="sub">
+						<div>
+							<div>
+								
+									<div class="navTitle">求职应聘</div>
+									<div class="navConList">
+										
+											
+												<div>
+													
+													<a href="/career/news/zpgg"
+															target="_blank">招聘公告</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/zpxx/zpxx"
+															target="_blank">全职招聘</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/zpxx/sxzpxx"
+															target="_blank">实习招聘</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/xjhxx/allxjh"
+															target="_blank">校园宣讲会</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/zphxx"
+															target="_blank">招聘会</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/zphxx/ztzph"
+															target="_blank">组团招聘会</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/zphxx/kz"
+															target="_blank">空中双选会</a>
+												</div>
+												
+											
+										
+									</div>
+								
+								
+									<div class="navTitle">就业手续</div>
+									<div class="navConList">
+										
+											
+												<div>
+													
+													<a href="/career/login?loginType=xs"
+															target="_blank">生源核对</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/login?loginType=xs"
+															target="_blank">推荐表登记</a>
+												</div>
+												
+											
+										
+									</div>
+								
+								
+									<div class="navTitle">就业指导</div>
+									<div class="navConList">
+										
+											
+												<div>
+													
+													<a href="/career/index/zxyy"
+															target="_blank">咨询预约</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/login?loginType=xs"
+															target="_blank">生涯活动报名</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/sso/zjgs/ssoLoginCareersky"
+															target="_blank">生涯测评</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													<a href="https://jyw.zjgsu.edu.cn/career/news/zyghds"
+															target="_blank">职业生涯规划大赛</a>
+													
+												</div>
+												
+											
+										
+									</div>
+								
+							</div>
+						</div>
+					</ul>
+				</li>
+				<li class="nLi">
+					<div class="firstNav">单位<img src="/career/static/index/img/buttomFFF.png"></div>
+					<div class="secondNav">Employer</div>
+					<ul class="sub">
+						<div>
+							<div>
+								<div>
+									
+										<div class="navTitle">了解学校</div>
+										<div class="navConList">
+											
+												
+													<div>
+														<a href="http://zjgsu.edu.cn/9/"
+																target="_blank">学校概况</a>
+														
+													</div>
+													
+												
+											
+											
+												
+													<div>
+														<a href="http://zjgsu.edu.cn/11/"
+																target="_blank">院系介绍</a>
+														
+													</div>
+													
+												
+											
+											
+												
+													<div>
+														
+														<a href="/career/news/syxx"
+																target="_blank">生源速览</a>
+													</div>
+													
+												
+											
+										</div>
+									
+									
+										<div class="navTitle">信息发布</div>
+										<div class="navConList">
+											
+												
+													<div>
+														
+														<a href="/career/news/lxzpzn"
+																target="_blank">招聘指南</a>
+													</div>
+													
+												
+											
+											
+												
+													<div>
+														
+														<a href="/career/login/dw"
+																target="_blank">招聘信息发布</a>
+													</div>
+													
+												
+											
+											
+												
+													<div>
+														
+														<a href="/career/login/dw"
+																target="_blank">实习信息发布</a>
+													</div>
+													
+												
+											
+											
+												
+													<div>
+														
+														<a href="/career/login/dw"
+																target="_blank">宣讲会申请</a>
+													</div>
+													
+												
+											
+											
+												
+													<div>
+														
+														<a href="/career/login/dw"
+																target="_blank">空中宣讲会申请</a>
+													</div>
+													
+												
+											
+											
+												
+													<div>
+														
+														<a href="/career/login/dw"
+																target="_blank">招聘会报名</a>
+													</div>
+													
+												
+											
+											
+												
+													<div>
+														
+														<a href="/career/login/dw"
+																target="_blank">空中双选会报名</a>
+													</div>
+													
+												
+											
+											
+												
+													<div>
+														
+														<a href="/career/login/dw"
+																target="_blank">组团招聘会报名</a>
+													</div>
+													
+												
+											
+											
+												
+													<div>
+														
+														<a href="/career/dywj/dw"
+																target="_blank">问卷调查</a>
+													</div>
+													
+												
+											
+											
+												
+													<div>
+														
+														<a href="/career/index/xysxx"
+																target="_blank">协议书查询</a>
+													</div>
+													
+												
+											
+										</div>
+									
+								</div>
+							</div>
+						</div>
+					</ul>
+				</li>
+				<li class="nLi">
+					<div class="firstNav">校友<img src="/career/static/index/img/buttomFFF.png"></div>
+					<div class="secondNav">Alumnus</div>
+					<ul class="sub">
+						<div>
+							<div>
+								
+									<div class="navTitle">登录</div>
+									<div class="navConList">
+										
+											
+												<div>
+													
+													<a href="/career/login/xsjs"
+															target="_blank">登录</a>
+												</div>
+												
+											
+										
+									</div>
+								
+								
+									<div class="navTitle">求职应聘</div>
+									<div class="navConList">
+										
+											
+												<div>
+													
+													<a href="/career/news/zpgg"
+															target="_blank">招聘公告</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/zpxx/zpxx"
+															target="_blank">全职招聘</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/zpxx/sxzpxx"
+															target="_blank">实习招聘</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/xjhxx/allxjh"
+															target="_blank">校园宣讲会</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/zphxx"
+															target="_blank">招聘会</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/zphxx/ztzph"
+															target="_blank">组团招聘会</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/zphxx/kz"
+															target="_blank">空中双选会</a>
+												</div>
+												
+											
+										
+									</div>
+								
+								
+									<div class="navTitle">就业手续</div>
+									<div class="navConList">
+										
+											
+												<div>
+													
+													<a href="/career/login?loginType=xs"
+															target="_blank">遗失改派申请</a>
+												</div>
+												
+											
+										
+										
+											
+												<div>
+													
+													<a href="/career/index/daxx"
+															target="_blank">档案查询</a>
+												</div>
+												
+											
+										
+									</div>
+								
+							</div>
+						</div>
+					</ul>
+				</li>
+				<li class="nLi">
+					<div class="firstNav">教师<img src="/career/static/index/img/buttomFFF.png"></div>
+					<div class="secondNav">Teacher</div>
+					<ul class="sub">
+						<div>
+							<div>
+								
+									<div class="navTitle">招聘管理</div>
+									<div class="navConList">
+										
+											
+												<div>
+													
+													<a href="/career/login?loginType=dw"
+															target="_blank">登录</a>
+												</div>
+												
+											
+										
+									</div>
+								
+								
+									<div class="navTitle">就业管理</div>
+									<div class="navConList">
+										
+											
+												<div>
+													
+													<a href="/career/login?loginType=js"
+															target="_blank">登录</a>
+												</div>
+												
+											
+										
+									</div>
+								
+								
+									<div class="navTitle">生涯管理</div>
+									<div class="navConList">
+										
+											
+												<div>
+													
+													<a href="/career/login?loginType=js"
+															target="_blank">登录</a>
+												</div>
+												
+											
+										
+									</div>
+								
+							</div>
+						</div>
+					</ul>
+				</li>
+				<a href="/career/gywm">
+					<li class="nLi">
+						<div class="firstNav">关于我们</div>
+						<div class="secondNav">About us</div>
+					</li>
+				</a>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div style="height: 150px"></div>
+
+<script src="/career/static/main/js/jquery-3.7.1.min.js"></script>
+<script src="/career/static/index/js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="/career/static/layuiadmin/layui/layui.all.js"></script>
+<script src="/career/static/js/base64.js"></script>
+<script src="/career/static/main/js/common.js?v=1791426170090"></script>
+<script src="/career/static/main/js/fileLoad.js?v=1791426170090"></script>
+<script src="/career/static/plugins/qrcode.min.js"></script>
+<script src="/career/static/main/js/template-native.js"></script>
+<script src="/career/static/index/js/swiper-bundle.min.js"></script>
+<script src="/career/static/index/js/rollpic.js"></script>
+<script>
+	jQuery("#nav").slide({
+		type: "menu", // 效果类型，针对菜单/导航而引入的参数（默认slide）
+		titCell: ".nLi", //鼠标触发对象
+		targetCell: ".sub", //titCell里面包含的要显示/消失的对象
+		effect: "slideDown", //targetCell下拉效果
+		delayTime: 300, //效果时间
+		triggerTime: 0, //鼠标延迟触发时间（默认150）
+		returnDefault: true //鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+	});
+	$(".nLi").hover(function () {
+		$(this).find("img").attr("src",contextPath+'static/index/img/top.png')
+		$(this).css("color", "#fff")
+	})
+	$(".nLi").mouseleave(function () {
+		$(this).find("img").attr("src",contextPath+'static/index/img/buttomFFF.png')
+		$(this).css("color", "#000")
+	})
+	window.onscroll = function () {
+		var topScroll = $(document).scrollTop(); //滚动的距离,距离顶部的距离
+		var bignav = document.getElementById("navigation"); //获取到导航栏id
+		if (topScroll > 20) { //当滚动距离大于190px时执行下面的东西
+			bignav.style.boxShadow = '0 3px 5px #ccc';
+		} else {
+			bignav.style.boxShadow = '0 0px 0px #fff';
+		}
+	}
+	
+	/**
+	 * 统一身份认证登录
+	 */
+	function tysfrz() {
+		var sfqydddl = '是';
+		if ("是" == sfqydddl){
+			var ssoLoginUrl = 'sso/zjgs/login';
+			windowOpen(contextPath + ssoLoginUrl);
+		}else {
+			layer.msg('暂未开通');
+		}
+	}
+	
+	/**
+	 * 搜索框的回车事件
+	 */
+	$('body').on('keypress', '.headerSearch input', function (even) {
+		if (even.which === 13) {
+			search();
+		}
+	})
+	
+	/**
+	 * 搜索按钮点击事件
+	 */
+	$('body').on('click', '.headerSearch span', function () {
+		search();
+	})
+	
+	/**
+	 * 首页搜索新闻信息
+	 */
+	function search() {
+		windowOpen(contextPath + 'index/search?s=' + encodeURI($('#searchInput').val()));
+	}
+</script>
+</html></div>
+<div class="threeLevelBox" id="zpxxdiv">
+	<div class="threeLevelLeft">
+		<div class="threeLevelModel">
+			<div class="threeLevelModelIcon"></div>
+			<div class="threeLevelModelName">
+                <span class="secondLevelModelParent" style="cursor: pointer;"
+		                onclick="location=&quot;\/career\/index&quot;">首页</span>&gt;&nbsp;&nbsp;招聘信息
+			</div>
+		</div>
+		<div class="threeLevelTitleBox">
+			<div class="threeLevelTitle" id="zpztdiv"></div>
+			<div id="titlediv" style="display: none"></div>
+			<div class="threeLevelTool">
+				<div class="threeLevelTime">
+					发布时间：<span id="fbrqdiv"></span>
+				</div>
+				<div class="threeLevelShare">
+					<div><!--通用的分享页面-->
+<div class="threeLevelWb" onclick="share('wb')"><img src="/career/static/index/img/weibo.png"></div>
+<div class="threeLevelShareLine">|</div>
+<div class="threeLevelWx" onclick="share('wx')"><img src="/career/static/index/img/weixin.png">
+	<div class="ewmCode">
+		<div class="ewmTile">
+			<div class="ewmTil">微信扫描二维码分享</div>
+			<div class="closeEwm" onclick="closeCode()">X</div>
+		</div>
+		<div class="wxCodeBox">
+			<div  id="wxCode">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="threeLevelShareLine">|</div>
+<div class="threeLevelFx">
+	<div class="threeLevelFxShare"><img src="/career/static/index/img/share.png"></div>
+	<div class="shareTen">
+		<div class="shareQQH"  onclick="share('qqHy')">
+			<div>
+				<img src="/career/static/index/img/QQ.png">
+			</div>
+			<div>QQ好友</div>
+		</div>
+		<div class="shareQQH"  onclick="share('qqkj')">
+			<div>
+				<img src="/career/static/index/img/QQkj.png">
+			</div>
+			<div>QQ空间</div>
+		</div>
+	</div>
+</div>
+<div class="threeLevelShareLine">|</div>
+<div class="threeLevelSc" id="wdscdiv"></div>
+<div class="threeLevelShareLine">|</div>
+<div class="threeLevelRead"><img src="/career/static/index/img/read.png"></div>
+<script type="text/html" id="jrscTemplate">
+	<div class="layui-icon layui-icon-rate" id="jrscIcon" style="font-size: 21px; color: #cdd9f1;" title="加入收藏" onclick="jrsc()"></div>
+</script>
+<script type="text/html" id="qxscTemplate">
+	<div class="layui-icon layui-icon-rate-solid" id="qxscIcon" style="font-size: 21px;" title="取消收藏" onclick="qxsc()"></div>
+</script>
+<script type="text/javascript">
+	function share(type){
+		var title = $('#titlediv').text();
+		var url = location.href
+		if (type=='wb'){
+			window.open('http://v.t.sina.com.cn/share/share.php?title='+title+'&url='+ url+'&source=bookmark','_blank')
+		}
+		if (type=='qqHy'){
+			window.open(' http://connect.qq.com/widget/shareqq/index.html?title='+title+'&url='+url+'&source=bookmark','_blank')
+		}
+		if (type=='qqkj'){
+			window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?title='+title+'&url='+url+'&source=bookmark','_blank')
+		}
+		if (type=='wx'){
+			$("#wxCode").html('')
+			$(".ewmCode").show();
+			new QRCode("wxCode", {
+				text: url,
+				width: 128,
+				height: 128,
+				colorDark : "#000000",
+				colorLight : "#ffffff",
+				correctLevel : QRCode.CorrectLevel.H
+			});
+		}
+	}
+	$(".threeLevelFx").hover(function () {
+		$(".shareTen").show()
+	})
+	$(".threeLevelFx").mouseleave(function () {
+		$(".shareTen").hide()
+	})
+	function closeCode() {
+		$(".ewmCode").hide()
+		event.stopPropagation();
+	}
+	let sczt = "";
+	/**
+	 * 加入收藏
+	 */
+	function jrsc() {
+		layer.closeAll('tips');
+		var param = getWdscData()||{};
+		postAjax(contextPath + 'index/wdsc/sc',param,function (result) {
+			if (result.code == 200){
+				$('#wdscdiv').html(template('qxscTemplate'));
+
+				// $('.newsCollectBox').hide()
+				// $('.newsCollectsBox').show()
+				layer.msg(result.message,{icon:1});
+			}else if (result.code == 403){
+				layer.confirm('您还没有登录，请登录后再收藏本网页！点击确定前往登录！',{icon:7},function (index) {
+					//保存reurl
+					CareerLocalStorage.setItem("reurl",window.location.href,180);
+					layer.close(index);
+					window.open(contextPath+'login');
+				})
+			}else {
+				layer.msg(result.message,{icon:2});
+			}
+		})
+	}
+	
+	/**
+	 * 取消收藏
+	 */
+	function qxsc() {
+		layer.closeAll('tips');
+		var param = getWdscData()||{};
+		postAjax(contextPath + 'index/wdsc/qxsc',param,function (result) {
+			if (result.code == 200){
+				$('#wdscdiv').html(template('jrscTemplate'));
+
+				// $('.newsCollectsBox').hide()
+				// $('.newsCollectBox').show()
+				layer.msg(result.message,{icon:1});
+				var element = document.getElementById('jrscIcon');
+				if (element) {
+					layui.use(['layer'], function() {
+						var layer = layui.layer;
+						layer.tips("加入收藏", element, {
+							tips: [3, '#fff'], // 方向为下方，背景颜色为深灰色
+							time: 200000,       // 提示框显示时间（毫秒）
+							tipsMore: true,   // 允许更多自定义样式
+							success: function(layero, index) {
+								// 使用 success 回调函数动态添加字体颜色样式
+								$(layero).find('.layui-layer-content').css({
+									'color': '#000', // 设置字体颜色为黑色
+									'padding':'4px 12px'
+								});
+								// 添加点击事件以关闭提示框
+								$(layero).on('click', function() {
+									layer.close(index); // 关闭当前提示框
+								});
+							}
+						});
+						let wdscDivOffset = $('#jrscIcon').offset(); // 获取目标元素的偏移量
+						// console.log("wdscDivOffset.top",wdscDivOffset.top)
+						// 使用 setTimeout 确保提示框已渲染
+						setTimeout(function() {
+							const topOffset = wdscDivOffset.top + 24;
+							$('.layui-layer-tips').css({
+								'left': wdscDivOffset.left - 10 + 'px',
+								'top': topOffset + 'px',
+								'zIndex': 10
+							});
+						}, 10);
+					});
+				} else {
+					console.error("未找到 id 为 qxscIcon 的元素");
+				}
+			}else if (result.code == 403){
+				layer.confirm('您还没有登录，请登录后再取消收藏本网页！点击确定前往登录！',{icon:7},function (index) {
+					//保存reurl
+					CareerLocalStorage.setItem("reurl",window.location.href,180);
+					layer.close(index);
+					window.open(contextPath+'login');
+				})
+			}else {
+				layer.msg(result.message,{icon:2});
+			}
+		})
+	}
+
+	$(function () {
+		// 初始化收藏状态
+		postAjax(contextPath + 'index/wdsc/data/'+getQueryStringByRestful(),{},function (result) {
+			if (result.code == 200){
+				if (result.data == null){
+
+					$('#wdscdiv').html(template('jrscTemplate'));
+					sczt ="加入收藏";
+					var element = document.getElementById('jrscIcon');
+					if (element) {
+						layui.use(['layer'], function() {
+							setTimeout(function() {
+								var layer = layui.layer;
+								// 显示提示框
+								layer.tips("加入收藏", '#wdscdiv', { // 假设 element 是 #wdscdiv
+									tips: [3, '#fff'], // 方向为下方，背景颜色为深灰色
+									time: 0, // 设置为 0 表示不自动关闭
+									tipsMore: true, // 允许更多自定义样式
+									success: function(layero, index) {
+										// 动态添加字体颜色样式
+										$(layero).find('.layui-layer-content').css({
+											'color': '#000', // 设置字体颜色为黑色
+											'padding': '4px 12px'
+										});
+
+										// 添加点击事件以关闭提示框
+										$(layero).on('click', function() {
+											layer.close(index); // 关闭当前提示框
+										});
+									}
+								});
+
+								// 调整提示框位置
+								let wdscDivOffset = $('#jrscIcon').offset(); // 获取目标元素的偏移量
+								// let wdscDivOffset = $('#wdscdiv').offset();
+								// console.log("wdscDivOffset.top--",wdscDivOffset.top)
+								const topOffset = wdscDivOffset.top + 24;
+
+								$('.layui-layer-tips').css({
+									'left': wdscDivOffset.left - 10 + 'px',
+									'top': topOffset + 'px',
+									'zIndex': 10
+								});
+							}, 300);
+						});
+					} else {
+						console.error("未找到 id 为 qxscIcon 的元素");
+					}
+				}else {
+					$('#wdscdiv').html(template('qxscTemplate'));
+				}
+			}else {
+				layer.msg(result.message,{icon:2});
+			}
+		})
+	})
+
+</script>
+</div>
+					<div class="threeLevelReadNum" id="djsdiv"></div>
+
+				</div>
+			</div>
+			<div class="threeLevelToolLine"><img src="/career/static/index/img/line.png"></div>
+		</div>
+		<div class="xjhxxInformation">
+		    <div class="threeLevelSignTitle">
+                <div class="threeLevelSign"></div>
+                <div class="threeLevelSignName">招聘信息</div>
+            </div>
+			<div class="xjhxxInformationList" id="xqrsDiv" style="display: none">
+				<div class="zwxxXlyq"></div>
+				<div>需求人数 ：</div>
+				<div class="xjhxxTimeName" id="xqrsmcdiv"></div>
+			</div>
+			<div class="xjhxxInformationList" id="zpwzDiv" style="display: none">
+				<div class="xjhKxdz"></div>
+				<div>网申/校招网址 ：</div>
+				<div class="xjhxxTimeName" id="zpxxwzdiv" style="color: #1E9FFF; cursor: pointer; text-decoration: underline;" onclick="windowOpen($(this).data('url'))"></div>
+			</div>
+			<div class="xjhxxInformationList" id="zpdhDiv" style="display: none">
+				<div class="xjhDhdz"></div>
+				<div>招聘电话 ：</div>
+				<div class="xjhxxTimeName" id="zpxxzpdhdiv" style="color:#333;"></div>
+			</div>
+			<div class="xjhxxInformationList">
+				<div class="zwxxZpyx"></div>
+				<div>简历投递邮箱  ：</div>
+				<div class="xjhxxTimeName" id="jltdyxdiv" style="float:left;"></div>
+			</div>
+			<div class="xjhxxInformationList">
+				<div class="xjhJbsj"></div>
+				<div>截止日期 ：</div>
+				<div class="xjhxxTimeName" id="zpjzrqdiv" style="float:left;"></div>
+			</div>
+		</div>
+		<div id="zpzwDiv" style="display: none">
+			<div class="threeLevelSignTitle">
+				<div class="threeLevelSign"></div>
+				<div class="threeLevelSignName">招聘职位</div>
+			</div>
+			<div id="jobfairBar">
+				<div id="companyDetail" style="width: 857px;">
+					<div class="container" style="width: 857px;">
+						<!--招聘职位开始-->
+						<div class="position-info">
+							<div class="table-container">
+								<div class="table-body" id="zwxxdiv">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="threeLevelSignTitle">
+			<div class="threeLevelSign"></div>
+			<div class="threeLevelSignName">招聘简章</div>
+		</div>
+		<div class="newDetails editorConnect ck-content" id="zpxxEditordiv">
+
+		</div>
+		<div><!--企业简介-->
+<div class="xjhxxQynl">
+	<div class="xjhxxQynlTitle">
+		企业简介
+	</div>
+	<div class="xjhxxQynlLine"></div>
+	<div class="xjhxxUnitDetail"></div>
+</div>
+
+<script type="text/javascript">
+	var qyjj;
+	
+	function loadQyjj(qyjjHtml) {
+		qyjj = qyjjHtml;
+		if (isBlank(qyjj)){
+			qyjj = '暂无简介';
+		}
+		qyjj = qyjj.replace(/<[^>]*>/g, '');
+		if (qyjj.length > 200){
+			$(".xjhxxUnitDetail").html(qyjj.substring(0,150)+"...<span style='color: #E03F4C;margin-left: 30px;cursor: pointer' onclick='searchAll()'>查看全部>></span>")
+		}else {
+			$(".xjhxxUnitDetail").html(qyjj)
+			
+		}
+	}
+	
+	function searchAll() {
+		$(".xjhxxUnitDetail").html(qyjj+"<spa style='color: #E03F4C;margin-left: 30px;cursor: pointer' onclick='sqAll()'>收起>></spa>")
+	}
+	function sqAll() {
+		$(".xjhxxUnitDetail").html(qyjj.substring(0,150)+"...<span style='color: #E03F4C;margin-left: 30px;cursor: pointer' onclick='searchAll()'>查看全部>></span>")
+	}
+</script>
+
+</div>
+		<div class="threeLevelSignTitle" id="xgfjTitle">
+		</div>
+		<div class="threeLevelSignAccessory" id="xgfj">
+
+		</div>
+	</div>
+	<div><div class="threeLevelRight">
+	<div class="threeLevelSignTitle">
+		<div class="threeLevelSign"></div>
+		<div class="threeLevelSignName">单位信息</div>
+	</div>
+	<div class="zpxxUnit">
+		<div class="zpxxUnitIcon">
+			<img src="/career/static/images/index/dwicon.png" id="dwtxImg">
+		</div>
+		<div class="zpxxUnitInfomation">
+			<div>单位名称：<span id="dwmcdiv"></span></div>
+			<div>单位行业：<span id="hyyjmcdiv"></span></div>
+			<div>单位性质：<span id="xzyjmcdiv"></span></div>
+			<div>人数规模：<span id="rsgmmcdiv"></span></div>
+			<div>公司地址：<span id="szxmcdiv"></span></div>
+			<div>公司网址：<span id="dwwzdiv" style="color: cornflowerblue;cursor: pointer" onclick="windowOpen(this.innerText)"></span></div>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	function loadDwtxImg(dwlogo) {
+		if (isNotBlank(dwlogo)){
+			$("#dwtxImg").attr("src",contextPath + dwlogo);
+		}
+	}
+</script>
+</div>
+</div>
+
+<script type="text/html" id="zwxxTemplate">
+	<%if(list!=null&&list.length>0){%>
+	<%for(var i=0;i< list.length;i++){%>
+	<div class="table-body-item">
+		<div class="body">
+			<div class="info" style="width: 750px;">
+				<div class="head" style="margin-bottom: 35px" onclick="windowOpen('<%=context%>zwxx/view/<%=list[i].zwid%>?refType=indexZpxx&refId=<%=zpxxid%>')">
+					<div class="table-item name" style="width: 100%;float: left">
+						<a href="javascript:;" class="jhover" title="<%=list[i].zwmc%>"><%=list[i].zwmc%></a>
+						<span style="margin-left: 5px"><i style="color: rgb(247, 100, 100);">
+							<%if(list[i].yxmc!=null&&list[i].yxmc!=''){%>
+								<%=list[i].yxmc.replace('W','').replace('w','')%>(元/月)
+							<%}%>
+						</i></span>
+					</div>
+				</div>
+				<div class="infoText" style="font-size: 13px" onclick="windowOpen('<%=context%>zwxx/view/<%=list[i].zwid%>?refType=indexZpxx&refId=<%=zpxxid%>')">
+					<div class="item">工作地点：<%=list[i].gzdz%></div>
+					<div class="item">学历要求：<%=list[i].xlyqmc%></div>
+					<div class="item">工作类型：<span><%=list[i].gzlxmc%></span></div>
+				</div>
+				<div class="content" onclick="windowOpen('<%=context%>zwxx/view/<%=list[i].zwid%>?refType=indexZpxx&refId=<%=zpxxid%>')">
+					<pre class="text" style="width: 857px;"><%=list[i].zwms%></pre>
+				</div>
+			</div>
+			<div class="infoBtn">
+				<%if(!hideTdjl){%>
+				<div class="btn">
+					<div class="button" style="width: 70px;" onclick="tdjl({obj:this,zwid:'<%=list[i].zwid%>',refId:'<%=zpxxid%>',refType:'indexZpxx',systemLogin:'<%=systemLogin%>'})">投递简历</div>
+				</div>
+				<%}%>
+			</div>
+		</div>
+	</div>
+	<%}%>
+	<%}else{%>
+	<div class="table-body-item">暂无职位信息</div>
+	<%}%>
+</script>
+<div><div><div class="indexFoot">
+            <div class="indexFootCon">
+                <div class="indexFootLeft">
+
+                    <div class="indexFootConnew">
+                        
+                        <div class="indexFootLeftnew indexFootLeftnew">
+                            <div class="footConnew">
+                                <div class="titname"><span>招生与就业指导处</span></div>
+                                <div class="footConnewLine">电 话： (86)571-28877268</div>
+                                <div class="footConnewLine">邮编 ：310018</div>
+                                <div class="footConnewLine">地 址：浙江省杭州市下沙高教园区学正街18号</div>
+                            </div>
+                        </div>
+                        <div class="indexFootLeftnew indexFootLeftnew2">
+                            <div class="footConnew ">
+                                <div class="titname"><span>招生与就业指导处</span></div>
+                                <div class="footConnewLine">电 话：(86)571-28877268</div>
+                                <div class="footConnewLine">邮编 ：310018</div>
+                                <div class="footConnewLine">地 址：浙江省杭州市下沙高教园区学正街18号 </div>
+                            </div>
+                        </div>
+                        <div class="indexFootLeftnew indexFootLeftnew3">
+                            <div class="footConnew ">
+                                <div class="titname"><span>招生与就业指导处</span></div>
+                                <div class="footConnewLine">电 话： (86)571-28877268</div>
+                                <div class="footConnewLine">邮编 ：310018</div>
+                                <div class="footConnewLine">地 址：浙江省杭州市下沙高教园区学正街18号</div>
+                            </div>
+                        </div>
+                        <div class="indexFootRight">
+                            <div class="ewm">
+                                <div class="ewmTxt">
+                                    <img src="/career/static/images/user/10353/20221026/6976335513699483706.jpg">
+                                </div>
+                                <div class="gzwm">微信关注</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                 
+                </div>
+                <!--  -->
+            </div>
+        </div>
+        <div class="footerJiaoda">
+            <div>Copyright @ 2022 浙江工商大学招生与就业指导处</div>
+            <div> 技术支持： <a href='http://www.bysxx.com' target='_blank' >易就业</a>   </div>
+        </div></div>
+</div>
+<script src="/career/static/main/js/common.js?v=1791426170090"></script>
+<script src="/career/static/main/js/fileLoad.js?v=1791426170090"></script>
+<script src="/career/static/plugins/qrcode.min.js"></script>
+
+</body>
+<script>
+	var zpxxid;
+	var llfs = getQueryString('llfs');
+	$(function () {
+		zpxxid = getQueryStringByRestful(document.URL);
+		var param = {};
+		if (isNotBlank(llfs)){
+			param.llfs = llfs;
+		}
+		postAjax("/zpxx/data/zpxx/" + zpxxid, param, function (result) {
+			if (result.code == 200) {
+				var zpxxObj = result.data
+				zpxxObj.title = zpxxObj.zpzt;
+				$('title').text(result.data.zpzt);
+				//招聘截止日期转换
+				var zpjzrq = zpxxObj.zpjzrq;
+				if(isNaN(zpjzrq) && !isNaN(Date.parse(zpjzrq))){
+					zpxxObj.zpjzrq = dateFormat('yyyy-MM-dd', new Date(zpjzrq));
+				}
+				// 加载页面信息
+				formDataHtml('zpxxdiv', zpxxObj, 'div');
+				//招聘简章
+				if (isBlank(zpxxObj.zpxxEditor)){
+					$("#zpxxEditordiv").html("暂无简章");
+				}
+				//需求人数是否显示
+				if (isNotBlank(zpxxObj.xqrsmc)){
+					$("#xqrsDiv").show();
+				}
+				//网申/校招网址是否显示
+				if (isNotBlank(zpxxObj.zpxxwz)){
+					$("#zpwzDiv").show();
+					$("#zpxxwzdiv").data('url', zpxxObj.zpxxwz).text(zpxxObj.zpxxwz);
+				}
+				//网申/校招网址是否显示
+				if (isNotBlank(zpxxObj.zpdh)){
+					$("#zpdhDiv").show();
+					$("#zpxxzpdhdiv").text(zpxxObj.zpdh);
+				}
+				// 加载单位简介
+				loadQyjj(zpxxObj.dwjs);
+				// 加载单位logo
+				loadDwtxImg(zpxxObj.dwlogo);
+				// 加载附件
+				var fileList;
+				try {
+					fileList = JSON.parse(result.data.zpxxAttach);
+				} catch (e) {
+					fileList = [];
+				}
+				$('.threeLevelSignAccessory').empty();
+				var fileListHtml = [];
+				if (isNotBlank(fileList) && fileList.length > 0) {
+					for (var i = 0; i < fileList.length; i++) {
+						fileListHtml.push('<div><a href="' + contextPath + fileList[i].attachUrl + '">' + fileList[i].fileName + '</a></div>');
+					}
+					$('#xgfjTitle').append('<div class="threeLevelSign"></div><div class="threeLevelSignName">相关附件</div>');
+					$('#xgfj').append(fileListHtml.join(''));
+				}
+				if (null != result.data.zwxxList && result.data.zwxxList.length > 0) {
+					$("#zpzwDiv").show();
+					$('#zwxxdiv').html(template('zwxxTemplate', {list: result.data.zwxxList || [], context: contextPath,zpxxid:zpxxid,systemLogin:'login',hideTdjl: !!result.data.hideTdjl}));
+				}
+
+				// 跳转岗位外部链接
+				if (isNotBlank(result.data.yurl)){
+					$('#newsContentdiv').html('<a target="_blank" href="javascript:;" onclick="windowOpen(\''+result.data.newsUrl+'\')">查看详情</a>');
+					layer.msg('正在跳转到招聘信息详情，请稍后...',{icon:16,shade:0.3,time:-1});
+					setTimeout(function () {
+						window.location.href = result.data.yurl;
+					},500)
+				}
+
+				// 跳转外部链接
+				if ('20' == result.data.xxfblx && isNotBlank(result.data.zpurl)){
+					$('#newsContentdiv').html('<a target="_blank" href="javascript:;" onclick="windowOpen(\''+result.data.newsUrl+'\')">查看详情</a>');
+					layer.msg('正在跳转到招聘信息详情，请稍后...',{icon:16,shade:0.3,time:-1});
+					setTimeout(function () {
+						window.location.href = result.data.zpurl;
+					},500)
+				}
+			}else if (result.code == 403){
+				//保存reurl
+				layer.confirm(result.message+'点击确定前往登录！',{icon:3},function (index) {
+					layer.close(index);
+					CareerLocalStorage.setItem("reurl",window.location.href,180);
+					window.open(contextPath+'login');
+				});
+			} else {
+				layer.msg(result.message, {icon: 2});
+			}
+		})
+	})
+
+	/**
+	 * 获取加入收藏参数
+	 * @return {{}}
+	 */
+	function getWdscData() {
+		var wdscObj = {};
+		wdscObj.scbt = $('#zpztdiv').text().trim();
+		wdscObj.scdz = window.location.pathname.replace(contextPath, '');
+		wdscObj.refid = getQueryStringByRestful();
+		wdscObj.sclx = '招聘信息';
+		return wdscObj;
+	}
+
+</script>
+</html>

@@ -1,0 +1,90 @@
+[
+  {
+    "text": "登录",
+    "href": "https://picc.zhiye.com/login?goto=custom%2Fxiaoyuan%3FhideAll%3Dtrue"
+  },
+  {
+    "text": "注册",
+    "href": "https://picc.zhiye.com/login?goto=custom%2Fxiaoyuan%3FhideAll%3Dtrue"
+  },
+  {
+    "text": "个人中心",
+    "href": "https://picc.zhiye.com/personal/deliveryRecord"
+  },
+  {
+    "text": "退出",
+    "href": "javascript:void(0);"
+  },
+  {
+    "text": "首页",
+    "href": "https://picc.zhiye.com/custom/index?hideAll=true"
+  },
+  {
+    "text": "校园招聘",
+    "href": "https://picc.zhiye.com/custom/xiaoyuan?hideAll=true"
+  },
+  {
+    "text": "招聘岗位",
+    "href": "https://picc.zhiye.com/custom/xiaoyuan?hideAll=true"
+  },
+  {
+    "text": "宣讲院校",
+    "href": "https://picc.zhiye.com/custom/xjxc?hideAll=true"
+  },
+  {
+    "text": "Q&A",
+    "href": "https://picc.zhiye.com/custom/zpgg?hideAll=true"
+  },
+  {
+    "text": "社会招聘",
+    "href": "https://picc.zhiye.com/custom/newssz?hideAll=true"
+  },
+  {
+    "text": "实习生招聘",
+    "href": "https://picc.zhiye.com/custom/shixi?hideAll=true"
+  },
+  {
+    "text": "招聘公告",
+    "href": "https://picc.zhiye.com/custom/zpgg?hideAll=true"
+  },
+  {
+    "text": "校园招聘QA",
+    "href": "https://picc.zhiye.com/custom/zpgg?hideAll=true"
+  },
+  {
+    "text": "集团总部社招公告",
+    "href": "https://picc.zhiye.com/custom/jtgs?hideAll=true"
+  },
+  {
+    "text": "博士后招聘公告",
+    "href": "https://picc.zhiye.com/custom/boshihou?hideAll=true"
+  },
+  {
+    "text": "立即投递",
+    "href": "https://picc.zhiye.com/custom/campus?c1=6&hideAll=true"
+  },
+  {
+    "text": "立即投递",
+    "href": "https://picc.zhiye.com/custom/campus?c1=8&hideAll=true"
+  },
+  {
+    "text": "中国人民保险集团2027届统筹校园招聘Q&A校园招聘\n2026-08-01",
+    "href": "https://picc.zhiye.com/custom/zpgg?hideAll=true"
+  },
+  {
+    "text": "中国人民保险集团2027届统筹宣讲+双选行程校园招聘\n2026-08-01",
+    "href": "https://picc.zhiye.com/custom/xjxc?hideAll=true"
+  },
+  {
+    "text": "了解更多》",
+    "href": "https://picc.zhiye.com/custom/zpgg?hideAll=true"
+  },
+  {
+    "text": "×",
+    "href": "javascript: void(0)"
+  },
+  {
+    "text": "",
+    "href": "http://www.miibeian.gov.cn/"
+  }
+]

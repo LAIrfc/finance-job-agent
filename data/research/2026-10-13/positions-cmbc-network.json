@@ -1,0 +1,2332 @@
+[
+  {
+    "url": "https://career.cmbc.com.cn/portal/rest/careerrecruitment/search.view?random=1791904234910",
+    "method": "POST",
+    "post_data": "searchRecruitmentIds=social&view=careerRecruitmentList&pageNo=1&pageSize=5",
+    "data": {
+      "success": true,
+      "messages": [],
+      "attributes": {},
+      "dataType": 2,
+      "data": {
+        "pageNo": 1,
+        "pageSize": 5,
+        "pageCount": 18,
+        "items": [
+          {
+            "careerRecruitment_regions_name": "深圳",
+            "careerRecruitment_career_enterprise_name": "深圳分行",
+            "careerRecruitment_career_jobFamily_name": "私银客户服务",
+            "careerRecruitment_career_publishDate": "2026-10-12 14:40:59",
+            "careerRecruitment_career_name": "私银财富经理",
+            "careerRecruitment_career_expirationDate": "2026-11-30",
+            "id": "b14bc38c-865f-4009-8213-dfd7e8c3f76e"
+          },
+          {
+            "careerRecruitment_regions_name": "香港",
+            "careerRecruitment_career_enterprise_name": "香港分行",
+            "careerRecruitment_career_jobFamily_name": "运营合规管理",
+            "careerRecruitment_career_publishDate": "2026-09-21 15:06:16",
+            "careerRecruitment_career_name": "运营支持岗-财富管理部",
+            "careerRecruitment_career_expirationDate": "2026-12-31",
+            "id": "cb34b901-cf79-4e27-adf3-ad9be304cc32"
+          },
+          {
+            "careerRecruitment_regions_name": "香港",
+            "careerRecruitment_career_enterprise_name": "民生金融租赁",
+            "careerRecruitment_career_jobFamily_name": "行政管理",
+            "careerRecruitment_career_publishDate": "2026-09-21 14:51:25",
+            "careerRecruitment_career_name": "香港子公司-综合管理部行政综合岗",
+            "careerRecruitment_career_expirationDate": "2027-02-28",
+            "id": "ba780342-b7ef-4255-abb3-c161b2520903"
+          },
+          {
+            "careerRecruitment_regions_name": "北京",
+            "careerRecruitment_career_enterprise_name": "民生银行总行",
+            "careerRecruitment_career_jobFamily_name": "法律风险管理",
+            "careerRecruitment_career_publishDate": "2026-09-20 15:26:02",
+            "careerRecruitment_career_name": "总行资产经营管理部法律风险管理序列经理岗",
+            "careerRecruitment_career_expirationDate": "2026-10-31",
+            "id": "05777a32-6798-4665-bdda-a6daacff9f94"
+          },
+          {
+            "careerRecruitment_regions_name": "宝鸡,咸阳,西安,榆林",
+            "careerRecruitment_career_enterprise_name": "西安分行",
+            "careerRecruitment_career_jobFamily_name": "私银客户服务",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:58:31",
+            "careerRecruitment_career_name": "私银财富经理",
+            "careerRecruitment_career_expirationDate": "2026-11-30",
+            "id": "f8ead904-77a2-4c12-a8b9-cf0003870839"
+          }
+        ],
+        "sortField": "careerRecruitment_career_publishDate",
+        "totalLine": 87,
+        "sortOrder": "desc",
+        "startLine": 0,
+        "endLine": 0
+      },
+      "newobject": false
+    }
+  },
+  {
+    "url": "https://career.cmbc.com.cn/portal/rest/careerrecruitment/getCount/social.view?random=1791904234910",
+    "method": "POST",
+    "post_data": "recruitmentld=social",
+    "data": {
+      "success": true,
+      "messages": [],
+      "attributes": {},
+      "dataType": 2,
+      "data": {
+        "enterpriseCount": 45,
+        "careerCount": 87
+      },
+      "newobject": false
+    }
+  },
+  {
+    "url": "https://career.cmbc.com.cn/portal/rest/careerrecruitment/searchconditions.view?random=1791904234914",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "success": true,
+      "messages": [],
+      "attributes": {},
+      "dataType": 2,
+      "data": {
+        "publishDates": [
+          {
+            "id": "1",
+            "name": "当天",
+            "hiddenValue": "0",
+            "displayValue": "当天"
+          },
+          {
+            "id": "2",
+            "name": "3天",
+            "hiddenValue": "3",
+            "displayValue": "3天"
+          },
+          {
+            "id": "3",
+            "name": "7天",
+            "hiddenValue": "7",
+            "displayValue": "7天"
+          },
+          {
+            "id": "4",
+            "name": "15天",
+            "hiddenValue": "15",
+            "displayValue": "15天"
+          },
+          {
+            "id": "5",
+            "name": "30天",
+            "hiddenValue": "30",
+            "displayValue": "30天"
+          },
+          {
+            "id": "6",
+            "name": "60天",
+            "hiddenValue": "60",
+            "displayValue": "60天"
+          },
+          {
+            "id": "7",
+            "name": "90天",
+            "hiddenValue": "90",
+            "displayValue": "90天"
+          }
+        ],
+        "jobFamiles": [
+          {
+            "label": "专业运营",
+            "value": "420b8525-4d5a-454b-858f-655b1f05e836"
+          },
+          {
+            "label": "产品管理",
+            "value": "8d7d6418-4c4f-439e-a8bd-1df5903c515e"
+          },
+          {
+            "label": "人力资源",
+            "value": "010cb9c6-e5c3-4a68-89c4-ebe93bb149a1"
+          },
+          {
+            "label": "信息科技",
+            "value": "2ffd9936-4029-4891-ac98-ad6b2abb07fa"
+          },
+          {
+            "label": "信贷管理",
+            "value": "f156c6fb-cb56-4f05-95ed-6a9c2af564a6"
+          },
+          {
+            "label": "党群纪检",
+            "value": "cd43eaba-c17b-461c-a5b1-82a6feae410b"
+          },
+          {
+            "label": "公司治理",
+            "value": "eb9f5332-4451-435b-b59d-47d8ddeb7a7d"
+          },
+          {
+            "label": "审计",
+            "value": "f07c625b-c9c5-40d7-b4ad-794fec67d7da"
+          },
+          {
+            "label": "客户管理",
+            "value": "2dfd61e0-05bd-4923-89c8-d49273f2b578"
+          },
+          {
+            "label": "市场营销",
+            "value": "5851d17c-4755-4559-855a-6f4b6d3db76b"
+          },
+          {
+            "label": "战略研究",
+            "value": "c658541b-a52a-4d24-820e-4e8ed74c9281"
+          },
+          {
+            "label": "投资交易",
+            "value": "d393b452-6a68-455b-980d-c34eb0fd0feb"
+          },
+          {
+            "label": "数据",
+            "value": "4f3b152d-cf20-4554-a510-94985306f5fd"
+          },
+          {
+            "label": "校招序列",
+            "value": "84cafa27-fca3-4e0e-a88b-c7b73a97c8e8"
+          },
+          {
+            "label": "法律合规",
+            "value": "0d781598-23b5-4a89-858e-8a0092f2aa73"
+          },
+          {
+            "label": "综合管理",
+            "value": "a280eecf-bed1-4324-aede-a44fde54426e"
+          },
+          {
+            "label": "财务",
+            "value": "a7b15fc2-7ed2-483a-980f-7db0ea308e53"
+          },
+          {
+            "label": "资产负债",
+            "value": "e8e336f7-3b90-41a2-aa7a-cc616e1b1e6e"
+          },
+          {
+            "label": "运营管理",
+            "value": "67cdf435-2229-474e-baa2-32d39e184b6c"
+          },
+          {
+            "label": "销售",
+            "value": "21653fea-e1d6-4fb0-8f35-f817d457b6d5"
+          },
+          {
+            "label": "风险管理",
+            "value": "ed3f4f20-18bd-4c44-8885-e63358d827f4"
+          },
+          {
+            "label": "默认",
+            "value": "490f870a-4ab2-41b6-8692-cd823fed9b15"
+          }
+        ],
+        "enterprises": [
+          {
+            "name": "信用卡中心",
+            "parentId": "default-enterprise",
+            "id": "0141"
+          },
+          {
+            "name": "民生银行总行",
+            "parentId": "default-enterprise",
+            "id": "0102"
+          },
+          {
+            "name": "民生银行总行金融科技",
+            "parentId": "default-enterprise",
+            "id": "e815c7fe-80df-4ba1-a170-6eb8bb951020"
+          },
+          {
+            "name": "北京分行",
+            "parentId": "default-enterprise",
+            "id": "0103"
+          },
+          {
+            "name": "广州分行",
+            "parentId": "default-enterprise",
+            "id": "0104"
+          },
+          {
+            "name": "上海分行",
+            "parentId": "default-enterprise",
+            "id": "0105"
+          },
+          {
+            "name": "深圳分行",
+            "parentId": "default-enterprise",
+            "id": "0106"
+          },
+          {
+            "name": "武汉分行",
+            "parentId": "default-enterprise",
+            "id": "0107"
+          },
+          {
+            "name": "太原分行",
+            "parentId": "default-enterprise",
+            "id": "0108"
+          },
+          {
+            "name": "大连分行",
+            "parentId": "default-enterprise",
+            "id": "0110"
+          },
+          {
+            "name": "杭州分行",
+            "parentId": "default-enterprise",
+            "id": "0111"
+          },
+          {
+            "name": "南京分行",
+            "parentId": "default-enterprise",
+            "id": "0112"
+          },
+          {
+            "name": "重庆分行",
+            "parentId": "default-enterprise",
+            "id": "0113"
+          },
+          {
+            "name": "西安分行",
+            "parentId": "default-enterprise",
+            "id": "0114"
+          },
+          {
+            "name": "福州分行",
+            "parentId": "default-enterprise",
+            "id": "0115"
+          },
+          {
+            "name": "济南分行",
+            "parentId": "default-enterprise",
+            "id": "0116"
+          },
+          {
+            "name": "宁波分行",
+            "parentId": "default-enterprise",
+            "id": "0117"
+          },
+          {
+            "name": "成都分行",
+            "parentId": "default-enterprise",
+            "id": "0118"
+          },
+          {
+            "name": "石家庄分行",
+            "parentId": "default-enterprise",
+            "id": "0109"
+          },
+          {
+            "name": "天津分行",
+            "parentId": "default-enterprise",
+            "id": "0119"
+          },
+          {
+            "name": "昆明分行",
+            "parentId": "default-enterprise",
+            "id": "0120"
+          },
+          {
+            "name": "泉州分行",
+            "parentId": "default-enterprise",
+            "id": "0125"
+          },
+          {
+            "name": "苏州分行",
+            "parentId": "default-enterprise",
+            "id": "0121"
+          },
+          {
+            "name": "青岛分行",
+            "parentId": "default-enterprise",
+            "id": "0122"
+          },
+          {
+            "name": "温州分行",
+            "parentId": "default-enterprise",
+            "id": "0123"
+          },
+          {
+            "name": "厦门分行",
+            "parentId": "default-enterprise",
+            "id": "0124"
+          },
+          {
+            "name": "郑州分行",
+            "parentId": "default-enterprise",
+            "id": "0126"
+          },
+          {
+            "name": "长沙分行",
+            "parentId": "default-enterprise",
+            "id": "0127"
+          },
+          {
+            "name": "长春分行",
+            "parentId": "default-enterprise",
+            "id": "0128"
+          },
+          {
+            "name": "合肥分行",
+            "parentId": "default-enterprise",
+            "id": "0129"
+          },
+          {
+            "name": "南昌分行",
+            "parentId": "default-enterprise",
+            "id": "0130"
+          },
+          {
+            "name": "汕头分行",
+            "parentId": "default-enterprise",
+            "id": "0131"
+          },
+          {
+            "name": "南宁分行",
+            "parentId": "default-enterprise",
+            "id": "88c5bdd0-d02c-459e-a129-b07367e90450"
+          },
+          {
+            "name": "呼和浩特分行",
+            "parentId": "default-enterprise",
+            "id": "fad8cc30-5155-446a-88ca-942f7f997366"
+          },
+          {
+            "name": "沈阳分行",
+            "parentId": "default-enterprise",
+            "id": "90580c83-ecae-4475-92e4-d23c43c63d2a"
+          },
+          {
+            "name": "香港分行",
+            "parentId": "default-enterprise",
+            "id": "b28579d4-de5e-4463-bd3c-39ab32b4dae0"
+          },
+          {
+            "name": "贵阳分行",
+            "parentId": "default-enterprise",
+            "id": "6bab32e5-8ea5-4a78-badc-3211195d1320"
+          },
+          {
+            "name": "拉萨分行",
+            "parentId": "default-enterprise",
+            "id": "af981e15-f603-4655-a923-de0d1dc5da63"
+          },
+          {
+            "name": "上海自贸区分行",
+            "parentId": "default-enterprise",
+            "id": "cb281f25-3374-453a-9621-341de3e28f1e"
+          },
+          {
+            "name": "哈尔滨分行",
+            "parentId": "default-enterprise",
+            "id": "c9291a8c-d384-4cbb-99da-83dd56d06442"
+          },
+          {
+            "name": "兰州分行",
+            "parentId": "default-enterprise",
+            "id": "0603049b-894d-4b24-84b8-d68501d1f627"
+          },
+          {
+            "name": "乌鲁木齐分行",
+            "parentId": "default-enterprise",
+            "id": "ed726815-51b5-4b6b-b58a-7226af4b2d72"
+          },
+          {
+            "name": "西宁分行",
+            "parentId": "default-enterprise",
+            "id": "29c440f2-4f30-47a5-b220-7c4d1e043d85"
+          },
+          {
+            "name": "银川分行",
+            "parentId": "default-enterprise",
+            "id": "9f53e745-0606-4852-b6c7-a812e4885a35"
+          },
+          {
+            "name": "海口分行",
+            "parentId": "default-enterprise",
+            "id": "5f2ff98b-235a-48d6-b8b0-8d92e316ee9a"
+          },
+          {
+            "name": "民生金融租赁",
+            "parentId": "default-enterprise",
+            "id": "835f3d95-4aeb-4021-9f62-3e8820753e56"
+          },
+          {
+            "name": "民生加银基金",
+            "parentId": "default-enterprise",
+            "id": "765d1316-ef4b-4825-951c-035f4018bec5"
+          },
+          {
+            "name": "民生科技",
+            "parentId": "default-enterprise",
+            "id": "e90a454a-b1bc-4b07-acb1-fd2360ac692a"
+          },
+          {
+            "name": "民生理财",
+            "parentId": "default-enterprise",
+            "id": "b04e6860-60e2-4b20-a3bc-6e6aea690544"
+          },
+          {
+            "name": "民生置业",
+            "parentId": "default-enterprise",
+            "id": "9e3dafeb-68ba-4dfb-a160-c9fcbd578632"
+          },
+          {
+            "name": "民银国际",
+            "parentId": "default-enterprise",
+            "id": "8a6e80f9-fcc5-4a6b-ab2c-929b965c5289"
+          },
+          {
+            "name": "中国民生银行",
+            "parentId": "default-enterprise",
+            "id": "c33275cd-47d4-45ca-a2bf-43c070217749"
+          },
+          {
+            "name": "伦敦分行",
+            "parentId": "default-enterprise",
+            "id": "a6ae7175-3cd5-43f2-9426-4d86fb0f598f"
+          },
+          {
+            "name": "民生加银资产",
+            "parentId": "default-enterprise",
+            "id": "8e6f35a5-773c-43e0-a3b5-465bcfb5dce1"
+          },
+          {
+            "name": "民生村镇银行",
+            "parentId": "default-enterprise",
+            "id": "5afb1dcc-8335-4b6a-8d65-9d843f9e7dc6"
+          },
+          {
+            "name": "金融市场部（旧）",
+            "parentId": "default-enterprise",
+            "id": "0138"
+          }
+        ]
+      },
+      "newobject": false
+    }
+  },
+  {
+    "url": "https://career.cmbc.com.cn/portal/rest/careerrecruitment/searchconditions.view?random=1791904238507",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "success": true,
+      "messages": [],
+      "attributes": {},
+      "dataType": 2,
+      "data": {
+        "publishDates": [
+          {
+            "id": "1",
+            "name": "当天",
+            "hiddenValue": "0",
+            "displayValue": "当天"
+          },
+          {
+            "id": "2",
+            "name": "3天",
+            "hiddenValue": "3",
+            "displayValue": "3天"
+          },
+          {
+            "id": "3",
+            "name": "7天",
+            "hiddenValue": "7",
+            "displayValue": "7天"
+          },
+          {
+            "id": "4",
+            "name": "15天",
+            "hiddenValue": "15",
+            "displayValue": "15天"
+          },
+          {
+            "id": "5",
+            "name": "30天",
+            "hiddenValue": "30",
+            "displayValue": "30天"
+          },
+          {
+            "id": "6",
+            "name": "60天",
+            "hiddenValue": "60",
+            "displayValue": "60天"
+          },
+          {
+            "id": "7",
+            "name": "90天",
+            "hiddenValue": "90",
+            "displayValue": "90天"
+          }
+        ],
+        "jobFamiles": [
+          {
+            "label": "专业运营",
+            "value": "420b8525-4d5a-454b-858f-655b1f05e836"
+          },
+          {
+            "label": "产品管理",
+            "value": "8d7d6418-4c4f-439e-a8bd-1df5903c515e"
+          },
+          {
+            "label": "人力资源",
+            "value": "010cb9c6-e5c3-4a68-89c4-ebe93bb149a1"
+          },
+          {
+            "label": "信息科技",
+            "value": "2ffd9936-4029-4891-ac98-ad6b2abb07fa"
+          },
+          {
+            "label": "信贷管理",
+            "value": "f156c6fb-cb56-4f05-95ed-6a9c2af564a6"
+          },
+          {
+            "label": "党群纪检",
+            "value": "cd43eaba-c17b-461c-a5b1-82a6feae410b"
+          },
+          {
+            "label": "公司治理",
+            "value": "eb9f5332-4451-435b-b59d-47d8ddeb7a7d"
+          },
+          {
+            "label": "审计",
+            "value": "f07c625b-c9c5-40d7-b4ad-794fec67d7da"
+          },
+          {
+            "label": "客户管理",
+            "value": "2dfd61e0-05bd-4923-89c8-d49273f2b578"
+          },
+          {
+            "label": "市场营销",
+            "value": "5851d17c-4755-4559-855a-6f4b6d3db76b"
+          },
+          {
+            "label": "战略研究",
+            "value": "c658541b-a52a-4d24-820e-4e8ed74c9281"
+          },
+          {
+            "label": "投资交易",
+            "value": "d393b452-6a68-455b-980d-c34eb0fd0feb"
+          },
+          {
+            "label": "数据",
+            "value": "4f3b152d-cf20-4554-a510-94985306f5fd"
+          },
+          {
+            "label": "校招序列",
+            "value": "84cafa27-fca3-4e0e-a88b-c7b73a97c8e8"
+          },
+          {
+            "label": "法律合规",
+            "value": "0d781598-23b5-4a89-858e-8a0092f2aa73"
+          },
+          {
+            "label": "综合管理",
+            "value": "a280eecf-bed1-4324-aede-a44fde54426e"
+          },
+          {
+            "label": "财务",
+            "value": "a7b15fc2-7ed2-483a-980f-7db0ea308e53"
+          },
+          {
+            "label": "资产负债",
+            "value": "e8e336f7-3b90-41a2-aa7a-cc616e1b1e6e"
+          },
+          {
+            "label": "运营管理",
+            "value": "67cdf435-2229-474e-baa2-32d39e184b6c"
+          },
+          {
+            "label": "销售",
+            "value": "21653fea-e1d6-4fb0-8f35-f817d457b6d5"
+          },
+          {
+            "label": "风险管理",
+            "value": "ed3f4f20-18bd-4c44-8885-e63358d827f4"
+          },
+          {
+            "label": "默认",
+            "value": "490f870a-4ab2-41b6-8692-cd823fed9b15"
+          }
+        ],
+        "enterprises": [
+          {
+            "name": "信用卡中心",
+            "parentId": "default-enterprise",
+            "id": "0141"
+          },
+          {
+            "name": "民生银行总行",
+            "parentId": "default-enterprise",
+            "id": "0102"
+          },
+          {
+            "name": "民生银行总行金融科技",
+            "parentId": "default-enterprise",
+            "id": "e815c7fe-80df-4ba1-a170-6eb8bb951020"
+          },
+          {
+            "name": "北京分行",
+            "parentId": "default-enterprise",
+            "id": "0103"
+          },
+          {
+            "name": "广州分行",
+            "parentId": "default-enterprise",
+            "id": "0104"
+          },
+          {
+            "name": "上海分行",
+            "parentId": "default-enterprise",
+            "id": "0105"
+          },
+          {
+            "name": "深圳分行",
+            "parentId": "default-enterprise",
+            "id": "0106"
+          },
+          {
+            "name": "武汉分行",
+            "parentId": "default-enterprise",
+            "id": "0107"
+          },
+          {
+            "name": "太原分行",
+            "parentId": "default-enterprise",
+            "id": "0108"
+          },
+          {
+            "name": "大连分行",
+            "parentId": "default-enterprise",
+            "id": "0110"
+          },
+          {
+            "name": "杭州分行",
+            "parentId": "default-enterprise",
+            "id": "0111"
+          },
+          {
+            "name": "南京分行",
+            "parentId": "default-enterprise",
+            "id": "0112"
+          },
+          {
+            "name": "重庆分行",
+            "parentId": "default-enterprise",
+            "id": "0113"
+          },
+          {
+            "name": "西安分行",
+            "parentId": "default-enterprise",
+            "id": "0114"
+          },
+          {
+            "name": "福州分行",
+            "parentId": "default-enterprise",
+            "id": "0115"
+          },
+          {
+            "name": "济南分行",
+            "parentId": "default-enterprise",
+            "id": "0116"
+          },
+          {
+            "name": "宁波分行",
+            "parentId": "default-enterprise",
+            "id": "0117"
+          },
+          {
+            "name": "成都分行",
+            "parentId": "default-enterprise",
+            "id": "0118"
+          },
+          {
+            "name": "石家庄分行",
+            "parentId": "default-enterprise",
+            "id": "0109"
+          },
+          {
+            "name": "天津分行",
+            "parentId": "default-enterprise",
+            "id": "0119"
+          },
+          {
+            "name": "昆明分行",
+            "parentId": "default-enterprise",
+            "id": "0120"
+          },
+          {
+            "name": "泉州分行",
+            "parentId": "default-enterprise",
+            "id": "0125"
+          },
+          {
+            "name": "苏州分行",
+            "parentId": "default-enterprise",
+            "id": "0121"
+          },
+          {
+            "name": "青岛分行",
+            "parentId": "default-enterprise",
+            "id": "0122"
+          },
+          {
+            "name": "温州分行",
+            "parentId": "default-enterprise",
+            "id": "0123"
+          },
+          {
+            "name": "厦门分行",
+            "parentId": "default-enterprise",
+            "id": "0124"
+          },
+          {
+            "name": "郑州分行",
+            "parentId": "default-enterprise",
+            "id": "0126"
+          },
+          {
+            "name": "长沙分行",
+            "parentId": "default-enterprise",
+            "id": "0127"
+          },
+          {
+            "name": "长春分行",
+            "parentId": "default-enterprise",
+            "id": "0128"
+          },
+          {
+            "name": "合肥分行",
+            "parentId": "default-enterprise",
+            "id": "0129"
+          },
+          {
+            "name": "南昌分行",
+            "parentId": "default-enterprise",
+            "id": "0130"
+          },
+          {
+            "name": "汕头分行",
+            "parentId": "default-enterprise",
+            "id": "0131"
+          },
+          {
+            "name": "南宁分行",
+            "parentId": "default-enterprise",
+            "id": "88c5bdd0-d02c-459e-a129-b07367e90450"
+          },
+          {
+            "name": "呼和浩特分行",
+            "parentId": "default-enterprise",
+            "id": "fad8cc30-5155-446a-88ca-942f7f997366"
+          },
+          {
+            "name": "沈阳分行",
+            "parentId": "default-enterprise",
+            "id": "90580c83-ecae-4475-92e4-d23c43c63d2a"
+          },
+          {
+            "name": "香港分行",
+            "parentId": "default-enterprise",
+            "id": "b28579d4-de5e-4463-bd3c-39ab32b4dae0"
+          },
+          {
+            "name": "贵阳分行",
+            "parentId": "default-enterprise",
+            "id": "6bab32e5-8ea5-4a78-badc-3211195d1320"
+          },
+          {
+            "name": "拉萨分行",
+            "parentId": "default-enterprise",
+            "id": "af981e15-f603-4655-a923-de0d1dc5da63"
+          },
+          {
+            "name": "上海自贸区分行",
+            "parentId": "default-enterprise",
+            "id": "cb281f25-3374-453a-9621-341de3e28f1e"
+          },
+          {
+            "name": "哈尔滨分行",
+            "parentId": "default-enterprise",
+            "id": "c9291a8c-d384-4cbb-99da-83dd56d06442"
+          },
+          {
+            "name": "兰州分行",
+            "parentId": "default-enterprise",
+            "id": "0603049b-894d-4b24-84b8-d68501d1f627"
+          },
+          {
+            "name": "乌鲁木齐分行",
+            "parentId": "default-enterprise",
+            "id": "ed726815-51b5-4b6b-b58a-7226af4b2d72"
+          },
+          {
+            "name": "西宁分行",
+            "parentId": "default-enterprise",
+            "id": "29c440f2-4f30-47a5-b220-7c4d1e043d85"
+          },
+          {
+            "name": "银川分行",
+            "parentId": "default-enterprise",
+            "id": "9f53e745-0606-4852-b6c7-a812e4885a35"
+          },
+          {
+            "name": "海口分行",
+            "parentId": "default-enterprise",
+            "id": "5f2ff98b-235a-48d6-b8b0-8d92e316ee9a"
+          },
+          {
+            "name": "民生金融租赁",
+            "parentId": "default-enterprise",
+            "id": "835f3d95-4aeb-4021-9f62-3e8820753e56"
+          },
+          {
+            "name": "民生加银基金",
+            "parentId": "default-enterprise",
+            "id": "765d1316-ef4b-4825-951c-035f4018bec5"
+          },
+          {
+            "name": "民生科技",
+            "parentId": "default-enterprise",
+            "id": "e90a454a-b1bc-4b07-acb1-fd2360ac692a"
+          },
+          {
+            "name": "民生理财",
+            "parentId": "default-enterprise",
+            "id": "b04e6860-60e2-4b20-a3bc-6e6aea690544"
+          },
+          {
+            "name": "民生置业",
+            "parentId": "default-enterprise",
+            "id": "9e3dafeb-68ba-4dfb-a160-c9fcbd578632"
+          },
+          {
+            "name": "民银国际",
+            "parentId": "default-enterprise",
+            "id": "8a6e80f9-fcc5-4a6b-ab2c-929b965c5289"
+          },
+          {
+            "name": "中国民生银行",
+            "parentId": "default-enterprise",
+            "id": "c33275cd-47d4-45ca-a2bf-43c070217749"
+          },
+          {
+            "name": "伦敦分行",
+            "parentId": "default-enterprise",
+            "id": "a6ae7175-3cd5-43f2-9426-4d86fb0f598f"
+          },
+          {
+            "name": "民生加银资产",
+            "parentId": "default-enterprise",
+            "id": "8e6f35a5-773c-43e0-a3b5-465bcfb5dce1"
+          },
+          {
+            "name": "民生村镇银行",
+            "parentId": "default-enterprise",
+            "id": "5afb1dcc-8335-4b6a-8d65-9d843f9e7dc6"
+          },
+          {
+            "name": "金融市场部（旧）",
+            "parentId": "default-enterprise",
+            "id": "0138"
+          }
+        ]
+      },
+      "newobject": false
+    }
+  },
+  {
+    "url": "https://career.cmbc.com.cn/portal/rest/careerrecruitment/enterpriseList.view?random=1791904238499&recruitmentId=campus",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "success": true,
+      "messages": [],
+      "attributes": {},
+      "dataType": 2,
+      "data": {
+        "total": 113,
+        "enterprises": [
+          {
+            "name": "民生银行总行",
+            "total": 10,
+            "id": "0102",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "北京分行",
+            "total": 2,
+            "id": "0103",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "广州分行",
+            "total": 2,
+            "id": "0104",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "上海分行",
+            "total": 2,
+            "id": "0105",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "深圳分行",
+            "total": 2,
+            "id": "0106",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "武汉分行",
+            "total": 2,
+            "id": "0107",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "太原分行",
+            "total": 2,
+            "id": "0108",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "大连分行",
+            "total": 2,
+            "id": "0110",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "杭州分行",
+            "total": 2,
+            "id": "0111",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "南京分行",
+            "total": 2,
+            "id": "0112",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "重庆分行",
+            "total": 2,
+            "id": "0113",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "西安分行",
+            "total": 2,
+            "id": "0114",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "福州分行",
+            "total": 2,
+            "id": "0115",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "济南分行",
+            "total": 2,
+            "id": "0116",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "宁波分行",
+            "total": 2,
+            "id": "0117",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "成都分行",
+            "total": 2,
+            "id": "0118",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "石家庄分行",
+            "total": 2,
+            "id": "0109",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "天津分行",
+            "total": 2,
+            "id": "0119",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "昆明分行",
+            "total": 2,
+            "id": "0120",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "泉州分行",
+            "total": 2,
+            "id": "0125",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "苏州分行",
+            "total": 2,
+            "id": "0121",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "青岛分行",
+            "total": 2,
+            "id": "0122",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "温州分行",
+            "total": 2,
+            "id": "0123",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "厦门分行",
+            "total": 2,
+            "id": "0124",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "郑州分行",
+            "total": 2,
+            "id": "0126",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "长沙分行",
+            "total": 2,
+            "id": "0127",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "长春分行",
+            "total": 2,
+            "id": "0128",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "合肥分行",
+            "total": 2,
+            "id": "0129",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "南昌分行",
+            "total": 2,
+            "id": "0130",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "汕头分行",
+            "total": 1,
+            "id": "0131",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "南宁分行",
+            "total": 2,
+            "id": "88c5bdd0-d02c-459e-a129-b07367e90450",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "呼和浩特分行",
+            "total": 2,
+            "id": "fad8cc30-5155-446a-88ca-942f7f997366",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "沈阳分行",
+            "total": 2,
+            "id": "90580c83-ecae-4475-92e4-d23c43c63d2a",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "香港分行",
+            "total": 2,
+            "id": "b28579d4-de5e-4463-bd3c-39ab32b4dae0",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "贵阳分行",
+            "total": 2,
+            "id": "6bab32e5-8ea5-4a78-badc-3211195d1320",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "拉萨分行",
+            "total": 1,
+            "id": "af981e15-f603-4655-a923-de0d1dc5da63",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "上海自贸区分行",
+            "total": 1,
+            "id": "cb281f25-3374-453a-9621-341de3e28f1e",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "哈尔滨分行",
+            "total": 2,
+            "id": "c9291a8c-d384-4cbb-99da-83dd56d06442",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "兰州分行",
+            "total": 2,
+            "id": "0603049b-894d-4b24-84b8-d68501d1f627",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "乌鲁木齐分行",
+            "total": 2,
+            "id": "ed726815-51b5-4b6b-b58a-7226af4b2d72",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "西宁分行",
+            "total": 1,
+            "id": "29c440f2-4f30-47a5-b220-7c4d1e043d85",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "银川分行",
+            "total": 2,
+            "id": "9f53e745-0606-4852-b6c7-a812e4885a35",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "海口分行",
+            "total": 2,
+            "id": "5f2ff98b-235a-48d6-b8b0-8d92e316ee9a",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "民生金融租赁",
+            "total": 4,
+            "id": "835f3d95-4aeb-4021-9f62-3e8820753e56",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "民生加银基金",
+            "total": 6,
+            "id": "765d1316-ef4b-4825-951c-035f4018bec5",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "民生科技",
+            "total": 5,
+            "id": "e90a454a-b1bc-4b07-acb1-fd2360ac692a",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "民生理财",
+            "total": 5,
+            "id": "b04e6860-60e2-4b20-a3bc-6e6aea690544",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "民生置业",
+            "total": 3,
+            "id": "9e3dafeb-68ba-4dfb-a160-c9fcbd578632",
+            "parentId": "default-enterprise"
+          }
+        ]
+      },
+      "newobject": false
+    }
+  },
+  {
+    "url": "https://career.cmbc.com.cn/widget/multi/careerRecruitmentList.view?random=1791904242098&widgetViewIds=careerRecruitmentList",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "success": true,
+      "messages": [],
+      "attributes": {},
+      "dataType": 2,
+      "data": {
+        "careerRecruitmentList": {
+          "layout": "page",
+          "widgetGroupList": [
+            {
+              "widgetFieldList": [
+                {
+                  "control": "staticlable",
+                  "type": "string",
+                  "property": "id",
+                  "pattern": "",
+                  "id": "id",
+                  "name": "ID",
+                  "description": "",
+                  "action": "",
+                  "rowClass": "col-md-12",
+                  "columnClass": "col-md-8",
+                  "hidden": true
+                },
+                {
+                  "control": "staticlable",
+                  "type": "string",
+                  "property": "careerRecruitment_career_name",
+                  "pattern": "",
+                  "sortable": false,
+                  "id": "careerRecruitment_career_name",
+                  "name": "职位名称",
+                  "description": "",
+                  "action": "",
+                  "rowClass": "col-md-12",
+                  "columnClass": "col-md-8"
+                },
+                {
+                  "control": "staticlable",
+                  "type": "string",
+                  "property": "careerRecruitment_career_enterprise_name",
+                  "pattern": "",
+                  "sortable": false,
+                  "id": "careerRecruitment_career_enterprise_name",
+                  "name": "所属机构",
+                  "description": "",
+                  "action": "",
+                  "rowClass": "col-md-12",
+                  "columnClass": "col-md-8"
+                },
+                {
+                  "control": "staticlable",
+                  "type": "string",
+                  "property": "careerRecruitment_career_jobFamily_name",
+                  "pattern": "",
+                  "sortable": false,
+                  "id": "careerRecruitment_career_jobFamily_name",
+                  "name": "岗位序列",
+                  "description": "",
+                  "action": "",
+                  "rowClass": "col-md-12",
+                  "columnClass": "col-md-8"
+                },
+                {
+                  "control": "staticlable",
+                  "type": "string",
+                  "property": "careerRecruitment_regions_name",
+                  "pattern": "list",
+                  "sortable": false,
+                  "id": "careerRecruitment_regions_name",
+                  "name": "工作地点",
+                  "description": "",
+                  "action": "",
+                  "rowClass": "col-md-12",
+                  "columnClass": "col-md-8"
+                },
+                {
+                  "control": "staticlable",
+                  "type": "string",
+                  "property": "careerRecruitment_career_publishDate",
+                  "pattern": "yyyy-MM-dd HH:mm:ss",
+                  "sortable": false,
+                  "id": "careerRecruitment_career_publishDate",
+                  "name": "发布日期",
+                  "description": "",
+                  "action": "",
+                  "rowClass": "col-md-12",
+                  "columnClass": "col-md-8"
+                },
+                {
+                  "control": "staticlable",
+                  "type": "string",
+                  "property": "careerRecruitment_career_expirationDate",
+                  "pattern": "yyyy-MM-dd",
+                  "sortable": false,
+                  "id": "careerRecruitment_career_expirationDate",
+                  "name": "截止日期",
+                  "description": "",
+                  "action": "",
+                  "rowClass": "col-md-12",
+                  "columnClass": "col-md-8"
+                },
+                {
+                  "control": "buttonColumn",
+                  "type": "link",
+                  "id": "buttons",
+                  "name": "操作",
+                  "widgetClass": "text-center",
+                  "rowClass": "col-md-12",
+                  "columnClass": "col-md-8",
+                  "widgetButtonList": [
+                    {
+                      "jsfunction": "viewCareer",
+                      "confirmBeforePost": false,
+                      "selectColumn": "id",
+                      "disabledWhenFetch": true,
+                      "id": "viewCareer",
+                      "name": "职位详情",
+                      "action": "",
+                      "iconClass": "",
+                      "rowClass": "col-md-12",
+                      "columnClass": "col-md-8"
+                    },
+                    {
+                      "jsfunction": "viewNotice",
+                      "confirmBeforePost": false,
+                      "selectColumn": "id",
+                      "disabledWhenFetch": true,
+                      "id": "viewNotice",
+                      "name": "招聘启事",
+                      "action": "",
+                      "iconClass": "",
+                      "rowClass": "col-md-12",
+                      "columnClass": "col-md-8"
+                    }
+                  ]
+                }
+              ],
+              "id": "list",
+              "name": "招聘职位列表",
+              "rowClass": "col-md-12",
+              "columnClass": "col-md-8"
+            }
+          ],
+          "prefix": "",
+          "id": "careerRecruitmentList",
+          "name": "招聘职位列表",
+          "tooltip": "",
+          "description": "招聘职位列表",
+          "action": "/portal/rest/careerrecruitment/search.view",
+          "rowClass": "col-md-12",
+          "columnClass": "col-md-8"
+        }
+      },
+      "newobject": false
+    }
+  },
+  {
+    "url": "https://career.cmbc.com.cn/portal/rest/careerrecruitment/searchconditions.view?random=1791904242101",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "success": true,
+      "messages": [],
+      "attributes": {},
+      "dataType": 2,
+      "data": {
+        "publishDates": [
+          {
+            "id": "1",
+            "name": "当天",
+            "hiddenValue": "0",
+            "displayValue": "当天"
+          },
+          {
+            "id": "2",
+            "name": "3天",
+            "hiddenValue": "3",
+            "displayValue": "3天"
+          },
+          {
+            "id": "3",
+            "name": "7天",
+            "hiddenValue": "7",
+            "displayValue": "7天"
+          },
+          {
+            "id": "4",
+            "name": "15天",
+            "hiddenValue": "15",
+            "displayValue": "15天"
+          },
+          {
+            "id": "5",
+            "name": "30天",
+            "hiddenValue": "30",
+            "displayValue": "30天"
+          },
+          {
+            "id": "6",
+            "name": "60天",
+            "hiddenValue": "60",
+            "displayValue": "60天"
+          },
+          {
+            "id": "7",
+            "name": "90天",
+            "hiddenValue": "90",
+            "displayValue": "90天"
+          }
+        ],
+        "jobFamiles": [
+          {
+            "label": "专业运营",
+            "value": "420b8525-4d5a-454b-858f-655b1f05e836"
+          },
+          {
+            "label": "产品管理",
+            "value": "8d7d6418-4c4f-439e-a8bd-1df5903c515e"
+          },
+          {
+            "label": "人力资源",
+            "value": "010cb9c6-e5c3-4a68-89c4-ebe93bb149a1"
+          },
+          {
+            "label": "信息科技",
+            "value": "2ffd9936-4029-4891-ac98-ad6b2abb07fa"
+          },
+          {
+            "label": "信贷管理",
+            "value": "f156c6fb-cb56-4f05-95ed-6a9c2af564a6"
+          },
+          {
+            "label": "党群纪检",
+            "value": "cd43eaba-c17b-461c-a5b1-82a6feae410b"
+          },
+          {
+            "label": "公司治理",
+            "value": "eb9f5332-4451-435b-b59d-47d8ddeb7a7d"
+          },
+          {
+            "label": "审计",
+            "value": "f07c625b-c9c5-40d7-b4ad-794fec67d7da"
+          },
+          {
+            "label": "客户管理",
+            "value": "2dfd61e0-05bd-4923-89c8-d49273f2b578"
+          },
+          {
+            "label": "市场营销",
+            "value": "5851d17c-4755-4559-855a-6f4b6d3db76b"
+          },
+          {
+            "label": "战略研究",
+            "value": "c658541b-a52a-4d24-820e-4e8ed74c9281"
+          },
+          {
+            "label": "投资交易",
+            "value": "d393b452-6a68-455b-980d-c34eb0fd0feb"
+          },
+          {
+            "label": "数据",
+            "value": "4f3b152d-cf20-4554-a510-94985306f5fd"
+          },
+          {
+            "label": "校招序列",
+            "value": "84cafa27-fca3-4e0e-a88b-c7b73a97c8e8"
+          },
+          {
+            "label": "法律合规",
+            "value": "0d781598-23b5-4a89-858e-8a0092f2aa73"
+          },
+          {
+            "label": "综合管理",
+            "value": "a280eecf-bed1-4324-aede-a44fde54426e"
+          },
+          {
+            "label": "财务",
+            "value": "a7b15fc2-7ed2-483a-980f-7db0ea308e53"
+          },
+          {
+            "label": "资产负债",
+            "value": "e8e336f7-3b90-41a2-aa7a-cc616e1b1e6e"
+          },
+          {
+            "label": "运营管理",
+            "value": "67cdf435-2229-474e-baa2-32d39e184b6c"
+          },
+          {
+            "label": "销售",
+            "value": "21653fea-e1d6-4fb0-8f35-f817d457b6d5"
+          },
+          {
+            "label": "风险管理",
+            "value": "ed3f4f20-18bd-4c44-8885-e63358d827f4"
+          },
+          {
+            "label": "默认",
+            "value": "490f870a-4ab2-41b6-8692-cd823fed9b15"
+          }
+        ],
+        "enterprises": [
+          {
+            "name": "信用卡中心",
+            "parentId": "default-enterprise",
+            "id": "0141"
+          },
+          {
+            "name": "民生银行总行",
+            "parentId": "default-enterprise",
+            "id": "0102"
+          },
+          {
+            "name": "民生银行总行金融科技",
+            "parentId": "default-enterprise",
+            "id": "e815c7fe-80df-4ba1-a170-6eb8bb951020"
+          },
+          {
+            "name": "北京分行",
+            "parentId": "default-enterprise",
+            "id": "0103"
+          },
+          {
+            "name": "广州分行",
+            "parentId": "default-enterprise",
+            "id": "0104"
+          },
+          {
+            "name": "上海分行",
+            "parentId": "default-enterprise",
+            "id": "0105"
+          },
+          {
+            "name": "深圳分行",
+            "parentId": "default-enterprise",
+            "id": "0106"
+          },
+          {
+            "name": "武汉分行",
+            "parentId": "default-enterprise",
+            "id": "0107"
+          },
+          {
+            "name": "太原分行",
+            "parentId": "default-enterprise",
+            "id": "0108"
+          },
+          {
+            "name": "大连分行",
+            "parentId": "default-enterprise",
+            "id": "0110"
+          },
+          {
+            "name": "杭州分行",
+            "parentId": "default-enterprise",
+            "id": "0111"
+          },
+          {
+            "name": "南京分行",
+            "parentId": "default-enterprise",
+            "id": "0112"
+          },
+          {
+            "name": "重庆分行",
+            "parentId": "default-enterprise",
+            "id": "0113"
+          },
+          {
+            "name": "西安分行",
+            "parentId": "default-enterprise",
+            "id": "0114"
+          },
+          {
+            "name": "福州分行",
+            "parentId": "default-enterprise",
+            "id": "0115"
+          },
+          {
+            "name": "济南分行",
+            "parentId": "default-enterprise",
+            "id": "0116"
+          },
+          {
+            "name": "宁波分行",
+            "parentId": "default-enterprise",
+            "id": "0117"
+          },
+          {
+            "name": "成都分行",
+            "parentId": "default-enterprise",
+            "id": "0118"
+          },
+          {
+            "name": "石家庄分行",
+            "parentId": "default-enterprise",
+            "id": "0109"
+          },
+          {
+            "name": "天津分行",
+            "parentId": "default-enterprise",
+            "id": "0119"
+          },
+          {
+            "name": "昆明分行",
+            "parentId": "default-enterprise",
+            "id": "0120"
+          },
+          {
+            "name": "泉州分行",
+            "parentId": "default-enterprise",
+            "id": "0125"
+          },
+          {
+            "name": "苏州分行",
+            "parentId": "default-enterprise",
+            "id": "0121"
+          },
+          {
+            "name": "青岛分行",
+            "parentId": "default-enterprise",
+            "id": "0122"
+          },
+          {
+            "name": "温州分行",
+            "parentId": "default-enterprise",
+            "id": "0123"
+          },
+          {
+            "name": "厦门分行",
+            "parentId": "default-enterprise",
+            "id": "0124"
+          },
+          {
+            "name": "郑州分行",
+            "parentId": "default-enterprise",
+            "id": "0126"
+          },
+          {
+            "name": "长沙分行",
+            "parentId": "default-enterprise",
+            "id": "0127"
+          },
+          {
+            "name": "长春分行",
+            "parentId": "default-enterprise",
+            "id": "0128"
+          },
+          {
+            "name": "合肥分行",
+            "parentId": "default-enterprise",
+            "id": "0129"
+          },
+          {
+            "name": "南昌分行",
+            "parentId": "default-enterprise",
+            "id": "0130"
+          },
+          {
+            "name": "汕头分行",
+            "parentId": "default-enterprise",
+            "id": "0131"
+          },
+          {
+            "name": "南宁分行",
+            "parentId": "default-enterprise",
+            "id": "88c5bdd0-d02c-459e-a129-b07367e90450"
+          },
+          {
+            "name": "呼和浩特分行",
+            "parentId": "default-enterprise",
+            "id": "fad8cc30-5155-446a-88ca-942f7f997366"
+          },
+          {
+            "name": "沈阳分行",
+            "parentId": "default-enterprise",
+            "id": "90580c83-ecae-4475-92e4-d23c43c63d2a"
+          },
+          {
+            "name": "香港分行",
+            "parentId": "default-enterprise",
+            "id": "b28579d4-de5e-4463-bd3c-39ab32b4dae0"
+          },
+          {
+            "name": "贵阳分行",
+            "parentId": "default-enterprise",
+            "id": "6bab32e5-8ea5-4a78-badc-3211195d1320"
+          },
+          {
+            "name": "拉萨分行",
+            "parentId": "default-enterprise",
+            "id": "af981e15-f603-4655-a923-de0d1dc5da63"
+          },
+          {
+            "name": "上海自贸区分行",
+            "parentId": "default-enterprise",
+            "id": "cb281f25-3374-453a-9621-341de3e28f1e"
+          },
+          {
+            "name": "哈尔滨分行",
+            "parentId": "default-enterprise",
+            "id": "c9291a8c-d384-4cbb-99da-83dd56d06442"
+          },
+          {
+            "name": "兰州分行",
+            "parentId": "default-enterprise",
+            "id": "0603049b-894d-4b24-84b8-d68501d1f627"
+          },
+          {
+            "name": "乌鲁木齐分行",
+            "parentId": "default-enterprise",
+            "id": "ed726815-51b5-4b6b-b58a-7226af4b2d72"
+          },
+          {
+            "name": "西宁分行",
+            "parentId": "default-enterprise",
+            "id": "29c440f2-4f30-47a5-b220-7c4d1e043d85"
+          },
+          {
+            "name": "银川分行",
+            "parentId": "default-enterprise",
+            "id": "9f53e745-0606-4852-b6c7-a812e4885a35"
+          },
+          {
+            "name": "海口分行",
+            "parentId": "default-enterprise",
+            "id": "5f2ff98b-235a-48d6-b8b0-8d92e316ee9a"
+          },
+          {
+            "name": "民生金融租赁",
+            "parentId": "default-enterprise",
+            "id": "835f3d95-4aeb-4021-9f62-3e8820753e56"
+          },
+          {
+            "name": "民生加银基金",
+            "parentId": "default-enterprise",
+            "id": "765d1316-ef4b-4825-951c-035f4018bec5"
+          },
+          {
+            "name": "民生科技",
+            "parentId": "default-enterprise",
+            "id": "e90a454a-b1bc-4b07-acb1-fd2360ac692a"
+          },
+          {
+            "name": "民生理财",
+            "parentId": "default-enterprise",
+            "id": "b04e6860-60e2-4b20-a3bc-6e6aea690544"
+          },
+          {
+            "name": "民生置业",
+            "parentId": "default-enterprise",
+            "id": "9e3dafeb-68ba-4dfb-a160-c9fcbd578632"
+          },
+          {
+            "name": "民银国际",
+            "parentId": "default-enterprise",
+            "id": "8a6e80f9-fcc5-4a6b-ab2c-929b965c5289"
+          },
+          {
+            "name": "中国民生银行",
+            "parentId": "default-enterprise",
+            "id": "c33275cd-47d4-45ca-a2bf-43c070217749"
+          },
+          {
+            "name": "伦敦分行",
+            "parentId": "default-enterprise",
+            "id": "a6ae7175-3cd5-43f2-9426-4d86fb0f598f"
+          },
+          {
+            "name": "民生加银资产",
+            "parentId": "default-enterprise",
+            "id": "8e6f35a5-773c-43e0-a3b5-465bcfb5dce1"
+          },
+          {
+            "name": "民生村镇银行",
+            "parentId": "default-enterprise",
+            "id": "5afb1dcc-8335-4b6a-8d65-9d843f9e7dc6"
+          },
+          {
+            "name": "金融市场部（旧）",
+            "parentId": "default-enterprise",
+            "id": "0138"
+          }
+        ]
+      },
+      "newobject": false
+    }
+  },
+  {
+    "url": "https://career.cmbc.com.cn/portal/rest/careerrecruitment/search.view?random=1791904242176",
+    "method": "POST",
+    "post_data": "view=careerRecruitmentList&pageNo=1&pageSize=20&searchRecruitmentIds=campus&searchEnterpriseId=",
+    "data": {
+      "success": true,
+      "messages": [],
+      "attributes": {},
+      "dataType": 2,
+      "data": {
+        "pageNo": 1,
+        "pageSize": 20,
+        "pageCount": 6,
+        "items": [
+          {
+            "careerRecruitment_regions_name": "成都,德阳,宜宾,巴中,泸州,资阳",
+            "careerRecruitment_career_enterprise_name": "成都分行",
+            "careerRecruitment_career_publishDate": "2026-09-28 10:49:28",
+            "careerRecruitment_career_name": "“启航”校招岗",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "bbe15c35-d4db-4d9a-b355-8ac76199f84f"
+          },
+          {
+            "careerRecruitment_regions_name": "揭阳,汕头",
+            "careerRecruitment_career_enterprise_name": "汕头分行",
+            "careerRecruitment_career_publishDate": "2026-09-28 10:26:44",
+            "careerRecruitment_career_name": "“启航”校招岗",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "a27871af-024b-49c9-88b2-d3f5be7a671c"
+          },
+          {
+            "careerRecruitment_regions_name": "北京",
+            "careerRecruitment_career_enterprise_name": "民生银行总行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+            "careerRecruitment_career_name": "扬帆（数据+）-智能算法方向",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "e021463b-9d8e-4462-ae32-e468c8349001"
+          },
+          {
+            "careerRecruitment_regions_name": "北京",
+            "careerRecruitment_career_enterprise_name": "民生银行总行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+            "careerRecruitment_career_name": "扬帆（数据+）-技术研发方向",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "825d7670-c7ef-447e-8e93-14e271d24fc9"
+          },
+          {
+            "careerRecruitment_regions_name": "北京",
+            "careerRecruitment_career_enterprise_name": "民生银行总行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+            "careerRecruitment_career_name": "扬帆（金融+）-科创金融方向",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "f04a0eaa-429b-47c5-aa51-678d507bb545"
+          },
+          {
+            "careerRecruitment_regions_name": "北京",
+            "careerRecruitment_career_enterprise_name": "北京分行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+            "careerRecruitment_career_name": "“扬帆”校招岗",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "8171eb41-f8ce-4ce0-8b92-1a9653c109fb"
+          },
+          {
+            "careerRecruitment_regions_name": "北京",
+            "careerRecruitment_career_enterprise_name": "民生银行总行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+            "careerRecruitment_career_name": "扬帆（科技+）-信息安全方向",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "2aafcfbf-01d3-4627-a368-b6a1f31c4f50"
+          },
+          {
+            "careerRecruitment_regions_name": "北京",
+            "careerRecruitment_career_enterprise_name": "民生银行总行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+            "careerRecruitment_career_name": "扬帆（科技+）-开发方向",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "6051a174-786e-4488-bc06-fca77d5206cd"
+          },
+          {
+            "careerRecruitment_regions_name": "北京",
+            "careerRecruitment_career_enterprise_name": "民生银行总行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+            "careerRecruitment_career_name": "扬帆（金融+）-跨境金融方向",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "518b404a-3e32-47b1-bd9d-6399564134f1"
+          },
+          {
+            "careerRecruitment_regions_name": "北京",
+            "careerRecruitment_career_enterprise_name": "民生银行总行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+            "careerRecruitment_career_name": "扬帆（数据+）-数据分析方向",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "10e62586-59e6-4e49-be77-e533465d02c7"
+          },
+          {
+            "careerRecruitment_regions_name": "北京",
+            "careerRecruitment_career_enterprise_name": "民生银行总行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+            "careerRecruitment_career_name": "扬帆（金融+）-金融市场方向",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "42908328-434a-41f8-b99e-fff1b67bdca9"
+          },
+          {
+            "careerRecruitment_regions_name": "北京",
+            "careerRecruitment_career_enterprise_name": "民生银行总行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+            "careerRecruitment_career_name": "扬帆（金融+）-通用金融方向",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "cfb0956f-5da3-4985-8575-1a6cf755e9b4"
+          },
+          {
+            "careerRecruitment_regions_name": "北京",
+            "careerRecruitment_career_enterprise_name": "民生银行总行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:34:58",
+            "careerRecruitment_career_name": "扬帆（科技+）-网络管理方向",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "b03268ba-7a98-4181-9fc0-b16c2e658283"
+          },
+          {
+            "careerRecruitment_regions_name": "长春",
+            "careerRecruitment_career_enterprise_name": "长春分行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+            "careerRecruitment_career_name": "“扬帆”校招岗",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "d97ff48b-3088-4054-b6ce-f35079acb8f8"
+          },
+          {
+            "careerRecruitment_regions_name": "石家庄,邯郸,沧州,衡水,秦皇岛,唐山,张家口,保定,邢台",
+            "careerRecruitment_career_enterprise_name": "石家庄分行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+            "careerRecruitment_career_name": "“扬帆”校招岗",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "433f3d53-76af-46cb-8ef0-b57a428839a3"
+          },
+          {
+            "careerRecruitment_regions_name": "乌鲁木齐",
+            "careerRecruitment_career_enterprise_name": "乌鲁木齐分行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+            "careerRecruitment_career_name": "“扬帆”校招岗",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "bf18c4b7-c162-4069-95a6-1e530d44d937"
+          },
+          {
+            "careerRecruitment_regions_name": "青岛,烟台,威海",
+            "careerRecruitment_career_enterprise_name": "青岛分行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+            "careerRecruitment_career_name": "“启航”校招岗",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "6c101585-b3b5-4097-a973-d4d8aa8546f8"
+          },
+          {
+            "careerRecruitment_regions_name": "兰州",
+            "careerRecruitment_career_enterprise_name": "兰州分行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+            "careerRecruitment_career_name": "“扬帆”校招岗",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "f9662026-9b0d-4a43-9ab6-9e1699194352"
+          },
+          {
+            "careerRecruitment_regions_name": "银川",
+            "careerRecruitment_career_enterprise_name": "银川分行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+            "careerRecruitment_career_name": "“扬帆”校招岗",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "258c089c-4631-441b-8783-fae6ab60d592"
+          },
+          {
+            "careerRecruitment_regions_name": "长沙",
+            "careerRecruitment_career_enterprise_name": "长沙分行",
+            "careerRecruitment_career_publishDate": "2026-09-16 18:33:26",
+            "careerRecruitment_career_name": "“扬帆”校招岗",
+            "careerRecruitment_career_expirationDate": "2026-10-25",
+            "id": "d9437909-34e8-4102-ad89-5d02628fc121"
+          }
+        ],
+        "sortField": "careerRecruitment_career_publishDate",
+        "totalLine": 113,
+        "sortOrder": "desc",
+        "startLine": 0,
+        "endLine": 0
+      },
+      "newobject": false
+    }
+  },
+  {
+    "url": "https://career.cmbc.com.cn/portal/rest/careerrecruitment/enterpriseList.view?random=1791904242100&parentId=&recruitmentId=campus",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "success": true,
+      "messages": [],
+      "attributes": {},
+      "dataType": 2,
+      "data": {
+        "total": 113,
+        "enterprises": [
+          {
+            "name": "民生银行总行",
+            "total": 10,
+            "id": "0102",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "北京分行",
+            "total": 2,
+            "id": "0103",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "广州分行",
+            "total": 2,
+            "id": "0104",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "上海分行",
+            "total": 2,
+            "id": "0105",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "深圳分行",
+            "total": 2,
+            "id": "0106",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "武汉分行",
+            "total": 2,
+            "id": "0107",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "太原分行",
+            "total": 2,
+            "id": "0108",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "大连分行",
+            "total": 2,
+            "id": "0110",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "杭州分行",
+            "total": 2,
+            "id": "0111",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "南京分行",
+            "total": 2,
+            "id": "0112",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "重庆分行",
+            "total": 2,
+            "id": "0113",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "西安分行",
+            "total": 2,
+            "id": "0114",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "福州分行",
+            "total": 2,
+            "id": "0115",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "济南分行",
+            "total": 2,
+            "id": "0116",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "宁波分行",
+            "total": 2,
+            "id": "0117",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "成都分行",
+            "total": 2,
+            "id": "0118",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "石家庄分行",
+            "total": 2,
+            "id": "0109",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "天津分行",
+            "total": 2,
+            "id": "0119",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "昆明分行",
+            "total": 2,
+            "id": "0120",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "泉州分行",
+            "total": 2,
+            "id": "0125",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "苏州分行",
+            "total": 2,
+            "id": "0121",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "青岛分行",
+            "total": 2,
+            "id": "0122",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "温州分行",
+            "total": 2,
+            "id": "0123",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "厦门分行",
+            "total": 2,
+            "id": "0124",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "郑州分行",
+            "total": 2,
+            "id": "0126",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "长沙分行",
+            "total": 2,
+            "id": "0127",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "长春分行",
+            "total": 2,
+            "id": "0128",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "合肥分行",
+            "total": 2,
+            "id": "0129",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "南昌分行",
+            "total": 2,
+            "id": "0130",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "汕头分行",
+            "total": 1,
+            "id": "0131",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "南宁分行",
+            "total": 2,
+            "id": "88c5bdd0-d02c-459e-a129-b07367e90450",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "呼和浩特分行",
+            "total": 2,
+            "id": "fad8cc30-5155-446a-88ca-942f7f997366",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "沈阳分行",
+            "total": 2,
+            "id": "90580c83-ecae-4475-92e4-d23c43c63d2a",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "香港分行",
+            "total": 2,
+            "id": "b28579d4-de5e-4463-bd3c-39ab32b4dae0",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "贵阳分行",
+            "total": 2,
+            "id": "6bab32e5-8ea5-4a78-badc-3211195d1320",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "拉萨分行",
+            "total": 1,
+            "id": "af981e15-f603-4655-a923-de0d1dc5da63",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "上海自贸区分行",
+            "total": 1,
+            "id": "cb281f25-3374-453a-9621-341de3e28f1e",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "哈尔滨分行",
+            "total": 2,
+            "id": "c9291a8c-d384-4cbb-99da-83dd56d06442",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "兰州分行",
+            "total": 2,
+            "id": "0603049b-894d-4b24-84b8-d68501d1f627",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "乌鲁木齐分行",
+            "total": 2,
+            "id": "ed726815-51b5-4b6b-b58a-7226af4b2d72",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "西宁分行",
+            "total": 1,
+            "id": "29c440f2-4f30-47a5-b220-7c4d1e043d85",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "银川分行",
+            "total": 2,
+            "id": "9f53e745-0606-4852-b6c7-a812e4885a35",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "海口分行",
+            "total": 2,
+            "id": "5f2ff98b-235a-48d6-b8b0-8d92e316ee9a",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "民生金融租赁",
+            "total": 4,
+            "id": "835f3d95-4aeb-4021-9f62-3e8820753e56",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "民生加银基金",
+            "total": 6,
+            "id": "765d1316-ef4b-4825-951c-035f4018bec5",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "民生科技",
+            "total": 5,
+            "id": "e90a454a-b1bc-4b07-acb1-fd2360ac692a",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "民生理财",
+            "total": 5,
+            "id": "b04e6860-60e2-4b20-a3bc-6e6aea690544",
+            "parentId": "default-enterprise"
+          },
+          {
+            "name": "民生置业",
+            "total": 3,
+            "id": "9e3dafeb-68ba-4dfb-a160-c9fcbd578632",
+            "parentId": "default-enterprise"
+          }
+        ]
+      },
+      "newobject": false
+    }
+  }
+]

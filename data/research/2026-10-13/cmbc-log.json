@@ -1,0 +1,39 @@
+{
+  "total": 113,
+  "collected": 113,
+  "complete": true,
+  "error": null,
+  "pages": [
+    {
+      "page": 1,
+      "rows": 20,
+      "total": 113
+    },
+    {
+      "page": 2,
+      "rows": 20,
+      "total": 113
+    },
+    {
+      "page": 3,
+      "rows": 20,
+      "total": 113
+    },
+    {
+      "page": 4,
+      "rows": 20,
+      "total": 113
+    },
+    {
+      "page": 5,
+      "rows": 20,
+      "total": 113
+    },
+    {
+      "page": 6,
+      "rows": 13,
+      "total": 113
+    }
+  ],
+  "observed_url": "https://career.cmbc.com.cn/portal/rest/careerrecruitment/search.view?random=1791904242176"
+}

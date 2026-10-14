@@ -1,0 +1,873 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="mobileUrl" content="//sczq.m.zhiye.com/campus" />
+ <link type="text/css" rel="stylesheet" href="//stc.beisen.com/cmssite//Styles/frontmodule.css" />
+<link type="text/css" rel="stylesheet" href="//stc-cms.beisen.com/CmsPortal/5/5_themes_default_style.css?v=0.0.1.0" front="css" />
+<link type="text/css" rel="stylesheet" href="//stc-cms.beisen.com/CmsPortal/5/5_themes_default_flexslider.css?v=0.0.1.0" front="css" />
+<link type="text/css" rel="stylesheet" href="//stc-cms.beisen.com/CmsPortal/5/5_themes_default_jqueryuicore.css?v=0.0.1.0" front="css" />
+<link type="text/css" rel="stylesheet" href="//stc-cms.beisen.com/CmsPortal/5/5_themes_default_jqueryuiselectmenu.css?v=0.0.1.0" front="css" />
+<link type="text/css" rel="stylesheet" href="//stc-cms.beisen.com/CmsPortal/5/5_themes_default_jqueryuitheme.css?v=0.0.1.0" front="css" />
+<script type="text/javascript">
+       //mobileUrl rewrite
+       function goPAGE() {
+		    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+          var appSrcMetas = document.getElementsByName('mobileUrl');
+			      if(appSrcMetas.length > 0) {
+		       		  window.location.href = appSrcMetas[0].getAttribute("content");
+			      }
+		    }
+		  }
+      goPAGE();
+
+       //opsapi
+       window.PERF_START=new Date;
+       function _splash(page, uid, tid, pid){
+        
+    }
+    </script>
+          <script type="text/javascript" src="//stc-cms.beisen.com/CmsPortal/5/5_themes_default_jquery311.js?v=0.0.1.0" ></script>
+<script type="text/javascript" src="//stc-cms.beisen.com/CmsPortal/5/5_themes_default_jqueryflexslidermin.js?v=0.0.1.0" ></script>
+<script type="text/javascript" src="//stc-cms.beisen.com/CmsPortal/5/5_themes_default_jqueryuicore1.js?v=0.0.1.0" ></script>
+<script type="text/javascript" src="//stc-cms.beisen.com/CmsPortal/5/5_themes_default_jqueryuiposition.js?v=0.0.1.0" ></script>
+<script type="text/javascript" src="//stc-cms.beisen.com/CmsPortal/5/5_themes_default_jqueryuiwidget.js?v=0.0.1.0" ></script>
+<script type="text/javascript" src="//stc-cms.beisen.com/CmsPortal/5/5_themes_default_jqueryuiselectmenu1.js?v=0.0.1.0" ></script>
+<script type="text/javascript" src="//stc-cms.beisen.com/CmsPortal/5/5_themes_default_jquerymigrate.js?v=0.0.1.0" ></script>
+<script type="text/javascript" src="//stc-cms.beisen.com/CmsPortal/5/5_themes_default_demo.js?v=0.0.1.0" ></script>
+<script type="text/javascript">var $bs_vars={'st':'//stc.beisen.com/','version':'2025.05.30.001','constSite':'//const.italent.cn'};function vstr(str) {
+         if (typeof ($bs_vars) == 'undefine')
+             return str;
+         var result = str;
+         for (var v in $bs_vars) {
+             var regex = new RegExp('\\$\\{' + v.toString() + '\\}|\\{' + v.toString() + '\\}', 'igm');
+             result = result.replace(regex, $bs_vars[v]);
+         }
+         return result;
+     };</script><!--引用静态文件:requirejs-->
+<script type="text/javascript" src="//stc.beisen.com/2025.05.30.001/base/js/require.js" ></script>
+		<title>首创证券股份有限公司招聘系统--校园招聘</title>
+</head>
+<body>
+  
+	<div class="header">
+		<div class="headercontain">
+			 <div class="logo">
+  <img src="//stc-cms.beisen.com/CmsPortal/102838/102838_medias_202216_202216logo.jpg?v=637770791024670000"/>
+ 
+</div>
+			
+<!--module:login begin-->
+<div class="bs-module">
+    <div class="login-link ">
+        
+
+
+
+
+
+
+<div class="login-hearder">
+   
+        <ul class="header-login" style="display:none">
+            
+            <li class="welcome"><span><span class="userName" style="float:none"></span>，欢迎您！</span></li>
+            <li class="PortalIndex"><a href="/Portal/Apply/Index"><span>个人中心</span></a></li>
+            <li class="LogoutUrl"><a href="/User/Account/LogOut"><span>退出</span></a></li>
+        </ul>   
+    
+        <ul class="header-unLogin" style="display:none">
+            <li><a class="loginlink" href="/Portal/Account/Login?returnUrl=%2Fcampus%2F%3FPageIndex%3D5">
+                    <span>登录</span>
+                </a></li>
+            <li><a class="reglink" href="/Portal/Account/Register?returnUrl=%2Fcampus%2F%3FPageIndex%3D5"><span>
+                注册</span></a></li>
+        </ul>
+    
+</div>
+<script type="text/javascript">
+    var makeUserInfo = function (resp) {
+        //var self = this;
+        var userInfo = {};
+        userInfo.name = (resp.Model.Email && resp.Model.Email.length > 20) ? resp.Model.Email.substring(0, 20) : resp.Model.Email;
+        userInfo.isLogin = resp.Success;
+        userInfo.mobile = resp.Model.Mobile;
+        return userInfo;
+    }
+
+    $.ajax({
+        url: '/User/Account/GetUserLoginInfo?v=' + Math.random()
+        , data: {}
+        , cache: false
+        , type: 'post'
+        , success: function (resp) {
+            //配置用户基本信息
+            var userInfo = makeUserInfo(resp);
+            var loginView = $(".login-hearder .header-login");
+            var unLoginView = $(".login-hearder .header-unLogin");
+            if (userInfo.isLogin) {
+                loginView.find('.userName').text(userInfo.mobile ? userInfo.mobile : userInfo.name);
+                loginView.show()
+            }
+            else {
+                unLoginView.show()
+            }
+        }//success
+        , error: function () {
+            throw new Error('ERROR: get user info')
+        }
+    });//ajax
+</script>
+
+
+    </div>
+</div>
+<!--module:login end-->
+<!--module:internalrecommend begin-->
+<div class="bs-module">
+    <div class="internalrecommend-default ">
+        
+
+
+
+
+
+
+<div class="internaldiv">
+    <a class="internal" href="https://neitui.italent.cn/sczq/jobs" target="_blank">内部推荐</a>
+</div>
+
+
+
+
+
+
+    </div>
+</div>
+<!--module:internalrecommend end-->
+		</div>
+	</div>
+	<div class="nav">
+		
+<!--module:menu begin-->
+<div class="bs-module">
+    <div class="menu-simple ">
+        
+
+
+
+  
+
+
+
+<ul id="portalmenu">
+
+
+                <li><a target="_self" href="/home" class =''>首页</a>
+                </li>
+                <li><a target="_self" href="/Social" class =''>社会招聘</a>
+                </li>
+                <li><a target="_self" href="/Campus" class ='current'>校园招聘</a>
+                </li>
+                <li><a target="_self" href="/Intern" class =''>实习生招聘</a>
+                </li>
+                <li><a target="_self" href="https://www.sczq.com.cn/" class =''>公司介绍</a>
+                </li>
+</ul>
+
+
+
+
+    </div>
+</div>
+<!--module:menu end-->
+	</div>
+	<div class="pictureplace">
+		<div class="pictureplacecenter">  
+		<img src="//stc-cms.beisen.com/CmsPortal/102838/102838_medias_201825_2018124bannercampus.jpg?v=636534458659930000"/>
+</div>
+	</div>
+	<div class="contain joblist clearfix">
+		<div class="containsidebar">
+			
+<!--module:positioncategory begin-->
+<div class="bs-module">
+    <div class="positioncategory-smallfresh ">
+        
+
+
+
+
+
+
+
+        <div class="zhiweifenlei bodertop">
+            <div class="parttitleline"></div>
+            <div class="parttitle height0"><span class="fenleiico"></span><div class="wordtitle lh0" title="职位类型">职位类型</div></div>
+
+            <div class="fenleilist">
+                <ul class="firstlist clearfix">
+            
+                            <li><a href='/campus?p=1^3#jlt' constval ="3" title="业务部门">业务部门</a></li>
+                            <li><a href='/campus?p=1^2#jlt' constval ="2" title="中台部门">中台部门</a></li>
+                            <li><a href='/campus?p=1^1#jlt' constval ="1" title="后台部门">后台部门</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+<!--module:positioncategory end-->
+			<div class="zhaopindongtai bodertop">
+				
+<!--module:newslist begin-->
+<div class="bs-module">
+    <div class="newslist-newsimple ">
+        
+
+
+
+ 
+
+
+<div class="parttitleline"></div>
+			<div class="parttitle"><span class="dongtaiico"></span><div class="wordtitle">招聘动态</div></div>
+                   <a href="/newslist" class="morelinks">更多>></a>
+             
+			<div class="dongtailinks">
+				<ul>
+                        <span>暂无内容</span>
+                    				</ul>
+			</div>
+
+    </div>
+</div>
+<!--module:newslist end-->
+			</div>
+		</div>
+           <div class="clearfix sousuocontain fl">
+			
+<!--module:positionsearch begin-->
+<div class="bs-module">
+    <div class="positionsearch-smallfresh ">
+        
+
+
+
+
+<a name="jlt" ></a>
+
+
+
+<div class="zhiweisousuo bodertop">
+    <div class="parttitleline"></div>
+    <div class="parttitle">
+        <span class="serchico"></span>
+        <div class="wordtitle">职位搜索</div>
+    </div>
+    <div class="serchcontain">
+        <table class="jobserch">
+            
+                <tr class="serchjob">
+                    <td class="listtitle">工作地点：</td>
+                    <td>
+                        <ul class="workplace">
+                                <span class="selectall"><span class="shuxian"></span><a href="/campus?r=&amp;p=&amp;c=-1&amp;d=&amp;k=#jlt" class="chooseon" title="全部">全部</a></span>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=1100&amp;d=&amp;k=#jlt" title="北京市">北京市</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=1200&amp;d=&amp;k=#jlt" title="天津市">天津市</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=1300&amp;d=&amp;k=#jlt" title="河北省">河北省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=1400&amp;d=&amp;k=#jlt" title="山西省">山西省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=2300&amp;d=&amp;k=#jlt" title="黑龙江省">黑龙江省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=3100&amp;d=&amp;k=#jlt" title="上海市">上海市</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=3200&amp;d=&amp;k=#jlt" title="江苏省">江苏省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=3300&amp;d=&amp;k=#jlt" title="浙江省">浙江省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=3400&amp;d=&amp;k=#jlt" title="安徽省">安徽省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=3500&amp;d=&amp;k=#jlt" title="福建省">福建省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=3600&amp;d=&amp;k=#jlt" title="江西省">江西省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=3700&amp;d=&amp;k=#jlt" title="山东省">山东省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=3701&amp;d=&amp;k=#jlt" title="济南市">济南市</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=4100&amp;d=&amp;k=#jlt" title="河南省">河南省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=4200&amp;d=&amp;k=#jlt" title="湖北省">湖北省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=4300&amp;d=&amp;k=#jlt" title="湖南省">湖南省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=4400&amp;d=&amp;k=#jlt" title="广东省">广东省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=4403&amp;d=&amp;k=#jlt" title="深圳市">深圳市</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=5000&amp;d=&amp;k=#jlt" title="重庆市">重庆市</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=5100&amp;d=&amp;k=#jlt" title="四川省">四川省</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=5101&amp;d=&amp;k=#jlt" title="成都市">成都市</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=6100&amp;d=&amp;k=#jlt" title="陕西省">陕西省</a>
+                                </li>
+                        </ul>
+                    </td>
+                </tr>
+                <input type="hidden" name="p" value="" id="jobAdClassHidden" />
+                <input type="hidden" name="p" value="" id="jobAdClassHidden" />
+                <tr class="serchjob">
+                    <td class="listtitle" title="职位类型">职位类型：</td>
+                    <td>
+                        <ul class="workplace">
+                                <span class="selectall"><span class="shuxian"></span><a href="/campus?r=&amp;p=1^-1&amp;c=&amp;d=&amp;k=#jlt" class="chooseon" title="全部">全部</a></span>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=1^3&amp;c=&amp;d=&amp;k=#jlt" title="业务部门">业务部门</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=1^2&amp;c=&amp;d=&amp;k=#jlt" title="中台部门">中台部门</a>
+                                </li>
+                                <li>
+                                    <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=1^1&amp;c=&amp;d=&amp;k=#jlt" title="后台部门">后台部门</a>
+                                </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="serchjob">
+                    <td class="listtitle">发布时间：</td>
+                    <td>
+                        <ul class="workplace">
+                                <span class="selectall"><span class="shuxian"></span><a href="/campus?r=&amp;p=&amp;c=&amp;d=-1&amp;k=#jlt" class="chooseon">全部</a></span>
+                                <li>
+                                   <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=&amp;d=3&amp;k=#jlt" title="三天内">三天内</a>
+                                </li>
+                                <li>
+                                   <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=&amp;d=7&amp;k=#jlt" title="一周内">一周内</a>
+                                </li>
+                                <li>
+                                   <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=&amp;d=30&amp;k=#jlt" title="一个月内">一个月内</a>
+                                </li>
+                                <li>
+                                   <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=&amp;d=90&amp;k=#jlt" title="三个月内">三个月内</a>
+                                </li>
+                                <li>
+                                   <span class="shuxian"></span>
+                                    <a href="/campus?r=&amp;p=&amp;c=&amp;d=180&amp;k=#jlt" title="半年内">半年内</a>
+                                </li>
+                        </ul>
+                    </td>
+                </tr>
+                <input type="hidden" name="p" value="" id="jobAdClassHidden" />
+                <input type="hidden" name="p" value="" id="jobAdClassHidden" />
+                <input type="hidden" name="p" value="" id="jobAdClassHidden" />
+                <tr class="serchjob">
+                    <td class="listtitle"></td>
+                    <td>
+                        <input type="text" class="serchinput" maxlength="50" id="k" name="k" /><span class="serchbtn"><a href="javascript:void(0)" id="searchlink">搜索</a></span></td>
+                </tr>
+                <input type="hidden" name="p" value="" id="jobAdClassHidden" />
+        </table>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+    function GetParam(key) {
+        return (document.location.search.match(new RegExp("(?:^\\?|&)" + key + "=(.*?)(?=&|$)")) || ['', null])[1];
+    }
+
+    function myHTMLEnCode(str) {
+        var s = "";
+        if (str.length == 0) return "";
+        s = str.replace(/&/g, "&amp;");
+        s = s.replace(/</g, "&lt;");
+        s = s.replace(/>/g, "&gt;");
+        s = s.replace(/ /g, "&nbsp;");
+        s = s.replace(/\'/g, "&#39;");
+        s = s.replace(/\"/g, "&quot;");
+        s = s.replace(/\n/g, "<br>");
+        return s;
+    }
+
+    function myHTMLDeCode(str) {
+        var s = "";
+        if (str.length == 0) return "";
+        s = str.replace(/&amp;/g, "&");
+        s = s.replace(/&lt;/g, "<");
+        s = s.replace(/&gt;/g, ">");
+        s = s.replace(/&nbsp;/g, " ");
+        s = s.replace(/&#39;/g, "\'");
+        s = s.replace(/&quot;/g, "\"");
+        s = s.replace(/<br>/g, "\n");
+        return s;
+    }
+
+    var defaultText = "请输入关键字";
+
+    $(document).ready(function () {
+        $("input[name='keyword']").click(function () {
+            $(this).val("");
+        });
+
+        var keyWord = GetParam("k");
+
+        if (keyWord != null) {
+            keyWord = decodeURIComponent(keyWord);
+            keyWord = myHTMLDeCode(keyWord);
+
+            $("input[name='k']").val(keyWord);
+        }
+
+        $("#searchlink").click(function () {
+            var r = GetParam("r");
+            r = (r == null ? -1 : r);
+            var p = GetParam("p");
+            p = (p == null ? "" : p);
+            var c = GetParam("c");
+            c = (c == null ? "" : c);
+            var d = GetParam("d");
+            d = (d == null ? "" : d);
+            var k = $("input[name='k']").val();
+            if (k == defaultText)
+                k = "";
+
+            k = myHTMLEnCode(k);
+            k = encodeURIComponent($.trim(k));
+
+            location.href = "/campus" + "?r=" + r + "&p=" + p + "&c=" + c + "&d=" + d + "&k=" + k + '#jlt';
+        });
+
+        var keyStr = $("#k").val();
+        if (!keyStr || keyStr == "") {
+            $("#k").css("color", "#d2cece");
+            $("#k").val(defaultText);
+        }
+
+        $("#k").focus(function () {
+            var v = $(this).val();
+            if (v == defaultText) {
+                $(this).val("");
+                $(this).css("color", "");
+            }
+        });
+
+        $("#k").blur(function () {
+            var v = $(this).val();
+            if (!v || v == "") {
+                $(this).val(defaultText);
+                $(this).css("color", "#d2cece");
+            }
+        });
+
+    });
+</script>
+
+
+    </div>
+</div>
+<!--module:positionsearch end-->
+			
+<!--module:positionlist begin-->
+<div class="bs-module">
+    <div class="positionlist-newtemplate ">
+        
+
+
+
+
+
+
+
+
+<div class="clearfix tablecontain">
+    <table class="listtable">
+
+            <thead>
+                <tr class="tabletitle">
+                <th class="tableleft">&nbsp;&nbsp;职位名称</th>
+                <th class="tableleft" title="职位类型">职位类型</th>
+            <th class="tableleft">工作地点</th>
+            <th class="tableleft">发布时间</th>
+
+                </tr>
+            </thead> 
+            <tr>
+
+
+            <td class="tableleft joblsttitle">
+                <a title="2026年校招凌云预备营岗机构业务山东(J11185)" jobAdId="311128254"
+                href="/zpdetail/311128254?PageIndex=5" >
+                    2026年校招凌云预备营岗机构业务山东(J...
+             </a>
+            </td>
+        
+
+                    <td class="tableleft joblsttitle" title=""></td>
+
+
+
+            <td title="山东省" class="tableleft joblsttitle">
+                山东省
+            </td>
+
+                    <td class="tableleft joblsttitle">
+                2026-04-13
+            </td>
+        
+      
+
+            </tr>
+            <tr>
+
+
+            <td class="tableleft joblsttitle">
+                <a title="2026年校招凌云预备营岗财富业务山东(J11165)" jobAdId="311128251"
+                href="/zpdetail/311128251?PageIndex=5" >
+                    2026年校招凌云预备营岗财富业务山东(J...
+             </a>
+            </td>
+        
+
+                    <td class="tableleft joblsttitle" title=""></td>
+
+
+
+            <td title="山东省" class="tableleft joblsttitle">
+                山东省
+            </td>
+
+                    <td class="tableleft joblsttitle">
+                2026-04-13
+            </td>
+        
+      
+
+            </tr>
+            <tr>
+
+
+            <td class="tableleft joblsttitle">
+                <a title="2026年校招凌云预备营岗机构业务上海(J11184)" jobAdId="311128249"
+                href="/zpdetail/311128249?PageIndex=5" >
+                    2026年校招凌云预备营岗机构业务上海(J...
+             </a>
+            </td>
+        
+
+                    <td class="tableleft joblsttitle" title=""></td>
+
+
+
+            <td title="上海市" class="tableleft joblsttitle">
+                上海市
+            </td>
+
+                    <td class="tableleft joblsttitle">
+                2026-04-13
+            </td>
+        
+      
+
+            </tr>
+            <tr>
+
+
+            <td class="tableleft joblsttitle">
+                <a title="2026年校招凌云预备营岗财富业务上海(J11164)" jobAdId="311128248"
+                href="/zpdetail/311128248?PageIndex=5" >
+                    2026年校招凌云预备营岗财富业务上海(J...
+             </a>
+            </td>
+        
+
+                    <td class="tableleft joblsttitle" title=""></td>
+
+
+
+            <td title="上海市" class="tableleft joblsttitle">
+                上海市
+            </td>
+
+                    <td class="tableleft joblsttitle">
+                2026-04-13
+            </td>
+        
+      
+
+            </tr>
+            <tr>
+
+
+            <td class="tableleft joblsttitle">
+                <a title="2026年校招凌云预备营岗机构业务河北(J11183)" jobAdId="311128241"
+                href="/zpdetail/311128241?PageIndex=5" >
+                    2026年校招凌云预备营岗机构业务河北(J...
+             </a>
+            </td>
+        
+
+                    <td class="tableleft joblsttitle" title=""></td>
+
+
+
+            <td title="河北省" class="tableleft joblsttitle">
+                河北省
+            </td>
+
+                    <td class="tableleft joblsttitle">
+                2026-04-13
+            </td>
+        
+      
+
+            </tr>
+            <tr>
+
+
+            <td class="tableleft joblsttitle">
+                <a title="2026年校招凌云预备营岗财富业务河北(J11163)" jobAdId="311128240"
+                href="/zpdetail/311128240?PageIndex=5" >
+                    2026年校招凌云预备营岗财富业务河北(J...
+             </a>
+            </td>
+        
+
+                    <td class="tableleft joblsttitle" title=""></td>
+
+
+
+            <td title="河北省" class="tableleft joblsttitle">
+                河北省
+            </td>
+
+                    <td class="tableleft joblsttitle">
+                2026-04-13
+            </td>
+        
+      
+
+            </tr>
+            <tr>
+
+
+            <td class="tableleft joblsttitle">
+                <a title="2026年校招凌云预备营岗机构业务北京(J11182)" jobAdId="311128238"
+                href="/zpdetail/311128238?PageIndex=5" >
+                    2026年校招凌云预备营岗机构业务北京(J...
+             </a>
+            </td>
+        
+
+                    <td class="tableleft joblsttitle" title=""></td>
+
+
+
+            <td title="北京市" class="tableleft joblsttitle">
+                北京市
+            </td>
+
+                    <td class="tableleft joblsttitle">
+                2026-04-13
+            </td>
+        
+      
+
+            </tr>
+            <tr>
+
+
+            <td class="tableleft joblsttitle">
+                <a title="2026年校招凌云预备营岗财富业务北京(J11167)" jobAdId="311128237"
+                href="/zpdetail/311128237?PageIndex=5" >
+                    2026年校招凌云预备营岗财富业务北京(J...
+             </a>
+            </td>
+        
+
+                    <td class="tableleft joblsttitle" title=""></td>
+
+
+
+            <td title="北京市" class="tableleft joblsttitle">
+                北京市
+            </td>
+
+                    <td class="tableleft joblsttitle">
+                2026-04-13
+            </td>
+        
+      
+
+            </tr>
+    </table>
+    
+
+
+   <span class="tablenote">共68条记录</span>
+        <div class="tablefooter">
+            <span>当前第5/5页</span>
+            <script language="javascript" type="text/javascript">function _MvcPager_Keydown(e){var _kc,_pib;if(window.event){_kc=e.keyCode;_pib=e.srcElement;}else if(e.which){_kc=e.which;_pib=e.target;}var validKey=(_kc==8||_kc==46||_kc==37||_kc==39||(_kc>=48&&_kc<=57)||(_kc>=96&&_kc<=105));if(!validKey){if(_kc==13){ _MvcPager_GoToPage(_pib,5);}if(e.preventDefault){e.preventDefault();}else{event.returnValue=false;}}}function _MvcPager_GoToPage(_pib,_mp){var pageIndex;if(_pib.tagName=="SELECT"){pageIndex=_pib.options[_pib.selectedIndex].value;}else{pageIndex=_pib.value;var r=new RegExp("^\\s*(\\d+)\\s*$");if(!r.test(pageIndex)){alert("当前页码错误");return;}else if(RegExp.$1<1||RegExp.$1>_mp){alert("当前页码超出范围");return;}}var _hl=document.getElementById(_pib.id+'link').childNodes[0];var _lh=_hl.href;_hl.href=_lh.replace('=0','='+pageIndex);_hl.click();_hl.href=_lh;}</script><div class="pager clearfix"><span ><a href='/campus/?PageIndex=1' >首页</a></span><span ><a href='/campus/?PageIndex=4' class="next">上一页</a></span><span ><a disabled="disabled" class="disabled next">下一页</a></span><span ><a disabled="disabled" class="disabled next">尾页</a></span><span class="gobtn"><input type="text" id="_MvcPager_Ctrl0_pib" value="5" onkeydown="_MvcPager_Keydown(event)"/><input type="button" value="跳转" onclick="_MvcPager_GoToPage(document.getElementById('_MvcPager_Ctrl0_pib'),5)"/><span id="_MvcPager_Ctrl0_piblink" style="display:none;width:0px;height:0px"><a href="/campus/?PageIndex=0" onclick="window.open(this.attributes.getNamedItem('href').value,'_self')"></a></span></span></div>
+        </div>
+</div>
+<script type="text/javascript">
+
+    //职位学历映射
+    var jobAdEduMap = {
+        //        "244858631" : "高职高专",
+        //        "996726632" : "大学本科",
+        //        "208199123" : "硕士研究生",
+        //        "214287756": "博士研究生"
+
+        "244858631": "高职高专",
+        "996726632": "大学本科",
+        "208199123": "硕士研究生",
+        "214287756": "博士研究生"
+    }
+
+    //获取locationUrl判定是否需要获取额外添加的列
+    var url = window.location.href;
+
+    if (url.indexOf("cnnp.zhiye.com") > 0) {//域名
+        //获取列表第一列职位广告ID
+        var ids = [];
+        var jobTitles = $(".joblsttitle a ");
+        //循环获取HREF提取JobId
+        for (var i = 0; i < jobTitles.length; i++) {
+            //            var id = jobTitles[i].pathname.split("/")[2];
+            //            //点击标签后该Url携带其他条件，再次过滤
+            //            if (id.indexOf("?")) {
+            //                id = id.split("?")[0];
+            //            }
+            var id = $(jobTitles[i]).attr("jobadid");
+            ids.push(parseInt(id));
+        }
+
+        //判定列表中存在数据
+        if (ids.length > 0) {
+            $.ajax({
+                url: "/Extensions/Widget/GetJobAdditional",
+                data: {
+                    jobAdIds: ids.toString(),
+                    additionalKeys: "extA9000_102054_949224493" //extA900_100102_2063773255
+                },
+                type: "POST",
+                dataType: 'json'
+            }).done(function (resp) {
+                //添加学历列
+                $(".listtable thead .tabletitle th:eq(2)").before('<th class="tableleft">学历</th>');
+                var htmlMap = [];
+                for (var i = 0; i < ids.length; i++) {
+                    var map = { jobadid: ids[i], eduName: '' };
+                    for (var j = 0; j < resp.length; j++) {
+
+                        if (ids[i] == parseInt(resp[j].JobAdId)) {
+                            map.eduName = jobAdEduMap[resp[j].AdditionaList[0].AdditionaValue];
+                        }
+                    }
+                    htmlMap.push(map);
+                }
+                for (var o = 0; o < htmlMap.length; o++) {
+                    $(".joblsttitle a[jobadid='" + (htmlMap[o].jobadid || '') + "'] ").parent().parent().find("td:eq(2)").before('<td class="tableleft joblsttitle" title="' + htmlMap[o].eduName + '">' + htmlMap[o].eduName + '</td>');
+                }
+            });
+        }
+    }
+</script>
+
+    </div>
+</div>
+<!--module:positionlist end-->
+<!--module:deliverystoredb begin-->
+<div class="bs-module">
+    <div class="deliverystoredb-default ">
+        
+
+
+
+
+
+
+ 
+
+
+
+
+
+    </div>
+</div>
+<!--module:deliverystoredb end-->
+           </div>
+	</div>
+	<div class="footer"><span>
+          &copy;2026&nbsp;&nbsp;首创证券股份有限公司&nbsp;&nbsp;&nbsp<a target="_blank" href="http://beian.miit.gov.cn" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;color: #aaa;">京ICP备05051632号-16</a>&nbsp<a target="_blank" href="//www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802032024" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;color: #aaa;"><img src="//stc.beisen.com/ux/tms-recruit/release/app/images/beian.png" style="float:left;"/>京公网安备 11010802032024号</a><a href="/Portal/Apply/PrivacyPolicy" style="color:#1D86F0;padding-left:5px;" target="_blank">隐私政策</a>&nbsp;Powered by&nbsp;<a href="https://www.beisen.com" class="footerlogo" target="_blank"></a></span></div>
+</body>
+</html><script type="text/javascript">
+        require([
+            vstr('${st}/${version}/cmsportal/skin/js/baiduStatistics.js')
+
+		]);
+    </script><script type="text/javascript">
+    $(function(){
+    _splash('zhiye_contentpage',0,102838,'new_zhiye_com');
+    });
+    </script>

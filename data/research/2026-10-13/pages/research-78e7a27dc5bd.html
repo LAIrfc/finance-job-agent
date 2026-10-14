@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<link href="/template/jmdx/css/channel.css" rel="stylesheet" type="text/css" />
+<link href="/template/zjc_v3/css/show.css" rel="stylesheet" type="text/css" />
+<link href="/template/jmdx/css/common.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/assets/global/plugins/bootstrap/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/assets/plugins/font-awesome-4.4.0/css/font-awesome.min.css" media="all" />
+
+<!--<link rel="stylesheet" href="/template/zjc_v3/css/edu/core.css">
+<link rel="stylesheet" href="/template/zjc_v3/css/edu/shortcode/header.css">-->
+<link href="/template/zjc_v3/css/custom20200506.css?v=20200320" rel="stylesheet" type="text/css" />
+<link href="/template/zjc_v3/css/channel20200402.css?v=20200402" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/template/zjc_v3/css/common_index20200430.css?v=20200325" media="all">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="/njs/ueditor/ueditor.parse.min.js"></script>
+<script src="/assets/global/plugins/jquery-3.7.1.min.js" type="text/javascript"></script>
+<script src="/assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<link rel="shortcut icon" href="/favicon.ico">
+<script>
+    //判断ie版本
+    var ua = navigator.userAgent.toLowerCase();
+    var isIE = ua.indexOf("msie") > -1;
+    var ieVersion;
+    if (isIE) {
+        ieVersion = ua.match(/msie ([\d.]+)/)[1];
+    }
+    if (ieVersion <= 8.0) {
+        alert('检测到您使用的是低版本的浏览器。请升级您的浏览器到更高版本，360、搜狗浏览器等请切换到极速模式，以得到更好的使用体验！');
+    }
+
+    $(window).on( 'scroll', function(){
+        if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0){
+            $('header').addClass('header');
+            $('#slider').addClass('blur');
+            $(".mainBox").css('top','0');
+            $("header .logo svg image").attr({"height":"45","width":"170"})
+        }else{
+            $('header').removeClass('header');
+            $(".mainBox").css('top','100%');
+            $(".mainBox").css('transform', 'translate3d(0px, 0px, 0px)');
+            $("header .logo svg image").attr({"height":"65","width":"244"})
+            setTimeout(function () {
+                $('#slider').removeClass('blur');
+            }, 250);
+        }
+    });
+
+    $(".eventsMain-down").click(function () {
+        $('html').scrollTop(120);
+    })
+
+
+    $(function(){
+        $("#logou_btn").click(function(){
+            //window.location.href = "/membermanage/loginout.jspa";
+        });
+        $("#searchicon,#searchicon2").click(function(){
+            $(".searchwraper").slideToggle('fast');
+            $('input').focus();
+            $('body').css('overflow-y','hidden');
+            $("header,#slider,.mainBox,.banner-bg,.mainWrap,footer").addClass("blur");
+            $('#slider').addClass('mobi');
+        });
+        $(".close").click(function(){
+            $(".searchwraper").slideToggle('fast');
+            $('body').css('overflow-y','scroll');
+            $("header,#slider,.mainBox,.banner-bg,.mainWrap,footer").removeClass("blur");
+        });
+        $("#menu").click(function(){
+            $(".mobi-menu").slideToggle('fast');
+            $("svg.close-menu,svg.open-menu").toggle();
+        });
+
+        function mobiMenu() {
+            if(document.documentElement.clientWidth<=991) {
+                $(".mobi-menu").css("height",document.documentElement.clientHeight-48)
+            }
+        }
+        mobiMenu();
+    });
+
+    // 热门搜索
+    function searchhot(keyword) {
+        $('#keywords').val(keyword);
+        $('#searchForm').submit();
+    }
+</script>	<style>
+		.corp-detail-text h3 {
+			font-size: 22px !important;
+		}
+		.corp-detail-text ul li a {
+			color: #337ab7;
+			border-bottom: 1px dashed;
+		}
+		.corp-detail-text ul li {
+			float: none;
+			margin-bottom: 0px;
+		}
+	</style>
+	</head>
+	<body>
+
+<!--<div class="preloader"></div>-->
+<style>
+    .nav-title {
+        /*opacity: 0;*/
+        /*text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);*/
+    }
+    .login-title {
+        display: none;
+    }
+</style>
+<div class="searchwraper" style="display: none;">
+    <div class="searchBox">
+        <div class="container">
+            <div class="close">
+                <svg t="1585035864707" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7163" width="30" height="30"><path d="M590.7456 508.416 1016.832 934.5024 938.0864 1009.664 512 583.5776 78.7456 1024 0 941.6704l433.2544-440.4224L7.168 75.1616 85.9136 0 512 426.0864 938.0864 0 1016.832 82.3296 590.7456 508.416z" p-id="7164" fill="#000"></path></svg>
+            </div>
+            <div class="search clearfix">
+                <form id="searchForm" name="input" action="/front/search.jspa" method="get" class="">
+                    <input type="text" class="keywords" name="keywords" id="keywords" placeholder="搜索关键字...">
+                    <button type="submit" class="button">
+                        <svg t="1585016036182" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2099" width="44" height="44"><path d="M989.616 871.59l-162.529-165.989c106.261-166.781 86.705-390.665-58.922-536.31-168.464-168.431-441.456-168.431-609.898 0-168.356 168.394-168.356 441.477 0 609.818 149.922 149.906 382.64 166.252 550.785 49.284l160.139 163.603 120.425-120.407zM240.569 696.906c-122.997-122.972-122.997-322.328 0-445.326 122.958-122.958 322.377-122.958 445.279 0 123.009 122.997 123.009 322.354 0 445.326-122.919 122.958-322.321 122.958-445.279 0z" p-id="2100" fill="#fff"></path></svg>
+                    </button>
+                </form>
+            </div>
+            <div class="hotList col-xs-12 col-sm-6">
+                热门关键字：
+                <a href="javascript:void(0)" onclick="searchhot('双选会');">双选会</a>
+                <a href="javascript:void(0)" onclick="searchhot('宣讲会');">宣讲会</a>
+                <a href="javascript:void(0)" onclick="searchhot('场地预约');">场地预约</a>
+                <a href="javascript:void(0)" onclick="searchhot('全球治理');">全球治理</a>
+                <a href="javascript:void(0)" onclick="searchhot('招生简章');">招生简章</a>
+                <a href="javascript:void(0)" onclick="searchhot('报名咨询');">报名咨询</a>
+                <a href="javascript:void(0)" onclick="searchhot('就业');">就业</a>
+            </div>
+        </div>
+    </div>
+</div>
+<header class="header-area wow fadeInDown">
+    <div class="header-bottom stick-h2">
+        <div class="container">
+            <div class="row menu-area f-right">
+                <div class="col-xs-6 col-sm-3 wow fadeInLeft">
+                    <div class="logo" style="display: inline-block;">
+                        <a href="/">
+                            <!--<img src="/template/zjc_v3/img/logo-aeo.png"/>-->
+                            <svg>
+                                <image xlink:href="/template/zjc_v3/img/logo-aeo.svg" src="/template/zjc_v3/img/logo.png" height="65" width="244"></image>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-9 visible-sm visible-xs">
+                    <nav>
+                        <ul class="mobi-navigation clearfix">
+                            <li class="dropdown search-li wow fadeInDown">
+                                <a href="javascript:;" id="searchicon">
+                                    <svg t="1585016036182" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2099" width="24" height="24"><path d="M989.616 871.59l-162.529-165.989c106.261-166.781 86.705-390.665-58.922-536.31-168.464-168.431-441.456-168.431-609.898 0-168.356 168.394-168.356 441.477 0 609.818 149.922 149.906 382.64 166.252 550.785 49.284l160.139 163.603 120.425-120.407zM240.569 696.906c-122.997-122.972-122.997-322.328 0-445.326 122.958-122.958 322.377-122.958 445.279 0 123.009 122.997 123.009 322.354 0 445.326-122.919 122.958-322.321 122.958-445.279 0z" p-id="2100" fill="#344c76"></path></svg>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <input type="text" class="keywords" name="keywords" onblur="if (this.value == '') {this.value = '输入内容搜索...';}" onfocus="if (this.value == '输入内容搜索...') {this.value = '';}" value="输入内容搜索...">
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="v_login submit parentclick" membertypeid="86" id="login2" href="javascript:;">
+                                    <svg t="1585016770460" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12655" width="24" height="24"><path d="M896 1024c0-247.424-136.576-320-384-320s-384 72.576-384 320H0c0-318.144 193.856-448 512-448s512 129.856 512 448h-128zM512 512a256 256 0 1 1 256-256 256 256 0 0 1-256 256z m0-384a128 128 0 1 0 128 128 128 128 0 0 0-128-128z" p-id="12656" fill="#344c76"></path></svg>
+
+                                    <div class="login-title">
+                                        <span class="zh">登录</span>
+                                    </div>
+                                </a>
+                                <div class="btn-group" id="logout2" style="display:none">
+                                    <button type="button" id="logou_btn2" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <svg t="1588229289607" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7162" width="24" height="24"><path d="M512 896 128 896 128 128 512 128 512 256 640 256 640 128 640 0 512 0 0 0 0 0.384 0 128 0 896.32 0 1022.976 0 1024 512 1024 640 1024 640 896.32 640 768 512 768Z" p-id="7163" fill="#344c76"></path><path d="M768 640 768 768.128 1024 512.128 768 256.128 768 320 768 448 256 448 256 576 768 576 768 576.192Z" p-id="7164" fill="#344c76"></path></svg>
+                                        <!--<i class="fa fa-angle-down"></i>-->
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li style="border-bottom: 1px solid #ddd;">
+                                            <a href="/membercenter/toIndex.do">
+                                                <i class="fa fa-user"></i> 进入功能区
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/membermanage/loginout.jspa">
+                                                <i class="fa fa-share-square-o"></i> 安全退出
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:;" id="menu">
+                                    <svg t="1588226771142" class="icon open-menu" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3736" width="24" height="24"><path d="M128 128h768v128H128zM128 768h768v128H128zM128 448h768v128H128z" p-id="3737" fill="#344c76"></path></svg>
+                                    <svg t="1588230509064" class="icon close-menu" style="display: none" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9188" width="24" height="24"><path d="M1022.583467 127.803733 894.779733 0 511.291733 383.4624 127.8464 0 0 127.803733 383.496533 511.274667 0 894.737067 127.8464 1022.5408 511.291733 639.0784 894.779733 1022.5408 1022.583467 894.737067 639.138133 511.274667Z" p-id="9189" fill="#344c76"></path></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xs-12 col-sm-9 hide-sm hide-xs mobi-menu">
+                    <div class="nav menu-area">
+                        <nav>
+                            <ul class="navigation clearfix">
+                                <li class="dropdown wow fadeInDown admission">
+                                    <a href="/front/channel.jspa?channelId=841" target="_blank">
+                                        <span class="img-title">
+                                            <svg height="40" width="45">
+                                                <image xlink:href="/template/zjc_v3/img/nav-top/zs.svg" height="40" width="45px"></image>
+                                            </svg>
+                                            <!--<img src="/template/zjc_v3/img/nav-top/zhaosheng-o.png" />-->
+                                        </span>
+                                        <div class="nav-title">
+                                            <span class="zh">招生</span>
+                                            <span class="en"> Admission</span>
+                                        </div>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=848" target="_blank">招生公告</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=849" target="_blank">校园动态</a>
+                                        </li>
+                                        <!--<li>
+                                            <a href="/front/channel.jspa?channelId=850" target="_blank">招生计划</a>
+                                        </li>-->
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=851" target="_blank">报考指南</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://aeo.uibe.edu.cn/lqcx/static/front/uibe/basic/html_web/lqcx.html" target="_blank">高招录取查询</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown wow fadeInDown employment">
+                                    <a href="/front/channel.jspa?channelId=842" target="_blank">
+                                        <span class="img-title">
+                                            <svg height="40" width="45">
+                                                <image xlink:href="/template/zjc_v3/img/nav-top/jy.svg" height="40" width="45px"></image>
+                                            </svg>
+                                            <!--<img src="/template/zjc_v3/img/nav-top/jiuye-o.png" />-->
+                                        </span>
+                                        <div class="nav-title">
+                                            <span class="zh">就业</span>
+                                            <span class="en">Employment</span>
+                                        </div>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=764&parentId=625" target="_blank">求职信息</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=622&parentId=625" target="_blank">实习实践</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=805&parentId=625" target="_blank">读研深造</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=766&parentId=625" target="_blank">招聘活动</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=901" target="_blank">校友招聘专区</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown wow fadeInDown creation">
+                                    <a href="/front/channel.jspa?channelId=843" target="_blank">
+                                        <span class="img-title">
+                                            <svg height="40" width="45">
+                                                <image xlink:href="/template/zjc_v3/img/nav-top/cy.svg" height="40" width="45px"></image>
+                                            </svg>
+                                            <!--<img src="/template/zjc_v3/img/nav-top/chuangye-o.png" />-->
+                                        </span>
+                                        <div class="nav-title">
+                                            <span class="zh">创新惠园</span>
+                                            <span class="en"> Creation</span>
+                                        </div>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=834" target="_blank">动态资讯</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1685" target="_blank">创业实践</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1681" target="_blank">创新创业培养</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1683" target="_blank">创业孵化园</a>
+                                        </li>
+                                        <!--<li>
+                                            <a href="/front/channel.jspa?channelId=1682" target="_blank">创新惠园</a>
+                                        </li>-->
+                                    </ul>
+                                </li>
+                                <li class="dropdown wow fadeInDown global">
+                                    <a href="/front/channel.jspa?channelId=844" target="_blank">
+                                        <span class="img-title">
+                                            <svg height="40" width="45">
+                                                <image xlink:href="/template/zjc_v3/img/nav-top/gj.svg" height="40" width="45px"></image>
+                                            </svg>
+                                            <!--<img src="/template/zjc_v3/img/nav-top/global-o.png" />-->
+                                        </span>
+                                        <div class="nav-title">
+                                            <span class="zh">全球治理</span>
+                                            <span class="en">Global Governance</span>
+                                        </div>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1679" target="_blank">岗位信息</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1692" target="_blank">热点资讯</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1680" target="_blank">国际组织</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1693" target="_blank">成长之路</a>
+                                        </li>
+                                        <li>
+                                            <a href="/front/channel.jspa?channelId=1694" target="_blank">求职指南</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown search-li zh wow fadeInDown" style="width: 110px;">
+                                    <a href="/front/channel.jspa?channelId=845">
+                                        <svg height="40" width="45">
+                                            <image xlink:href="/template/zjc_v3/img/nav-top/zh20200326.svg" height="40" width="45px"></image>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="dropdown search-li wow fadeInDown hidden-sm hidden-xs ">
+                                    <a class="v_login submit parentclick" membertypeid="86" id="login2" href="javascript:;">
+                                        <svg t="1585016770460" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12655" width="24" height="24"><path d="M896 1024c0-247.424-136.576-320-384-320s-384 72.576-384 320H0c0-318.144 193.856-448 512-448s512 129.856 512 448h-128zM512 512a256 256 0 1 1 256-256 256 256 0 0 1-256 256z m0-384a128 128 0 1 0 128 128 128 128 0 0 0-128-128z" p-id="12656" fill="#344c76"></path></svg>
+
+                                        <div class="login-title">
+                                            <span class="zh">登录</span>
+                                        </div>
+                                    </a>
+                                    <div class="btn-group" id="logout2" style="display:none">
+                                        <button type="button" id="logou_btn2" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <svg t="1588229289607" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7162" width="24" height="24"><path d="M512 896 128 896 128 128 512 128 512 256 640 256 640 128 640 0 512 0 0 0 0 0.384 0 128 0 896.32 0 1022.976 0 1024 512 1024 640 1024 640 896.32 640 768 512 768Z" p-id="7163" fill="#344c76"></path><path d="M768 640 768 768.128 1024 512.128 768 256.128 768 320 768 448 256 448 256 576 768 576 768 576.192Z" p-id="7164" fill="#344c76"></path></svg>
+                                            <!--<i class="fa fa-angle-down"></i>-->
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li style="border-bottom: 1px solid #ddd;">
+                                                <a href="/membercenter/toIndex.do">
+                                                    <i class="fa fa-user"></i> 进入功能区
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/membermanage/loginout.jspa">
+                                                    <i class="fa fa-share-square-o"></i> 安全退出
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown search-li wow fadeInDown hidden-sm hidden-xs ">
+                                    <a href="javascript:;" id="searchicon">
+                                        <svg t="1585016036182" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2099" width="24" height="24"><path d="M989.616 871.59l-162.529-165.989c106.261-166.781 86.705-390.665-58.922-536.31-168.464-168.431-441.456-168.431-609.898 0-168.356 168.394-168.356 441.477 0 609.818 149.922 149.906 382.64 166.252 550.785 49.284l160.139 163.603 120.425-120.407zM240.569 696.906c-122.997-122.972-122.997-322.328 0-445.326 122.958-122.958 322.377-122.958 445.279 0 123.009 122.997 123.009 322.354 0 445.326-122.919 122.958-322.321 122.958-445.279 0z" p-id="2100" fill="#344c76"></path></svg>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <input type="text" class="keywords" name="keywords" onblur="if (this.value == '') {this.value = '输入内容搜索...';}" onfocus="if (this.value == '输入内容搜索...') {this.value = '';}" value="输入内容搜索...">
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>	<div class="main pt-30 pb-100">
+		<div class="container">
+			<div class="row content-page">
+				<div class="col-sm-12">
+					<div class=" page-bar">
+						<div class="pull-left clearfix">
+							<h5 class="pl30">当前位置：<a href=""><i class="fa fa-home"></i>主页</a>
+									>
+										<a href="/front/channel.jspa?channelId=842&parentId=764">就业</a>
+									>
+										<a href="/front/channel.jspa?channelId=764&parentId=764">求职信息</a>
+								<!--&gt; <a class="title">
+										平安银行2027届秋季校园招聘
+-->
+								</a>
+							</h5>
+						</div>
+					</div>
+					<div class="common-box">
+						<div class="content_title_box">
+							<h3 class="content_title common-head">
+									平安银行2027届秋季校园招聘
+							</h3>
+							<div class="content_time">
+								更新时间：<span>2026-08-28</span>浏览量：<span id="clickCount">632</span>
+								<span class="qrcode">
+									<span class="">
+										二维码
+										<i class="fa fa-qrcode"></i><i class="fa fa-caret-down"></i>
+									</span>
+									<div id="qrCode" style="display: none">
+										<img alt="扫描分享" src="/front/qrCode.jspa?method=zpxx&param1=764&param2=2093233664249888769"/>
+										<p>扫一扫分享本页</p>
+									</div>
+								</span>
+							</div>
+						</div>
+						<div class="content">
+							<div class="recruit">
+
+								<div class="unit">
+									<span><b>招聘单位：</b></span>平安银行股份有限公司
+								</div>
+								<div class="post">
+
+									<div class="upload">
+										<ul>
+										</ul>
+									</div>
+								</div>
+<!--                                
+                                    <div class="unit">
+                                        <span><b>简历邮箱：</b></span>
+                                        PAB_rlzp@pingan.com.cn
+                                    </div>
+                                -->
+								<div class="explain">
+									<span><b>招聘说明：</b></span>
+									<div class="post">
+										<p style="text-align: center;"><span style="font-size: 19px;"><strong>平安银行2027届秋季校园招聘</strong></span></p><p style="text-align: center;">以橙意，共橙就，全国100+城市火热投递中！</p><p>平安银行2027届校园招聘正式启动！全国110家分行、近2000个岗位虚位以待，无论你期望在一线大城市发挥专业所长，还是回到家乡助力发展，都能找到属于自己的舞台！平安银行面向27届毕业生开设“数智金融生”与“业务培训生”两大赛道，是面向应届生打造的战略级人才培养计划，提供成熟的轮岗培养体系、业务大咖导师、学长学姐伙伴、丰富的培训资源，在实战场景探索历练、提升专业能力、锚定职业发展方向！</p><p><strong>一、校园招聘项目</strong></p><p><strong>（一）数智金融生赛道</strong></p><p>涵盖平安银行总行、资金运营中心、平安理财的关键校招岗位，依托全行核心资源，以数据与AI重构金融业务边界。你将用数据、技术驱动产品、风控与客户服务的智能升级，做数智银行时代的"造浪者"。</p><p><strong>（二）业务培训生赛道</strong></p><p>涵盖信用卡中心、汽车消费金融中心、全国各分行的关键校招岗位，借力平安综合金融优势，以专业与破界力链接客户与产品。你将深耕零售、公司等业务条线，为客户提供综合金融解决方案，成长为懂市场、懂客户、懂产品的专业金融顾问。</p><p><strong>二、招聘对象</strong></p><p>2027届本科及以上学历应届毕业生（毕业时间：2026年1月1日至2027年7月31日）。专业不限，金融学、经济学、统计学、数学、计算机等专业或复合知识背景优先。</p><p><strong>三、招聘流程</strong></p><p>1、网申：8月10日至11月6日</p><p>2、线上测评及笔试：8月至11月</p><p>3、面试：9月至11月</p><p>4、发放Offer：11月至12月</p><p><strong>四、投递方式</strong></p><p><strong>【PC端】</strong></p><p>登录平安银行校园招聘官网 →校招职位→按城市筛选岗位</p><p>官网地址：campus.pingan.com/pab；</p><p><strong>【移动端】</strong></p><p>1、关注“平安银行招聘“公众号→服务→校园招聘→热招岗位</p><p>2、扫描下方二维码直接网申</p><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="https://jyjqtyu11.jiuyeb.cn/2026/08/28/1787900626-31b63a8fec-9211-eb88-d81c-486cfdebc7a2.png!y" alt="image.png" style="width: 137.00px;height: 131.83px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="https://jyjqtyu11.jiuyeb.cn/2026/08/28/1787900685-45f842e8bd-4850-40cd-7a89-3aaac9d9d098.png!y" alt="image.png" style="width: 134.00px;height: 134.00px;"> &nbsp; &nbsp; &nbsp;</p><p style="text-indent: 88pt; text-align: justify;">数智金融生赛道 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 业务培训生赛道</p><p><strong> </strong></p><p><strong>关于平安银行</strong></p><p>平安银行是一家总部设在深圳的全国性股份制商业银行（SZ000001），其前身深圳发展银行是中国内地首家公开上市的全国性股份制银行。本行坚守金融为民的初心，经过多年发展，已成长为一家经营管理成熟稳健、机构网点覆盖广泛、金融服务品类齐全、品牌影响力市场领先的商业银行，在科技赋能、零售业务、综合金融等领域形成独特竞争力和鲜明经营特色。</p><p><strong>企业荣誉</strong></p><p>2025年本行先后荣获：《亚洲银行家》“中国最佳贸易金融银行”“中国最佳汽车贷款产品” “亚太最佳零售营销生成式AI 应用”“中国最佳私人银行全球财富管理服务”等10项大奖；中国计算机科学协会第二届CCF中国数字金融大会“数字金融探索创新优秀案例”；中国上市公司协会“2025 上市公司董事会最佳实践案例”；第一财经金融价值榜“最佳金融机构服务银行”。</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="corp-detail-text clearfix">
+								<ul id="">
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END LEFT SIDEBAR -->
+
+			</div>
+		</div>
+	</div>
+<footer class="section">
+    <div class="container">
+        <br>
+        <div class="row rapicNav">
+            <div class="col-md-5" style="border-right: 1px solid #556e8c;">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <h4 class="title wow fadeInUp">招生</h4>
+                        <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=848" target="_blank">招生公告</a>
+                        </p>
+                        <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=849" target="_blank">校园动态</a>
+                        </p>
+                        <!--<p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=850" target="_blank">招生计划</a>
+                        </p>-->
+                        <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=851" target="_blank">报考指南</a>
+                        </p>
+                        <p class="wow fadeInUp">
+                            <a href="https://aeo.uibe.edu.cn/lqcx/static/front/uibe/basic/html_web/lqcx.html" target="_blank">高招录取查询</a>
+                        </p>
+                    </div>
+                    <div class="col-xs-3">
+
+                        <h4 class="title wow fadeInUp">就业</h4>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=764&parentId=625" target="_blank">求职信息</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=622&parentId=625" target="_blank">实习实践</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=805&parentId=625" target="_blank">读研深造</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=766&parentId=625" target="_blank">招聘活动</a>
+                        </p>
+                    </div>
+                    <div class="col-xs-3">
+                        <h4 class="title wow fadeInUp">创业</h4>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=834" target="_blank">动态资讯</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1685" target="_blank">创业实践</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1681" target="_blank">创新创业培养</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1683" target="_blank">创业孵化园</a>
+                        </p>
+                         <!--<p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1682" target="_blank">创新惠园</a>
+                        </p>-->
+                    </div>
+                    <div class="col-xs-3">
+                        <h4 class="title wow fadeInUp">全球治理</h4>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1679" target="_blank">岗位信息</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1692" target="_blank">热点资讯</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1680" target="_blank">国际组织</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1693" target="_blank">成长之路</a>
+                        </p>
+                         <p class="wow fadeInUp">
+                            <a href="/front/channel.jspa?channelId=1694" target="_blank">求职指南</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 friendlinks">
+                <h4 class="title wow fadeInUp">友情链接</h4>
+                <div>
+                    <p class="wow fadeInUp"><a href="http://www.uibe.edu.cn/" target="_blank">贸大首页</a></p>
+                    <p class="wow fadeInUp"><a href="http://zhaosheng.uibe.edu.cn/" target="_blank">本科招生网(旧版)</a></p>
+                    <p class="wow fadeInUp"><a href="http://zhinengdayi.com/uibe" target="_blank">高招智能咨询系统</a></p>
+                    <p style="float:none;height:20px;clear: both"><br><br></p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6 wow fadeInUp">
+                <br>
+                <!--<img class="footer-logo" src="/template/zjc_v3/img/logo-footer.png">-->
+                <svg style="opacity:0.75">
+                    <image xlink:href="/template/zjc_v3/img/logo-footer.svg" src="/template/zjc_v3/img/logo-footer.png" height="87" width="200"></image>
+                </svg>
+            </div>
+            <div class="col-md-2 col-xs-6 wechats wow fadeInUp">
+                <h4 class="title wow fadeInUp hidden-xs">关注我们</h4>
+                <div>
+                    <span class="wechat">
+                        <img src="/template/zjc_v3/img/footer/weixin.png">
+                        <div class="wechathover" style="display: none">
+                            <span>
+                                <img src="/template/zjc_v3/img/wechat.jpg">
+                                 <p>招生办</p>
+                            </span>
+                            <span>
+                                <img src="/template/zjc_v3/img/wechat3.jpg">
+                                 <p>贸大就业</p>
+                            </span>
+                            <span>
+                                <img src="/template/zjc_v3/img/wechat2.jpg">
+                                 <p>招办汇</p>
+                            </span>
+                        </div>
+                    </span>
+                    <img src="/template/zjc_v3/img/footer/toutiao.png">
+                    <img src="/template/zjc_v3/img/footer/dingding.png">
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="row">
+            <div class="col-sm-6">
+                 <p class="wow fadeInUp">招生咨询: 010-64492178 / 就业手续咨询: 010-64492179 / 用人单位招聘咨询: 010-64495801</p>
+                 <p class="wow fadeInUp">办公地点: 北京市朝阳区惠新东街10号对外经济贸易大学求真楼三层 / 邮政编码: 100029</p>
+            </div>
+            <div class="col-sm-6 copyright">
+                 <p class="wow fadeInUp">对外经济贸易大学招生就业处版权所有 Copyright © 2012-2020 UIBE All rights reserved.</p>
+                 <p class="wow fadeInUp"><!--京公网安备110402430035号 -->外经贸网备33018002</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--<script src="/template/zjc_v3/js/edu/plugins.js"></script>
+<script src="/template/zjc_v3/js/edu/main.js"></script>-->
+<!--artDialog6提示框  -->
+<link href="/njs/artDialog6/css/ui-dialog.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/njs/artDialog6/dist/dialog-min.js"></script>
+<script type="text/javascript" src="/njs/artDialog6/dist/dialog-plus-min.js"></script>
+<script type="text/javascript" src="/assets/frontend/layout/scripts/back-to-top.js"></script>
+<script type="text/javascript">
+
+    var session_memberTypeId = '';
+
+    $(function(){
+        //验证是否已经登录，未登录弹出登录窗口
+        $('.v_login').click(function() {
+            var returnUrl = $(this).attr('returnUrl');
+            var memberTypeId = $(this).attr('memberTypeId');
+
+            window.location.href="https://aeo.uibe.edu.cn/mem/login";
+
+/*            if(session_memberTypeId == ''){
+                if(typeof(returnUrl) != 'undefined'){
+                    returnUrl = returnUrl.replace("" , "");
+                    var target = "/membermanage/toPopLogin.do?memberTypeId="+memberTypeId+"&returnUrl="+encodeURIComponent(returnUrl);
+                }else{
+                    var target = "/membermanage/toPopLogin.do?callback=changeButton";
+                }
+
+                var d = dialog({
+                    title: ' 账号登录',
+                    width:320,
+                    height:333,
+                    padding:10,
+                    url: target,
+                    align: 'top',
+                    fixed: true,
+                    onclose: function () {
+                        if (this.returnValue) {
+                            //改变按钮状态
+                            //changeButton();
+                            window.location.href = "/membercenter/toIndex.do";
+                        }
+                    }
+                });
+                d.showModal();
+                return false;
+            }else{
+                if(typeof(memberTypeId) != 'undefined' && memberTypeId != session_memberTypeId){
+                    if(memberTypeId == '86'){
+                        alert('此功能需要学生账号登录');
+                    }
+                    if(memberTypeId == '87'){
+                        alert('此功能需要用人单位账号登录');
+                    }
+                    if(memberTypeId == '88'){
+                        alert('此功能需要院系账号登录');
+                    }
+                    if(memberTypeId == '89'){
+                        alert('此功能需要校友账号登录');
+                    }
+                    return false;
+                }
+                changeButton();
+                alert('您已经登录过了');
+                return true;
+            }*/
+        });
+    });
+
+    function changeButton(){
+        $('#login,#login2').hide();
+        $('#logout,#logout2').show();
+        parent.window.location.href = '/membercenter/toIndex.do';
+    }
+
+    //检测登录
+    $.getJSON('/membermanage/checkSession.jspa', {}, function(data) {
+        if(data.msg == 'Y'){
+            var vo = jQuery.parseJSON(data.vo);
+            //alert(vo.memberTypeId);
+            if(vo.memberTypeId == 86){
+            }
+            $('#login,#login2').hide();
+            $('#logout,#logout2').show();
+        }
+    });
+
+    $(window).on('load', function() {
+        handlePreloader();
+    });
+    function handlePreloader() {
+        if($('.preloader').length){
+            $('.preloader').delay(200).fadeOut(300);
+        }
+    }
+
+    $('#mainNav li .v_login').hover(function(){
+        $("*").removeClass("parentclick");
+        $(this).addClass("parentclick");
+    });
+
+    $(".qrcodeSpan,.content_time .qrcode").hover(function(){
+        $("#qrCode,.qrcodeSpan .qrcode").css("display","block");
+    },function(){
+        $("#qrCode,.qrcodeSpan .qrcode").css("display","none");
+    });
+</script>
+
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b49528743d2c04b917beb4a300ef2de6";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+	</body>
+<script type="text/javascript">
+	//点击量计数
+	$.post('/front/clickCount.do', {
+		contentId: '2093233664249888769',
+		countCfgId: 2
+	});
+
+/*    $.post('/front/clickCount.jspa',{
+            contentId:'2093233664249888769',
+            key: 'tid',
+            clickColumn: 'click',
+            tableName: 'career_zpxx'
+
+        },
+        function(data){
+            eval(data);
+        });*/
+	</script>
+	</html>

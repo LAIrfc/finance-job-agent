@@ -1,0 +1,1765 @@
+[
+  {
+    "url": "https://xyzq.hotjob.cn/wecruit/common/getSLD",
+    "method": "POST",
+    "post_data": "sld=xyzq.hotjob.cn",
+    "data": {
+      "data": {
+        "linkData": {
+          "link": "https://xyzq.hotjob.cn/SU68fb2499b7da1347a9dd852c/pb/index.html",
+          "title": "兴业证券招聘官网"
+        },
+        "sld": "xyzq.hotjob.cn"
+      },
+      "state": "200",
+      "type": "success"
+    }
+  },
+  {
+    "url": "https://xyzq.hotjob.cn/wecruit/suite/config/SU68fb2499b7da1347a9dd852c?iSaJAx=isAjax&request_locale=zh_CN&t=1791875214336",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "data": {
+        "websiteTitlePicUrl": "{\"imgUrl\":\"https://wecruit-cdn.hotjob.cn/files/oline/xyzq/9fc1ac66-0877-4044-8950-3e42db82caf2.png\",\"imgId\":\"68fb2487b7da1347a9dd84f2\"}",
+        "keywords": "兴业证券股份有限公司社会招聘,兴业证券股份有限公司校园招聘,兴业证券股份有限公司社招,兴业证券股份有限公司校招,兴业证券股份有限公司招聘,兴业证券股份有限公司招聘官网,兴业证券股份有限公司招聘官方网站",
+        "suitOrgInfoPOs": [
+          {
+            "orgName": "兴业证券股份有限公司",
+            "orgCode": "0",
+            "id": "68fb23ccaffb6246021d1d97"
+          }
+        ],
+        "companyName": "兴业证券股份有限公司",
+        "description": "兴业证券股份有限公司招聘信息,兴业证券股份有限公司最新招聘职位,点击申请职位",
+        "recruitTypeNameMap": {
+          "1_en": "Campus",
+          "2_cn": "社会招聘",
+          "12_cn": "实习生招聘",
+          "13_cn": "海外招聘",
+          "12_en": "Interns",
+          "13_en": "Overseas",
+          "1_cn": "校园招聘",
+          "2_en": "External"
+        },
+        "companyId": "68fb23ccaffb6246021d1d96",
+        "webSiteLanguage": [
+          "zh-CN"
+        ],
+        "relationMobileSuiteKey": "68fb2edfb7da1347a9dda3e9",
+        "templateNum": "pb",
+        "suiteKey": "68fb2499b7da1347a9dd852c",
+        "canUseAiRobot": false,
+        "id": "68fb2499b7da1347a9dd852c",
+        "config": {
+          "robot": {
+            "image": [
+              {
+                "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/25ec1578-198a-4835-a07e-7af489c6d317.png"
+              }
+            ],
+            "hint": "我是招聘小助手,\n您可以点击这里，进行咨询~",
+            "name": "",
+            "nickname": "招聘小助手",
+            "headPortrait": "https://wecruit-cdn.hotjob.cn/files/oline/25ec1578-198a-4835-a07e-7af489c6d317.png",
+            "robotLogoSize": 50
+          },
+          "scrollHeader": {
+            "styleData": {
+              "styles": [
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(85,85,85)",
+                  "columnBgColor": "rgb(255,255,255)",
+                  "columnColor": "rgb(34,34,34)"
+                },
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(85,85,85)",
+                  "columnBgColor": "rgb(34,34,34)",
+                  "columnColor": "rgb(255,255,255)"
+                },
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(204,204,204)",
+                  "projection": "0.1",
+                  "boxShadowColor": "0px 0px 6px rgba(0,0,0,0.1)",
+                  "columnBgColor": "rgb(255,255,255)",
+                  "layer": 1,
+                  "columnColor": "rgb(0,0,0,0.85)"
+                }
+              ],
+              "key": 0
+            },
+            "logo": {
+              "imgId": {
+                "blob": {},
+                "name": "logo!newProlateImg.jpg"
+              }
+            }
+          },
+          "society": {
+            "jobDetail": {
+              "jobDetailData": {
+                "listDisplayItem": [
+                  "postType",
+                  "workYear",
+                  "workPlace",
+                  "education",
+                  "specialty",
+                  "releaseTime",
+                  "recruits"
+                ],
+                "orgInfoNotSet": "parent",
+                "isShowJDTitle": true,
+                "isShowOrg": true,
+                "isShowShare": true,
+                "showItemTitle": false
+              }
+            },
+            "jobList": {
+              "jobListData": {
+                "listDisplayItem": [
+                  "postName",
+                  "orgName",
+                  "workPlace",
+                  "recruits",
+                  "releaseTime"
+                ],
+                "positionDataRangeRecruitmentPro": [],
+                "searchType": "postName",
+                "navType": "top",
+                "listDisplayItemWidth": {
+                  "releaseTime": 14.83
+                },
+                "positionDataRangeBrand": [],
+                "positionDataRangeCompany": [],
+                "listType": "row",
+                "jobLevel": 999,
+                "positionDataRangeWorkPlace": [],
+                "showBanner": true,
+                "positionDataRangeItem": [],
+                "positionDataRangePostType": []
+              },
+              "banner": [
+                {
+                  "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/xyzq/9cd35103-7215-4f7c-97ee-906937ea6bf2.jpg",
+                  "imgId": {
+                    "blob": {},
+                    "name": "2(1)_jpg.jpg"
+                  }
+                }
+              ]
+            }
+          },
+          "globalConfig": {
+            "QRCode": {
+              "image": [],
+              "name": "",
+              "isShow": false
+            },
+            "audioFlag": {
+              "btnStyle": "straightSolid",
+              "isShow": false
+            },
+            "logoLink": "https://www.xyzq.com.cn/",
+            "themeColor": "rgb(85,85,85)",
+            "logo": {
+              "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/xyzq/4558ea58-5c80-4559-b51b-8b8f0fb8c0e3.jpg"
+            }
+          },
+          "customSections": {},
+          "copyRight": {
+            "msg": "",
+            "regStatement": false,
+            "showICP": true,
+            "showCopyRight": false,
+            "logoStyle": "deepColour",
+            "styleData": {
+              "styles": [
+                {
+                  "bgColor": "rgb(255,255,255)",
+                  "color": "rgb(34,34,34)"
+                },
+                {
+                  "bgColor": "rgb(34,34,34)",
+                  "color": "rgb(255,255,255)"
+                },
+                {
+                  "bgColor": "rgb(85,85,85)",
+                  "color": "rgb(255,255,255)",
+                  "projection": 1,
+                  "boxShadowColor": "0px 0px 6px rgba(0,0,0,1)",
+                  "layer": 1
+                }
+              ],
+              "key": 0
+            },
+            "showCopyRightOther": false,
+            "showCopyRightCompany": false
+          },
+          "campus": {
+            "jobDetail": {
+              "jobDetailData": {
+                "listDisplayItem": [
+                  "workYear",
+                  "workPlace",
+                  "education",
+                  "releaseTime",
+                  "recruits"
+                ],
+                "orgInfoNotSet": "parent",
+                "isShowJDTitle": true,
+                "isShowOrg": true,
+                "isShowShare": true,
+                "btnStyle": "straightSolid",
+                "showItemTitle": false
+              }
+            },
+            "jobList": {
+              "jobListData": {
+                "listDisplayItem": [
+                  "postName",
+                  "orgName",
+                  "workPlace",
+                  "recruits",
+                  "releaseTime"
+                ],
+                "positionDataRangeWorkPlace": [],
+                "positionDataRangeRecruitmentPro": [],
+                "searchType": "postName",
+                "navType": "top",
+                "listDisplayItemWidth": {},
+                "positionDataRangeItem": [],
+                "positionDataRangeBrand": [],
+                "positionDataRangeCompany": [],
+                "listType": "row",
+                "jobLevel": 999,
+                "positionDataRangePostType": []
+              },
+              "styleData": {
+                "borderRadius": 0,
+                "listIconBgColor": "rgb(173,173,173)"
+              },
+              "banner": [
+                {
+                  "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/xyzq/385b06a0-5804-447c-bf9c-e16236ace84b.png",
+                  "imgId": {
+                    "blob": {},
+                    "name": "IMG_202609291076_1920x380_min.png"
+                  }
+                }
+              ]
+            }
+          },
+          "header": {
+            "menuAlign": "left",
+            "styleData": {
+              "styles": [
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(85,85,85)",
+                  "columnBgColor": "rgb(255,255,255)",
+                  "columnColor": "rgb(34,34,34)"
+                },
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(85,85,85)",
+                  "columnBgColor": "rgb(34,34,34)",
+                  "columnColor": "rgb(255,255,255)"
+                },
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(204,204,204)",
+                  "projection": 0,
+                  "boxShadowColor": "0px 0px 6px rgba(0,0,0,0)",
+                  "columnBgColor": "rgb(153,153,153)",
+                  "layer": 0,
+                  "columnColor": "rgb(255,255,255)"
+                }
+              ],
+              "key": 0
+            },
+            "hasScrollHeader": false,
+            "header_type": "header",
+            "logo": {
+              "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/xyzq/4558ea58-5c80-4559-b51b-8b8f0fb8c0e3.jpg",
+              "linkJump": "_blank",
+              "imgId": {
+                "blob": {},
+                "name": "logo!newProlateImg.jpg"
+              },
+              "link": "https://www.xyzq.com.cn/"
+            }
+          },
+          "section": {
+            "customizeSectionList": [],
+            "systemSectionList": [
+              {
+                "name": "实习生招聘",
+                "id": "system_0",
+                "type": "intern",
+                "list": [
+                  {
+                    "name": "职位列表",
+                    "isFixed": true
+                  }
+                ],
+                "initialName": "实习生招聘"
+              },
+              {
+                "initialList": [],
+                "name": "人才社区",
+                "id": "system_1",
+                "type": "talentCommunity",
+                "initialName": "人才社区"
+              },
+              {
+                "initialList": [
+                  {
+                    "isCheck": true,
+                    "name": "banner",
+                    "type": "asBanner"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "公司简介",
+                    "type": "company"
+                  },
+                  {
+                    "isCheck": true,
+                    "name": "环境介绍",
+                    "type": "environment"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "薪酬福利",
+                    "type": "welfare"
+                  },
+                  {
+                    "isCheck": true,
+                    "name": "人才培养",
+                    "type": "talent"
+                  },
+                  {
+                    "isCheck": true,
+                    "name": "员工风采",
+                    "type": "staff"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "视频展示",
+                    "type": "videoShow"
+                  }
+                ],
+                "name": "关于我们",
+                "id": "system_3",
+                "type": "aboutUs",
+                "initialName": "关于我们"
+              }
+            ],
+            "sectionList": [
+              {
+                "initialList": [
+                  {
+                    "isCheck": true,
+                    "name": "banner",
+                    "type": "banner"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "公司简介",
+                    "type": "company"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "多品牌",
+                    "type": "manyBrand"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "工作地点",
+                    "type": "workPlace"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "职位类别",
+                    "type": "postType"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "多机构",
+                    "type": "manyMechanism"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "招聘动态/公告",
+                    "type": "dynamic"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "宣讲会",
+                    "type": "seminar"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "师兄师姐说",
+                    "type": "said"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "招聘类型",
+                    "type": "recruitmentType"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "视频展示",
+                    "type": "videoShow"
+                  }
+                ],
+                "name": "首页",
+                "id": "section_0",
+                "type": "home",
+                "initialName": "首页"
+              },
+              {
+                "name": "社会招聘",
+                "id": "system_2",
+                "type": "society",
+                "list": [
+                  {
+                    "name": "职位列表",
+                    "isFixed": true
+                  }
+                ],
+                "initialName": "社会招聘",
+                "isShow": true
+              },
+              {
+                "name": "校园招聘",
+                "id": "section_2",
+                "type": "campus",
+                "list": [
+                  {
+                    "name": "职位列表",
+                    "isFixed": true
+                  }
+                ],
+                "initialName": "校园招聘",
+                "isShow": false
+              },
+              {
+                "name": "博士后招聘",
+                "id": "section_3",
+                "type": "overseas",
+                "list": [
+                  {
+                    "name": "职位列表",
+                    "isFixed": true
+                  }
+                ],
+                "initialName": "海外招聘"
+              }
+            ]
+          },
+          "menuListOrder": {
+            "campus": [
+              "campusList",
+              "campusDetail"
+            ],
+            "home": [
+              "banner"
+            ],
+            "overseas": [
+              "overseasList",
+              "overseasDetail"
+            ]
+          },
+          "home": {
+            "videoShowTypeChoosed": "0",
+            "styleData": {
+              "QRCode": {
+                "styles": [
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(255,255,255)",
+                    "layer": 1
+                  }
+                ],
+                "key": 0
+              },
+              "contentTopNum": 50,
+              "mainTitleColor": "rgba(0, 0, 0, 0.85)",
+              "subtitleColor": "rgba(0, 0, 0, 0.85)",
+              "audioFlag": {
+                "styles": [
+                  {
+                    "bgColor": "rgba(255, 255, 255, 0.39)",
+                    "iconColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(255,255,255)",
+                    "layer": 1
+                  }
+                ],
+                "key": 0
+              },
+              "application": {
+                "styles": [
+                  {
+                    "borderColor": "rgb(255,255,255)",
+                    "hollowColor": "rgb(255,255,255)",
+                    "bgColor": "rgb(255,255,255)",
+                    "solidColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "borderColor": "rgb(34,34,34)",
+                    "hollowColor": "rgb(34,34,34)",
+                    "bgColor": "rgb(34,34,34)",
+                    "solidColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "borderColor": "rgb(136,136,136)",
+                    "hollowColor": "rgb(136,136,136)",
+                    "bgColor": "rgb(136,136,136)",
+                    "solidColor": "rgb(255,255,255)"
+                  }
+                ],
+                "key": 0
+              },
+              "postType": {
+                "styles": [
+                  {
+                    "actIconColor": "rgb(34,34,34)",
+                    "actFontColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(34,34,34)",
+                    "allBgColor": "rgb(255,255,255)",
+                    "actBgColor": "rgb(255,255,255)",
+                    "lineColor": "#E9ECF0",
+                    "fontColor": "rgba(0,0,0,0.65)"
+                  },
+                  {
+                    "actIconColor": "rgb(34,34,34)",
+                    "actFontColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(255,255,255)",
+                    "allBgColor": "rgb(34,34,34)",
+                    "actBgColor": "rgb(255,255,255)",
+                    "lineColor": "rgba(255,255,255,0.3)",
+                    "fontColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "actIconColor": "rgb(136,136,136)",
+                    "actFontColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(136,136,136)",
+                    "allBgColor": "rgb(85,85,85)",
+                    "actBgColor": "rgb(255,255,255)",
+                    "lineColor": "rgb(255,255,255)",
+                    "fontColor": "rgb(136,136,136)"
+                  }
+                ],
+                "key": 0
+              },
+              "checkFullVideo": {
+                "styles": [
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(255,255,255)",
+                    "layer": 1
+                  }
+                ],
+                "key": 0
+              },
+              "seminar": {
+                "styles": [
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(136,136,136)",
+                    "mapBgColor": "rgb(236,236,236)",
+                    "fontColor": "rgba(0,0,0,0.65)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(136,136,136)",
+                    "mapBgColor": "rgb(54,54,54)",
+                    "fontColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(136,136,136)",
+                    "mapBgColor": "rgb(85,85,85)",
+                    "fontColor": "rgb(34,34,34)"
+                  }
+                ],
+                "key": 0
+              },
+              "dynamic": {
+                "styles": [
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "btnColor": "rgb(136,136,136)",
+                    "fontColor": "rgba(0,0,0,0.65)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "btnColor": "rgb(136,136,136)",
+                    "fontColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(85,85,85)",
+                    "btnColor": "rgb(136,136,136)",
+                    "fontColor": "rgb(0,0,0)"
+                  }
+                ],
+                "key": 0
+              },
+              "contentLeftNum": 50,
+              "searchBox": {
+                "styles": [
+                  {
+                    "borderColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(255,255,255)",
+                    "fontColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "borderColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(34,34,34)",
+                    "fontColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "borderColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(136,136,136)",
+                    "fontColor": "rgb(136,136,136)"
+                  },
+                  {
+                    "borderColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(85,85,85)",
+                    "fontColor": "rgb(255,255,255)"
+                  }
+                ],
+                "key": 3
+              }
+            },
+            "banner": {
+              "theme": {
+                "robot": {
+                  "isShow": false
+                },
+                "QRCode": "",
+                "audioFlag": "",
+                "application": {
+                  "btnText": "",
+                  "btnStyle": "straightSolid",
+                  "fontSize": 14,
+                  "isShow": false,
+                  "relation": ""
+                },
+                "mainTitle": {
+                  "name": "",
+                  "fontSize": 36,
+                  "isShow": false
+                },
+                "checkFullVideo": {
+                  "btnStyle": "straightSolid",
+                  "isShow": false
+                },
+                "subtitle": {
+                  "name": "",
+                  "fontSize": 20,
+                  "isShow": false
+                },
+                "slideDown": {
+                  "isShow": false
+                },
+                "searchBox": {
+                  "borderRadius": "yes",
+                  "type": 1,
+                  "tabColor": "lightColour",
+                  "isShow": false
+                },
+                "mask": {
+                  "isShow": false
+                }
+              },
+              "fileList": {
+                "bgPic": "",
+                "bgType": "color",
+                "gifData": [],
+                "videoFullData": "",
+                "paddingBottom": "yes",
+                "bgPicMask": "rgba(0, 0, 0, 0.4)",
+                "bgColor": "rgba(0, 0, 0, 1)",
+                "imgData": [
+                  {
+                    "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/xyzq/8761c03f-15d4-41d1-b91f-ec45d081ee2f.jpg",
+                    "imgId": {
+                      "blob": {},
+                      "name": "微信图片_20251030103622_189_314.jpg"
+                    }
+                  }
+                ],
+                "showType": "showWidth",
+                "type": "imgData",
+                "videoData": ""
+              }
+            },
+            "videoPlayType": "0"
+          },
+          "overseas": {
+            "jobDetail": {
+              "jobDetailData": {
+                "listDisplayItem": [
+                  "workYear",
+                  "workPlace",
+                  "education",
+                  "releaseTime",
+                  "recruits"
+                ],
+                "orgInfoNotSet": "parent",
+                "isShowJDTitle": true,
+                "isShowOrg": true,
+                "isShowShare": true,
+                "btnStyle": "straightSolid",
+                "showItemTitle": false
+              }
+            },
+            "jobList": {
+              "jobListData": {
+                "listDisplayItem": [
+                  "postName",
+                  "orgName",
+                  "workPlace"
+                ],
+                "positionDataRangeWorkPlace": [],
+                "positionDataRangeRecruitmentPro": [],
+                "searchType": "postName",
+                "navType": "top",
+                "listDisplayItemWidth": {},
+                "positionDataRangeItem": [],
+                "positionDataRangeBrand": [],
+                "positionDataRangeCompany": [],
+                "listType": "row",
+                "jobLevel": 999,
+                "positionDataRangePostType": []
+              },
+              "styleData": {
+                "borderRadius": 0,
+                "listIconBgColor": "rgb(173,173,173)"
+              },
+              "banner": [
+                {
+                  "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/xyzq/4cbdfd7d-b223-4900-8ffd-896d13ff880a.jpg",
+                  "imgId": {
+                    "blob": {},
+                    "name": "2.jpg"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "createDate": "2025-10-24 15:02:49",
+        "status": 0,
+        "suiteName": "兴业证券"
+      },
+      "state": "200",
+      "type": "success"
+    }
+  },
+  {
+    "url": "https://xyzq.hotjob.cn/wecruit/webSite/browse/save/SU68fb2499b7da1347a9dd852c?iSaJAx=isAjax&request_locale=zh_CN&t=1791875214335",
+    "method": "POST",
+    "post_data": null,
+    "data": {
+      "state": "200",
+      "type": "success"
+    }
+  },
+  {
+    "url": "https://xyzq.hotjob.cn/wecruit/suite/config/SU68fb2499b7da1347a9dd852c?iSaJAx=isAjax&request_locale=zh_CN&t=1791875214500",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "data": {
+        "websiteTitlePicUrl": "{\"imgUrl\":\"https://wecruit-cdn.hotjob.cn/files/oline/xyzq/9fc1ac66-0877-4044-8950-3e42db82caf2.png\",\"imgId\":\"68fb2487b7da1347a9dd84f2\"}",
+        "keywords": "兴业证券股份有限公司社会招聘,兴业证券股份有限公司校园招聘,兴业证券股份有限公司社招,兴业证券股份有限公司校招,兴业证券股份有限公司招聘,兴业证券股份有限公司招聘官网,兴业证券股份有限公司招聘官方网站",
+        "suitOrgInfoPOs": [
+          {
+            "orgName": "兴业证券股份有限公司",
+            "orgCode": "0",
+            "id": "68fb23ccaffb6246021d1d97"
+          }
+        ],
+        "companyName": "兴业证券股份有限公司",
+        "description": "兴业证券股份有限公司招聘信息,兴业证券股份有限公司最新招聘职位,点击申请职位",
+        "recruitTypeNameMap": {
+          "1_en": "Campus",
+          "2_cn": "社会招聘",
+          "12_cn": "实习生招聘",
+          "13_cn": "海外招聘",
+          "12_en": "Interns",
+          "13_en": "Overseas",
+          "1_cn": "校园招聘",
+          "2_en": "External"
+        },
+        "companyId": "68fb23ccaffb6246021d1d96",
+        "webSiteLanguage": [
+          "zh-CN"
+        ],
+        "relationMobileSuiteKey": "68fb2edfb7da1347a9dda3e9",
+        "templateNum": "pb",
+        "suiteKey": "68fb2499b7da1347a9dd852c",
+        "canUseAiRobot": false,
+        "id": "68fb2499b7da1347a9dd852c",
+        "config": {
+          "robot": {
+            "image": [
+              {
+                "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/25ec1578-198a-4835-a07e-7af489c6d317.png"
+              }
+            ],
+            "hint": "我是招聘小助手,\n您可以点击这里，进行咨询~",
+            "name": "",
+            "nickname": "招聘小助手",
+            "headPortrait": "https://wecruit-cdn.hotjob.cn/files/oline/25ec1578-198a-4835-a07e-7af489c6d317.png",
+            "robotLogoSize": 50
+          },
+          "scrollHeader": {
+            "styleData": {
+              "styles": [
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(85,85,85)",
+                  "columnBgColor": "rgb(255,255,255)",
+                  "columnColor": "rgb(34,34,34)"
+                },
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(85,85,85)",
+                  "columnBgColor": "rgb(34,34,34)",
+                  "columnColor": "rgb(255,255,255)"
+                },
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(204,204,204)",
+                  "projection": "0.1",
+                  "boxShadowColor": "0px 0px 6px rgba(0,0,0,0.1)",
+                  "columnBgColor": "rgb(255,255,255)",
+                  "layer": 1,
+                  "columnColor": "rgb(0,0,0,0.85)"
+                }
+              ],
+              "key": 0
+            },
+            "logo": {
+              "imgId": {
+                "blob": {},
+                "name": "logo!newProlateImg.jpg"
+              }
+            }
+          },
+          "society": {
+            "jobDetail": {
+              "jobDetailData": {
+                "listDisplayItem": [
+                  "postType",
+                  "workYear",
+                  "workPlace",
+                  "education",
+                  "specialty",
+                  "releaseTime",
+                  "recruits"
+                ],
+                "orgInfoNotSet": "parent",
+                "isShowJDTitle": true,
+                "isShowOrg": true,
+                "isShowShare": true,
+                "showItemTitle": false
+              }
+            },
+            "jobList": {
+              "jobListData": {
+                "listDisplayItem": [
+                  "postName",
+                  "orgName",
+                  "workPlace",
+                  "recruits",
+                  "releaseTime"
+                ],
+                "positionDataRangeRecruitmentPro": [],
+                "searchType": "postName",
+                "navType": "top",
+                "listDisplayItemWidth": {
+                  "releaseTime": 14.83
+                },
+                "positionDataRangeBrand": [],
+                "positionDataRangeCompany": [],
+                "listType": "row",
+                "jobLevel": 999,
+                "positionDataRangeWorkPlace": [],
+                "showBanner": true,
+                "positionDataRangeItem": [],
+                "positionDataRangePostType": []
+              },
+              "banner": [
+                {
+                  "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/xyzq/9cd35103-7215-4f7c-97ee-906937ea6bf2.jpg",
+                  "imgId": {
+                    "blob": {},
+                    "name": "2(1)_jpg.jpg"
+                  }
+                }
+              ]
+            }
+          },
+          "globalConfig": {
+            "QRCode": {
+              "image": [],
+              "name": "",
+              "isShow": false
+            },
+            "audioFlag": {
+              "btnStyle": "straightSolid",
+              "isShow": false
+            },
+            "logoLink": "https://www.xyzq.com.cn/",
+            "themeColor": "rgb(85,85,85)",
+            "logo": {
+              "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/xyzq/4558ea58-5c80-4559-b51b-8b8f0fb8c0e3.jpg"
+            }
+          },
+          "customSections": {},
+          "copyRight": {
+            "msg": "",
+            "regStatement": false,
+            "showICP": true,
+            "showCopyRight": false,
+            "logoStyle": "deepColour",
+            "styleData": {
+              "styles": [
+                {
+                  "bgColor": "rgb(255,255,255)",
+                  "color": "rgb(34,34,34)"
+                },
+                {
+                  "bgColor": "rgb(34,34,34)",
+                  "color": "rgb(255,255,255)"
+                },
+                {
+                  "bgColor": "rgb(85,85,85)",
+                  "color": "rgb(255,255,255)",
+                  "projection": 1,
+                  "boxShadowColor": "0px 0px 6px rgba(0,0,0,1)",
+                  "layer": 1
+                }
+              ],
+              "key": 0
+            },
+            "showCopyRightOther": false,
+            "showCopyRightCompany": false
+          },
+          "campus": {
+            "jobDetail": {
+              "jobDetailData": {
+                "listDisplayItem": [
+                  "workYear",
+                  "workPlace",
+                  "education",
+                  "releaseTime",
+                  "recruits"
+                ],
+                "orgInfoNotSet": "parent",
+                "isShowJDTitle": true,
+                "isShowOrg": true,
+                "isShowShare": true,
+                "btnStyle": "straightSolid",
+                "showItemTitle": false
+              }
+            },
+            "jobList": {
+              "jobListData": {
+                "listDisplayItem": [
+                  "postName",
+                  "orgName",
+                  "workPlace",
+                  "recruits",
+                  "releaseTime"
+                ],
+                "positionDataRangeWorkPlace": [],
+                "positionDataRangeRecruitmentPro": [],
+                "searchType": "postName",
+                "navType": "top",
+                "listDisplayItemWidth": {},
+                "positionDataRangeItem": [],
+                "positionDataRangeBrand": [],
+                "positionDataRangeCompany": [],
+                "listType": "row",
+                "jobLevel": 999,
+                "positionDataRangePostType": []
+              },
+              "styleData": {
+                "borderRadius": 0,
+                "listIconBgColor": "rgb(173,173,173)"
+              },
+              "banner": [
+                {
+                  "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/xyzq/385b06a0-5804-447c-bf9c-e16236ace84b.png",
+                  "imgId": {
+                    "blob": {},
+                    "name": "IMG_202609291076_1920x380_min.png"
+                  }
+                }
+              ]
+            }
+          },
+          "header": {
+            "menuAlign": "left",
+            "styleData": {
+              "styles": [
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(85,85,85)",
+                  "columnBgColor": "rgb(255,255,255)",
+                  "columnColor": "rgb(34,34,34)"
+                },
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(85,85,85)",
+                  "columnBgColor": "rgb(34,34,34)",
+                  "columnColor": "rgb(255,255,255)"
+                },
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(204,204,204)",
+                  "projection": 0,
+                  "boxShadowColor": "0px 0px 6px rgba(0,0,0,0)",
+                  "columnBgColor": "rgb(153,153,153)",
+                  "layer": 0,
+                  "columnColor": "rgb(255,255,255)"
+                }
+              ],
+              "key": 0
+            },
+            "hasScrollHeader": false,
+            "header_type": "header",
+            "logo": {
+              "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/xyzq/4558ea58-5c80-4559-b51b-8b8f0fb8c0e3.jpg",
+              "linkJump": "_blank",
+              "imgId": {
+                "blob": {},
+                "name": "logo!newProlateImg.jpg"
+              },
+              "link": "https://www.xyzq.com.cn/"
+            }
+          },
+          "section": {
+            "customizeSectionList": [],
+            "systemSectionList": [
+              {
+                "name": "实习生招聘",
+                "id": "system_0",
+                "type": "intern",
+                "list": [
+                  {
+                    "name": "职位列表",
+                    "isFixed": true
+                  }
+                ],
+                "initialName": "实习生招聘"
+              },
+              {
+                "initialList": [],
+                "name": "人才社区",
+                "id": "system_1",
+                "type": "talentCommunity",
+                "initialName": "人才社区"
+              },
+              {
+                "initialList": [
+                  {
+                    "isCheck": true,
+                    "name": "banner",
+                    "type": "asBanner"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "公司简介",
+                    "type": "company"
+                  },
+                  {
+                    "isCheck": true,
+                    "name": "环境介绍",
+                    "type": "environment"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "薪酬福利",
+                    "type": "welfare"
+                  },
+                  {
+                    "isCheck": true,
+                    "name": "人才培养",
+                    "type": "talent"
+                  },
+                  {
+                    "isCheck": true,
+                    "name": "员工风采",
+                    "type": "staff"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "视频展示",
+                    "type": "videoShow"
+                  }
+                ],
+                "name": "关于我们",
+                "id": "system_3",
+                "type": "aboutUs",
+                "initialName": "关于我们"
+              }
+            ],
+            "sectionList": [
+              {
+                "initialList": [
+                  {
+                    "isCheck": true,
+                    "name": "banner",
+                    "type": "banner"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "公司简介",
+                    "type": "company"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "多品牌",
+                    "type": "manyBrand"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "工作地点",
+                    "type": "workPlace"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "职位类别",
+                    "type": "postType"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "多机构",
+                    "type": "manyMechanism"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "招聘动态/公告",
+                    "type": "dynamic"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "宣讲会",
+                    "type": "seminar"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "师兄师姐说",
+                    "type": "said"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "招聘类型",
+                    "type": "recruitmentType"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "视频展示",
+                    "type": "videoShow"
+                  }
+                ],
+                "name": "首页",
+                "id": "section_0",
+                "type": "home",
+                "initialName": "首页"
+              },
+              {
+                "name": "社会招聘",
+                "id": "system_2",
+                "type": "society",
+                "list": [
+                  {
+                    "name": "职位列表",
+                    "isFixed": true
+                  }
+                ],
+                "initialName": "社会招聘",
+                "isShow": true
+              },
+              {
+                "name": "校园招聘",
+                "id": "section_2",
+                "type": "campus",
+                "list": [
+                  {
+                    "name": "职位列表",
+                    "isFixed": true
+                  }
+                ],
+                "initialName": "校园招聘",
+                "isShow": false
+              },
+              {
+                "name": "博士后招聘",
+                "id": "section_3",
+                "type": "overseas",
+                "list": [
+                  {
+                    "name": "职位列表",
+                    "isFixed": true
+                  }
+                ],
+                "initialName": "海外招聘"
+              }
+            ]
+          },
+          "menuListOrder": {
+            "campus": [
+              "campusList",
+              "campusDetail"
+            ],
+            "home": [
+              "banner"
+            ],
+            "overseas": [
+              "overseasList",
+              "overseasDetail"
+            ]
+          },
+          "home": {
+            "videoShowTypeChoosed": "0",
+            "styleData": {
+              "QRCode": {
+                "styles": [
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(255,255,255)",
+                    "layer": 1
+                  }
+                ],
+                "key": 0
+              },
+              "contentTopNum": 50,
+              "mainTitleColor": "rgba(0, 0, 0, 0.85)",
+              "subtitleColor": "rgba(0, 0, 0, 0.85)",
+              "audioFlag": {
+                "styles": [
+                  {
+                    "bgColor": "rgba(255, 255, 255, 0.39)",
+                    "iconColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(255,255,255)",
+                    "layer": 1
+                  }
+                ],
+                "key": 0
+              },
+              "application": {
+                "styles": [
+                  {
+                    "borderColor": "rgb(255,255,255)",
+                    "hollowColor": "rgb(255,255,255)",
+                    "bgColor": "rgb(255,255,255)",
+                    "solidColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "borderColor": "rgb(34,34,34)",
+                    "hollowColor": "rgb(34,34,34)",
+                    "bgColor": "rgb(34,34,34)",
+                    "solidColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "borderColor": "rgb(136,136,136)",
+                    "hollowColor": "rgb(136,136,136)",
+                    "bgColor": "rgb(136,136,136)",
+                    "solidColor": "rgb(255,255,255)"
+                  }
+                ],
+                "key": 0
+              },
+              "postType": {
+                "styles": [
+                  {
+                    "actIconColor": "rgb(34,34,34)",
+                    "actFontColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(34,34,34)",
+                    "allBgColor": "rgb(255,255,255)",
+                    "actBgColor": "rgb(255,255,255)",
+                    "lineColor": "#E9ECF0",
+                    "fontColor": "rgba(0,0,0,0.65)"
+                  },
+                  {
+                    "actIconColor": "rgb(34,34,34)",
+                    "actFontColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(255,255,255)",
+                    "allBgColor": "rgb(34,34,34)",
+                    "actBgColor": "rgb(255,255,255)",
+                    "lineColor": "rgba(255,255,255,0.3)",
+                    "fontColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "actIconColor": "rgb(136,136,136)",
+                    "actFontColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(136,136,136)",
+                    "allBgColor": "rgb(85,85,85)",
+                    "actBgColor": "rgb(255,255,255)",
+                    "lineColor": "rgb(255,255,255)",
+                    "fontColor": "rgb(136,136,136)"
+                  }
+                ],
+                "key": 0
+              },
+              "checkFullVideo": {
+                "styles": [
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(255,255,255)",
+                    "layer": 1
+                  }
+                ],
+                "key": 0
+              },
+              "seminar": {
+                "styles": [
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(136,136,136)",
+                    "mapBgColor": "rgb(236,236,236)",
+                    "fontColor": "rgba(0,0,0,0.65)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(136,136,136)",
+                    "mapBgColor": "rgb(54,54,54)",
+                    "fontColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(136,136,136)",
+                    "mapBgColor": "rgb(85,85,85)",
+                    "fontColor": "rgb(34,34,34)"
+                  }
+                ],
+                "key": 0
+              },
+              "dynamic": {
+                "styles": [
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "btnColor": "rgb(136,136,136)",
+                    "fontColor": "rgba(0,0,0,0.65)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "btnColor": "rgb(136,136,136)",
+                    "fontColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(85,85,85)",
+                    "btnColor": "rgb(136,136,136)",
+                    "fontColor": "rgb(0,0,0)"
+                  }
+                ],
+                "key": 0
+              },
+              "contentLeftNum": 50,
+              "searchBox": {
+                "styles": [
+                  {
+                    "borderColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(255,255,255)",
+                    "fontColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "borderColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(34,34,34)",
+                    "fontColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "borderColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(136,136,136)",
+                    "fontColor": "rgb(136,136,136)"
+                  },
+                  {
+                    "borderColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(85,85,85)",
+                    "fontColor": "rgb(255,255,255)"
+                  }
+                ],
+                "key": 3
+              }
+            },
+            "banner": {
+              "theme": {
+                "robot": {
+                  "isShow": false
+                },
+                "QRCode": "",
+                "audioFlag": "",
+                "application": {
+                  "btnText": "",
+                  "btnStyle": "straightSolid",
+                  "fontSize": 14,
+                  "isShow": false,
+                  "relation": ""
+                },
+                "mainTitle": {
+                  "name": "",
+                  "fontSize": 36,
+                  "isShow": false
+                },
+                "checkFullVideo": {
+                  "btnStyle": "straightSolid",
+                  "isShow": false
+                },
+                "subtitle": {
+                  "name": "",
+                  "fontSize": 20,
+                  "isShow": false
+                },
+                "slideDown": {
+                  "isShow": false
+                },
+                "searchBox": {
+                  "borderRadius": "yes",
+                  "type": 1,
+                  "tabColor": "lightColour",
+                  "isShow": false
+                },
+                "mask": {
+                  "isShow": false
+                }
+              },
+              "fileList": {
+                "bgPic": "",
+                "bgType": "color",
+                "gifData": [],
+                "videoFullData": "",
+                "paddingBottom": "yes",
+                "bgPicMask": "rgba(0, 0, 0, 0.4)",
+                "bgColor": "rgba(0, 0, 0, 1)",
+                "imgData": [
+                  {
+                    "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/xyzq/8761c03f-15d4-41d1-b91f-ec45d081ee2f.jpg",
+                    "imgId": {
+                      "blob": {},
+                      "name": "微信图片_20251030103622_189_314.jpg"
+                    }
+                  }
+                ],
+                "showType": "showWidth",
+                "type": "imgData",
+                "videoData": ""
+              }
+            },
+            "videoPlayType": "0"
+          },
+          "overseas": {
+            "jobDetail": {
+              "jobDetailData": {
+                "listDisplayItem": [
+                  "workYear",
+                  "workPlace",
+                  "education",
+                  "releaseTime",
+                  "recruits"
+                ],
+                "orgInfoNotSet": "parent",
+                "isShowJDTitle": true,
+                "isShowOrg": true,
+                "isShowShare": true,
+                "btnStyle": "straightSolid",
+                "showItemTitle": false
+              }
+            },
+            "jobList": {
+              "jobListData": {
+                "listDisplayItem": [
+                  "postName",
+                  "orgName",
+                  "workPlace"
+                ],
+                "positionDataRangeWorkPlace": [],
+                "positionDataRangeRecruitmentPro": [],
+                "searchType": "postName",
+                "navType": "top",
+                "listDisplayItemWidth": {},
+                "positionDataRangeItem": [],
+                "positionDataRangeBrand": [],
+                "positionDataRangeCompany": [],
+                "listType": "row",
+                "jobLevel": 999,
+                "positionDataRangePostType": []
+              },
+              "styleData": {
+                "borderRadius": 0,
+                "listIconBgColor": "rgb(173,173,173)"
+              },
+              "banner": [
+                {
+                  "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/xyzq/4cbdfd7d-b223-4900-8ffd-896d13ff880a.jpg",
+                  "imgId": {
+                    "blob": {},
+                    "name": "2.jpg"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "createDate": "2025-10-24 15:02:49",
+        "status": 0,
+        "suiteName": "兴业证券"
+      },
+      "state": "200",
+      "type": "success"
+    }
+  },
+  {
+    "url": "https://xyzq.hotjob.cn/wecruit/config/get/SU68fb2499b7da1347a9dd852c?iSaJAx=isAjax&request_locale=zh_CN&t=1791875214560",
+    "method": "POST",
+    "post_data": null,
+    "data": {
+      "data": {
+        "companyId": "68fb23ccaffb6246021d1d96",
+        "id": "68fb23ccaffb6246021d1d9a",
+        "config": {
+          "supportsOverseas": false,
+          "isDeliveryChoosePlace": false,
+          "companyName": "兴业证券股份有限公司",
+          "deleteResumePrompt_es": "",
+          "languageDelivery_13": [
+            "cn"
+          ],
+          "languageDelivery_12": [
+            "cn"
+          ],
+          "isWeChatLogin": false,
+          "corpCode": "xyzq",
+          "deleteResumePrompt_vi": "",
+          "recruitTypeNameMap": {
+            "1_en": "Campus",
+            "2_cn": "社会招聘",
+            "12_cn": "实习生招聘",
+            "13_cn": "海外招聘",
+            "12_en": "Interns",
+            "13_en": "Overseas",
+            "1_cn": "校园招聘",
+            "2_en": "External"
+          },
+          "siteTitle_en": "选择站点",
+          "socialDelivery": [
+            "full"
+          ],
+          "isManualInputSchool": true,
+          "emailPassTwoFactorAuth": false,
+          "isReserveWarehouse": false,
+          "deleteResumePrompt_en": "",
+          "siteTitle_es": "",
+          "isManualInputSubject": true,
+          "isShowMoreJob": false,
+          "refreshResumeType": [
+            "pending"
+          ],
+          "overseasDeliveryWays": [
+            "fillOnline"
+          ],
+          "siteTitle_vi": "",
+          "overseasDelivery": [
+            "full"
+          ],
+          "languageDeliveryType_12": "cnComplete",
+          "languageDeliveryType_13": "cnComplete",
+          "weChatWrittenNotice": "",
+          "internDelivery": [
+            "full"
+          ],
+          "webSiteLanguage": [
+            "zh-CN"
+          ],
+          "pageAuthApi": "",
+          "limitsSeconds": "",
+          "isExportResumeFromDelivery": true,
+          "isHighSchoolEducationCheck": false,
+          "isJoinTalentCommunity": false,
+          "isRefreshResume": true,
+          "weChatOfferNotice": "",
+          "isAccountCreateResume": true,
+          "updatePlaceInfoType": [
+            "pending"
+          ],
+          "similarPost": false,
+          "proactServer": "https://xcmg.hotjob.cn/wt/",
+          "applicationStatusStyle": "icon",
+          "isVolunNumDisabled": false,
+          "internDeliveryWays": [
+            "fillOnline"
+          ],
+          "isJoinResumeComplete": false,
+          "isWithdrawDelivery": false,
+          "isShowTalentSet": false,
+          "isMoreWeChat": false,
+          "wishChangeType": [
+            "pending"
+          ],
+          "deleteResumePrompt": "",
+          "sendEmailByATSDefaultConfig": false,
+          "weChatSeminarNotice": "",
+          "regType": "mail",
+          "languageDelivery": [
+            "cn"
+          ],
+          "siteTitle_de": "",
+          "siteTitle_tr": "",
+          "isUpdatePlaceInfo": false,
+          "callbackServer": "https://www.wintalent.cn/wt/",
+          "limitsTimes": "",
+          "isImageAnalyze": false,
+          "isApplicationStatus": false,
+          "checkEducationBasedPosition": false,
+          "deleteResumePrompt_pt": "",
+          "weChatCandidates": "",
+          "isShowDistrictsAndCounties": true,
+          "deleteResumePrompt_ja": "",
+          "isCancellationAccount": false,
+          "weChatInterview": "",
+          "isWishChange": true,
+          "isUpdateSiteInfo": false,
+          "isBaiduAccessOpen": false,
+          "schoolDeliveryWays": [
+            "fillOnline"
+          ],
+          "weChatExaminationNotice": "",
+          "deleteResumePrompt_in": "",
+          "siteTitle_in": "",
+          "isRecommendCode": false,
+          "weChatWritten": "",
+          "isEducationCheck": false,
+          "siteTitle_ja": "",
+          "isOrderPostByOrg": false,
+          "weChatEvaluation": "",
+          "volunNum": 2,
+          "domainName": "wecruit.hotjob.cn",
+          "languageDelivery_1": [
+            "cn"
+          ],
+          "languageDeliveryType_1": "cnComplete",
+          "isAutoJumpDomainName": false,
+          "languageDelivery_2": [
+            "cn"
+          ],
+          "languageDeliveryType_2": "cnComplete",
+          "schoolDelivery": [
+            "full"
+          ],
+          "weChatEliminate": "",
+          "siteTitle": "选择站点",
+          "weChatTalentCommunityPostRecommend": "",
+          "showDeliveryOnlyCurrentSuite": false,
+          "grayscale": false,
+          "languageDeliveryType": "incomplete",
+          "socialDeliveryWays": [
+            "fillOnline",
+            "uploadFiles",
+            "thirdPartyImport",
+            "imgResumeUpload"
+          ],
+          "weChatAIInterviewNoticeId": "",
+          "weChatQuestionnaire": "",
+          "updatePlaceInfoMode": "radio",
+          "isOpenOverseasWish": false,
+          "isOpenedRobotByYonGPT": false,
+          "siteTitle_pt": "",
+          "deleteResumePrompt_tr": "",
+          "deleteResumePrompt_de": "",
+          "isOpenWish": true
+        }
+      },
+      "state": "200",
+      "type": "success"
+    }
+  },
+  {
+    "url": "https://xyzq.hotjob.cn/wecruit/config/get/robot/SU68fb2499b7da1347a9dd852c?iSaJAx=isAjax&request_locale=zh_CN&t=1791875214562",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "data": {},
+      "state": "200",
+      "type": "success"
+    }
+  },
+  {
+    "url": "https://xyzq.hotjob.cn/wecruit/isLogin/SU68fb2499b7da1347a9dd852c?iSaJAx=isAjax&request_locale=zh_CN&t=1791875214560",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "msg": "未登录",
+      "state": "1006",
+      "type": "warning"
+    }
+  }
+]

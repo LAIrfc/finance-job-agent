@@ -1,0 +1,1166 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>  
+   	<meta charset="UTF-8">
+<meta name=renderer  content=webkit>
+<meta http-equiv="pragma" CONTENT="no-cache">
+<meta http-equiv="Cache-Control" CONTENT="no-cache, must-revalidate">
+<meta http-equiv="expires" CONTENT="0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="Copyright" content="zfsoft" />	
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<title>浙江大学就业服务平台</title>
+<script type="text/javascript">
+	//全局变量
+	var _path = "/jyxt";
+	var _systemPath = "/jyxt";
+	var _stylePath = "/zftal-ui-v5-1.1.1";
+    //给hmd登录提示做判断
+    var modalFlag =false;
+</script>
+
+<!--jQuery核心框架库 -->
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/js/jquery-min.js?ver=017ba5cc1694c12d854311847193e32d"></script>
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/js/jquery-migrate.min.js?ver=017ba5cc1694c12d854311847193e32d"></script>
+<!--jQuery浏览器检测 -->
+<script type="text/javascript" src="/jyxt/js/browse/browse-judge.js?ver=017ba5cc1694c12d854311847193e32d"></script>
+<script type="text/javascript">
+	//\u6d4f\u89c8\u5668\u7248\u672c\u9a8c\u8bc1
+	/*var broswer = broswer();
+	if(broswer.msie==true||broswer.safari==true||broswer.mozilla==true||broswer.chrome==true){
+		if(broswer.msie==true&&broswer.version<9){
+		   window.location.href = _path+"/xtgl/init_cxBrowser.html";
+		}
+	}else{
+		 window.location.href = _path+"/xtgl/init_cxBrowser.html";
+	}*/
+</script><!--
+jquery.ui 需要在bootstrap之前加载，解决冲突问题
+http://blog.csdn.net/remote_roamer/article/details/14105999
+-->
+<script src="/zftal-ui-v5-1.1.1/assets/js/jquery-ui-custom.contact-min.js?ver=017ba5cc1694c12d854311847193e32d" type="text/javascript" charset="utf-8"></script>
+<!--Bootstrap布局框架-->
+<link rel="stylesheet" type="text/css" href="/zftal-ui-v5-1.1.1/assets/plugins/bootstrap/css/bootstrap.min.css?ver=017ba5cc1694c12d854311847193e32d" />
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/plugins/bootstrap/js/bootstrap.min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<!--zftal-ui样式-->
+<!--jQuery常用工具扩展库：基础工具,资源加载工具,元素尺寸相关工具 -->
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.utils.contact-min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<!--jQuery基础工具库：$.browser,$.cookie,$.actual等 -->
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.plugins.contact-min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<!--jQuery自定义event事件库 -->
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.events.contact-min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<!--JavaScript对象扩展库：Array,Date,Number,String -->
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.extends.contact-2.min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<!--国际化js库 -->
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/plugins/i18n/jquery.i18n-min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<!--业务框架前端脚本国际化库-->
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.zftal_zh_CN-min.js?ver=017ba5cc1694c12d854311847193e32d"></script>
+<!--Bootbox弹窗插件-->
+<script src="/zftal-ui-v5-1.1.1/assets/plugins/bootbox/bootbox.concat-min.js?ver=017ba5cc1694c12d854311847193e32d" type="text/javascript" charset="utf-8"></script>
+<script src="/zftal-ui-v5-1.1.1/assets/plugins/bootbox/lang/zh_CN-min.js?ver=017ba5cc1694c12d854311847193e32d" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="/zftal-ui-v5-1.1.1/assets/plugins/bootbox/css/bootbox-min.css?ver=017ba5cc1694c12d854311847193e32d" />
+<!--jQuery单选框美化-->
+<link rel="stylesheet" type="text/css" href="/zftal-ui-v5-1.1.1/assets/plugins/iCheck/skins/all.css?ver=017ba5cc1694c12d854311847193e32d" />
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/plugins/iCheck/icheck.min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<!--jQuery.chosen下拉框美化插件-->
+<link rel="stylesheet" type="text/css" href="/zftal-ui-v5-1.1.1/assets/plugins/chosen/css/chosen-min.css?ver=017ba5cc1694c12d854311847193e32d" />
+<link rel="stylesheet" type="text/css" href="/jyxt/assets/plugins/select/bigselect.css?ver=017ba5cc1694c12d854311847193e32d"></link>
+<script type="text/javascript" src="/jyxt/assets/plugins/select/bigselect.js"></script>
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/js/utils/jquery.utils.pinyin.min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/plugins/chosen/jquery.choosen.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/plugins/chosen/jquery.chosen-additional.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/plugins/chosen/lang/zh_CN-min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<!-- Tagsinput 插件 -->
+<link rel="stylesheet" type="text/css" href="/zftal-ui-v5-1.1.1/assets/plugins/bootstrap-tagsinput/css/bootstrap-tagsinput.css?ver=017ba5cc1694c12d854311847193e32d" />
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script><!--IE浏览器html5、CSS3兼容插件-->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/js/html5shiv.min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/js/respond.min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<![endif]-->
+<!--业务框架jQuery全局设置和通用函数库-->
+<script type="text/javascript" src="/jyxt/js/jquery.zftal.contact-min.js?ver=017ba5cc1694c12d854311847193e32d"></script>
+<!--基于Nifty样式库的新版界面前端依赖-->
+<script src="/zftal-ui-v5-1.1.1/assets/plugins/nifty/js/nifty.js?ver=017ba5cc1694c12d854311847193e32d"></script>
+<link href="/zftal-ui-v5-1.1.1/assets/plugins/nifty/css/nifty.min.css?ver=017ba5cc1694c12d854311847193e32d" rel="stylesheet" type="text/css"/>
+<!--皮肤+字体-->
+<link href="/zftal-ui-v5-1.1.1/assets/css/theme/zftal-ui-nifty-icons.css?ver=017ba5cc1694c12d854311847193e32d" rel="stylesheet" type="text/css"/>
+<link href="/zftal-ui-v5-1.1.1/assets/css/theme/theme-ocean.min.css?ver=017ba5cc1694c12d854311847193e32d" rel="stylesheet" type="text/css"/>
+<link href="/zftal-ui-v5-1.1.1/assets/css/zftal-ui-base.css?ver=017ba5cc1694c12d854311847193e32d"  rel="stylesheet" type="text/css"/>
+<link href="/zftal-ui-v5-1.1.1/assets/css/zftal-ui-index.css?ver=017ba5cc1694c12d854311847193e32d" rel="stylesheet" type="text/css"/>
+<link href="/jyxt/css/zftal-ui-app.css?ver=017ba5cc1694c12d854311847193e32d" rel="stylesheet" type="text/css"/>
+
+
+<!--laydate日期控件1111-->
+<link rel="stylesheet" type="text/css" href="/zftal-ui-v5-1.1.1/assets/plugins/laydate/need/laydate.css?ver=017ba5cc1694c12d854311847193e32d" />
+<link rel="stylesheet" type="text/css" href="/zftal-ui-v5-1.1.1/assets/plugins/laydate/skins/zfcolor/laydate.css?ver=017ba5cc1694c12d854311847193e32d" />
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/plugins/laydate/laydate.min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+	<style type="text/css">
+	.bootbox.modal{overflow-y: hidden !important;text-align: justify;}
+	.tooltips.top.in {z-index: 1200 !important;}
+	</style>
+	<!--v5公用代码调用-->
+	<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/js/zftal/v5/zftal-ui-page.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<!--jQuery.validation校验插件 -->
+<link rel="stylesheet" type="text/css" href="/zftal-ui-v5-1.1.1/assets/plugins/validation/css/jquery.validate-min.css?ver=017ba5cc1694c12d854311847193e32d" />
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/plugins/validation/js/jquery.validate-min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/plugins/validation/js/jquery.validate.contact-min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<script type="text/javascript" src="/jyxt/js/plugins/validation/jquery.validate.methods.contact-min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<script type="text/javascript" src="/zftal-ui-v5-1.1.1/assets/plugins/validation/lang/zh_CN-min.js?ver=017ba5cc1694c12d854311847193e32d" charset="utf-8"></script>
+<script type="text/javascript">
+	jQuery(function($){
+		$('[data-toggle*="validation"]').trigger("validation");
+	});
+</script>	
+    <meta charset="UTF-8">
+    
+    <link href="/jyxt/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link id="theme" href="/jyxt/assets/css/theme/theme-ocean.min.css" rel="stylesheet">
+    <link href="/jyxt/assets/css/zftal-ui-base.css" rel="stylesheet">
+    <link rel="stylesheet" href="/jyxt/assets/plugins/bootstrap-table/bootstrap-table.min.css">
+    <link rel="stylesheet" href="/jyxt/assets/css/style.css">
+    <style>
+        .zpgwms {
+            word-break: break-word;
+        }
+        .zpgwms img {
+            display: inline-block;
+            max-width: 100%;
+        }
+        .zpgwms table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .zpgwms table,
+        .zpgwms th,
+        .zpgwms td {
+            border: 1px solid #8c8c8c;
+            padding: 3px 5px;
+        }
+        .zpgwms th {
+            background-color: #f2f2f2;
+        }
+        .zp-enterprise-intro img{max-width: 100%;}
+        .zp-enterprise-intro{word-break: break-all;}
+        .zp-page .zp-dept-desc span, .zp-page .zp-info-left-detail span {
+            display: inline-block;
+        }
+    </style>
+    <script>
+    $(function(){
+    	for(var i=0; i<$('.zpgwms').find('p').length; i++){
+    		if($('.zpgwms').find('p').eq(i).attr('style').indexOf('text-indent:-')>-1){
+    			$('.zpgwms').find('p').eq(i).css('text-indent','0')
+    		}
+    	}d
+    })
+    
+    function checkGwsc(zpxxbh){
+    	var dwxxid = $("#dwxxid").val();
+		if (dwxxid==""||dwxxid==null){
+			$.alert("该单位不存在于本系统单位库，不允许收藏！");
+			return;
+		}
+		var sfzc = $("#sfzc").val();
+		if (sfzc=="0"){
+			$.alert("该单位未注册，不允许收藏！");
+			return;
+		}
+    	var yhlx = $("#yhlx").val();
+		if ("student" != yhlx && "stu" != yhlx){
+            $.dialog({
+                "title"		:	'提示信息',
+                "message"	:	"该功能仅向登录学生开放，请先<a style='color:blue' href='"+_path+"/web/login/xsSlogin.zf'  target='_blank'>登录</a>",
+                "width"		:	"400px",
+                "modalName"	:	"msgModal",
+                "buttons"	: {
+                    cancel:{label:'取消',
+                        callback: function () {
+
+                        }
+                    }
+                },
+                fullScreen:false
+            });
+            return;
+		}
+		jQuery.post(_path+'/jyweb/xsgwsc/checkSfyscsq.zf',{lx:"sc",zpxxbh:zpxxbh},function(data){
+			if(data=="1"){
+				$.alert("您已经收藏过该岗位！");
+				return;
+			}else{
+				
+				 jQuery.post(_path+'/jyweb/xsgwsc/xsScOrSqjl.zf',{lx:"sc",zpxxbh:zpxxbh,source:$("#source").val()},function(responseData){
+					if(responseData["status"] == "SUCCESS"||responseData["status"] == "success"){
+						$.success(responseData["message"]);
+					}else if(responseData["status"] == "ERROR"||responseData["status"] == "error"){
+						$.error(responseData["message"]);
+					}else{
+						$.alert(responseData["message"]);
+					}
+				}, "json"); 
+			}
+		}, "json");
+	};
+	
+	//检测是否填写简历
+	function checkSftxjl(){
+		var isjl=false;
+		jQuery.post(_path+'/jyweb/xsgwsc/checkSftxjl.zf',{},function(data){
+			if(data == "0"){
+				isjl=true;
+			}
+		},"json");
+		return isjl;
+	}
+
+    //是否审核通过
+    function checkSfsh(xh){
+        //判斷是否有该需求
+        let flag = false;
+        jQuery.ajaxSetup({async:false});
+        jQuery.post(_path + "/sczp/xsjlgl/getXsjlsfxysh.zf", {xh}, function(data) {
+            if(data["xsjlsfxysh"] == 'kq'){
+                if(data["shzt"] == '1') {
+                    flag = true;
+                }
+            }else {
+                flag = true;
+            }
+
+        }, 'json');
+        jQuery.ajaxSetup({async:true});
+        return flag;
+    }
+	
+	//岗位申请
+	function checkGwsq(zpxxbh,tdjzrq){
+		var dwxxid = $("#dwxxid").val();
+		if (dwxxid==""||dwxxid==null){
+			$.alert("该单位不存在于本系统单位库，不允许申请！");
+			return;
+		}
+		var sfzc = $("#sfzc").val();
+		if (sfzc=="0"){
+			$.alert("该单位未注册，不允许申请！");
+			return;
+		}
+    	var yhlx = $("#yhlx").val();
+		if ("student" != yhlx && "stu" != yhlx){
+            $.dialog({
+                "title"		:	'提示信息',
+                "message"	:	"该功能仅向登录学生开放，请先<a style='color:blue' href='"+_path+"/web/login/xsSlogin.zf'  target='_blank'>登录</a>",
+                "width"		:	"400px",
+                "modalName"	:	"msgModal",
+                "buttons"	: {
+                    cancel:{label:'取消',
+                        callback: function () {
+
+                        }
+                    }
+                },
+                fullScreen:false
+            });
+            return;
+		}
+		
+		jQuery.post(_path+'/jyweb/xsgwsc/checkSftxjl.zf',{},function(data){
+			var jlzt = data;
+			if(jlzt == "0"){
+				/*$.alert("您还未完善简历,不能投简历。请先到个人中心完善简历!");
+				return;*/
+                $.alert("您还未维护系统简历,不能投简历。请先到个人中心维护系统简历!");
+                return;
+			}else{
+				jQuery.post(_path+'/jyweb/xsgwsc/checkSfyscsq.zf',{lx:"sq",zpxxbh:zpxxbh},function(data){
+					if(data=="1"){
+						$.alert("您已经向该岗位投递过简历！");
+						return;
+					}else{
+						var now = new Date();
+						if( null!=tdjzrq && '' != tdjzrq ){
+							var arr1 = 	tdjzrq.split("-");
+							var oldtime = new Date(arr1[0],arr1[1],arr1[2]);
+							var newtime = new Date(now.getFullYear(),now.getMonth()+1,now.getDate());
+                            if(!checkSfsh($("#xh").val())){
+                                $.alert("简历审核通过后方可投递，请等待老师审核！");
+                                return ;
+                            }
+							if(newtime.getTime()>oldtime.getTime()){
+								$.alert("当前日期已经超过投递截止日期，不能投简历！");
+								return ;
+							}else{
+								if(jlzt == "1"){
+									$.showDialog(_path+'/jyweb/xsgwsc/showJltdPage.zf', '个人简历', {
+										url:"",
+										width		: "700px",
+										modalName	: "modifyModal",
+										offAtOnce	: true,
+										data		: {"zpxxbh":zpxxbh,"source":$("#source").val()},
+										buttons		: {
+											success : {
+												label : "投递",
+												className : "btn-primary",
+												callback : function() {
+													var len = $("input[name='jlmc']:checked").length;
+													if(len != 1){
+														$.alert("请选择一份简历投递！");
+														return false;
+													}
+													
+													var $this = this;
+													var opts = $this["options"]||{};
+													submitForm(opts["formName"]||"ajaxForm",function(responseData,statusText){
+														if(responseData["status"] == "SUCCESS"||responseData["status"] == "success"){
+															$.success(responseData["message"],function() {
+																if(opts.offAtOnce){
+																	$.closeModal(opts["modalName"]||"modifyModal");
+																}
+															});
+														}else if(responseData["status"] == "ERROR"||responseData["status"] == "error"){
+															$.error(responseData["message"]);
+														}else{
+															$.alert(responseData["message"]);
+														}
+													});
+													return false;
+											  	}
+											},
+											cancel : {
+													label : "关 闭",
+													className : "btn-default"
+											}
+										}
+									});
+								}else{
+								    $.confirm('确定投递系统简历？',function(data){
+								        if(data){
+                                            jQuery.post(_path+'/jyweb/xsgwsc/xsScOrSqjl.zf',{lx:"sq",zpxxbh:zpxxbh,source:$("#source").val()},function(responseData){
+                                                if(responseData["status"] == "SUCCESS"||responseData["status"] == "success"){
+                                                    $.success(responseData["message"]);
+                                                }else if(responseData["status"] == "ERROR"||responseData["status"] == "error"){
+                                                    $.error(responseData["message"]);
+                                                }else{
+                                                    $.alert(responseData["message"]);
+                                                }
+                                            }, "json");
+                                        }
+                                    })
+
+								}
+							}
+						}else{
+							$.alert("该岗位投递截止日期未明确！");
+							return;
+						}
+					}
+				}, "json");
+			}
+		}, "json");
+	};
+    </script>
+
+	<link type="text/css" rel="stylesheet" href="/jyxt/css/globalweb/wrapper.css"/>
+<script type="text/javascript" src="/jyxt/assets/plugins/toastr/toastr.js"></script>
+<link rel="stylesheet" href="/jyxt/assets/plugins/toastr/toastr.css" type="text/css"></head>  
+<body>  
+	<div style="width: 100%; padding: 0px; margin: 0px;overflow: hidden;" id="bodyContainer" class="bodyContainer">
+		<div class="container-fluid container-func" style="width:100%;padding: 0px; margin: 0px;">
+	   <!-- page content start -->
+	    
+    <input type="hidden" name="yhlx" id="yhlx" value=""/>
+    <input type="hidden" name="xh" id="xh" value=""/>
+    <input type="hidden" name="dwxxid" id="dwxxid" value="761C0E155B8324AFE055000000000001"/>
+    <input type="hidden" name="sfzc" id="sfzc" value="1"/>
+    <input type="hidden" name="source" id="source" value=""/>
+    <div class="zp-page">
+        <div class="container">
+            <div class="row">
+                <div class="zp-left col-md-9">
+                    <div class="zp-header">
+                        <div class="zp-dept">
+                            <a href="/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=761C0E155B8324AFE055000000000001" target="_blank"><h3>兴业证券股份有限公司</h3></a>
+                            <p class="zp-dept-desc">
+                                <span>国有企业</span>
+                                <span>金融业</span>
+                                <span>500人以上</span>
+                                <span>福建省福州市市辖区</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="zp-enterprise">
+                        <h4>招聘信息</h4>
+                        <ul class="zp-info-list">
+                            <li class="clearfix">
+                                <div class="zp-info-left">
+                                    <h4>兴业证券集团2027届秋季校园招聘</h4>
+                                    <p class="zp-info-left-detail">
+                                        <span>面议</span>
+                                        <span>上海市浦东新区</span>
+                                        <span>全职</span>
+                                        <span>硕士及以上</span>
+                                        <span>100人</span>
+                                        <span>2026-11-30</span>
+                                    </p>
+                                </div>
+                                <div class="zp-info-right">
+                                    <div class="zp-info-right-handle">
+                                        <a onclick="checkGwsc('5D50BEF19ECC1CF7E0653A68DD0E9B18');"><i></i><span>收藏</span></a>
+                                        <button class="btn btn-white" onclick="checkGwsq('5D50BEF19ECC1CF7E0653A68DD0E9B18','2026-11-30')">投递简历</button>
+                                    </div>
+                                    <p class="zp-info-right-time"><i></i>2026-10-09 16:13:21</p>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="zpgwxq">
+                                    <div class="zwms">
+                                        <h4>职位描述</h4>
+                                        <div class="zpgwms">
+                                            <p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="line-height:27.0000pt"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:16.0000pt"><span style="font-family:方正小标宋简体"><font face="方正小标宋简体">&ldquo;兴火计划&rdquo;</font></span></span></span></span></span></p>
+
+<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="line-height:27.0000pt"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:16.0000pt"><span style="font-family:方正小标宋简体"><font face="方正小标宋简体">兴业证券集团</font><font face="方正小标宋简体">2027届秋季校园招聘启事</font></span></span></span></span></span></p>
+
+<p align="center" style="text-align:center">&nbsp;</p>
+
+<p style="text-indent:28.1000pt; text-align:left"><span style="font-size:10.5pt"><span style="line-height:27.0000pt"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><font face="仿宋_GB2312">一、公司简介</font></span></span></b></span></span></span></p>
+
+<p style="text-indent:28.0000pt; text-align:justify"><span style="font-size:10.5pt"><span style="line-height:27.0000pt"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><font face="仿宋_GB2312">兴业证券股份有限公司是中国证监会核准的全国性、综合类、创新型、集团化、国际化证券公司，成立于</font>1991<font face="仿宋_GB2312">年</font><font face="Times New Roman, Times, serif">10</font><font face="仿宋_GB2312">月</font><font face="Times New Roman, Times, serif">29</font><font face="仿宋_GB2312">日。</font><font face="Times New Roman, Times, serif">2010</font><font face="仿宋_GB2312">年</font><font face="Times New Roman, Times, serif">10</font><font face="仿宋_GB2312">月在上海证券交易所首次公开发行股票并上市（</font><font face="Times New Roman, Times, serif">601377.SH</font><font face="仿宋_GB2312">）。</font></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">公司综合实力和核心业务竞争力位居行业前列</font></span></span><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><font face="仿宋_GB2312">，已发展成为涵盖证券、基金、期货、资产管理、股权投资、另类投资、境外业务、区域股权市场等专业领域的证券金融集团。</font></span></span></span></span></span></p>
+
+<p style="text-indent:28.1000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:none"><span style="line-height:27.0000pt"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><font face="仿宋_GB2312">二、招聘岗位（详见附表）</font></span></span></b></span></span></span></span></p>
+
+<p style="text-indent:28.1000pt; text-align:justify"><span style="font-size:10.5pt"><span style="line-height:150%"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">（一）</font></span></span></span></span></b><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">博士后工作站：</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">博士后科研人员；</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:28.1000pt; text-align:justify"><span style="font-size:10.5pt"><span style="line-height:150%"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">（二）</font></span></span></span></span></b><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">总部业务类：</font></span></span></span></span></b><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">金融产品部</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">产品研究</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><span style="font-weight:bold"><font face="仿宋">数智平台部</font></span></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">量化策略研发、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">机构业务总部</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">交易</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">/</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">投资、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">经济与金融研究院</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">总量</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">/</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">行业研究、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">销售交易部</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">机构销售、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">证券投资部</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">量化研究、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">债券与衍生产品业务部</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">研究</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">/</span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">交易、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">衍生品与交易部</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">量化</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">交易、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">资金运营中心</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">研究</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">/</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">交易、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">投资银行业务总部</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">投行业务</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">/</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">销售、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">债权融资业务总部</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">债权业务（含</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">ABS</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">、</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">REITs</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">）。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:28.1000pt; text-align:justify"><span style="font-size:10.5pt"><span style="line-height:150%"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">（三）</font></span></span></span></span></b><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">子公司业务类：兴证资管</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">研究、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">兴证期货</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">研究</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">/</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">资管</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">/</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">分公司机构业务、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">兴证</font></span></span></span></span></b><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">投资及兴证</font></span></span></span></span></b><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">资本</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">投资</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><span style="font-weight:bold"><font face="仿宋">兴全基金</font></span></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">电商运营</font><font face="仿宋">/渠道销售/机构业务</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">；</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:28.1000pt; text-align:justify"><span style="font-size:10.5pt"><span style="line-height:150%"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">（四）</font></span></span></span></span></b><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">IT</span></span></span></span></b><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">类：信息技术部</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">开发</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">/</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">智能</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">运维</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">/</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">智算架构、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">AI</span></span></span></span></b><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">创新发展部</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">开发</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">/</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">测试</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">/</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">大数据</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000">/AI</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><span style="font-weight:bold"><font face="仿宋">数智平台部</font></span></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">APP</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">平台</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">运营</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><span style="font-weight:bold"><font face="仿宋">、</font></span></span></span></span></span></b><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">兴证期货</font></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">IT</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">、</font></span></span></span></span><b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><span style="font-weight:bold"><font face="仿宋">兴全基金</font></span></span></span></span></span></b><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">后端开发</font><font face="仿宋">/数据开发/运维</font></span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="line-height:150%"><span style="color:#000000"><font face="仿宋">。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:28.1000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:none"><span style="line-height:27.0000pt"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><font face="仿宋_GB2312">三、招聘要求</font></span></span></b></span></span></span></span></p>
+
+<p class="16" style="text-indent:28.0000pt"><span style="line-height:27.0000pt"><span style="font-size:14.0000pt"><span style="font-family:仿宋"><font face="仿宋">（一）</font></span></span><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><font face="仿宋">招聘对象：</font></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="color:#000000">2027</span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="color:#000000"><font face="仿宋">届毕业生（</font></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="color:#000000">2026</span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="color:#000000"><font face="仿宋">年</font></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="color:#000000">12</span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="color:#000000"><font face="仿宋">月至</font></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="color:#000000">2027</span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="color:#000000"><font face="仿宋">年</font></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="color:#000000">8</span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><span style="color:#000000"><font face="仿宋">月毕业）</font></span></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><font face="仿宋">。</font></span></span></span></p>
+
+<p class="16" style="text-indent:28.0000pt"><span style="line-height:27.0000pt"><span style="font-size:14.0000pt"><span style="font-family:仿宋"><font face="仿宋">（二）招聘条件：</font></span></span></span></p>
+
+<p class="16" style="text-indent:28.0000pt"><span style="line-height:27.0000pt"><span style="font-size:14.0000pt"><span style="font-family:仿宋"><font face="Times New Roman, Times, serif">1.</font></span></span><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><font face="仿宋">品行端正，具备良好的品德修养和职业操守</font></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><font face="仿宋">；</font></span></span></span></p>
+
+<p class="16" style="text-indent:28.0000pt"><span style="line-height:27.0000pt"><span style="font-size:14.0000pt"><span style="font-family:仿宋"><font face="Times New Roman, Times, serif">2.</font></span></span><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><font face="仿宋">具有</font></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><font face="仿宋">优秀</font></span></span><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><font face="仿宋">的教育背景</font></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><font face="仿宋">和匹配的专业基础；</font></span></span></span></p>
+
+<p class="16" style="text-indent:28.0000pt"><span style="line-height:27.0000pt"><span style="font-size:14.0000pt"><span style="font-family:仿宋"><font face="Times New Roman, Times, serif">3.</font></span></span><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><font face="仿宋">积极向上，思维活跃，具有较强的学习能力、逻辑思维能力、沟通协调能力和团队协作精神</font></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋"><font face="仿宋">。</font></span></span></span></p>
+
+<p style="text-indent:28.1000pt; text-align:left"><span style="font-size:10.5pt"><span style="line-height:27.0000pt"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:14.0000pt"><span style="font-family:仿宋_GB2312"><span style="font-weight:bold"><font face="仿宋_GB2312">四</font></span></span></span></b><b><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><span style="font-weight:bold"><font face="仿宋_GB2312">、招聘流程</font></span></span></span></b></span></span></span></p>
+
+<p style="text-indent:28.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="line-height:27.0000pt"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><font face="仿宋_GB2312">网上投递</font><font face="Times New Roman, Times, serif">&rarr;</font><font face="仿宋_GB2312">笔试及面试</font><font face="Times New Roman, Times, serif">&rarr;</font><font face="仿宋_GB2312">实习考察</font><font face="Times New Roman, Times, serif">&rarr;</font><font face="仿宋_GB2312">实习答辩及录用通知</font></span></span><span style="font-size:14.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">。</font></span></span></span></span></span></p>
+
+<p style="text-indent:28.1000pt; text-align:left"><span style="font-size:10.5pt"><span style="line-height:27.0000pt"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:14.0000pt"><span style="font-family:仿宋_GB2312"><span style="font-weight:bold"><font face="仿宋_GB2312">五</font></span></span></span></b><b><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><span style="font-weight:bold"><font face="仿宋_GB2312">、投递方式</font></span></span></span></b></span></span></span></p>
+
+<p style="text-indent:28.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="line-height:27.0000pt"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:14.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">以下方式任意一种皆可，推荐使用</font><font face="Times New Roman, Times, serif">PC</font><font face="仿宋_GB2312">端投递：</font></span></span></span></span></span></p>
+
+<p style="text-indent:28.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="line-height:27.0000pt"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:14.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">方式</font><font face="Times New Roman, Times, serif">1</font><font face="仿宋_GB2312">：</font><font face="Times New Roman, Times, serif">PC</font><font face="仿宋_GB2312">端</font></span></span><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><font face="仿宋_GB2312">在网址栏输入或复制链接：</font></span></span></span></span></span></p>
+
+<p style="text-indent:28.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="line-height:27.0000pt"><span style="font-family:&quot;Times New Roman&quot;"><a href="https://xyzqcampus.hotjob.cn/"><u><span class="15" style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><span style="color:#800080"><span style="text-decoration:underline"><span style="text-underline:single">https://xyzqcampus.hotjob.cn/</span></span></span></span></span></u></a></span></span></span></p>
+
+<p style="text-indent:28.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="line-height:27.0000pt"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:14.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">方式</font><font face="Times New Roman, Times, serif">2</font><font face="仿宋_GB2312">：移动端扫描二维码投递：</font></span></span></span></span></span></p>
+
+<p style="text-indent:28.0000pt; text-align:left"><img height="380" src="/jyxt/comm/file/downloadFile.zf?filepath=/static/1791447986378/image.png" width="380" /></p>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:14.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">附招聘岗位列表</font></span></span></span></span></p>
+
+<table align="center" class="Table" style="border-collapse:collapse; width:106.2400%; border:none; font-family:&quot;Times New Roman&quot;; font-size:13px">
+	<tbody>
+		<tr>
+			<td style="border-bottom:1px solid black; width:8.7400%; padding:1px 1px 1px 1px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><span style="font-weight:bold"><font face="仿宋">类别</font></span></span></span></span></span></b></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><span style="font-weight:bold"><font face="仿宋">单位名称</font></span></span></span></span></span></b></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><span style="font-weight:bold"><font face="仿宋">职位名称</font></span></span></span></span></span></b></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><span style="font-weight:bold"><font face="仿宋">工作地点</font></span></span></span></span></span></b></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><b><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><span style="font-weight:bold"><font face="仿宋">专业</font></span></span></span></span></span></b></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:8.7400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">博士后</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">博士后科研工作站</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">博士后科研人员</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="20" style="border-bottom:1px solid black; width:8.7400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">总部业务类</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">金融产品部</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">产品研究助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">数智平台部</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">量化策略研发助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/计算机/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="2" style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">机构业务总部</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">交易员助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/计算机/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">投资经理助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/计算机/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="2" style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济与金融研究院</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">总量研究助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">北京</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">深圳</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">行业研究助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">北京</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">深圳</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">销售交易部</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">机构销售助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">北京</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">广州</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">深圳</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/市场营销</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">证券投资部</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">量化研究助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/计算机/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="3" style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">债券与衍生产品业务部</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">债券交易助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">高频与量化投研助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/计算机/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">研究助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/计算机/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">衍生品与交易部</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">量化交易及策略研发助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/计算机/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="3" style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">资金运营中心</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">权益及多资产研究助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">固收研究助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">交易助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/计算机/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="2" style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">投资银行业务总部</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">投行业务助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">北京</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">广州</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">深圳</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">福州</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">厦门</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">杭州</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">南京</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">苏州</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工/法律</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">投行销售助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工/市场营销</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="3" style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">债权融资业务总部</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">债券承做助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">北京</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">深圳</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">福州</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">泉州</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">厦门</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工/法律</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">资产证券化业务承做助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">北京</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工/法律</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000">REITs业务承做助理</span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">北京</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工/法律</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="9" style="border-bottom:1px solid black; width:8.7400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">子公司业务类</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td rowspan="3" style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">兴全基金</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">电商运营</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">渠道销售</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">北京</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">深圳</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/市场营销</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">机构业务</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">北京</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">深圳</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/市场营销</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">兴证资管</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">研究助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="3" style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">兴证期货</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">机构业务助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">福州</font><font face="仿宋">/厦门/泉州/北京/上海/深圳/济南</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工/法律</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">投研助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">风险管理子公司</font>-业务助理</span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">兴证资本</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">股权</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">投资助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">兴证投资</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">股权投资助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">福州</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/理工</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="12" style="border-bottom:1px solid black; width:8.7400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">IT类</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">数智平台部</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000">APP平台运营助理</span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">经济金融</font><font face="仿宋">/计算机 </font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="3" style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">信息技术部</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">运维研发助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">福州</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td rowspan="11" style="border-bottom:1px solid black; width:19.0600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">计算机</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">智算架构助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">福州</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">智能运维助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">福州</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="4" style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000">AI创新发展部</span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">交易业务开发助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">福州</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">大数据应用开发助理</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">福州</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000">AI应用开发助理</span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">/</font></span></span></span></span><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">福州</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000">AI测试助理</span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">福州</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="3" style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">兴全基金</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000">Java后端开发</span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">数据开发</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">系统运维</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; width:23.7600%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">兴证期货</font></span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:23.4000%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000">IT助理</span></span></span></span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; width:25.0400%; padding:1px 1px 1px 1px; border-top:none; border-right:1px solid black; border-left:1px solid black" valign="center">
+			<p align="center" style="text-align:center"><span style="font-size:10.5pt"><span style="vertical-align:middle"><span style="line-height:114%"><span style="font-family:&quot;Times New Roman&quot;"><span style="font-size:10.0000pt"><span style="font-family:仿宋"><span style="line-height:114%"><span style="color:#000000"><font face="仿宋">上海</font></span></span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align:left">&nbsp;</p>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<p class="MsoNormal">&nbsp;</p>
+                                        </div>
+                                        <div class="zpgwms">
+                                            <p>职位类别:金融/银行/保险/证券/投资</p>
+                                            <p>专业要求:不限</p>
+                                            <p><a href="https://xyzqcampus.hotjob.cn/" target="_blank">招聘链接:https://xyzqcampus.hotjob.cn/</a></p>                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="zp-enterprise">
+                        <h4>单位简介</h4>
+                        <div class="zp-enterprise-intro">
+                            <p style="text-indent:21pt;">
+	<span style="color:black;line-height:150%;font-family:宋体;">兴业证券股份有限公司（<span>601377SH</span>）是中国证监会核准的全国首批综合类证券公司、全国创新类证券公司，<span>2010</span>年<span>10</span>月，公司在上海证券交易所首次公开发行并上市（<span>601377.SH</span>）。<span></span></span> 
+</p>
+<p style="text-indent:21pt;">
+	<span style="color:black;line-height:150%;font-family:宋体;">经过<span>26</span>年坚持不懈的努力，兴业证券今天已建成涵盖证券、基金、期货、资产管理、直接股权投资、另类投资和跨境业务等专业领域的证券金融控股集团，在境内设有<span>38</span>家分公司、<span>137</span>家证券营业部，控股<span>6</span>家金融子公司，负责经营福建海峡股权交易中心，其中子公司兴证国际于<span>2016</span>年<span>10</span>月在香港联交所成功上市（<span>8407.HK</span>）。<span></span></span> 
+</p>
+<p style="text-indent:21pt;">
+	<span style="color:black;line-height:150%;font-family:宋体;">兴业证券资本实力雄厚，注册资本<span>66.97</span>亿元，<span>2016</span>年底集团净资产<span>317</span>亿元，总资产<span>1365</span>亿元。近年来，兴业证券抓住市场机遇，取得优良经营业绩，综合实力和主要业务进入行业<span>15</span>强，多项业务和经营指标进入行业<span>10</span>强，公司总体竞争实力、抗风险能力、行业地位和市场影响力持续提升。<span></span></span> 
+</p>
+<p style="text-indent:21pt;">
+	<span style="color:black;line-height:150%;font-family:宋体;">面对新的机遇和挑战，兴业证券进一步明确第二个五年（<span>2016</span>年<span>-2020</span>年）战略规划，争取用<span>5</span>年时间，使公司综合实力进入行业<span>10</span>强，初步实现把兴业证券建设成为我国具有系统重要性的大型现代投资银行的战略目标。<span></span></span> 
+</p>
+<p style="text-indent:21pt;">
+	<span style="color:black;line-height:150%;font-family:宋体;">2016</span><span style="color:black;line-height:150%;font-family:宋体;">年度公司所获部分外部荣誉：新财富最佳销售服务团队近三年蝉联第一、本土最佳研究团队第<span>5</span>名、最具影响力研究机构第<span>5</span>名，水晶球最具影响力研究机构第<span>5</span>名，<span>2016</span>中国区股转系统最佳做市商，<span>2016</span>年最佳主经纪商，三年期金牛券商集合资产管理人，<span>2016</span>年度责任品牌奖……<span></span></span> 
+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="zp-right">
+                        <div class="zp-contact">
+                            <h4><i></i>联系方式</h4>
+                            <ul>
+                                <li>    
+                                    <span class="zp-contact-name">联系人：</span><span class="zp-contact-val">澹台文赟</span></li>
+                                <li>
+                                    <span class="zp-contact-name">联系电话：</span><span class="zp-contact-val"></span></li>
+                                <li>
+                                    <span class="zp-contact-name">电子邮箱：</span><span class="zp-contact-val">tantaiwenyun@xyzq.com.cn</span></li>
+                                <li>
+                                    <span class="zp-contact-name">传真：</span><span class="zp-contact-val"></span></li>
+                            </ul>
+                        </div>
+                        <div class="zp-addr">
+                            <h4><i></i>公司地址</h4>
+                             <ul>
+                                <li>    
+                                    <span class="zp-contact-name">地址：</span><span class="zp-contact-val">福建省福州市市辖区</span></li>
+                                <li>
+                                    <span class="zp-contact-name">邮编：</span><span class="zp-contact-val"></span></li>
+                            </ul>
+                        </div>
+                        </div>
+                        <div class="zp-right">
+                        <div class="zp-gdzw">
+                            <h4><i></i>更多招聘职位</h4>
+                             <ul>
+	                                <li><span class="zp-contact-val"><a href="/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5B1CCE55FBFE12F5E0653A68DD0E9B18">博士后</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	   <!-- page content end -->  
+	   <!-- <script type="text/javascript">
+	$(function(){
+		$('.xfooter > .xfooter-height').height($('.xfooter > .xfooter-content').height());
+	})
+</script> -->
+	   </div>
+	</div>
+	<div id="progressbarweb-box">
+		<div class="progressbar">
+			<div class="load-bar">
+				<div class="load-bar-inner" data-loading="0"> <span id="counter"></span> </div>
+			</div>
+			<p id="text-msg">请稍候... </p>
+		</div>
+	</div>
+</body>  
+<script type="text/javascript">
+jQuery(function($) {
+	let h1 = $('#navbar_container').outerHeight(true) ? $('#navbar_container').outerHeight(true) : 0
+	let h2 = $('#footerID').outerHeight(true) ? $('#footerID').outerHeight(true) : 0
+	var pageHeight = $(window).height() - h1 - h2;
+	$('.bodyContainer').css("min-height",pageHeight);
+	toastr.options = {
+		"closeButton": false,
+		"debug": false,
+		"positionClass": "toast-top-center",
+		"showDuration": "300",
+		"hideDuration": "1000",
+		"timeOut": "5000",
+		"extendedTimeOut": "1000",
+		"showEasing": "swing",
+		"hideEasing": "linear",
+		"showMethod": "fadeIn",
+		"hideMethod": "fadeOut"
+	}
+
+	//调整学生单位端日期鼠标移动到日期上，最外层框消失
+	$(document).off('click', '.cond-bar-selected .tag-list-cond a').on('click', '.cond-bar-selected .tag-list-cond a', function () {
+		var $this = $(this);
+		var condTimer;
+		$clps = $($(this).data('href'))
+		$clps.unbind('hover');
+		$clps.hover(function (e) {//鼠标移动进入clps
+			clearTimeout(condTimer);
+		},function (e) {//鼠标移动离开clps的区域范围
+			//clps的区域范围
+			var $new_clps = $($this.data('href'));
+
+			var offset = $new_clps.offset();
+
+			var width = $new_clps.width();
+			var height = $new_clps.height();
+
+			var left = offset.left;
+			var top = offset.top;
+
+			var minX = left;
+			var maxX = left + width;
+			var minY = top;
+			var maxY = top + height;
+
+			var x = e.pageX;
+			var y = e.pageY;
+			if(minX <= x && x <= maxX && minY <= y && y <= maxY){
+				//在范围内，忽略
+			}else{
+				condTimer = setTimeout(function () {
+					$this.parents('.tag-list-cond').find('a[data-href="' + $this.data('href') + '"]').parent('li').removeClass('in');
+					$clps.slideUp(150);
+				},150);
+			}
+		});
+	})
+});
+function showwrapperbox(){
+	$('#progressbarweb-box').show();
+}
+function hidewrapperbox(){
+	$('#progressbarweb-box').hide()
+}
+function wrapperbox(bl,msg){
+	$('#progressbarweb-box .progressbar #counter').html(bl+'%');
+	$('#progressbarweb-box .progressbar #counter').css('left',(3.5*bl-25)+'px');
+	$('#progressbarweb-box .progressbar .load-bar-inner').css('width',bl+'%');
+	$('#progressbarweb-box .progressbar #text-msg').html(msg);
+}
+</script>
+</html>

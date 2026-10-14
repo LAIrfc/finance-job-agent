@@ -1,0 +1,24 @@
+{
+  "source_id": "cntp",
+  "url": "https://cntp.zhiye.com/campus",
+  "fetched_at": "2026-10-13T15:00:19.554806+08:00",
+  "status": "collected",
+  "advertised_count": 194,
+  "collected_count": 194,
+  "pages": [
+    {
+      "page_index": 0,
+      "total": 194,
+      "returned": 100
+    },
+    {
+      "page_index": 1,
+      "total": 194,
+      "returned": 94
+    }
+  ],
+  "campus_filter": [
+    "2"
+  ],
+  "observed_request_file": "browser-cntp-request.json"
+}

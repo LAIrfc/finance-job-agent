@@ -1,0 +1,834 @@
+[
+  {
+    "url": "https://career.cmbchina.com/api/socialRecruitmentWebsite/common/getPromotionalVideoCoverUrl",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "returnCode": "SUC0000",
+      "errorMsg": null,
+      "body": "https://s3gw.cmbimg.com/sc/7EskGB0sA_CS4vSXLgHYSL_U2cg=/SH::BvYFjabYjqIni6fmyy7jAZF3"
+    }
+  },
+  {
+    "url": "https://career.cmbchina.com/api/socialRecruitmentWebsite/common/getPromotionalVideoUrl",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "returnCode": "SUC0000",
+      "errorMsg": null,
+      "body": "https://s3gw.cmbimg.com/sc/ZQ291VzI_PdtVP64GJ1q5vB2TGI=/SZ::ZzUvUzRzAnMbYNvYjaiYVvQb"
+    }
+  },
+  {
+    "url": "https://career.cmbchina.com/api/socialRecruitmentWebsite/common/getCampusPCBanner",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "returnCode": "SUC0000",
+      "errorMsg": null,
+      "body": "https://s3gw.cmbimg.com/sc/0wPe_J5umL1C9IjJICDsHVyC2EM=/SZ::VrYVbivAFjInYZNfUzrAv2Ib"
+    }
+  },
+  {
+    "url": "https://career.cmbchina.com/api/campusRecruitmentWebsite/job/findLatestFinTechJobId",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "returnCode": "SUC0000",
+      "errorMsg": null,
+      "body": ""
+    }
+  },
+  {
+    "url": "https://career.cmbchina.com/api/campusRecruitmentWebsite/finTech/getActivityCalendar",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "returnCode": "SUC0000",
+      "errorMsg": null,
+      "body": {
+        "9月7日": [
+          {
+            "id": "A4B8537C-1D8A-4CEF-9CEA-620DB0B9898B",
+            "collegeName": "北京邮电大学",
+            "campus": "西土城路校区",
+            "activityType": 2,
+            "activityDate": "9月7日",
+            "startTime": "18:00",
+            "hasExpired": true
+          }
+        ],
+        "4月20日": [
+          {
+            "id": "385011FD-56F4-42C6-8829-CC15D2B8D624",
+            "collegeName": "哈尔滨工业大学（深圳）",
+            "campus": null,
+            "activityType": 2,
+            "activityDate": "4月20日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "27F2DC12-8652-4646-9727-38F743D41883",
+            "collegeName": "华南理工大学",
+            "campus": "五山校区",
+            "activityType": 2,
+            "activityDate": "4月20日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "685E30A4-E6D7-4E40-8A3D-4FD58631985C",
+            "collegeName": "哈尔滨工业大学",
+            "campus": "一校区",
+            "activityType": 2,
+            "activityDate": "4月20日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "35919445-EBE6-426E-82AF-DF0BF668D407",
+            "collegeName": "国防科技大学",
+            "campus": "一号院",
+            "activityType": 2,
+            "activityDate": "4月20日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "9月8日": [
+          {
+            "id": "3D317522-697C-4655-AB52-9BE0C173202C",
+            "collegeName": "对外经济贸易大学",
+            "campus": "本部",
+            "activityType": 2,
+            "activityDate": "9月8日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "60132A89-FA4B-47EF-A806-45C2E4724767",
+            "collegeName": "北京大学深圳研究生院",
+            "campus": "深圳大学城",
+            "activityType": 2,
+            "activityDate": "9月8日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "D3042BDF-44AA-425D-9DF2-2E467684DC11",
+            "collegeName": "南方科技大学",
+            "campus": "本部",
+            "activityType": 2,
+            "activityDate": "9月8日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "4月21日": [
+          {
+            "id": "E573F958-2462-4DBA-9B26-83F1330DE5E3",
+            "collegeName": "厦门大学",
+            "campus": "翔安校区",
+            "activityType": 2,
+            "activityDate": "4月21日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "C30F4727-C1F6-4C8E-9AAA-27A87AE2112C",
+            "collegeName": "中山大学",
+            "campus": "东校园",
+            "activityType": 2,
+            "activityDate": "4月21日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "4月10日": [
+          {
+            "id": "677E8463-D6E5-42E2-9538-6C4EB69D8707",
+            "collegeName": "北京航空航天大学",
+            "campus": "学院路校区",
+            "activityType": 2,
+            "activityDate": "4月10日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "01644780-442C-464A-ACBE-A86C28801143",
+            "collegeName": "南京大学",
+            "campus": "仙林校区",
+            "activityType": 2,
+            "activityDate": "4月10日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "BD5E9340-7603-4451-8728-D791CDC2079B",
+            "collegeName": "电子科技大学",
+            "campus": "清水河校区",
+            "activityType": 2,
+            "activityDate": "4月10日",
+            "startTime": "19:30",
+            "hasExpired": true
+          }
+        ],
+        "9月9日": [
+          {
+            "id": "459B556E-6FB0-48FE-964A-E5A4E5CE41BE",
+            "collegeName": "北京理工大学",
+            "campus": "中关村校区",
+            "activityType": 2,
+            "activityDate": "9月9日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "E7E8FFE6-6E65-4303-A54C-C0CEEDCE1383",
+            "collegeName": "香港中文大学（深圳）",
+            "campus": "",
+            "activityType": 2,
+            "activityDate": "9月9日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "3BFF8442-53FE-4BB3-8057-50CCFA3F45EC",
+            "collegeName": "电子科技大学",
+            "campus": "清水河校区",
+            "activityType": 2,
+            "activityDate": "9月9日",
+            "startTime": "18:30",
+            "hasExpired": true
+          }
+        ],
+        "9月15日": [
+          {
+            "id": "74A12B22-B5D6-4F48-B5B0-8C817A286176",
+            "collegeName": "北京航空航天大学",
+            "campus": "学院路校区",
+            "activityType": 2,
+            "activityDate": "9月15日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "D95FD72D-5184-43C0-AD43-7C27EC9A41FD",
+            "collegeName": "东南大学",
+            "campus": "九龙湖校区",
+            "activityType": 2,
+            "activityDate": "9月15日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "095F3D86-9D2E-409A-B833-AF166C8F3557",
+            "collegeName": "北京师范大学",
+            "campus": "海淀校区",
+            "activityType": 2,
+            "activityDate": "9月15日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "62090A63-679C-40D3-9A24-76A9A3E67F6B",
+            "collegeName": "西北工业大学",
+            "campus": "长安校区",
+            "activityType": 2,
+            "activityDate": "9月15日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "9月14日": [
+          {
+            "id": "E2B828CB-76C7-40D5-B1C0-912D35BAEB0E",
+            "collegeName": "南京大学",
+            "campus": "仙林校区",
+            "activityType": 2,
+            "activityDate": "9月14日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "A2DB9AC3-203B-49AA-A0C7-03DCA7EF59D9",
+            "collegeName": "西安交通大学",
+            "campus": "创新港校区",
+            "activityType": 2,
+            "activityDate": "9月14日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "4A06073B-F8E4-4BA5-AE96-261B8A61D28C",
+            "collegeName": "中央财经大学",
+            "campus": "沙河校区",
+            "activityType": 2,
+            "activityDate": "9月14日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "9月17日": [
+          {
+            "id": "73D8E3EB-6D43-4C19-9716-E998215F1733",
+            "collegeName": "复旦大学",
+            "campus": "邯郸校区",
+            "activityType": 2,
+            "activityDate": "9月17日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "E2B57453-B0CD-445B-8D3D-ADB08613D564",
+            "collegeName": "中南财经政法大学",
+            "campus": "南湖校区",
+            "activityType": 2,
+            "activityDate": "9月17日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "687893AA-0160-4F20-9719-E4B22808D1DB",
+            "collegeName": "南开大学",
+            "campus": "八里台校区",
+            "activityType": 2,
+            "activityDate": "9月17日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "FC41D5C3-FCD8-4B11-AF26-CC7CD77006BF",
+            "collegeName": "北京大学",
+            "campus": "本部",
+            "activityType": 2,
+            "activityDate": "9月17日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "9月16日": [
+          {
+            "id": "4FD4F646-E787-4980-949D-449C04A44F48",
+            "collegeName": "‌南京财经大学",
+            "campus": "仙林校区",
+            "activityType": 3,
+            "activityDate": "9月16日",
+            "startTime": "14:00",
+            "hasExpired": true
+          },
+          {
+            "id": "CFD6C09C-4EF3-41FD-9187-D79955C39271",
+            "collegeName": "天津大学",
+            "campus": "卫津路校区",
+            "activityType": 2,
+            "activityDate": "9月16日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "2713F40F-C8EE-4DE0-A659-AAE17B792B05",
+            "collegeName": "武汉大学",
+            "campus": "文理学部",
+            "activityType": 2,
+            "activityDate": "9月16日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "9F59CEA0-3596-4F7F-83EE-43DF5750910A",
+            "collegeName": "清华大学",
+            "campus": "本部",
+            "activityType": 2,
+            "activityDate": "9月16日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "9月22日": [
+          {
+            "id": "E1645FD6-3456-4E36-BAF8-BA58D4163247",
+            "collegeName": "华东师范大学",
+            "campus": "普陀校区",
+            "activityType": 2,
+            "activityDate": "9月22日",
+            "startTime": "18:00",
+            "hasExpired": true
+          },
+          {
+            "id": "EFAD4D66-0133-454B-A5B3-EA242CEF67A1",
+            "collegeName": "同济大学",
+            "campus": "四平校区",
+            "activityType": 2,
+            "activityDate": "9月22日",
+            "startTime": "18:00",
+            "hasExpired": true
+          },
+          {
+            "id": "114C8507-C2B4-45EA-9D7D-398A4440583A",
+            "collegeName": "大连理工大学",
+            "campus": "凌水主校区",
+            "activityType": 2,
+            "activityDate": "9月22日",
+            "startTime": "18:00",
+            "hasExpired": true
+          },
+          {
+            "id": "FBCE6ABA-FA8D-41D4-B364-F3D6F5A923BB",
+            "collegeName": "中山大学",
+            "campus": "东校区",
+            "activityType": 2,
+            "activityDate": "9月22日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "9月11日": [
+          {
+            "id": "708C9504-BEC9-4CDF-8858-12132AD81CD1",
+            "collegeName": "中央财经大学",
+            "campus": "学院南路校区",
+            "activityType": 3,
+            "activityDate": "9月11日",
+            "startTime": "14:00",
+            "hasExpired": true
+          },
+          {
+            "id": "4E3FBDB1-A022-4FFD-B24D-4E2CF02D000F",
+            "collegeName": "中国科学技术大学",
+            "campus": "西校区",
+            "activityType": 2,
+            "activityDate": "9月11日",
+            "startTime": "18:00",
+            "hasExpired": true
+          },
+          {
+            "id": "9CB973FB-EC68-4E18-A2A5-42805C71EF7D",
+            "collegeName": "西南财经大学",
+            "campus": "柳林校区",
+            "activityType": 2,
+            "activityDate": "9月11日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "9月21日": [
+          {
+            "id": "580FBC33-89AC-4ADA-889C-DED1E049D2A1",
+            "collegeName": "上海交通大学",
+            "campus": "闵行校区",
+            "activityType": 2,
+            "activityDate": "9月21日",
+            "startTime": "18:00",
+            "hasExpired": true
+          },
+          {
+            "id": "F2925FF6-5EA0-48E1-9911-E5C42A3402CB",
+            "collegeName": "吉林大学",
+            "campus": "前卫南区",
+            "activityType": 2,
+            "activityDate": "9月21日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "AECEBA3A-6CAB-49C8-B461-62AB8715980C",
+            "collegeName": "华南理工大学",
+            "campus": "五山校区",
+            "activityType": 2,
+            "activityDate": "9月21日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "F250A576-AD7A-497E-8510-530464754A4C",
+            "collegeName": "浙江大学",
+            "campus": "紫金港校区",
+            "activityType": 2,
+            "activityDate": "9月21日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "9月10日": [
+          {
+            "id": "EE1A1ABD-CC37-48FE-A8F8-7499B8FE27D9",
+            "collegeName": "中国人民大学",
+            "campus": "通州校区",
+            "activityType": 2,
+            "activityDate": "9月10日",
+            "startTime": "18:00",
+            "hasExpired": true
+          },
+          {
+            "id": "A8191E21-4E0C-4014-9676-7873DA4796B3",
+            "collegeName": "四川大学",
+            "campus": "望江校区",
+            "activityType": 2,
+            "activityDate": "9月10日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "A5CC972F-EF5C-4866-BB1E-C5DD899CE40E",
+            "collegeName": "厦门大学",
+            "campus": "思明校区",
+            "activityType": 2,
+            "activityDate": "9月10日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "9月18日": [
+          {
+            "id": "DBEF1985-A5C5-462A-96EB-48BF4CA184C7",
+            "collegeName": "上海财经大学",
+            "campus": "国定路校区",
+            "activityType": 2,
+            "activityDate": "9月18日",
+            "startTime": "18:00",
+            "hasExpired": true
+          },
+          {
+            "id": "1011C060-AA0F-44F6-BB72-491FBEAB7079",
+            "collegeName": "华中科技大学",
+            "campus": "本部",
+            "activityType": 2,
+            "activityDate": "9月18日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "A6C3D6C6-74A6-40D7-876E-4AE0674C72EF",
+            "collegeName": "哈尔滨工业大学",
+            "campus": "一校区",
+            "activityType": 2,
+            "activityDate": "9月18日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "4月17日": [
+          {
+            "id": "2D84C63F-933C-44BE-B14C-F0B527DEB534",
+            "collegeName": "吉林大学",
+            "campus": "前卫校区",
+            "activityType": 2,
+            "activityDate": "4月17日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "BC72223B-3DA1-42E2-AEDD-C7909816BE78",
+            "collegeName": "西安交通大学",
+            "campus": "创新港校区",
+            "activityType": 2,
+            "activityDate": "4月17日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "979C1ACD-B0E0-473A-BA82-4BFF727800DC",
+            "collegeName": "复旦大学",
+            "campus": "邯郸校区",
+            "activityType": 2,
+            "activityDate": "4月17日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "357568E2-ED1F-425D-95A3-2DA849021007",
+            "collegeName": "山东大学",
+            "campus": "中心校区",
+            "activityType": 2,
+            "activityDate": "4月17日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "4月9日": [
+          {
+            "id": "4B2F4D86-B4F2-40B0-85C7-A84955223B0F",
+            "collegeName": "中国人民大学",
+            "campus": "中关村校区",
+            "activityType": 2,
+            "activityDate": "4月9日",
+            "startTime": "18:00",
+            "hasExpired": true
+          },
+          {
+            "id": "CEC034FB-BC76-4AFD-8D00-DC9368EFE649",
+            "collegeName": "四川大学",
+            "campus": "望江校区",
+            "activityType": 2,
+            "activityDate": "4月9日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "16B4717A-6252-4485-A3D4-575E061B8B4F",
+            "collegeName": "东南大学",
+            "campus": "九龙湖校区",
+            "activityType": 2,
+            "activityDate": "4月9日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "4月8日": [
+          {
+            "id": "8A0AC54F-25A7-4D3C-81E0-1EE76B80AAB6",
+            "collegeName": "北京邮电大学",
+            "campus": "西土城路校区",
+            "activityType": 2,
+            "activityDate": "4月8日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "365C485B-F103-4D15-9F60-DB09A2D30C15",
+            "collegeName": "香港中文大学（深圳）",
+            "campus": "",
+            "activityType": 2,
+            "activityDate": "4月8日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "4月13日": [
+          {
+            "id": "7018D72D-5AD5-4628-B508-1723619644C3",
+            "collegeName": "中国科学技术大学",
+            "campus": "西校区",
+            "activityType": 2,
+            "activityDate": "4月13日",
+            "startTime": "18:00",
+            "hasExpired": true
+          },
+          {
+            "id": "C357FEE8-0136-43D6-BC31-0CC0D4E949DC",
+            "collegeName": "清华大学",
+            "campus": "本部",
+            "activityType": 2,
+            "activityDate": "4月13日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "75F6C859-36A5-4BDE-B5F3-9D051EE55327",
+            "collegeName": "武汉大学",
+            "campus": "信息学部",
+            "activityType": 2,
+            "activityDate": "4月13日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "4月14日": [
+          {
+            "id": "C66F5FC7-87BA-41C9-B2F0-9ED79483328E",
+            "collegeName": "浙江大学",
+            "campus": "玉泉校区",
+            "activityType": 2,
+            "activityDate": "4月14日",
+            "startTime": "18:00",
+            "hasExpired": true
+          },
+          {
+            "id": "2568F75D-90AE-470A-8259-22CB525F37A7",
+            "collegeName": "华中科技大学",
+            "campus": "本部",
+            "activityType": 2,
+            "activityDate": "4月14日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "67C03A4A-1C66-4018-B775-168248906127",
+            "collegeName": "北京大学",
+            "campus": "本部",
+            "activityType": 2,
+            "activityDate": "4月14日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "4月15日": [
+          {
+            "id": "2B2450B2-FDDB-4C90-8A19-38C6DAEDB105",
+            "collegeName": "上海交通大学",
+            "campus": "闵行校区",
+            "activityType": 2,
+            "activityDate": "4月15日",
+            "startTime": "18:00",
+            "hasExpired": true
+          },
+          {
+            "id": "FCF31D83-801E-415F-86EA-3CEE1EA9E66B",
+            "collegeName": "天津大学",
+            "campus": "北洋园校区",
+            "activityType": 2,
+            "activityDate": "4月15日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "455DA954-8D9E-4A7D-B2CE-B8B1C4924FBB",
+            "collegeName": "北京理工大学",
+            "campus": "中关村校区",
+            "activityType": 2,
+            "activityDate": "4月15日",
+            "startTime": "18:30",
+            "hasExpired": true
+          },
+          {
+            "id": "5931E44F-E211-423D-BA3F-57E72CCD52F1",
+            "collegeName": "西北工业大学",
+            "campus": "长安校区",
+            "activityType": 2,
+            "activityDate": "4月15日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ],
+        "4月16日": [
+          {
+            "id": "88FDE014-5C05-41E6-9EE4-A04FAE9F13AA",
+            "collegeName": "同济大学",
+            "campus": "嘉定校区",
+            "activityType": 2,
+            "activityDate": "4月16日",
+            "startTime": "18:00",
+            "hasExpired": true
+          },
+          {
+            "id": "EE7F712F-8CE4-4B4B-9FA6-E76F3D0750E0",
+            "collegeName": "大连理工大学",
+            "campus": "凌水校区",
+            "activityType": 2,
+            "activityDate": "4月16日",
+            "startTime": "18:00",
+            "hasExpired": true
+          },
+          {
+            "id": "3B4B440B-F4D0-47C2-A4C9-D43A59796B04",
+            "collegeName": "南开大学",
+            "campus": "津南校区",
+            "activityType": 2,
+            "activityDate": "4月16日",
+            "startTime": "19:00",
+            "hasExpired": true
+          },
+          {
+            "id": "C22D87F7-B9CA-4C59-ACFC-34CDA59DB4DB",
+            "collegeName": "西安电子科技大学",
+            "campus": "南校区",
+            "activityType": 2,
+            "activityDate": "4月16日",
+            "startTime": "19:00",
+            "hasExpired": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "https://career.cmbchina.com/api/socialRecruitmentWebsite/question/getList",
+    "method": "POST",
+    "post_data": "{\"pageIndex\":1,\"pageSize\":4,\"questionType\":0,\"keywords\":\"\"}",
+    "data": {
+      "returnCode": "SUC0000",
+      "errorMsg": null,
+      "body": {
+        "total": 21,
+        "data": [
+          {
+            "questionId": "67453C30-9A13-42B8-BC8E-5DB097A48D76",
+            "question": "请问招商银行2027校园招聘网申截止时间是？",
+            "answer": "<p><span style=\\\";font-family:仿宋;font-size:19px;background:rgb(255,255,255)\\\"><span style=\\\"font-family:仿宋\\\">招商银行2027校园招聘秋季招聘网申截止时间是2026年10月10日23:59，各分行和子公司的具体情况可详见相关招聘公告。</span></span></p>"
+          },
+          {
+            "questionId": "42F1A4EE-0089-47DF-B0DC-FCFD8F4A43F0",
+            "question": "2027校园招聘的毕业时间要求是？",
+            "answer": "<p><span style=\\\";font-family:仿宋;font-size:19px;background:rgb(255,255,255)\\\"><span style=\\\"font-family:仿宋\\\">境内院校学生毕业时间为</span><span style=\\\"font-family:仿宋\\\">2027年1月1日至2027年7月31日；境外院校学生毕业时间为2026年1月1日至2027年7月31日（需取得教育部留学服务中心认证的毕业证及学历学位证）。</span></span></p>"
+          },
+          {
+            "questionId": "27F61B84-DD6D-4949-BD70-8EE189071C7B",
+            "question": "请问招商银行校园招聘应聘流程及主要形式是怎样的？",
+            "answer": "<p><span style=\\\";font-family:仿宋;font-size:19px;background:rgb(255,255,255)\\\"><span style=\\\"font-family:仿宋\\\">网申——简历筛选——AI面试——统一笔试——多轮面试——录用签约，各机构流程顺序和轮次数以分行实际安排为准。</span></span></p>"
+          },
+          {
+            "questionId": "9D97EBAE-6D93-4195-8E6A-40ADA777C101",
+            "question": "投递多个岗位，简历是否可以复用？",
+            "answer": "<p><span style=\";font-family:仿宋;font-size:19px;background:rgb(255,255,255)\"><span style=\"font-family:仿宋\">在招商银行校园招聘官方网站个人中心完善个人简历后，投递岗位时均可选择同一份简历，再进行修改，无需重复填写。</span></span></p>"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "https://career.cmbchina.com/api/campusRecruitmentWebsite/notice/getList?pageIndex=1&pageSize=4",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "returnCode": "SUC0000",
+      "errorMsg": null,
+      "body": {
+        "total": 4,
+        "data": [
+          {
+            "noticeId": "C0089317-18EE-48D2-867F-B62104AE4139",
+            "title": "“梦想靠岸”招商银行总行、分行及子公司2027校园招聘公告",
+            "top": true,
+            "rowUpdated": "2026-08-28"
+          },
+          {
+            "noticeId": "D0EA5D8C-2389-4F71-A4BC-C53A7C42C6C8",
+            "title": "“梦想靠岸”招商银行呼和浩特分行2027届秋季校园招聘公告",
+            "top": false,
+            "rowUpdated": "2026-08-31"
+          },
+          {
+            "noticeId": "95139209-563D-46BC-873A-86B91594CBFC",
+            "title": "“梦想靠岸”招商银行昆明分行2027届秋季校园招聘公告",
+            "top": false,
+            "rowUpdated": "2026-08-28"
+          },
+          {
+            "noticeId": "665E13C9-0481-4D83-AB05-72C218E332DB",
+            "title": "“梦想靠岸”招商银行东莞分行2027校园招聘公告",
+            "top": false,
+            "rowUpdated": "2026-08-28"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "https://career.cmbchina.com/api/campusRecruitmentWebsite/job/getList",
+    "method": "POST",
+    "post_data": "{\"orgIdList\":[],\"keywords\":\"\",\"locationIdList\":[],\"pageIndex\":1,\"pageSize\":10,\"recruitmentTypeId\":\"96574F8D-C7ED-4772-AE7C-BAC896D190C1\",\"jobTypeIdList\":[]}",
+    "data": {
+      "returnCode": "SUC0000",
+      "errorMsg": null,
+      "body": {
+        "total": 0,
+        "data": []
+      }
+    }
+  },
+  {
+    "url": "https://career.cmbchina.com/api/campusRecruitmentWebsite/job/recruiting-info/list?recruitmentTypeId=96574F8D-C7ED-4772-AE7C-BAC896D190C1",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "returnCode": "SUC0000",
+      "errorMsg": null,
+      "body": {
+        "recruitingOrgList": [],
+        "recruitingCityList": []
+      }
+    }
+  }
+]

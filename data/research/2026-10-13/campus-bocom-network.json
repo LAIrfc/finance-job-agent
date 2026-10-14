@@ -1,0 +1,969 @@
+[
+  {
+    "url": "https://job.bankcomm.com/api/GTMS.GTMS-PORTAL.V-1.0/queryPublicizeForHomepage.do",
+    "method": "POST",
+    "post_data": "REQ_MESSAGE=%7B%22REQ_HEAD%22%3A%7B%22TRAN_PROCESS%22%3A%22%22%2C%22TRAN_ID%22%3A%22%22%2C%22ACCESS_TOKEN%22%3A%22%22%2C%22REFRESH_TOKEN%22%3A%22%22%7D%2C%22REQ_BODY%22%3Anull%7D",
+    "data": {
+      "RSP_BODY": {
+        "callBoardList": [
+          {
+            "showFirstNum": null,
+            "publicizeId": 106791,
+            "publicizeTitle": "交通银行2027年度博士后研究人员招聘简章",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2026-09-15",
+            "createUser": "9856125",
+            "lastUpdateUser": "9856125",
+            "latsUpdateTime": "2026-09-23 10:54:02",
+            "noticeType": "0",
+            "isTop": "1",
+            "isMark": "1",
+            "addOnes": "",
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 104707,
+            "publicizeTitle": "《应聘登记表》模版（面向2026年上海市转业军官安置人员）",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2026-08-14",
+            "createUser": "9856125",
+            "lastUpdateUser": "9856125",
+            "latsUpdateTime": "2026-08-14 14:06:29",
+            "noticeType": "0",
+            "isTop": "1",
+            "isMark": "1",
+            "addOnes": "",
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 8525,
+            "publicizeTitle": "关于新用户注册问题的说明",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2014-09-26",
+            "createUser": "9709371",
+            "lastUpdateUser": "9709371",
+            "latsUpdateTime": "2014-09-26 09:14:04",
+            "noticeType": "0",
+            "isTop": "1",
+            "isMark": "1",
+            "addOnes": null,
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 8505,
+            "publicizeTitle": "关于教育信息填写方法的说明",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2014-09-25",
+            "createUser": "9709371",
+            "lastUpdateUser": "9709371",
+            "latsUpdateTime": "2014-09-25 19:15:55",
+            "noticeType": "0",
+            "isTop": "1",
+            "isMark": "1",
+            "addOnes": "",
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 70308,
+            "publicizeTitle": "交通银行高层次人才2024年招聘公告 （总行部门专场）",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2024-03-20",
+            "createUser": "9709371",
+            "lastUpdateUser": "9709371",
+            "latsUpdateTime": "2024-03-25 09:42:24",
+            "noticeType": "0",
+            "isTop": "0",
+            "isMark": "0",
+            "addOnes": "高层次引才职位需求（总行部门）.pdf",
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 70309,
+            "publicizeTitle": "交通银行高层次人才2024年招聘公告 （分行专场）",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2024-03-20",
+            "createUser": "9709371",
+            "lastUpdateUser": "9709371",
+            "latsUpdateTime": "2024-03-25 09:39:40",
+            "noticeType": "0",
+            "isTop": "0",
+            "isMark": "0",
+            "addOnes": "高层次引才职位需求（分行）.pdf",
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 70310,
+            "publicizeTitle": "交通银行高层次人才2024年招聘公告 （子公司专场）",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2024-03-20",
+            "createUser": "9709371",
+            "lastUpdateUser": "9709371",
+            "latsUpdateTime": "2024-03-25 09:39:40",
+            "noticeType": "0",
+            "isTop": "0",
+            "isMark": "0",
+            "addOnes": "高层次引才职位需求（子公司）.pdf",
+            "attachmentList": null
+          },
+          {
+            "showFirstNum": null,
+            "publicizeId": 53,
+            "publicizeTitle": "开放性问题填写注意事项",
+            "publicizeContent": null,
+            "status": "2",
+            "createTime": "2013-10-09",
+            "createUser": "9502572",
+            "lastUpdateUser": "9709371",
+            "latsUpdateTime": "2014-09-28 14:24:37",
+            "noticeType": "0",
+            "isTop": "0",
+            "isMark": "0",
+            "addOnes": null,
+            "attachmentList": null
+          }
+        ]
+      },
+      "RSP_HEAD": {
+        "TRAN_SUCCESS": "1",
+        "TRACE_NO": "gtms-portal-prd-gtms-prd-856b6f58c-7bqxf-7570995606",
+        "TRACE_ID": "0c446257.1.7148.4wfo10471rd",
+        "PROCESS_STATUS_CODE": "N",
+        "BIZ_TRACE_NO": null
+      }
+    }
+  },
+  {
+    "url": "https://job.bankcomm.com/api/GTMS.GTMS-PORTAL.V-1.0/selectHotPositions.do",
+    "method": "POST",
+    "post_data": "REQ_MESSAGE=%7B%22REQ_HEAD%22%3A%7B%22TRAN_PROCESS%22%3A%22%22%2C%22TRAN_ID%22%3A%22%22%2C%22ACCESS_TOKEN%22%3A%22%22%2C%22REFRESH_TOKEN%22%3A%22%22%7D%2C%22REQ_BODY%22%3A%7B%22params%22%3A%7B%22flag%22%3A3%2C%22subFlag%22%3Anull%7D%2C%22unnessaryLogin%22%3Afalse%7D%7D",
+    "data": {
+      "RSP_BODY": {
+        "ACCESS_TOKEN": "",
+        "TRAN_PROCESS": "",
+        "unnessaryLogin": false,
+        "REFRESH_TOKEN": "",
+        "params": {
+          "flag": 3,
+          "subFlag": null
+        },
+        "results": [],
+        "TRAN_ID": ""
+      },
+      "RSP_HEAD": {
+        "TRAN_SUCCESS": "1",
+        "TRACE_NO": "gtms-portal-prd-gtms-prd-856b6f58c-7bqxf-5795791805",
+        "TRACE_ID": "0c446257.1.7164.4wfo10470w1",
+        "PROCESS_STATUS_CODE": "N",
+        "BIZ_TRACE_NO": null
+      }
+    }
+  },
+  {
+    "url": "https://job.bankcomm.com/api/GTMS.GTMS-PORTAL.V-1.0/getHomepageVideoUrl.do",
+    "method": "POST",
+    "post_data": "REQ_MESSAGE=%7B%22REQ_HEAD%22%3A%7B%22TRAN_PROCESS%22%3A%22%22%2C%22TRAN_ID%22%3A%22%22%2C%22ACCESS_TOKEN%22%3A%22%22%2C%22REFRESH_TOKEN%22%3A%22%22%7D%2C%22REQ_BODY%22%3A%7B%22unnessaryLogin%22%3Afalse%7D%7D",
+    "data": {
+      "RSP_BODY": {
+        "ACCESS_TOKEN": "",
+        "TRAN_PROCESS": "",
+        "unnessaryLogin": false,
+        "REFRESH_TOKEN": "",
+        "TRAN_ID": "",
+        "url": "/video/"
+      },
+      "RSP_HEAD": {
+        "TRAN_SUCCESS": "1",
+        "TRACE_NO": "gtms-portal-prd-gtms-prd-856b6f58c-8gbsc-2154263558",
+        "TRACE_ID": "0c4419f3.1.7184.4wfo104ijtr",
+        "PROCESS_STATUS_CODE": "N",
+        "BIZ_TRACE_NO": null
+      }
+    }
+  },
+  {
+    "url": "https://job.bankcomm.com/api/GTMS.GTMS-USER.V-1.0/getSmKey.do",
+    "method": "POST",
+    "post_data": "REQ_MESSAGE=%7B%22REQ_HEAD%22%3A%7B%22TRAN_PROCESS%22%3A%22%22%2C%22TRAN_ID%22%3A%22%22%2C%22ACCESS_TOKEN%22%3A%22%22%2C%22REFRESH_TOKEN%22%3A%22%22%7D%2C%22REQ_BODY%22%3A%7B%22unnessaryLogin%22%3Afalse%7D%7D",
+    "data": {
+      "RSP_BODY": {
+        "ACCESS_TOKEN": "",
+        "TRAN_PROCESS": "",
+        "unnessaryLogin": false,
+        "REFRESH_TOKEN": "",
+        "TRAN_ID": "",
+        "pubKey": "042eb7efd9918131ec087871ad0efa3049b577d5b5c8ff9bb45eeafaeb7617a70ca43d9672776f1e3879efe38b82c5a992173c3d510cc2bc26cf0867025d70b1ca"
+      },
+      "RSP_HEAD": {
+        "TRAN_SUCCESS": "1",
+        "TRACE_NO": "gtms-user-prd-gtms-prd-6655696-gm2w8-2435310680",
+        "TRACE_ID": "0c44084b.1.47006.4wfo104m709",
+        "PROCESS_STATUS_CODE": "N",
+        "BIZ_TRACE_NO": null
+      }
+    }
+  },
+  {
+    "url": "https://job.bankcomm.com/api/GTMS.GTMS-PORTAL.V-1.0/queryWorkPlace.do",
+    "method": "POST",
+    "post_data": "REQ_MESSAGE=%7B%22REQ_HEAD%22%3A%7B%22TRAN_PROCESS%22%3A%22%22%2C%22TRAN_ID%22%3A%22%22%7D%2C%22REQ_BODY%22%3Anull%7D",
+    "data": {
+      "RSP_BODY": {
+        "results": [
+          {
+            "list": [
+              {
+                "code": "110000",
+                "name": "北京",
+                "index": 1,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "120000",
+                "name": "天津",
+                "index": 2,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "130000",
+                "name": "河北",
+                "index": 3,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "140000",
+                "name": "山西",
+                "index": 4,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "150000",
+                "name": "内蒙古",
+                "index": 5,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "210000",
+                "name": "辽宁",
+                "index": 6,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "220000",
+                "name": "吉林",
+                "index": 7,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "230000",
+                "name": "黑龙江",
+                "index": 8,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "310000",
+                "name": "上海",
+                "index": 9,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "320000",
+                "name": "江苏",
+                "index": 10,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "330000",
+                "name": "浙江",
+                "index": 11,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "340000",
+                "name": "安徽",
+                "index": 12,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "350000",
+                "name": "福建",
+                "index": 13,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "360000",
+                "name": "江西",
+                "index": 14,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "410000",
+                "name": "河南",
+                "index": 16,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "420000",
+                "name": "湖北",
+                "index": 17,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "430000",
+                "name": "湖南",
+                "index": 18,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "440000",
+                "name": "广东",
+                "index": 19,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "450000",
+                "name": "广西",
+                "index": 20,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "460000",
+                "pinyin": "",
+                "name": "海南",
+                "index": 21,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "500000",
+                "name": "重庆",
+                "index": 22,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "510000",
+                "name": "四川",
+                "index": 23,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "520000",
+                "name": "贵州",
+                "index": 24,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "530000",
+                "name": "云南",
+                "index": 25,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "370000",
+                "name": "山东",
+                "index": 25,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "540000",
+                "name": "西藏",
+                "index": 26,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "610000",
+                "name": "陕西",
+                "index": 27,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "620000",
+                "name": "甘肃",
+                "index": 28,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "630000",
+                "name": "青海",
+                "index": 29,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "640000",
+                "name": "宁夏",
+                "index": 30,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "650000",
+                "name": "新疆",
+                "index": 31,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "810000",
+                "pinyin": "",
+                "name": "香港",
+                "index": 32,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "820000",
+                "pinyin": "",
+                "name": "澳门",
+                "index": 33,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "710000",
+                "pinyin": "",
+                "name": "台湾",
+                "index": 34,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "850000",
+                "name": "全国",
+                "index": 36,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "850001",
+                "name": "全国",
+                "index": 37,
+                "isHas": "0",
+                "typeCode": "province"
+              }
+            ]
+          },
+          {
+            "list": [
+              {
+                "code": "830100",
+                "parentCode": "830000",
+                "name": "海外",
+                "index": 1,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "830300",
+                "pinyin": "ABROAD",
+                "parentCode": "830000",
+                "name": "美国",
+                "index": 2,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "830400",
+                "pinyin": "ABROAD",
+                "parentCode": "830000",
+                "name": "日本",
+                "index": 3,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "830500",
+                "pinyin": "ABROAD",
+                "parentCode": "830000",
+                "name": "新加坡",
+                "index": 4,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "830600",
+                "pinyin": "ABROAD",
+                "parentCode": "830000",
+                "name": "韩国",
+                "index": 5,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "830700",
+                "pinyin": "ABROAD",
+                "parentCode": "830000",
+                "name": "德国",
+                "index": 6,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "830900",
+                "pinyin": "ABROAD",
+                "parentCode": "830000",
+                "name": "澳大利亚",
+                "index": 7,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "830800",
+                "pinyin": "ABROAD",
+                "parentCode": "830000",
+                "name": "越南",
+                "index": 8,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "831100",
+                "pinyin": "ABROAD",
+                "parentCode": "830000",
+                "name": "英国",
+                "index": 9,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "831200",
+                "pinyin": "ABROAD",
+                "parentCode": "830000",
+                "name": "加拿大",
+                "index": 10,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "831300",
+                "pinyin": "ABROAD",
+                "parentCode": "830000",
+                "name": "卢森堡",
+                "index": 11,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "831400",
+                "pinyin": "ABROAD",
+                "parentCode": "830000",
+                "name": "法国",
+                "index": 12,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "831500",
+                "pinyin": "ABROAD",
+                "parentCode": "830000",
+                "name": "意大利",
+                "index": 13,
+                "isHas": "0",
+                "typeCode": "province"
+              },
+              {
+                "code": "831600",
+                "pinyin": "ABROAD",
+                "parentCode": "830000",
+                "name": "巴西",
+                "index": 14,
+                "isHas": "0",
+                "typeCode": "province"
+              }
+            ]
+          }
+        ]
+      },
+      "RSP_HEAD": {
+        "TRAN_SUCCESS": "1",
+        "TRACE_NO": "gtms-portal-prd-gtms-prd-856b6f58c-748bc-8409832739",
+        "TRACE_ID": "0c4420eb.1.6599.4wfo10py8pt",
+        "PROCESS_STATUS_CODE": "N",
+        "BIZ_TRACE_NO": null
+      }
+    }
+  },
+  {
+    "url": "https://job.bankcomm.com/api/GTMS.GTMS-PORTAL.V-1.0/selectHotPositions.do",
+    "method": "POST",
+    "post_data": "REQ_MESSAGE=%7B%22REQ_HEAD%22%3A%7B%22TRAN_PROCESS%22%3A%22%22%2C%22TRAN_ID%22%3A%22%22%7D%2C%22REQ_BODY%22%3A%7B%22params%22%3A%7B%22flag%22%3A1%2C%22subFlag%22%3Anull%7D%2C%22unnessaryLogin%22%3Afalse%7D%7D",
+    "data": {
+      "RSP_BODY": {
+        "TRAN_PROCESS": "",
+        "unnessaryLogin": false,
+        "params": {
+          "flag": 1,
+          "subFlag": null
+        },
+        "results": [],
+        "TRAN_ID": ""
+      },
+      "RSP_HEAD": {
+        "TRAN_SUCCESS": "1",
+        "TRACE_NO": "gtms-portal-prd-gtms-prd-856b6f58c-82pxp-5705910429",
+        "TRACE_ID": "0c441b8b.1.6874.4wfo10pycbj",
+        "PROCESS_STATUS_CODE": "N",
+        "BIZ_TRACE_NO": null
+      }
+    }
+  },
+  {
+    "url": "https://job.bankcomm.com/api/GTMS.GTMS-PORTAL.V-1.0/querySocietyRecruitInfo.do",
+    "method": "POST",
+    "post_data": "REQ_MESSAGE=%7B%22REQ_HEAD%22%3A%7B%22TRAN_PROCESS%22%3A%22%22%2C%22TRAN_ID%22%3A%22%22%7D%2C%22REQ_BODY%22%3A%7B%22params%22%3A%7B%22businessPara%22%3A%7B%22workPlace%22%3A%22%22%2C%22pubName%22%3A%22%22%2C%22positionId%22%3A%22%22%2C%22engageType%22%3A1%7D%2C%22pagePara%22%3A%7B%22pageNum%22%3A1%2C%22pageSize%22%3A10%7D%7D%2C%22unnessaryLogin%22%3Afalse%7D%7D",
+    "data": {
+      "RSP_BODY": {
+        "TRAN_PROCESS": "",
+        "unnessaryLogin": false,
+        "params": {
+          "businessPara": {
+            "workPlace": "",
+            "pubName": "",
+            "positionId": "",
+            "engageType": 1
+          },
+          "pagePara": {
+            "pageNum": 1,
+            "pageSize": 10
+          }
+        },
+        "results": {
+          "total": 536,
+          "policyList": [
+            {
+              "pubName": "IT系统管理（贵阳）",
+              "engageType": "1",
+              "bankNumber": 1000000003,
+              "parentOrgId": 1000000003,
+              "isZh": "1",
+              "bankName": "总行",
+              "deptName": "数据中心（系统运营中心）",
+              "positionId": 39068,
+              "deptNumber": 1000027008,
+              "engageAmount": 99999999,
+              "workPlace": "贵州-贵阳",
+              "endDate": "2026-10-18",
+              "createTime": "2026-09-10 14:00:31",
+              "isHot": "0",
+              "projectName": "2026年秋季校招（金科类）",
+              "otherOrgId": null,
+              "otherParentOrgId": null,
+              "bankParentOrgId": 1000000002,
+              "bankOrgId": 1000000003,
+              "piWebEndDate": null,
+              "piEndDate": "2026-10-18",
+              "orgType": "01",
+              "orgSeq": "-1.0.1000000002.1000000003"
+            },
+            {
+              "pubName": "IT系统管理（呼和浩特）",
+              "engageType": "1",
+              "bankNumber": 1000000003,
+              "parentOrgId": 1000000003,
+              "isZh": "1",
+              "bankName": "总行",
+              "deptName": "数据中心（系统运营中心）",
+              "positionId": 39069,
+              "deptNumber": 1000027008,
+              "engageAmount": 99999999,
+              "workPlace": "内蒙古-呼和浩特",
+              "endDate": "2026-10-18",
+              "createTime": "2026-09-10 14:15:58",
+              "isHot": "0",
+              "projectName": "2026年秋季校招（金科类）",
+              "otherOrgId": null,
+              "otherParentOrgId": null,
+              "bankParentOrgId": 1000000002,
+              "bankOrgId": 1000000003,
+              "piWebEndDate": null,
+              "piEndDate": "2026-10-18",
+              "orgType": "01",
+              "orgSeq": "-1.0.1000000002.1000000003"
+            },
+            {
+              "pubName": "安全技术",
+              "engageType": "1",
+              "bankNumber": 1000000003,
+              "parentOrgId": 1000000003,
+              "isZh": "1",
+              "bankName": "总行",
+              "deptName": "金融科技部/金融科技创新研究院",
+              "positionId": 39073,
+              "deptNumber": 1000027103,
+              "engageAmount": 99999999,
+              "workPlace": "上海-辖区",
+              "endDate": "2026-10-18",
+              "createTime": "2026-09-10 16:32:50",
+              "isHot": "0",
+              "projectName": "2026年秋季校招（金科类）",
+              "otherOrgId": null,
+              "otherParentOrgId": null,
+              "bankParentOrgId": 1000000002,
+              "bankOrgId": 1000000003,
+              "piWebEndDate": null,
+              "piEndDate": "2026-10-18",
+              "orgType": "01",
+              "orgSeq": "-1.0.1000000002.1000000003"
+            },
+            {
+              "pubName": "博士后研究人员",
+              "engageType": "1",
+              "bankNumber": 1000000003,
+              "parentOrgId": 1000000003,
+              "isZh": "1",
+              "bankName": "总行",
+              "deptName": "发展研究部",
+              "positionId": 39084,
+              "deptNumber": 1000027085,
+              "engageAmount": 99999999,
+              "workPlace": "上海",
+              "endDate": "2026-10-18",
+              "createTime": "2026-09-15 10:51:27",
+              "isHot": "0",
+              "projectName": "2026年秋季校招（业务类）",
+              "otherOrgId": null,
+              "otherParentOrgId": null,
+              "bankParentOrgId": 1000000002,
+              "bankOrgId": 1000000003,
+              "piWebEndDate": null,
+              "piEndDate": "2026-10-18",
+              "orgType": "01",
+              "orgSeq": "-1.0.1000000002.1000000003"
+            },
+            {
+              "pubName": "软件开发工程师（工作地：上海）",
+              "engageType": "1",
+              "bankNumber": 1000000003,
+              "parentOrgId": 1000000003,
+              "isZh": "1",
+              "bankName": "总行",
+              "deptName": "软件开发中心",
+              "positionId": 39074,
+              "deptNumber": 1000027148,
+              "engageAmount": 99999999,
+              "workPlace": "上海-辖区",
+              "endDate": "2026-10-18",
+              "createTime": "2026-09-10 17:13:03",
+              "isHot": "0",
+              "projectName": "2026年秋季校招（金科类）",
+              "otherOrgId": null,
+              "otherParentOrgId": null,
+              "bankParentOrgId": 1000000002,
+              "bankOrgId": 1000000003,
+              "piWebEndDate": null,
+              "piEndDate": "2026-10-18",
+              "orgType": "01",
+              "orgSeq": "-1.0.1000000002.1000000003"
+            },
+            {
+              "pubName": "软件开发工程师（工作地：厦门）",
+              "engageType": "1",
+              "bankNumber": 1000000003,
+              "parentOrgId": 1000000003,
+              "isZh": "1",
+              "bankName": "总行",
+              "deptName": "软件开发中心",
+              "positionId": 39081,
+              "deptNumber": 1000027148,
+              "engageAmount": 99999999,
+              "workPlace": "福建-厦门",
+              "endDate": "2026-10-18",
+              "createTime": "2026-09-11 09:49:26",
+              "isHot": "0",
+              "projectName": "2026年秋季校招（金科类）",
+              "otherOrgId": null,
+              "otherParentOrgId": null,
+              "bankParentOrgId": 1000000002,
+              "bankOrgId": 1000000003,
+              "piWebEndDate": null,
+              "piEndDate": "2026-10-18",
+              "orgType": "01",
+              "orgSeq": "-1.0.1000000002.1000000003"
+            },
+            {
+              "pubName": "数据安全",
+              "engageType": "1",
+              "bankNumber": 1000000003,
+              "parentOrgId": 1000000003,
+              "isZh": "1",
+              "bankName": "总行",
+              "deptName": "数据管理部",
+              "positionId": 39077,
+              "deptNumber": 5000001349,
+              "engageAmount": 99999999,
+              "workPlace": "上海-辖区",
+              "endDate": "2026-10-18",
+              "createTime": "2026-09-10 19:27:24",
+              "isHot": "0",
+              "projectName": "2026年秋季校招（金科类）",
+              "otherOrgId": null,
+              "otherParentOrgId": null,
+              "bankParentOrgId": 1000000002,
+              "bankOrgId": 1000000003,
+              "piWebEndDate": null,
+              "piEndDate": "2026-10-18",
+              "orgType": "01",
+              "orgSeq": "-1.0.1000000002.1000000003"
+            },
+            {
+              "pubName": "总行应届生（风险合规方向）",
+              "engageType": "1",
+              "bankNumber": 1000000003,
+              "parentOrgId": 1000000003,
+              "isZh": "1",
+              "bankName": "总行",
+              "deptName": "党委组织部/人力资源部",
+              "positionId": 39071,
+              "deptNumber": 1000027235,
+              "engageAmount": 99999999,
+              "workPlace": "上海",
+              "endDate": "2026-10-18",
+              "createTime": "2026-09-10 15:32:49",
+              "isHot": "0",
+              "projectName": "2026年秋季校招（业务类）",
+              "otherOrgId": null,
+              "otherParentOrgId": null,
+              "bankParentOrgId": 1000000002,
+              "bankOrgId": 1000000003,
+              "piWebEndDate": null,
+              "piEndDate": "2026-10-18",
+              "orgType": "01",
+              "orgSeq": "-1.0.1000000002.1000000003"
+            },
+            {
+              "pubName": "总行应届生（前台业务方向）",
+              "engageType": "1",
+              "bankNumber": 1000000003,
+              "parentOrgId": 1000000003,
+              "isZh": "1",
+              "bankName": "总行",
+              "deptName": "党委组织部/人力资源部",
+              "positionId": 39070,
+              "deptNumber": 1000027235,
+              "engageAmount": 99999999,
+              "workPlace": "上海",
+              "endDate": "2026-10-18",
+              "createTime": "2026-09-10 15:30:15",
+              "isHot": "0",
+              "projectName": "2026年秋季校招（业务类）",
+              "otherOrgId": null,
+              "otherParentOrgId": null,
+              "bankParentOrgId": 1000000002,
+              "bankOrgId": 1000000003,
+              "piWebEndDate": null,
+              "piEndDate": "2026-10-18",
+              "orgType": "01",
+              "orgSeq": "-1.0.1000000002.1000000003"
+            },
+            {
+              "pubName": "总行应届生（综合管理方向）",
+              "engageType": "1",
+              "bankNumber": 1000000003,
+              "parentOrgId": 1000000003,
+              "isZh": "1",
+              "bankName": "总行",
+              "deptName": "党委组织部/人力资源部",
+              "positionId": 39072,
+              "deptNumber": 1000027235,
+              "engageAmount": 99999999,
+              "workPlace": "上海",
+              "endDate": "2026-10-18",
+              "createTime": "2026-09-10 15:34:56",
+              "isHot": "0",
+              "projectName": "2026年秋季校招（业务类）",
+              "otherOrgId": null,
+              "otherParentOrgId": null,
+              "bankParentOrgId": 1000000002,
+              "bankOrgId": 1000000003,
+              "piWebEndDate": null,
+              "piEndDate": "2026-10-18",
+              "orgType": "01",
+              "orgSeq": "-1.0.1000000002.1000000003"
+            }
+          ]
+        },
+        "TRAN_ID": ""
+      },
+      "RSP_HEAD": {
+        "TRAN_SUCCESS": "1",
+        "TRACE_NO": "gtms-portal-prd-gtms-prd-856b6f58c-7bqxf-8348366466",
+        "TRACE_ID": "0c446257.1.7139.4wfo10pzy67",
+        "PROCESS_STATUS_CODE": "N",
+        "BIZ_TRACE_NO": null
+      }
+    }
+  },
+  {
+    "url": "https://job.bankcomm.com/api/GTMS.GTMS-PORTAL.V-1.0/judgeFavoritePosition.do",
+    "method": "POST",
+    "post_data": "REQ_MESSAGE=%7B%22REQ_HEAD%22%3A%7B%22TRAN_PROCESS%22%3A%22%22%2C%22TRAN_ID%22%3A%22%22%7D%2C%22REQ_BODY%22%3A%7B%22params%22%3A%7B%22positionIdList%22%3A%5B39068%2C39069%2C39073%2C39084%2C39074%2C39081%2C39077%2C39071%2C39070%2C39072%5D%7D%2C%22unnessaryLogin%22%3Atrue%7D%7D",
+    "data": {
+      "RSP_BODY": {
+        "flag": "false",
+        "TRAN_PROCESS": "",
+        "unnessaryLogin": true,
+        "params": {
+          "positionIdList": [
+            39068,
+            39069,
+            39073,
+            39084,
+            39074,
+            39081,
+            39077,
+            39071,
+            39070,
+            39072
+          ]
+        },
+        "TRAN_ID": ""
+      },
+      "RSP_HEAD": {
+        "TRAN_SUCCESS": "1",
+        "TRACE_NO": "gtms-portal-prd-gtms-prd-856b6f58c-82pxp-3757952724",
+        "TRACE_ID": "0c441b8b.1.7134.4wfo10qgfyr",
+        "PROCESS_STATUS_CODE": "N",
+        "BIZ_TRACE_NO": null
+      }
+    }
+  }
+]

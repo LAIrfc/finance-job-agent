@@ -1,0 +1,306 @@
+[
+  {
+    "source_id": "icbc",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "abc",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "boc",
+    "attempts": 2,
+    "page_success_rate": 1.0,
+    "consecutive_failures": 0,
+    "last_success": "2026-10-13T14:42:35.765448+08:00",
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "ccb",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "bocom",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "psbc",
+    "attempts": 1,
+    "page_success_rate": 1.0,
+    "consecutive_failures": 0,
+    "last_success": "2026-10-13T14:42:35.887915+08:00",
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "cmb",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "spdb",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "citic",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "cib",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "pab",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "cmbc",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "czbank",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "cms",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "guosen",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "cicc",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "htsc",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "gjzq",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "xyzq",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "picc",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "palife",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "rui",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "cntp",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "pbc",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "gwy",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "mohrss",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "cbiti",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "ncss",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "radar",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "github2027",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "econ",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "niuq",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "boss",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "liepin",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "ccb-fund",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "ccb-leasing",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "ccb-life",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  },
+  {
+    "source_id": "ccb-wealth",
+    "attempts": 0,
+    "page_success_rate": null,
+    "consecutive_failures": 0,
+    "last_success": null,
+    "job_update_status": "unknown"
+  }
+]

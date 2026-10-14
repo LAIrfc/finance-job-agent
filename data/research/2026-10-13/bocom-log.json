@@ -1,0 +1,37 @@
+{
+  "total": 536,
+  "collected": 536,
+  "pages": [
+    {
+      "page": 1,
+      "rows": 100,
+      "total": 536
+    },
+    {
+      "page": 2,
+      "rows": 100,
+      "total": 536
+    },
+    {
+      "page": 3,
+      "rows": 100,
+      "total": 536
+    },
+    {
+      "page": 4,
+      "rows": 100,
+      "total": 536
+    },
+    {
+      "page": 5,
+      "rows": 100,
+      "total": 536
+    },
+    {
+      "page": 6,
+      "rows": 36,
+      "total": 536
+    }
+  ],
+  "observed_url": "https://job.bankcomm.com/api/GTMS.GTMS-PORTAL.V-1.0/querySocietyRecruitInfo.do"
+}

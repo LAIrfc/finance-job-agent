@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://career.cmbchina.com/api/socialRecruitmentWebsite/common/getPromotionalVideoUrl",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "returnCode": "SUC0000",
+      "errorMsg": null,
+      "body": "https://s3gw.cmbimg.com/sc/ZQ291VzI_PdtVP64GJ1q5vB2TGI=/SZ::ZzUvUzRzAnMbYNvYjaiYVvQb"
+    }
+  },
+  {
+    "url": "https://career.cmbchina.com/api/socialRecruitmentWebsite/common/getPromotionalVideoCoverUrl",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "returnCode": "SUC0000",
+      "errorMsg": null,
+      "body": "https://s3gw.cmbimg.com/sc/7EskGB0sA_CS4vSXLgHYSL_U2cg=/SH::BvYFjabYjqIni6fmyy7jAZF3"
+    }
+  }
+]

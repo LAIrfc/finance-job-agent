@@ -1,0 +1,12 @@
+{
+  "demo_only": true,
+  "external_submission": false,
+  "checks": {
+    "live-boc": "page_fetched",
+    "live-detail": "page_fetched",
+    "live-psbc": "page_fetched",
+    "import-and-dedupe": "passed",
+    "expired-jobs-excluded": "passed",
+    "tracking-idempotency-and-evidence": "passed"
+  }
+}

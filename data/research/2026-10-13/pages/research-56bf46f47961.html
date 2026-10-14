@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--start component HTML组件(meta+css+js+移动样式)-->
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="SiteName" content="中国农业发展银行">
+    <meta name="SiteDomain" content="www.adbc.com.cn">
+    <meta name="keywords" content="中国农业发展银行，农发行，adbc">
+    <meta name="description" content="中国农业发展银行成立于1994年，是国家出资设立、直属国务院领导、支持农业农村持续健康发展、具有独立法人地位的国有政策性银行。其主要任务是以国家信用为基础，以市场为依托，筹集支农资金，支持“三农”事业发展，发挥国家战略支撑作用。经营宗旨是紧紧围绕服务国家战略，建设定位明确、功能突出、业务清晰、资本充足、治理规范、内控严密、运营安全、服务良好、具备可持续发展能力的农业政策性银行。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国农业发展银行</title>
+    <link rel="icon" href="../../../template/350312/350328.png" type="image/png">
+   <link rel="stylesheet" href="../../../template/350312/350320.css">
+    <link rel="stylesheet" href="../../../template/350312/350318.css">
+    <link rel="stylesheet" href="../../../template/350312/350319.css">
+ 
+
+
+
+
+<link rel="stylesheet" type="text/css" href="../../../dbsource/493401/493402.css">
+
+
+    <script src="../../../template/350312/350329.js"></script>
+    <script src="../../../template/350312/350332.js"></script>
+    <script src="../../../template/350312/350330.js"></script>
+<script src="../../../template/350312/507917.js"></script>
+<script type='text/javascript'>
+  
+//设为浏览器主页
+function setHome(obj,vrl){
+    try{
+        obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl);
+    }
+    catch(e){
+        if(window.netscape) {
+            try {
+                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+            }
+            catch (e) {
+                alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+            }
+            var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+            prefs.setCharPref('browser.startup.homepage',vrl);
+        }else{
+            alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。");
+        }
+    }
+};
+
+
+        $(function(){
+            var p = 0,t = 0;
+            $(window).scroll(function(){
+                p = $(this).scrollTop();
+                if(t <= p){
+                    $('.TopInfo').addClass('TopInfoAct').removeClass('TopInfoRem');
+                }else{
+                    $('.TopInfo').removeClass('TopInfoAct').addClass('TopInfoRem');
+                }
+                setTimeout(function(){
+                    t = p;
+                },0);
+            })
+        })
+        $(function(){
+            $('.backTop').hide();
+            $(window).scroll(function(){
+                if($(window).scrollTop()>0){
+                    $('.backTop').fadeIn(400);
+                } else {
+                    $('.backTop').fadeOut(400);
+                }
+            });
+            $('.backTop').click(function(){
+                $('html,body').animate({scrollTop: '0px'}, 800);
+            });
+        })
+</script>
+
+
+
+
+
+
+
+
+<style>
+  
+.FooterBottomydb{
+display:none;
+}
+
+  
+@charset 'utf-8';
+  
+ 
+  
+@media (max-width: 1024px) {
+  
+  .TopInfoR,.zt_banner{
+  display:none !important;
+  }
+  
+  .logo, .logo img{
+  width:auto !important;
+   margin-left:8px;
+  
+  }
+   .p_zt_banner{
+  display:block;
+     width:100%;
+  }
+
+  .contentBox{
+  width:100%;
+    margin-top:0;
+  }
+ 
+  
+
+  .w1380{
+    width: 100% !important;margin: 0 auto;
+}
+ .RouteInfor{ width:93%;padding-top: 10px;padding-left: 10px;padding-bottom:0;}
+  
+  .ContentBanner{width:100%;}
+  
+  .padding-top{padding-top:25px;padding-left:20px;}
+  
+.ContentLists{padding-top:0px;}
+  
+.ContentBanner{display:none;}
+
+.phone_nav{
+  padding-bottom:14px;
+  border-top:1px solid #c5a86f;
+  border-bottom:1px solid #c5a86f;
+  box-shadow: 5px 0 7px -1px #c5a86f;
+  }
+  
+  
+   .phone_nav ul li {
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+ 
+  
+  .ContentLists ul li{
+    width: 95%;
+   padding:0.5rem 0 0.5rem 0rem;
+    height:auto !important;
+    line-height: 1.8rem;
+    background: url(../../../dbsource/405778/405779.png)no-repeat 1px 17px;
+    border-bottom: 1px #ad8b4e dotted;
+    margin:0 auto;
+    overflow: hidden;
+}
+    
+  
+  
+.ContentLists ul li a{
+    padding-left: 20px;
+  font-size:17px;
+}
+.ContentLists ul li span{
+    display:none;
+}
+.ContentLists ul li:hover{
+    border-bottom: 4px #ad8b4e solid;
+}
+.ContentLists ul li:hover a{
+    font-weight: 900;color: #ad8b4e;
+}
+  .ContentBanner{background-size:7.9rem ;}
+
+
+  .backTop{
+right:35px;
+}
+  #ContentWarpbg{
+padding-bottom:20px;
+}
+  #Content{
+padding-bottom:0.9rem !important;
+}
+
+.pageBtn{
+margin-top:30px;
+}
+
+  .FooterBottom{
+display:none;
+}
+ 
+  .FooterBottomydb{
+display:block;
+     width: 100%;text-align: center;line-height: 30px;background: #283033;color: #fff;
+    padding-top: 10px;padding-bottom: 10px
+}
+  
+  .FooterBottomydb a{
+color:#fff;
+}
+  
+  .FooterBottomydb p{
+font-size:0.8rem;
+}
+  
+  .pageBtn font, .pageBtn a{
+  
+  padding: 4px 5px;
+  }
+  
+}
+
+
+  
+  
+  
+</style>
+
+<!--end component HTML组件(meta+css+js+移动样式)-->
+
+</head>
+<body>
+
+<!--start component 新闻列表(getContentId)-->
+
+    
+    
+<input type="text" id="subjectDn" value="/1/3/354735/355043"/ style="display:none;"> 
+<input type="text" id="contentId" value="722284"/ style="display:none;"> 
+<input type="text" id="contentTitle" value="中国农业发展银行2027年度校园招聘公告"/ style="display:none;"> 
+
+    
+
+<script type='text/javascript'>
+window.onload = function(){
+     visitAdd();
+     //visitLogCountByContentId();
+}
+
+//添加缓存接口调用
+function visitAdd(){
+    let param={};
+    let visitInfo={};
+    var urls = window.location.href;
+    visitInfo.visitUrl=urls;
+    visitInfo.ctitle=$("#contentTitle").val();
+    visitInfo.subjectDn=$("#subjectDn").val();
+    visitInfo.contentId=$("#contentId").val();
+    visitInfo.visitType="5";
+    //visitInfo.referrer="0";
+    visitInfo.referrer=(document.referrer&&document.referrer.indexOf("/searchweb/")>-1?"1":"0"); 
+  visitInfo.platform=navigator.platform;
+    visitInfo.equipment=getEquipment();
+    visitInfo.webReferrer=getReferrer();
+    visitInfo.browser=getBrowser();
+    param.visitInfo=JSON.stringify(visitInfo);
+
+//url需补充visit系统域名
+    var url="https://www.adbc.com.cn/visit/visitExtend/visitAdd.do";    
+    ajaxPost(url,param,function(msg){
+        if(msg){
+            let results=msg.contents;
+        }
+    })
+}
+//获取文章浏览次数接口调用：
+function visitLogCountByContentId(){
+    let param={};
+    param.subjectDn=$("#subjectDn").val();
+    param.contentId=$("#contentId").val();
+    param.visitType="5"
+    param.ajax=1;
+   //url需补充visit系统域名
+    var url="http://www.adbc.com.cn/visit/visitExtend/visitAdd.do"; 
+    ajaxPost(url,param,function(msg){
+        if(msg){
+        //showDiv为前端显示浏览数的元素id
+           $("#showDiv").text(msg);  
+        }
+    })
+}
+
+//公共通用方法：
+function ajaxPost(url,data,callBack){
+    data.ajax=1;
+    jQuery.ajax({
+        type: 'POST',
+        url: url,
+        async:false,
+        data: data,
+        success: callBack,
+        dataType: "json"
+    });
+}
+function  getEquipment(){
+    let platform=navigator.platform;
+    let result="";
+    if(/Android|iPhone|iPad|iPod/i.test(navigator.platform)){
+        result="移动端";
+    }else {
+        result="计算机端";
+    }
+    return   result;
+}
+ function  getReferrer(){
+    let referrer=document.referrer;
+    let result="";
+    if(""==referrer){
+        result="直接访问";
+    }
+    else if(referrer.indexOf('google.')>-1||referrer.indexOf('baidu.')>-1||referrer.indexOf('soso.')>-1||referrer.indexOf('so.')>-1||referrer.indexOf('360.')>-1||referrer.indexOf('yahoo.')>-1||referrer.indexOf('youdao.')>-1||referrer.indexOf('sogou.')>-1||referrer.indexOf('gougou.')>-1){
+        result="搜索引擎";
+    }else {
+        result="外部链接";
+    }
+    return   result;
+}
+function systemType() {
+    var result=navigator.platform;
+    alert(result);
+    return result;
+}
+//遨游浏览器
+function checkMaxthon() {
+    var result = false;
+    var list = [];
+    for (var key in navigator.plugins) {
+        // 遨游浏览器只有五个一致的plugins
+        if (!!navigator.plugins[key].filename) {
+            list.push(navigator.plugins[key].filename);
+        }
+    }
+    if(list.length == 5){
+        result = true;
+    }else {
+        result = false;
+    }
+    return result;
+}
+//360浏览器（极速内核）
+ function check360() {
+    // var result = false;
+    // for (var key in navigator.plugins) {
+    //     // np-mswmp.dll只在360浏览器下存在
+    //     if (navigator.plugins[key].filename == 'internal-nacl-plugin') {
+    //         return !result;
+    //     }
+    // }
+    // return result;
+     var mime_types = navigator.mimeTypes;
+     for (var i = 0; i < mime_types.length; i++) {
+         console.log(mime_types[i].type);
+         if (mime_types[i].type.indexOf('360')>0)      return true;
+     }
+     return false;
+}
+//遨游浏览器
+ function checkMaxthon() {
+    var result = false;
+    var list = [];
+    for (var key in navigator.plugins) {
+        // 遨游浏览器只有五个一致的plugins
+        if (!!navigator.plugins[key].filename) {
+            list.push(navigator.plugins[key].filename);
+        }
+    }
+    if(list.length == 5){
+        result = true;
+    }else {
+        result = false;
+    }
+    return result;
+}
+//获取当前的浏览器
+ function getBrowser() {
+    // 获取浏览器 userAgent
+    var ua = navigator.userAgent;
+    // 是否为 Opera
+    var isOpera = ua.indexOf('opr') > -1
+    // 返回结果
+    if (isOpera) { return 'Opera' }
+    // 是否为 IE
+    var isIE = (ua.indexOf('compatible') > -1) && (ua.indexOf('MSIE') > -1) && !isOpera
+    var isIE11 = (ua.indexOf('Trident') > -1) && (ua.indexOf("rv:11.0") > -1)
+    // 返回结果
+    if (isIE11) { return 'IE11'
+    } else if (isIE) {
+        // 检测是否匹配
+        var re = new RegExp('MSIE (\\d+\\.\\d+);')
+        re.test(ua)
+        // 获取版本
+        var ver = parseFloat(RegExp["$1"])
+        // 返回结果
+        if (ver == 7) { return 'IE7'
+        } else if (ver == 8) { return 'IE8'
+        } else if (ver == 9) { return 'IE9'
+            } else if (ver == 10) { return 'IE10'
+        } else { return "IE" }
+}
+// 是否为 Edge
+    var isEdge = ua.indexOf("Edg") > -1
+    // 返回结果
+    if (isEdge) { return 'Edge' }
+    // 是否为 Firefox
+    var isFirefox = ua.indexOf("Firefox") > -1
+    // 返回结果
+    if (isFirefox) { return 'Firefox' }
+    // 是否为 Safari
+    var isSafari = (ua.indexOf("Safari") > -1) && (ua.indexOf("Chrome") == -1)
+    // 返回结果
+    if (isSafari) { return "Safari" }
+    // 是否为 Chrome
+    var isChrome = (ua.indexOf("Chrome") > -1) && (ua.indexOf("Safari") > -1) && (ua.indexOf("Edge") == -1) && (ua.indexOf("QQBrowser") == -1) && (ua.indexOf("2345Explorer") == -1) && (check360() == false) && (checkMaxthon() == false)
+    // 返回结果
+    if (isChrome) { return '谷歌浏览器' }
+    // 是否为 QQ
+    var isQQ = ua.indexOf("QQBrowser") > -1
+    // 返回结果
+    if (isQQ) { return 'QQ浏览器' }
+    // 是否为傲游浏览器
+    var isMaxthon = checkMaxthon()
+    // 返回结果
+    if (isMaxthon) { return '傲游浏览器' }
+    // 是否为搜狗浏览器
+    var isMaxthon = ua.indexOf("se 2.x") > -1
+    // 返回结果
+    if (isMaxthon) { return '搜狗浏览器' }
+    // 是否为2345浏览器
+    var is2345Explorer = ua.indexOf("2345Explorer") > -1;
+    // 返回结果
+    if(is2345Explorer){
+        return '2345浏览器';
+    }
+    var is360 = check360() && (ua.indexOf("Safari") > -1)
+    if(is360){return '360浏览器'}
+    // 都不是
+    return '其他'
+}
+</script>
+<!--end component 新闻列表(getContentId)-->
+
+<!--start component HTML组件(移动版文章样式补充)-->
+<style>
+
+
+@charset 'utf-8';
+@media (max-width: 992px) {
+  .ContentText{width:98% !important;}
+  .ContentText p{padding:0rem 0.12rem 0rem 0.12rem  !important;}
+  .ContentText p img{width:19.5rem !important;height:auto !important;}
+}      
+
+
+
+
+
+
+
+</style>
+<!--end component HTML组件(移动版文章样式补充)-->
+
+<!--start component HTML组件(Top+Search)-->
+
+    <div class="CatchTop">
+        <div class="TopInfo clearfix">
+            <div class="w1300">
+                <div class="TopInfoL fl">
+                    <ul>
+                       <li><a onclick="setHome(this,window.location);" style="cursor:pointer;">设为首页</a></li>
+                        <li>|</li>
+                        
+                        <li><a href=https://www.adbc.com.cn target="_blank">中文版</a></li>
+                        <li>|</li>
+                        <li><a href="https://www.adbc.com.cn/en/">English</a></li>
+                    </ul>
+                </div>
+                <div class="TopInfoR fr">
+                    <form action="https://www.adbc.com.cn/searchweb/search.jsp">
+                        <input type="text" name="fullText" placeholder="请输入您搜索的内容">
+                        <button type="submit"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+<!--end component HTML组件(Top+Search)-->
+
+<!--start component HTML组件(Nav)-->
+        <div class="LogoNav clearfix">
+            <div class="w1300">
+                <div class="logo fl">
+                    <a href="https://www.adbc.com.cn/">
+                        <img src="../../../template/350312/350327.png" alt="">
+                      
+                      
+                      
+                    </a>
+                </div>
+                <div class="nav fr">
+                    <ul>
+                        <li class="bg_1"><a href="../../../index.html">首页</a></li>                  
+                                                          
+                        <li class="bg_2">
+                            <a href="../../../n4/n11/index.html" >机构概况</a>
+                          
+                            <div class="secondMenu">
+                                <a href="../../../n4/n10/index.html" >领导团队</a>
+                                <a href="../../../n4/n11/index.html" >组织架构</a>
+                                <a href="../../../n4/n1017/index.html" >发展战略</a>
+                                <a href="../../../n4/n388346/index.html" >荣誉奖项</a>
+                                <a href="../../../n4/n542940/index.html" >年度报告</a>
+                            </div>
+                        </li>
+                        <li class="bg_3">
+                            <a href="../../../n1296/index.html" >公司治理</a>
+                            <div class="secondMenu">
+                                <a href="../../../n1296/n1297/index.html" >治理架构</a>
+                                <a href="../../../n1296/n1298/index.html" >董事会职责</a>
+                                <a href="../../../n1296/n1299/index.html" >治理公告</a>
+                            </div>
+                        </li>
+                        <li class="bg_4">
+                            <a href="../../../n354793/index.html" >政策发布</a>
+                            <div class="secondMenu">
+                                <a href="../../../n354793/n354820/index.html" >领导文章</a>
+                                <a href="../../../n354793/n399554/index.html" >战略合作</a>
+                                <!-- <a href="../../../n354793/n354830/index.html" >政策分析</a> -->
+								<a href="../../../n354793/n354835/index.html" >信贷政策</a>
+                            </div>
+                        </li>
+                                            
+                        <li class="bg_5">
+                            <a href="../../../n5/index.html" >新闻资讯</a>
+                            <div class="secondMenu">
+                                <a href="../../../n5/n1006/index.html" >时政要闻</a>
+                               <a href="../../../n5/n16/index.html" >图片新闻</a>
+                                <a href="../../../n5/n15/index.html" >总行动态</a>
+                                <a href="../../../n5/n1021/index.html" >基层信息</a>
+                                <a href="../../../n5/n17/index.html" >媒体反映</a>
+                               
+                            </div>
+                        </li>
+                        <li class="bg_6">
+                            <a href="../../../n997/n1023/index.html">党建工作</a>
+                            <div class="secondMenu">
+                                <a href="../../../n997/n1023/index.html" >党建动态</a> 
+                                <a href="../../../n997/n1148/index.html">廉政建设</a>
+                            </div>
+                        </li>
+                        <li class="bg_7">
+                            <a href="../../../n7/index.html">支农品牌</a>
+                            <div class="secondMenu">
+                                <a href="../../../n7/n353796/index.html" >粮食银行</a>
+                                <a href="../../../n7/n353803/index.html" >农地银行</a>
+                                <a href="../../../n7/n353895/index.html" >水利银行</a>
+                                <a href="../../../n7/n353910/index.html">绿色银行</a>
+                         <!--            <a href="../../../n7/n353915/index.html" >巩固衔接</a>   -->
+                           <!--          <a href="../../../n7/n353920/index.html" >乡村建设</a>   -->
+                            <!--         <a href="../../../n7/n353960/index.html" >国际业务</a>   -->
+                            <!--         <a href="../../../n7/n353965/index.html" >资金筹集</a>   -->
+                            </div>
+                        </li>
+                        <li class="bg_8">
+                            <a href="../../../n8/index.html" >企业文化</a>
+                            <div class="secondMenu">
+                                <a href="../../../n8/n1149/index.html" >形象理念</a>
+                     <!--                    <a href="../../../n8/n631161/index.html" >金融文化</a>    -->
+                                <a href="../../../n8/n700505/index.html" >廉洁文化</a>
+                     <!--            <a href="../../../n8/n28/index.html" >员工风采</a>	 -->
+                     <!--            <a href="../../../n8/n355089/index.html" >文体活动</a>	 -->
+                                <a href="../../../n8/n355107/index.html" >社会公益</a>
+                            </div>
+                        </li>
+                        <li class="bg_9">
+                            <a href="../../../n6/index.html" >客户服务</a>
+                            <div class="secondMenu">
+                                <a href="https://95356.adbc.com.cn/" >统一服务门户</a>
+                                <a href="../../../n6/n23/index.html" >营业网点</a>
+                                <a href="../../../n6/n21/index.html" >收费标准</a>
+                                <a href="../../../n6/n648131/index.html" >存款利率</a>
+                      <!--            <a href="../../../n6/n19/index.html" >业务介绍</a>	-->
+                          
+                               <a href="../../../n6/n1310/index.html" >电子银行</a>
+                     <!--                <a href="../../../n6/n355067/index.html">权益保护</a>	-->
+                               <a href="https://www.adbc.com.cn/n6/n604902/c604905/content.html">福农卡</a>
+    
+                            </div>
+                        </li>
+<!--                        <li class="bg_10">
+                            <a href="../../../n354767/index.html" >专题活动</a>
+                           <!-- <div class="secondMenu">
+                                <a href="#" >党建方面</a>
+                                <a href="#" >业务方面</a>
+                                <a href="#" >八项改革</a>
+                                <a href="../../../n354767/n395358/index.html" >八大工程</a>
+                                <a href="#" >数字科技</a>
+                            </div>
+                        </li>
+-->
+                        <li class="bg_11">
+                            <a href="../../../n354735/index.html" >通知公告</a>
+                            <div class="secondMenu">
+                                <a href="../../../n354735/n355038/index.html" >公告公示</a>
+                                <a href="../../../n354735/n355043/index.html">招聘公告</a>
+                                <a href="../../../n354735/n355053/index.html" >宣传活动</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+<div class="phone_nav">
+                    <ul>
+                        <li><a href="../../../n4/index.html">机构概况</a></li>
+                        <li><a href="../../../n1296/index.html" >公司治理</a></li>
+                        <li><a href="../../../n354793/index.html">政策发布</a></li>
+                        <li><a href="../../../n5/index.html" >新闻资讯</a></li>
+                        <li><a href="../../../n997/index.html" >党建工作</a></li>
+                        <li><a href="../../../n7/index.html" >支农品牌</a></li>
+                        <li><a href="../../../n8/index.html" >企业文化</a></li>
+                        <li><a href="../../../n6/index.html" >客户服务</a></li>
+<!--  
+						<li><a href="../../../n354767/index.html" >专题活动</a></li>
+-->
+                        <li><a href="../../../n354735/index.html" >通知公告</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>   
+        </div>   
+
+  <style>
+        .nav ul li{
+            position: relative;
+        }
+        .secondMenu{
+            position: absolute;left: -20px;z-index: 999;display: none;padding: 10px 0;top: 54px;
+            animation: menu1 0.8s forwards;-webkit-animation: menu1 0.8s forwards;
+            -moz-animation: menu1 0.8s forwards;-o-animation: menu1 0.8s forwards;
+        }
+        @keyframes menu1 {
+            from{top: 70px;opacity: 0;}to{top: 54px;opacity: 1;}
+        }
+        @-webkit-keyframes menu1 {
+            from{top: 70px;opacity: 0;}to{top: 54px;opacity: 1;}
+        }
+        @-moz-keyframes menu1 {
+            from{top: 70px;opacity: 0;}to{top: 54px;opacity: 1;}
+        }
+        @-o-keyframes menu1 {
+            from{top: 70px;opacity: 0;}to{top: 54px;opacity: 1;}
+        }
+        .secondMenu a{
+            display: block;width: 120px!important;height: 35px;line-height: 35px;text-align: center;font-size: 18px;color: #fff!important;
+            animation: am 0.5s forwards!important;background: #c5a86f;margin-top: 0;
+            -webkit-animation: am 0.5s forwards!important;-moz-animation: am 0.5s forwards!important;-o-animation: am 0.5s forwards!important;
+        }
+        .secondMenu a:hover{
+            background: rgba(197,168,111,0.8);
+        }
+        @keyframes am {
+            from{margin-top: 8px;}to{margin-top: 0;}
+        }
+        @-webkit-keyframes am {
+            from{margin-top: 8px;}to{margin-top: 0;}
+        }
+        @-moz-keyframes am {
+            from{margin-top: 8px;}to{margin-top: 0;}
+        }
+        @-o-keyframes am {
+            from{margin-top: 8px;}to{margin-top: 0;}
+        }
+    </style>
+    <script>
+        $(function(){
+            $('.nav ul li').hover(function(){
+                $(this).find('div.secondMenu').show();
+            },function(){
+                $(this).find('div.secondMenu').hide();
+            })
+        })
+    </script>
+
+
+    <div class="Warp" >
+<!--end component HTML组件(Nav)-->
+
+<!--start component HTML组件(文章banner)-->
+<div class="ZcfbBanner"></div>
+
+<style>
+.ZcfbBanner {
+    width: 100%;
+    height: 350px;
+    background: url(../../../dbsource/466655/496169.jpg) no-repeat center;
+  display:block;
+}
+  
+  
+  
+    @charset 'utf-8';
+@media (max-width: 1024px) {
+
+.ZcfbBanner{
+display:none !important;
+}
+}
+  
+  
+  
+</style>
+
+
+<!--end component HTML组件(文章banner)-->
+
+<!--start component 当前路径(new)-->
+<div style="margin:0 auto;margin-top:-100px;background:#fff;">
+<div class="Route">
+            <div class="w1300">
+                <div class="RouteInfor">
+您当前的位置：
+    
+         <a href=../../../n354735/index.html target=_blank>通知公告</a>
+        &nbsp;>&nbsp;
+       <a href=../../../n354735/n355043/index.html target=_blank>招聘公告</a>
+  >&nbsp;正文
+                </div>
+            </div>
+        </div>
+
+
+
+<!--end component 当前路径(new)-->
+
+<!--start component 文档组件(new)-->
+
+
+
+
+
+        <div class="Content">
+            <div class="w1380">
+                <div class="ContentWarp">
+                    <div class="ContentWarpbg">
+                        <div class="w1300">
+                            <div class="ContentTitle">
+                                <b>中国农业发展银行2027年度校园招聘公告</b>
+                            </div>
+                             <div class="ContentInfor">
+                                <span>发布时间：2026-09-15</span>
+                                <span></span>
+                              <span></span>
+                                <span>
+                                    <a class="bga1" onclick="javascript:setfont('14px');"></a>
+                                    <a class="bga2" onclick="javascript:setfont('18px');"></a>
+                                    <a class="bga3" onclick="javascript:setfont('22px');"></a>
+                                </span>
+                            </div>
+                            <div class="ContentText clearfix " id="ContentText">
+                                                                               <p align="" style="margin-top: 0px; margin-bottom: 15px; text-indent: 2em; text-align: justify; line-height: 32px; font-family: 宋体; font-size: 16px;">中国农业发展银行是全球最大、全国唯一、直属国务院领导的农业政策性银行，主要职责是以国家信用为基础筹集资金，支持<font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">“三农”事业发展，全力服务国家粮食安全、乡村振兴等重点领域。目前，全国设有总、省、市、县四级机构共2000多个，在岗员工</font><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">近</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">5万人，在农村金融体系中发挥主力和骨干作用。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="margin: 0px 0pt 15px; text-indent: 2em; text-align: justify; line-height: 32px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">为更好地履行社会责任和服务国家战略，现面向境内外高等院校招聘</font><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">2027年普通高校应届毕业生，有关事项公告如下：</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="margin-right: 0pt; text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px; font-weight: bold;"><font face="黑体" style="font-family: 宋体; font-size: 16px;">一、招聘机构及岗位</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">招聘机构包括总行本部（含中央纪委国家监委驻中国农业发展银行纪检监察组</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">，下同</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">）、省级分行本级、二级分行本级和县级支行，具体招聘岗位见报名系统。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="margin-right: 0pt; text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px; font-weight: bold;"><font face="黑体" style="font-family: 宋体; font-size: 16px;">二、招聘条件</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">招聘对象为境内外院校</font><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">2027年应届毕业生。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="margin: 0px 0pt 15px; text-indent: 2em; text-align: justify; line-height: 32px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="楷体_GB2312" style="font-family: 宋体; font-size: 16px;">（一）基本条件</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">1.具有中华人民共和国国籍。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">2.遵纪守法，诚实守信，品行端正，无不良记录。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">3.境内外院校毕业生均须在2026年8月1日至2027年7月31日间毕业，并在2027年7月31日前取得毕业证、学位证或获得国家教育部学历学位认证。总行本部招聘的应届高校毕业生须符合人力资源和社会保障部、教育部留学服务中心关于在京就业落户的具体条件。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">4.身体健康，参照《公务员录用体检通用标准(试行)》和《公务员录用体检操作手册(试行)》执行。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">5.与中国农业发展银行</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">及控股子公司</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">员工不存在夫妻关系、直系血亲关系、三代以内旁系血亲关系以及近姻亲关系。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="margin: 0px 0pt 15px; text-indent: 2em; text-align: justify; line-height: 32px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="楷体_GB2312" style="font-family: 宋体; font-size: 16px;">（二）学历、专业条件和外语水平</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">1.报考总行本部、省级分行本级岗位人员须具有硕士研究生及以上学历并取得相应学位，应通过大学英语六级考试（不低于426分），或提供具备相应外语能力的资格证明（如新托福不低于95分，或雅思不低于6.5分，或相应等级的小语种专业证书）；报考二级分行本级岗位人员原则上应具有硕士研究生及以上学历并取得相应学位；报考县级支行岗位人员须具有大学本科及以上学历并取得相应学位。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" style="text-indent: 2em; line-height: 32px; margin-top: 0px; margin-bottom: 15px; text-align: justify; font-family: 宋体; font-size: 16px;" align=""><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">2.报考人员的专业应为经济、金融、财会、法律、信息技术、人工智能、数据分析、数理统计、农业、生态、交通、水利、能源技术、建筑、土木工程等与我行业务发展密切相关的专业；少量招收保密、档案、马克思主义理论、人力资源管理等专业人员。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" style="text-indent: 2em; line-height: 32px; margin-top: 0px; margin-bottom: 15px; text-align: justify; font-family: 宋体; font-size: 16px;" align=""><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">学历、专业以具体岗位要求为准。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="margin: 0px 0pt 15px; text-indent: 2em; text-align: justify; line-height: 32px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="楷体_GB2312" style="font-family: 宋体; font-size: 16px;">（三）其他条件</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="margin: 0px 0pt 15px; text-indent: 2em; text-align: justify; line-height: 32px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">详见具体岗位要求。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="margin-right: 0pt; text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px; font-weight: bold;"><font face="黑体" style="font-family: 宋体; font-size: 16px;">三、招聘流程</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="楷体_GB2312" style="font-family: 宋体; font-size: 16px;">（一）网上报名。</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">具体报名时间为</font><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">2026年9月15日</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">至</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">10月11日</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">24时</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">。详情请扫描下方二维码或登陆 </font></span><span style="font-family: 宋体; font-size: 16px;"><a href="https://campus.chinahr.com/pages/adbc2027/" style="font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">https://campus.chinahr.com/pages/adbc2027/</font></span></a></span><u><span class="15" style="font-family: 宋体; color: rgb(0, 0, 255); text-decoration: underline; font-size: 16px;"> 
+   <o:p></o:p></span></u></p> 
+<p class="MsoToc1" style="text-align: center; margin-top: 0px; margin-bottom: 15px; line-height: 32px; font-family: 宋体; font-size: 16px;"><img alt="" style="width: 375px;height: 375px;" src="../../../n354735/n355043/c722284/part/722295.jpg" border="0"><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p>
+    &nbsp; 
+  </o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="楷体_GB2312" style="font-family: 宋体; font-size: 16px;">（二）资格审查与简历筛选。</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">我行将根据各岗位招聘条件对应聘人员进行资格审查，择优确定参加笔试人员。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="楷体_GB2312" style="font-family: 宋体; font-size: 16px;">（三）笔试。</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">我行将于</font><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">2026年11月初组织线下统一笔试，考试科目为综合测评（含性格测试）。具体考试方式和地点，届时将通过短信等通知。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="margin: 0px 0pt 15px; text-indent: 2em; text-align: justify; line-height: 32px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="楷体_GB2312" style="font-family: 宋体; font-size: 16px;">（四）面试、政审、体检及录用签约等后续工作安排将另行通知。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="margin: 0px 0pt 15px; text-indent: 2em; text-align: justify; line-height: 32px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px; font-weight: bold;"><font face="黑体" style="font-family: 宋体; font-size: 16px;">四、有关事项</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">（一）网上报名为本次招聘的唯一报名方式。应聘者在指定网站报名，在线填写个人简历，完成岗位申报。每个考生最多可以填报</font><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">2个岗位（总行本部、同一省级分行限报1个岗位）。请应聘者准确、完整填写简历和相关资料信息，保证信息真实、准确，</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">个人</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">信息提交后不能更改；如与事实不符，我行有权取消其应聘资格，后果由应聘者本人承担。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">（二）本次招聘，我行将组织线下统一笔试，考生应在考试指定时间到指定地点参加考试。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">（三）招聘过程中，我行将通过应聘者在线报名时填写的联系方式（包括手机、</font><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">E-mail等）与本人联系，请应聘者保持通讯畅通。如因联系方式发生变化、填写错误等无法获得笔试、面试及录用通知，责任自负。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">（</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">四</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">）本次笔试不指定考试辅导用书，不举办也不委托任何机构举办考试辅导班，不向应聘者收取任何费用，请谨防受骗。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">（</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">五</font></span><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">）根据岗位需求变化及报名等情况，我行有权调整或取消相应岗位的招聘工作，并享有最终解释权。</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" align="" style="text-indent: 2em; text-align: justify; line-height: 32px; margin-top: 0px; margin-bottom: 15px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p>
+    &nbsp; 
+  </o:p></span></p> 
+<p class="MsoNormal" style="margin: 0px 0pt 15px 240pt; text-indent: 2em; text-align: right; line-height: 32px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">中国农业发展银行</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p> 
+<p class="MsoNormal" style="margin: 0px 0pt 15px 264.95pt; text-indent: 2em; text-align: right; line-height: 32px; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><font face="仿宋_GB2312" style="font-family: 宋体; font-size: 16px;">2026年9月15日</font></span><span style="font-family: 宋体; font-size: 16px;"> 
+  <o:p></o:p></span></p>
+                                                                  </div>
+                        </div>
+                    </div>
+                    <script>
+                        function setfont(size){
+
+                            $("#ContentText p").css("font-size",size);
+                          $("#ContentText span").css("font-size",size);
+                          $("#ContentText font").css("font-size",size);
+
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end component 文档组件(new)-->
+
+ 
+<!--start component HTML组件(Footer)-->
+       <div class="Footer">
+                <div class="FooterTop clearfix">
+                    <div class="w1300">
+                        <div class="Column">
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="../../../n4/index.html" >机构概况</a></li>
+                                    <li><a href="../../../n4/n10/index.html" >领导团队</a></li>
+                                    <li><a href="../../../n4/n11/index.html" >组织架构</a></li>
+                                    <li><a href="../../../n4/n1017/index.html">发展战略</a></li>
+                                    <li><a href="../../../n4/n388346/index.html" >荣誉奖项</a></li>
+                                    <li><a href="../../../n4/n13/index.html" >年度报告</a></li>
+                                 
+                                </ul>
+                            </div>
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="../../../n1296/index.html" >公司治理</a></li>
+                                    <li><a href="../../../n1296/n1297/index.html" >治理架构</a></li>
+                                    <li><a href="../../../n1296/n1298/index.html" >董事会职责</a></li>
+                                    <li><a href="../../../n1296/n1299/index.html" >治理公告</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="../../../n354793/index.html">政策发布</a></li>
+                                    <li><a href="../../../n354793/n354820/index.html" >领导文章</a></li>
+                                    <li><a href="../../../n354793/n399554/index.html">战略合作</a></li>                            
+                                    <!-- <li><a href="../../../n354793/n354830/index.html" >政策分析</a></li> -->
+									<li><a href="../../../n354793/n354835/index.html" >信贷政策</a></li>
+                                </ul>
+                            </div>
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="../../../n5/index.html">新闻资讯</a></li>         
+                                                        <li><a href="../../../n5/n1006/index.html" >时政要闻</a></li>
+                                  <li><a href="../../../n5/n16/index.html">图片新闻</a></li>
+                                <li><a href="../../../n5/n15/index.html" >总行动态</a></li>
+                                <li><a href="../../../n5/n1021/index.html" >基层信息</a></li>
+                                <li><a href="../../../n5/n17/index.html" >媒体反映</a></li>
+                                
+                                </ul>
+                            </div> 
+                            <div class="ColumnTree">
+                                <ul>
+                                  
+                                    <li class="Treef"><a href="../../../n997/n1023/index.html" >党建工作</a></li>
+                                <li><a href="../../../n997/n1023/index.html" >党建动态</a></li>
+                                <li><a href="../../../n997/n1148/index.html" >廉政建设</a></li>
+                                </ul>
+                            </div>
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="../../../n7/index.html" >支农品牌</a></li>
+                                    <li><a href="../../../n7/n353796/index.html" >粮食银行</a></li>
+                                <li><a href="../../../n7/n353803/index.html" >农地银行</a></li>
+                                <li><a href="../../../n7/n353895/index.html" >水利银行</a></li>
+                                <li><a href="../../../n7/n353910/index.html" >绿色银行</a></li>
+                          <!--              <li><a href="../../../n7/n353915/index.html">巩固衔接</a></li>   -->
+                          <!--            <li><a href="../../../n7/n353920/index.html">乡村建设</a></li>   -->
+                          <!--              <li><a href="../../../n7/n353960/index.html">国际业务</a></li>   -->
+                          <!--              <li><a href="../../../n7/n353965/index.html" >资金筹集</a></li>   -->
+                                </ul>
+                            </div> 
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="../../../n8/index.html" >企业文化</a></li>
+                                  <li> <a href="../../../n8/n1149/index.html" >形象理念</a></li>
+                           <!--       <li><a href="../../../n8/n631161/index.html" >金融文化</a></li>    -->
+                                 <li> <a href="../../../n8/n700505/index.html" >廉洁文化</a></li>
+                            <!--     <li><a href="../../../n8/n28/index.html" >员工风采</a></li>    -->
+                             <!--    <li><a href="../../../n8/n355089/index.html" >文体活动</a></li>    -->
+                                <li><a href="../../../n8/n355107/index.html" >社会公益</a></li>
+                                </ul>
+                            </div>
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="../../../n6/index.html" >客户服务</a></li>
+                                    <li><a href="https://95356.adbc.com.cn/" >统一服务门户</a></li>
+                                    <li><a href="../../../n6/n23/index.html" >营业网点</a></li>
+                                    <li><a href="../../../n6/n21/index.html" >收费标准</a></li>
+                                    <li><a href="../../../n6/n648131/index.html" >存款利率</a></li>
+                    <!--          <li><a href="../../../n6/n19/index.html" >业务介绍</a></li>	                       -->
+                                    <li><a href="../../../n6/n1310/index.html" >电子银行</a></li>
+                    <!--          <li><a href="../../../n6/n355067/index.html" >权益保护</a></li>                -->
+                                  
+                               <li><a href="https://www.adbc.com.cn/n6/n604902/c604905/content.html" >福农卡</a></li>
+                                  
+                                    
+                                  
+                                </ul>
+                            </div>
+               <!--                   <div class="ColumnTree">
+                                <ul>
+                               <li class="Treef"><a href="../../../n354767/index.html" >专题活动</a></li>  
+            
+
+                                </ul>
+                            </div>
+               -->
+                            <div class="ColumnTree">
+                                <ul>
+                                    <li class="Treef"><a href="../../../n354735/index.html">通知公告</a></li>
+                                    <li><a href="../../../n354735/n355038/index.html">公告公示</a></li>
+                                <li><a href="../../../n354735/n355043/index.html">招聘公告</a></li>
+                                <li><a href="../../../n354735/n355053/index.html" >宣传活动</a></li>
+                                </ul>
+                            </div>
+                        </div>
+<!--end component HTML组件(Footer)-->
+
+<!--start component 图片列表(Footer电子期刊)-->
+                        <div class="ElMess">
+
+                            <div class="els">
+ <p>联系我们</p>
+                            </div>
+                            <div class="el_more">
+                                <p>中国农业发展银行（总行）</p>
+								<p>地址：北京市西城区月坛北街甲2号</p>
+								<p>邮编：100045</p>
+                                <p>客服热线：95356</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="FooterBottom">
+                    <div class="w1300">
+                        <p>
+                               <a href="../../../n60/n475735/c475738/content.html" target="_blank">客户投诉</a><span>|</span>
+                               <a href="../../../n60/n467106/c467125/content.html" target="_blank">行长信箱</a><span>|</span>
+                               <a href="../../../n60/n503090/c503093/content.html" target="_blank">友情链接</a><span>|</span>
+                               <a href="../../../n60/n559260/c559049/content.html" target="_blank">相关企业</a>
+                          </p>
+                        <p>Copyright  ©2003-2023  All rights reserved.  中国农业发展银行&nbsp;&nbsp;&nbsp;&nbsp;版权所有</p>
+                        <p><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700013" target="_blank" class="footicon">京公网安备 11040102700013号</a> &nbsp;&nbsp;本网站支持IPv6访问&nbsp;&nbsp; <a href="https://www.beian.gov.cn" target="_blank">京ICP备14012827号-1</a></p>
+<!--                        
+						<p class="phone_none">Copyright  ©2003-2023  All rights reserved.  中国农业发展银行&nbsp;&nbsp;&nbsp;&nbsp;版权所有</p>   
+						<p class="phone_none"><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700013" target="_blank" class="footicon">京公网安备 11040102700013号</a> &nbsp;&nbsp;本网站支持IPv6访问&nbsp;&nbsp;
+							<a href="https://www.beian.gov.cn" target="_blank">京ICP备14012827号-1</a></p>
+  -->
+                    </div>
+                </div>
+
+
+                <div class="FooterBottomydb">
+                    <div class="w1300">
+
+                        <p>中国农业发展银行&nbsp;&nbsp;&nbsp;&nbsp;版权所有</p>
+                        <p> <a href="https://www.beian.gov.cn" target="_blank">京ICP备14012827号-1</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+<style>
+.FooterBottom p span{padding:0 5px;}
+  @media (max-width: 1024px)
+  {
+    .FooterBottom{ display:block;}
+    .FooterBottomydb{ display:none; }  
+  .FooterBottomydb p {
+    font-size: 0.2rem;
+}
+  }
+</style>
+
+
+
+<!--end component 图片列表(Footer电子期刊)-->
+
+
+</body>
+</html>

@@ -1,0 +1,1494 @@
+[
+  {
+    "url": "https://wecruit.hotjob.cn/wecruit/suite/config/SU629dbc0c0dcad452299bc0f7?iSaJAx=isAjax&request_locale=zh_CN&t=1791874947825",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "data": {
+        "keywords": "",
+        "suitOrgInfoPOs": [
+          {
+            "orgName": "招商证券股份有限公司",
+            "orgCode": "0",
+            "id": "629db1322f9d247188396c9f"
+          }
+        ],
+        "companyName": "招商证券股份有限公司",
+        "description": "",
+        "recruitTypeNameMap": {
+          "1_en": "Campus",
+          "2_cn": "社会招聘",
+          "12_cn": "实习生招聘",
+          "13_cn": "海外招聘",
+          "12_en": "Interns",
+          "13_en": "Overseas",
+          "1_cn": "校园招聘",
+          "2_en": "Social"
+        },
+        "companyId": "629db1322f9d247188396c9e",
+        "webSiteLanguage": [
+          "zh-CN"
+        ],
+        "relationMobileSuiteKey": "629dbc260dcad452299bc0fa",
+        "templateNum": "pb",
+        "suiteKey": "629dbc0c0dcad452299bc0f7",
+        "canUseAiRobot": false,
+        "id": "629dbc0c0dcad452299bc0f7",
+        "config": {
+          "robot": {
+            "image": [
+              {
+                "imgUrl": "https://twecruit.cn-hangzhou.oss.aliyuncs.com/files/tt/e50b0002-71a5-4a8c-8826-106f3715aa4d.svg"
+              }
+            ],
+            "hint": "我是招聘小助手,\n您可以点击这里，进行咨询~",
+            "name": "",
+            "nickname": "招聘小助手",
+            "headPortrait": "https://twecruit.cn-hangzhou.oss.aliyuncs.com/files/tt/e50b0002-71a5-4a8c-8826-106f3715aa4d.svg",
+            "robotLogoSize": 50
+          },
+          "section_4": {
+            "customize_section_4": {
+              "kind": "text",
+              "name": "应聘须知",
+              "linkedUrl": "",
+              "id": "customize_section_4",
+              "linkedTarget": "_blank",
+              "text": "<p style=\"line-height: 1.6;\">&nbsp;<span style=\"font-size: 18px;\">&nbsp; &nbsp; </span></p>\n<p style=\"line-height: 2;\"><span style=\"font-size: 24px; font-family: simsun, serif;\">&nbsp; <span style=\"font-family: 'Microsoft YaHei', 'Helvetica Neue', 'PingFang SC', sans-serif; font-size: 16px;\">招商证券及其员工不会在招聘的任何阶段向候选人收取任何费用（包括社会招聘、校园招聘、实习生招聘的申请、笔试、面试、入司或培训等）；亦不会与任何机构合作开展付费培训、付费实习或付费内推等相关活动，请广大应聘者保持警惕。</span></span></p>\n<p style=\"line-height: 2;\">&nbsp;</p>\n<p style=\"line-height: 2;\"><span style=\"font-size: 16px; font-family: 'Microsoft YaHei', 'Helvetica Neue', 'PingFang SC', sans-serif;\">&nbsp; &nbsp; &nbsp; &nbsp; 欢迎关注&ldquo;招商证券招聘&rdquo;微信公众号，及时获取招聘动态信息。</span></p>\n<p style=\"line-height: 1.6;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img style=\"font-size: 18px;\" src=\"https://wecruit-cdn.hotjob.cn/files/oline/60b369af-34b5-485a-82dc-d4f9aa607721.jpeg\" width=\"280\" height=\"280\" /></p>\n<p style=\"line-height: 1.6;\">&nbsp;</p>\n<p><span style=\"font-size: 18px;\">&nbsp;</span></p>",
+              "type": "custom",
+              "name_en": "应聘须知"
+            }
+          },
+          "scrollHeader": {
+            "styleData": {
+              "styles": [
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(85,85,85)",
+                  "columnBgColor": "rgb(255,255,255)",
+                  "columnColor": "rgb(34,34,34)"
+                },
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(85,85,85)",
+                  "columnBgColor": "rgb(34,34,34)",
+                  "columnColor": "rgb(255,255,255)"
+                },
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(204,204,204)",
+                  "projection": "0.1",
+                  "boxShadowColor": "0px 0px 6px rgba(0,0,0,1)",
+                  "columnBgColor": "rgb(255,255,255)",
+                  "layer": 1,
+                  "columnColor": "rgb(0,0,0,0.85)"
+                }
+              ],
+              "key": 0
+            },
+            "logo": {
+              "linkJump": "_blank"
+            }
+          },
+          "society": {
+            "jobDetail": {
+              "jobDetailData": {
+                "listDisplayItem": [
+                  "postType",
+                  "workYear",
+                  "workPlace",
+                  "education",
+                  "specialty",
+                  "releaseTime",
+                  "recruits"
+                ],
+                "isShowOrg": false,
+                "btnStyle": "straightSolid",
+                "showItemTitle": false
+              }
+            },
+            "jobList": {
+              "jobListData": {
+                "listDisplayItem": [
+                  "postName",
+                  "orgName",
+                  "workPlace",
+                  "recruits",
+                  "releaseTime"
+                ],
+                "positionDataRangeWorkPlace": [],
+                "positionDataRangeRecruitmentPro": "",
+                "searchType": "postName",
+                "navType": "top",
+                "listDisplayItemWidth": {
+                  "orgName": "",
+                  "releaseTime": "",
+                  "workType": "",
+                  "recruits": "",
+                  "workPlace": ""
+                },
+                "positionDataRangeItem": [],
+                "positionDataRangeCompany": [],
+                "listType": "row",
+                "jobLevel": 999,
+                "positionDataRangePostType": []
+              },
+              "styleData": {
+                "borderRadius": 0,
+                "listIconBgColor": "rgb(228,19,19)"
+              },
+              "banner": [
+                {
+                  "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/cms/11a52013-d458-4b80-ace0-c6baa9ede0d3.jpeg",
+                  "imgId": {
+                    "blob": {},
+                    "name": "WechatIMG116.jpeg"
+                  }
+                }
+              ]
+            }
+          },
+          "intern": {
+            "jobDetail": {
+              "jobDetailData": {
+                "listDisplayItem": [
+                  "postType",
+                  "workYear",
+                  "workPlace",
+                  "education",
+                  "specialty",
+                  "releaseTime"
+                ],
+                "isShowOrg": false,
+                "btnStyle": "straightSolid",
+                "showItemTitle": false
+              }
+            },
+            "jobList": {
+              "jobListData": {
+                "listDisplayItem": [
+                  "postName",
+                  "orgName",
+                  "workPlace",
+                  "releaseTime"
+                ],
+                "searchDisplayItem": [
+                  {
+                    "selectList": [],
+                    "code": "0/4",
+                    "label": "工作地点",
+                    "type": "top",
+                    "value": "workPlace",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/1227",
+                    "label": "职位类别",
+                    "type": "top",
+                    "value": "postType",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "label": "公司/部门",
+                    "type": "top",
+                    "value": "orgName",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/180001",
+                    "label": "站点",
+                    "type": "left",
+                    "value": "site",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/3210",
+                    "label": "薪酬范围",
+                    "type": "",
+                    "value": "salary",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/606",
+                    "label": "学历要求",
+                    "type": "",
+                    "value": "education",
+                    "selected": "auto"
+                  },
+                  {
+                    "label": "发布时间",
+                    "type": "",
+                    "value": "releaseTime"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/242424",
+                    "label": "招聘项目",
+                    "type": "",
+                    "value": "recruitmentPro",
+                    "selected": "auto"
+                  }
+                ],
+                "positionDataRangeRecruitmentPro": "",
+                "searchType": "postName",
+                "navType": "top",
+                "listDisplayItemWidth": {},
+                "leftSearchDisplayItem": [
+                  {
+                    "selectList": [],
+                    "code": "0/4",
+                    "label": "工作地点",
+                    "type": "left",
+                    "value": "workPlace",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/1227",
+                    "label": "职位类别",
+                    "type": "left",
+                    "value": "postType",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "label": "公司/部门",
+                    "type": "",
+                    "value": "orgName",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/180001",
+                    "label": "站点",
+                    "type": "left",
+                    "value": "site",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/3210",
+                    "label": "薪酬范围",
+                    "type": "",
+                    "value": "salary",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/606",
+                    "label": "学历要求",
+                    "type": "",
+                    "value": "education",
+                    "selected": "auto"
+                  },
+                  {
+                    "label": "发布时间",
+                    "type": "",
+                    "value": "releaseTime"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/242424",
+                    "label": "招聘项目",
+                    "type": "",
+                    "value": "recruitmentPro",
+                    "selected": "auto"
+                  }
+                ],
+                "positionDataRangeCompany": [],
+                "listType": "row",
+                "jobLevel": 999,
+                "positionDataRangeWorkPlace": [],
+                "positionDataRangeItem": [],
+                "positionDataRangePostType": []
+              },
+              "styleData": {
+                "borderRadius": 0,
+                "listIconBgColor": "rgb(208,2,27)"
+              },
+              "banner": [
+                {
+                  "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/cms/4a3cafb9-0e4d-464e-8396-584a83efb966.jpeg",
+                  "imgId": {
+                    "blob": {},
+                    "name": "WechatIMG372.jpeg"
+                  }
+                }
+              ]
+            }
+          },
+          "customSections": {
+            "section_5": {
+              "name": "博士后招聘",
+              "id": "section_5",
+              "type": "custom",
+              "list": []
+            },
+            "section_4": {
+              "name": "应聘须知",
+              "id": "section_4",
+              "type": "custom",
+              "name_en": "应聘须知"
+            }
+          },
+          "copyRight": {
+            "msg": "",
+            "regStatement": false,
+            "showICP": true,
+            "showCopyRight": false,
+            "styleData": {
+              "styles": [
+                {
+                  "bgColor": "rgb(255,255,255)",
+                  "color": "rgb(34,34,34)"
+                },
+                {
+                  "bgColor": "rgb(34,34,34)",
+                  "color": "rgb(255,255,255)"
+                },
+                {
+                  "bgColor": "rgb(85,85,85)",
+                  "color": "rgb(255,255,255)",
+                  "layer": 1
+                }
+              ],
+              "key": 0
+            }
+          },
+          "campus": {
+            "jobDetail": {
+              "jobDetailData": {
+                "listDisplayItem": [
+                  "postType",
+                  "workYear",
+                  "workPlace",
+                  "education",
+                  "specialty",
+                  "releaseTime",
+                  "orgName"
+                ],
+                "isShowOrg": false,
+                "btnStyle": "straightSolid",
+                "showItemTitle": false
+              }
+            },
+            "jobList": {
+              "jobListData": {
+                "listDisplayItem": [
+                  "postName",
+                  "orgName",
+                  "workPlace",
+                  "releaseTime"
+                ],
+                "searchDisplayItem": [
+                  {
+                    "selectList": [],
+                    "code": "0/4",
+                    "label": "工作地点",
+                    "type": "top",
+                    "value": "workPlace",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/1227",
+                    "label": "职位类别",
+                    "type": "top",
+                    "value": "postType",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "label": "公司/部门",
+                    "type": "top",
+                    "value": "orgName",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/180001",
+                    "label": "站点",
+                    "type": "left",
+                    "value": "site",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/3210",
+                    "label": "薪酬范围",
+                    "type": "",
+                    "value": "salary",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/606",
+                    "label": "学历要求",
+                    "type": "",
+                    "value": "education",
+                    "selected": "auto"
+                  },
+                  {
+                    "label": "发布时间",
+                    "type": "",
+                    "value": "releaseTime"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/242424",
+                    "label": "招聘项目",
+                    "type": "",
+                    "value": "recruitmentPro",
+                    "selected": "auto"
+                  }
+                ],
+                "positionDataRangeRecruitmentPro": "",
+                "searchType": "postName",
+                "navType": "top",
+                "listDisplayItemWidth": {
+                  "postName": "30",
+                  "recruits": "",
+                  "workPlace": ""
+                },
+                "leftSearchDisplayItem": [
+                  {
+                    "selectList": [],
+                    "code": "0/4",
+                    "label": "工作地点",
+                    "type": "left",
+                    "value": "workPlace",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/1227",
+                    "label": "职位类别",
+                    "type": "left",
+                    "value": "postType",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "label": "公司/部门",
+                    "type": "",
+                    "value": "orgName",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/180001",
+                    "label": "站点",
+                    "type": "left",
+                    "value": "site",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/3210",
+                    "label": "薪酬范围",
+                    "type": "",
+                    "value": "salary",
+                    "selected": "auto"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/606",
+                    "label": "学历要求",
+                    "type": "",
+                    "value": "education",
+                    "selected": "auto"
+                  },
+                  {
+                    "label": "发布时间",
+                    "type": "",
+                    "value": "releaseTime"
+                  },
+                  {
+                    "selectList": [],
+                    "code": "0/242424",
+                    "label": "招聘项目",
+                    "type": "",
+                    "value": "recruitmentPro",
+                    "selected": "auto"
+                  }
+                ],
+                "positionDataRangeCompany": [],
+                "listType": "row",
+                "jobLevel": 999,
+                "positionDataRangeWorkPlace": [],
+                "positionDataRangeItem": [],
+                "positionDataRangePostType": []
+              },
+              "styleData": {
+                "borderRadius": 0,
+                "listIconBgColor": "rgb(208,2,27)"
+              },
+              "banner": [
+                {
+                  "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/cms/2a5b7853-965e-40cc-b1c1-de5520c118e7.jpg",
+                  "imgId": {
+                    "blob": {},
+                    "name": "9999IMG_202509015810_1920x380.jpg"
+                  }
+                }
+              ]
+            }
+          },
+          "header": {
+            "styleData": {
+              "styles": [
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(89,171,245)",
+                  "columnBgColor": "rgb(255,255,255)",
+                  "columnColor": "rgb(34,34,34)"
+                },
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(85,85,85)",
+                  "columnBgColor": "rgb(34,34,34)",
+                  "columnColor": "rgb(255,255,255)"
+                },
+                {
+                  "borderRadius": 0,
+                  "regBgColor": "rgb(136,136,136)",
+                  "loginBgColor": "rgb(204,204,204)",
+                  "columnBgColor": "rgb(153,153,153)",
+                  "layer": 1,
+                  "columnColor": "rgb(255,255,255)"
+                }
+              ],
+              "key": 0
+            },
+            "header_type": "header",
+            "hasScrollHeader": false,
+            "logo": {
+              "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/7c3b189f-e437-4bc2-ba8d-f46f12966b03.png",
+              "linkJump": "_blank",
+              "imgId": {
+                "blob": {},
+                "name": "招商证券-电脑首页logo图-266x54px.png"
+              }
+            }
+          },
+          "section": {
+            "customizeSectionList": [
+              {
+                "name": "线下面试交流活动行程安排",
+                "columnData": {
+                  "kind": "text",
+                  "name": "线下面试交流活动行程安排",
+                  "linkedUrl": "",
+                  "id": "customize_1761215897113",
+                  "linkedTarget": "_blank",
+                  "type": "custom",
+                  "zooid": "2g8og9m5f3u"
+                },
+                "id": "customize_1761215897113",
+                "type": "custom"
+              },
+              {
+                "name": "博士后招聘",
+                "columnData": {
+                  "customize_default": {
+                    "kind": "text",
+                    "name": "博士后招聘",
+                    "linkedUrl": "",
+                    "id": "customize_default",
+                    "linkedTarget": "_blank",
+                    "type": "custom",
+                    "zooid": "11xc65n1omt"
+                  }
+                },
+                "id": "customize_1768795619292",
+                "type": "custom",
+                "list": []
+              }
+            ],
+            "systemSectionList": [
+              {
+                "initialName_en": "Overseas recruitment",
+                "name": "海外招聘",
+                "id": "system_0",
+                "type": "overseas",
+                "list": [
+                  {
+                    "name": "职位列表",
+                    "isFixed": true
+                  }
+                ],
+                "initialName": "海外招聘",
+                "name_en": "Overseas recruitment"
+              },
+              {
+                "initialList": [
+                  {
+                    "isCheck": true,
+                    "name": "banner",
+                    "type": "asBanner"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "公司简介",
+                    "type": "company"
+                  },
+                  {
+                    "isCheck": true,
+                    "name": "环境介绍",
+                    "type": "environment"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "薪酬福利",
+                    "type": "welfare"
+                  },
+                  {
+                    "isCheck": true,
+                    "name": "人才培养",
+                    "type": "talent"
+                  },
+                  {
+                    "isCheck": true,
+                    "name": "员工风采",
+                    "type": "staff"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "视频展示",
+                    "type": "videoShow"
+                  }
+                ],
+                "initialName_en": "About us",
+                "name": "关于我们",
+                "id": "system_2",
+                "type": "aboutUs",
+                "initialName": "关于我们",
+                "name_en": "About us"
+              },
+              {
+                "initialList": [],
+                "name": "人才社区",
+                "id": "system_2",
+                "type": "talentCommunity",
+                "initialName": "人才社区"
+              }
+            ],
+            "sectionList": [
+              {
+                "initialList": [
+                  {
+                    "isCheck": true,
+                    "name": "banner",
+                    "type": "banner"
+                  },
+                  {
+                    "isCheck": true,
+                    "name": "公司简介",
+                    "type": "company"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "多品牌",
+                    "type": "manyBrand"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "工作地点",
+                    "type": "workPlace"
+                  },
+                  {
+                    "isCheck": true,
+                    "name": "职位类别",
+                    "type": "postType"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "多机构",
+                    "type": "manyMechanism"
+                  },
+                  {
+                    "isCheck": true,
+                    "name": "招聘动态/公告",
+                    "type": "dynamic"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "宣讲会",
+                    "type": "seminar"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "师兄师姐说",
+                    "type": "said"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "招聘类型",
+                    "type": "recruitmentType"
+                  },
+                  {
+                    "isCheck": false,
+                    "name": "视频展示",
+                    "type": "videoShow"
+                  }
+                ],
+                "initialName_en": "Home",
+                "name": "首页",
+                "id": "section_0",
+                "type": "home",
+                "initialName": "首页",
+                "name_en": "Home"
+              },
+              {
+                "initialName_en": "Social recruitment",
+                "name": "社会招聘",
+                "id": "section_1",
+                "type": "society",
+                "list": [
+                  {
+                    "name": "职位列表",
+                    "isFixed": true
+                  }
+                ],
+                "initialName": "社会招聘",
+                "name_en": "Social recruitment"
+              },
+              {
+                "initialName_en": "Campus recruitment",
+                "name": "校园招聘",
+                "id": "section_2",
+                "type": "campus",
+                "list": [
+                  {
+                    "name": "职位列表",
+                    "isFixed": true
+                  }
+                ],
+                "initialName": "校园招聘",
+                "name_en": "Campus recruitment"
+              },
+              {
+                "initialName_en": "Intern recruitment",
+                "name": "实习生招聘",
+                "id": "section_3",
+                "type": "intern",
+                "list": [
+                  {
+                    "name": "职位列表",
+                    "isFixed": true
+                  }
+                ],
+                "initialName": "实习生招聘",
+                "name_en": "Intern recruitment"
+              },
+              {
+                "name": "应聘须知",
+                "id": "section_4",
+                "type": "custom",
+                "name_en": "应聘须知"
+              },
+              {
+                "id": "section_5"
+              },
+              {
+                "id": "section_6"
+              },
+              {
+                "id": "section_7"
+              }
+            ]
+          },
+          "menuListOrder": {
+            "section_4": [
+              "customize_section_4"
+            ],
+            "society": [
+              "societyList",
+              "societyDetail"
+            ],
+            "intern": [
+              "internList",
+              "internDetail"
+            ],
+            "campus": [
+              "campusList",
+              "campusDetail"
+            ],
+            "home": [
+              "banner",
+              "company",
+              "postType",
+              "dynamic"
+            ]
+          },
+          "home": {
+            "videoShowTypeChoosed": "0",
+            "postType": {
+              "postTypeList": [
+                {
+                  "image": {
+                    "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/ea6e62a5-ac7a-48c7-aa4d-3debb0d6ee4f.png",
+                    "imgId": {
+                      "blob": {},
+                      "name": "1 (1).png"
+                    }
+                  },
+                  "code": "0/1227/49830648",
+                  "pyInitials": "tzyx",
+                  "nameEn": "投资银行",
+                  "title": "投资银行",
+                  "type": "img",
+                  "superiorId": 1227,
+                  "nameCh": "投资银行",
+                  "id": "629db18e0dcad452299bb277",
+                  "value": "0/1227/49830648",
+                  "key": "629db18e0dcad452299bb277",
+                  "cid": 49830648,
+                  "order": 1
+                },
+                {
+                  "image": {
+                    "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/00785a7e-9df8-497d-99fc-38fffb8bfc55.png",
+                    "imgId": {
+                      "blob": {},
+                      "name": "1 (2).png"
+                    }
+                  },
+                  "code": "0/1227/49830622",
+                  "pyInitials": "tz",
+                  "nameEn": "投资",
+                  "title": "投资",
+                  "type": "img",
+                  "superiorId": 1227,
+                  "nameCh": "投资",
+                  "id": "629db18e0dcad452299bb26c",
+                  "value": "0/1227/49830622",
+                  "key": "629db18e0dcad452299bb26c",
+                  "cid": 49830622,
+                  "order": 2
+                },
+                {
+                  "image": {
+                    "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/dd6628dc-5b4c-4421-940d-6fc16d7f1236.png",
+                    "imgId": {
+                      "blob": {},
+                      "name": "1 (3).png"
+                    }
+                  },
+                  "code": "0/1227/49830624",
+                  "pyInitials": "yj",
+                  "nameEn": "研究",
+                  "title": "研究",
+                  "type": "img",
+                  "superiorId": 1227,
+                  "nameCh": "研究",
+                  "id": "629db18e0dcad452299bb26d",
+                  "value": "0/1227/49830624",
+                  "key": "629db18e0dcad452299bb26d",
+                  "cid": 49830624,
+                  "order": 3
+                },
+                {
+                  "image": {
+                    "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/cd8d2857-6219-4407-96d9-39cfbce06abb.png",
+                    "imgId": {
+                      "blob": {},
+                      "name": "1 (4).png"
+                    }
+                  },
+                  "code": "0/1227/955266542",
+                  "pyInitials": "xsjy",
+                  "nameEn": "销售交易",
+                  "title": "销售交易",
+                  "type": "img",
+                  "superiorId": 1227,
+                  "nameCh": "销售交易",
+                  "id": "629db18e0dcad452299bb27a",
+                  "value": "0/1227/955266542",
+                  "key": "629db18e0dcad452299bb27a",
+                  "cid": 955266542,
+                  "order": 4
+                },
+                {
+                  "image": {
+                    "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/8d4e19c3-85e3-4899-a8dd-13391e316c96.png",
+                    "imgId": {
+                      "blob": {},
+                      "name": "1 (5).png"
+                    }
+                  },
+                  "code": "0/1227/955266388",
+                  "pyInitials": "yxgl",
+                  "nameEn": "营销管理",
+                  "title": "营销管理",
+                  "type": "img",
+                  "superiorId": 1227,
+                  "nameCh": "营销管理",
+                  "id": "629db18e0dcad452299bb279",
+                  "value": "0/1227/955266388",
+                  "key": "629db18e0dcad452299bb279",
+                  "cid": 955266388,
+                  "order": 5
+                },
+                {
+                  "image": {
+                    "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/cf44c537-1dde-4ab8-811a-eb1808409fc5.png",
+                    "imgId": {
+                      "blob": {},
+                      "name": "1 (6).png"
+                    }
+                  },
+                  "code": "0/1227/955265677",
+                  "pyInitials": "glzc",
+                  "nameEn": "管理支持",
+                  "title": "管理支持",
+                  "type": "img",
+                  "superiorId": 1227,
+                  "nameCh": "管理支持",
+                  "id": "629db18e0dcad452299bb278",
+                  "value": "0/1227/955265677",
+                  "key": "629db18e0dcad452299bb278",
+                  "cid": 955265677,
+                  "order": 6
+                },
+                {
+                  "image": {
+                    "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/31d795fc-d0a6-489e-9b92-aff9d95498dc.png",
+                    "imgId": {
+                      "blob": {},
+                      "name": "1 (7).png"
+                    }
+                  },
+                  "code": "0/1227/105001",
+                  "pyInitials": "cfgw",
+                  "nameEn": "caifuguwen",
+                  "title": "财富顾问",
+                  "type": "img",
+                  "superiorId": 1227,
+                  "nameCh": "财富顾问",
+                  "id": "629db18e0dcad452299bb268",
+                  "value": "0/1227/105001",
+                  "key": "629db18e0dcad452299bb268",
+                  "cid": 105001,
+                  "order": 10
+                }
+              ],
+              "subtitle": "",
+              "type": 1,
+              "title": "寻找适合你的工作机会",
+              "relation": "society"
+            },
+            "styleData": {
+              "QRCode": {
+                "styles": [
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(255,255,255)",
+                    "layer": 1
+                  }
+                ],
+                "key": 0
+              },
+              "contentTopNum": 50,
+              "mainTitleColor": "rgb(255,255,255)",
+              "subtitleColor": "rgb(255,255,255)",
+              "audioFlag": {
+                "styles": [
+                  {
+                    "bgColor": "rgba(255, 255, 255, 0.39)",
+                    "iconColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(255,255,255)",
+                    "layer": 1
+                  }
+                ],
+                "key": 0
+              },
+              "application": {
+                "styles": [
+                  {
+                    "borderColor": "rgb(255,255,255)",
+                    "hollowColor": "rgb(255,255,255)",
+                    "bgColor": "rgb(255,255,255)",
+                    "solidColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "borderColor": "rgb(34,34,34)",
+                    "hollowColor": "rgb(34,34,34)",
+                    "bgColor": "rgb(34,34,34)",
+                    "solidColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "borderColor": "rgb(136,136,136)",
+                    "hollowColor": "rgb(136,136,136)",
+                    "bgColor": "rgb(136,136,136)",
+                    "solidColor": "rgb(255,255,255)"
+                  }
+                ],
+                "key": 0
+              },
+              "postType": {
+                "styles": [
+                  {
+                    "actIconColor": "rgb(34,34,34)",
+                    "actFontColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(34,34,34)",
+                    "allBgColor": "rgb(255,255,255)",
+                    "actBgColor": "rgb(255,255,255)",
+                    "lineColor": "rgb(34,34,34)",
+                    "fontColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "actIconColor": "rgb(34,34,34)",
+                    "actFontColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(255,255,255)",
+                    "allBgColor": "rgb(34,34,34)",
+                    "actBgColor": "rgb(255,255,255)",
+                    "lineColor": "rgb(255,255,255)",
+                    "fontColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "actIconColor": "rgb(136,136,136)",
+                    "actFontColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(136,136,136)",
+                    "allBgColor": "rgb(85,85,85)",
+                    "actBgColor": "rgb(255,255,255)",
+                    "lineColor": "rgb(255,255,255)",
+                    "fontColor": "rgb(136,136,136)"
+                  }
+                ],
+                "key": 0
+              },
+              "checkFullVideo": {
+                "styles": [
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(255,255,255)",
+                    "layer": 1
+                  }
+                ],
+                "key": 0
+              },
+              "seminar": {
+                "styles": [
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(136,136,136)",
+                    "mapBgColor": "rgb(236,236,236)",
+                    "fontColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(136,136,136)",
+                    "mapBgColor": "rgb(54,54,54)",
+                    "fontColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(136,136,136)",
+                    "mapBgColor": "rgb(85,85,85)",
+                    "fontColor": "rgb(34,34,34)"
+                  }
+                ],
+                "key": 0
+              },
+              "dynamic": {
+                "styles": [
+                  {
+                    "bgColor": "rgb(255,255,255)",
+                    "btnColor": "rgb(136,136,136)",
+                    "fontColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "bgColor": "rgb(34,34,34)",
+                    "btnColor": "rgb(136,136,136)",
+                    "fontColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "bgColor": "rgb(85,85,85)",
+                    "btnColor": "rgb(136,136,136)",
+                    "fontColor": "rgb(0,0,0)"
+                  }
+                ],
+                "key": 0
+              },
+              "contentLeftNum": 50,
+              "searchBox": {
+                "styles": [
+                  {
+                    "borderColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(255,255,255)",
+                    "fontColor": "rgb(255,255,255)"
+                  },
+                  {
+                    "borderColor": "rgb(34,34,34)",
+                    "iconColor": "rgb(34,34,34)",
+                    "fontColor": "rgb(34,34,34)"
+                  },
+                  {
+                    "borderColor": "rgb(136,136,136)",
+                    "iconColor": "rgb(136,136,136)",
+                    "fontColor": "rgb(136,136,136)"
+                  },
+                  {
+                    "borderColor": "rgb(255,255,255)",
+                    "iconColor": "rgb(0, 85, 255)",
+                    "fontColor": "rgb(255,255,255)"
+                  }
+                ],
+                "key": 0
+              }
+            },
+            "banner": {
+              "theme": {
+                "robot": {
+                  "isShow": false
+                },
+                "QRCode": {
+                  "image": [
+                    {
+                      "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/2698d302-b77c-4e1d-a24d-c7e2b41b7435.jpeg",
+                      "imgId": "629dc7d30dcad452299bc66a"
+                    }
+                  ],
+                  "name": "",
+                  "isShow": true
+                },
+                "audioFlag": {
+                  "btnStyle": "straightSolid",
+                  "isShow": false
+                },
+                "application": {
+                  "btnStyle": "straightSolid",
+                  "isShow": false,
+                  "relation": ""
+                },
+                "mainTitle": {
+                  "name": "",
+                  "fontSize": 36,
+                  "isShow": false
+                },
+                "checkFullVideo": {
+                  "btnStyle": "straightSolid",
+                  "isShow": false
+                },
+                "subtitle": {
+                  "name": "",
+                  "fontSize": 20,
+                  "isShow": false
+                },
+                "searchBox": {
+                  "isShow": false
+                },
+                "mask": {
+                  "isShow": false
+                }
+              },
+              "fileList": {
+                "gifData": [],
+                "videoFullData": "https://liveservice.cmschina.com/livestore/CBAD3873-5DAB-44E2-BA09-4D71E22DEBDD.mp4",
+                "videoImgData": [],
+                "imgData": [
+                  {
+                    "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/cms/4aecc6bb-7406-434a-96da-55be065b9547.jpg",
+                    "imgId": {
+                      "blob": {},
+                      "name": "28801080WechatIMG32.jpg"
+                    }
+                  }
+                ],
+                "videoUrlType": [],
+                "showType": "showAll",
+                "type": "imgData",
+                "videoData": "https://liveservice.cmschina.com/livestore/CBAD3873-5DAB-44E2-BA09-4D71E22DEBDD.mp4"
+              }
+            },
+            "videoPlayType": "0",
+            "company": {
+              "mainTitle": "公司介绍",
+              "subtitle": "",
+              "content": "招商证券股份有限公司（简称招商证券）是具有百年历史的招商局集团旗下的证券公司，传承了招商局集团长期积淀的创新精神、市场化管理理念、国际化运营模式及稳健经营的风格，经过三十余年的发展，已成为国内拥有证券市场业务全牌照的一流券商。\n\n招商证券于2009年11月首次公开发行A股并在上交所主板上市（代码600999），于2016年10月首次公开发行H股并在香港联交所主板上市（代码06099）。\n\n招商证券具有稳定持续的盈利能力、科学合理的风险管理架构、全面专业的服务能力。拥有多层次客户服务渠道，在中国境内设有14家分公司、265家营业部，同时在中国香港、英国、韩国设有子公司；全资控股招商证券国际有限公司、招商期货有限公司、招商证券资产管理有限公司、招商致远资本投资有限公司、招商证券投资有限公司，参股博时基金管理有限公司、招商基金管理有限公司，构建起国内国际业务一体化的综合证券服务平台。\n\n招商证券以“服务国家科技自立自强、助力社会财富保值增值”为使命，恪守“家国情怀，时代担当；励新图强，敦行致远”的核心价值观，致力于建设“特色鲜明、创新引领、质量第一、贡献卓越的中国领先投资银行”。我们将以卓越的金融服务实现客户价值增长，推动证券行业进步，努力成为客户信赖、员工自豪、股东满意、社会尊重的优秀企业。",
+              "fileList": {
+                "videoImgData": [],
+                "imgData": {
+                  "imgUrl": "https://wecruit-cdn.hotjob.cn/files/oline/cms/2f4ef54b-ea2c-4745-9725-3938516043ac.jpg",
+                  "imgId": {
+                    "blob": {},
+                    "name": "新的大楼图片_1736920597_1736920597231_ad6674.jpg"
+                  }
+                },
+                "videoUrlType": [],
+                "isNewBanner": true,
+                "type": "imgData",
+                "videoData": "https://liveservice.cmschina.com/livestore/CBAD3873-5DAB-44E2-BA09-4D71E22DEBDD.mp4"
+              }
+            }
+          }
+        },
+        "createDate": "2022-06-06 16:34:20",
+        "status": 0,
+        "suiteName": "招商证券"
+      },
+      "state": "200",
+      "type": "success"
+    }
+  },
+  {
+    "url": "https://wecruit.hotjob.cn/wecruit/config/get/SU629dbc0c0dcad452299bc0f7?iSaJAx=isAjax&request_locale=zh_CN&t=1791874947919",
+    "method": "POST",
+    "post_data": null,
+    "data": {
+      "data": {
+        "companyId": "629db1322f9d247188396c9e",
+        "wxAppSercet": "true",
+        "wxAppId": "wx3960b0a8209e4484",
+        "id": "629db1322f9d247188396ca2",
+        "config": {
+          "supportsOverseas": false,
+          "isDeliveryChoosePlace": false,
+          "companyName": "招商证券股份有限公司",
+          "deleteResumePrompt_es": "",
+          "languageDelivery_13": [
+            "cn"
+          ],
+          "isWeChatLogin": true,
+          "languageDelivery_12": [
+            "cn"
+          ],
+          "corpCode": "cms",
+          "deleteResumePrompt_vi": "",
+          "recruitTypeNameMap": {
+            "1_en": "Campus",
+            "2_cn": "社会招聘",
+            "12_cn": "实习生招聘",
+            "13_cn": "海外招聘",
+            "12_en": "Interns",
+            "13_en": "Overseas",
+            "1_cn": "校园招聘",
+            "2_en": "Social"
+          },
+          "siteTitle_en": "选择站点",
+          "socialDelivery": [
+            "full"
+          ],
+          "isManualInputSchool": true,
+          "emailPassTwoFactorAuth": false,
+          "isReserveWarehouse": false,
+          "deleteResumePrompt_en": "",
+          "siteTitle_es": "",
+          "isManualInputSubject": true,
+          "isShowMoreJob": true,
+          "refreshResumeType": [
+            "pending"
+          ],
+          "isValidateMasterForDoctor": false,
+          "overseasDeliveryWays": [
+            "fillOnline",
+            "uploadFiles"
+          ],
+          "siteTitle_vi": "",
+          "wxAppId": "wx3960b0a8209e4484",
+          "overseasDelivery": [
+            "full"
+          ],
+          "languageDeliveryType_12": "cnComplete",
+          "languageDeliveryType_13": "cnComplete",
+          "weChatWrittenNotice": "",
+          "internDelivery": [
+            "full"
+          ],
+          "redeliveryNum": 0,
+          "webSiteLanguage": [
+            "zh-CN"
+          ],
+          "pageAuthApi": "",
+          "isProjectSettings": true,
+          "limitsSeconds": "",
+          "isExportResumeFromDelivery": true,
+          "isHighSchoolEducationCheck": false,
+          "isJoinTalentCommunity": false,
+          "isRefreshResume": true,
+          "weChatOfferNotice": "",
+          "isAccountCreateResume": true,
+          "updatePlaceInfoType": [
+            "pending"
+          ],
+          "similarPost": false,
+          "proactServer": "https://xcmg.hotjob.cn/wt/",
+          "applicationStatusStyle": "icon",
+          "isVolunNumDisabled": true,
+          "internDeliveryWays": [
+            "fillOnline",
+            "uploadFiles"
+          ],
+          "isJoinResumeComplete": false,
+          "isWithdrawDelivery": false,
+          "isShowTalentSet": false,
+          "isMoreWeChat": false,
+          "wishChangeType": [
+            "pending"
+          ],
+          "deleteResumePrompt": "",
+          "sendEmailByATSDefaultConfig": false,
+          "weChatSeminarNotice": "",
+          "regType": "mail",
+          "languageDelivery": [
+            "cn"
+          ],
+          "siteTitle_de": "",
+          "siteTitle_tr": "",
+          "isUpdatePlaceInfo": false,
+          "callbackServer": "https://www.wintalent.cn/wt/",
+          "limitsTimes": "",
+          "isImageAnalyze": false,
+          "isApplicationStatus": false,
+          "checkEducationBasedPosition": false,
+          "deleteResumePrompt_pt": "",
+          "weChatCandidates": "",
+          "isShowDistrictsAndCounties": true,
+          "deleteResumePrompt_ja": "",
+          "isCancellationAccount": false,
+          "weChatInterview": "",
+          "isWishChange": true,
+          "isUpdateSiteInfo": false,
+          "isBaiduAccessOpen": false,
+          "schoolDeliveryWays": [
+            "fillOnline",
+            "uploadFiles"
+          ],
+          "weChatExaminationNotice": "",
+          "deleteResumePrompt_in": "",
+          "siteTitle_in": "",
+          "isRecommendCode": false,
+          "weChatWritten": "",
+          "isEducationCheck": true,
+          "siteTitle_ja": "",
+          "isOrderPostByOrg": false,
+          "weChatEvaluation": "",
+          "volunNum": 350,
+          "domainName": "wecruit.hotjob.cn",
+          "languageDelivery_1": [
+            "cn"
+          ],
+          "languageDeliveryType_1": "cnComplete",
+          "languageDelivery_2": [
+            "cn"
+          ],
+          "languageDeliveryType_2": "cnComplete",
+          "isAutoJumpDomainName": true,
+          "schoolDelivery": [
+            "full"
+          ],
+          "weChatEliminate": "",
+          "siteTitle": "选择站点",
+          "weChatTalentCommunityPostRecommend": "",
+          "showDeliveryOnlyCurrentSuite": false,
+          "grayscale": false,
+          "languageDeliveryType": "cnComplete",
+          "socialDeliveryWays": [
+            "fillOnline",
+            "uploadFiles"
+          ],
+          "weChatAIInterviewNoticeId": "",
+          "weChatQuestionnaire": "",
+          "wxAppSecret": true,
+          "officialCode": {
+            "imgUrl": "https://wecruit.cn-hangzhou.oss.aliyuncs.com/files/oline/9253723e-562b-4cc7-a96b-a4bf2148a819.jpeg",
+            "imgId": "629dbb2b0dcad452299bc0ae"
+          },
+          "updatePlaceInfoMode": "radio",
+          "isOpenOverseasWish": false,
+          "isOpenedRobotByYonGPT": false,
+          "siteTitle_pt": "",
+          "deleteResumePrompt_tr": "",
+          "deleteResumePrompt_de": "",
+          "isOpenWish": true
+        }
+      },
+      "state": "200",
+      "type": "success"
+    }
+  },
+  {
+    "url": "https://wecruit.hotjob.cn/wecruit/isLogin/SU629dbc0c0dcad452299bc0f7?iSaJAx=isAjax&request_locale=zh_CN&t=1791874947919",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "msg": "未登录",
+      "state": "1006",
+      "type": "warning"
+    }
+  },
+  {
+    "url": "https://wecruit.hotjob.cn/wecruit/config/get/robot/SU629dbc0c0dcad452299bc0f7?iSaJAx=isAjax&request_locale=zh_CN&t=1791874947924",
+    "method": "GET",
+    "post_data": null,
+    "data": {
+      "data": {},
+      "state": "200",
+      "type": "success"
+    }
+  },
+  {
+    "url": "https://wecruit.hotjob.cn/wecruit/suite/dynamic/list/SU629dbc0c0dcad452299bc0f7?iSaJAx=isAjax&request_locale=zh_CN&t=1791874947924",
+    "method": "POST",
+    "post_data": "dynamicKey=0&pageSize=5",
+    "data": {
+      "data": {
+        "titleAlignType": "left",
+        "dynamicDetail": [],
+        "banner": {},
+        "isDefaultPreview": false,
+        "dynamic": {
+          "paddingBottom": "yes",
+          "btnStyle": "straightSolid",
+          "subtitle": "Notice",
+          "showTime": "no",
+          "showBorderRadius": "no",
+          "layoutType": "textPic",
+          "alignType": "flex-start",
+          "paddingTop": "yes",
+          "type": 1,
+          "title": "通知通告",
+          "imageList": [],
+          "showBorder": "no"
+        },
+        "type": 2
+      },
+      "state": "200",
+      "type": "success"
+    }
+  }
+]

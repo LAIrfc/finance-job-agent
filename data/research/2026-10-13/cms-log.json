@@ -1,0 +1,21 @@
+{
+  "total": 27,
+  "collected": 27,
+  "returned_rows": 27,
+  "complete": true,
+  "error": null,
+  "pages": [
+    {
+      "rows": 15,
+      "unique": 15,
+      "total": 27,
+      "request": "isFrompb=true&recruitType=1&pageSize=15&currentPage=1"
+    },
+    {
+      "rows": 12,
+      "unique": 27,
+      "total": 27,
+      "request": "isFrompb=true&recruitType=1&pageSize=15&currentPage=2"
+    }
+  ]
+}

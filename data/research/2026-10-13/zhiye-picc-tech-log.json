@@ -1,0 +1,19 @@
+{
+  "source_id": "picc-tech",
+  "url": "https://picc.zhiye.com/custom/campus?c1=6&hideAll=true",
+  "fetched_at": "2026-10-13T15:00:19.553818+08:00",
+  "status": "collected",
+  "advertised_count": 77,
+  "collected_count": 77,
+  "pages": [
+    {
+      "page_index": 0,
+      "total": 77,
+      "returned": 77
+    }
+  ],
+  "campus_filter": [
+    "2"
+  ],
+  "observed_request_file": "browser-picc-tech-request.json"
+}
